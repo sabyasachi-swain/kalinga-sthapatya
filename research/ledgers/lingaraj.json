@@ -649,10 +649,8 @@
           "quote": "name=Lord Lingaraj Temple; amenity=place_of_worship; historic=archaeological_site; religion=hindu; wikidata=Q2365530"
         }
       ],
-      "conflicts": "",
       "notes": "Nominatim gives the coordinates of the mapped temple-compound area (a 'way'), not an exact point on the tower. The way also has a mis-tagged 'name:hi=entrada para no-hindues prohibida' (Spanish text in the Hindi-name field). It is not an accepted source for access rules, so do not use it."
-    }
-  ],
+  },
   "new_sources": [],
   "gaps": [
     {

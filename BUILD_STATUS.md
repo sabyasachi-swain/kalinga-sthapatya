@@ -44,9 +44,18 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 3. Sahoo 2012 *Odisha Review* PDF — site has an expired TLS certificate → human confirms the PDF is reachable, or we drop it.
 4. Parida 1999 *Early Temples of Orissa* — no library record found → drop unless the human has a copy/record.
 5. Silpa Prakasa revised edition (`baumer-das-das-nd`) — confirm year (2005?) and ISBN 9788120820524.
-6. Epigraphia Indica XIII p. 159 — who authored the Udayagiri–Khandagiri inscriptions article (R.D. Banerji vs L.D. Barnett)? Must be checked before citing.
+6. ~~Epigraphia Indica XIII p. 159 author~~ — resolved 2026-09-19: **R. D. Banerji** (byline on the article's first page; real title "Inscriptions in the Udayagiri and Khandagiri caves", not "Minor inscriptions of Kharavela").
 7. Donaldson — which volume ISBN 9789004071735 covers.
 8. Substitutions accepted by the fact-checker: Percy Brown 1959 printing (1942 copy online is the Islamic volume); Debala Mitra *Bhubaneswar* 1978 4th edition (1958 edition unconfirmed); Debala Mitra *Konarak* via 2003 reprint.
+
+## G2 items collecting (for the human's research review)
+
+- **Era framework (revisits G0 decision A14):** no accessible source uses "Formative / Transitional / Mature"; Percy Brown 1959 (full text) uses Early c. 750–900 / Middle c. 900–1100 / Later c. 1100–1250. Decide: relabel/rebound the eras to a citable framework, or keep labels as our own editorial grouping (stated as such, not attributed to scholars).
+- Konark: surviving jagamohana height (Mitra ~39 m vs ASI web 30 m vs Brown 100 ft); collapse timing (1837 vs 1848); sand-fill 1901–1905; Kalapahar (Behera: no reliable evidence); craftsmen 12 vs 16 years (tradition either way).
+- Lingaraja: patron (Panigrahi: Yayati II + Uddyota Kesari); height (180 ft vs 128 ft, no ASI figure); natamandira 1099–1104 CE only from Fergusson's rejected king list.
+- Dates vs research report: Parasuramesvara (Brown: late 8th c., report c. 650); Mukteshvara (Brown c. 975); Vaital Deul (Brown c. 900); Jagannath (Brown c. 1100 vs 1112).
+- Era 6 representative: Kapilesvara temple, Bhubaneswar (Panigrahi, hedged).
+- Implementation plan's map/timeline filter labels ("6th–7th, 9th–10th") don't match any sourced periods → Phase 3 derives filters from approved era data.
 
 ## Repository
 
@@ -55,7 +64,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- Research wave 1: ledgers done — konark (29 claims), lingaraj (25), history (37). Konark fact-check resumed; lingaraj + history fact-checks next. Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
+- Research wave 1: ledgers done — konark (29), lingaraj (24), history (37). Fact-checkers running: konark, history, lingaraj. Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
 - Phase 4 batch 1: 30 Gemini assets in inbox (V-00…V-52, all generic set; rasters are JPEG named .png) → asset-integrator CHECK mode running.
 
 ## Blocked
