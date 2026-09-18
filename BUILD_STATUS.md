@@ -2,14 +2,14 @@
 
 Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
-**Current phase:** waiting at G1 (Phase 1.0 and Phase 2 done) · **Next gate:** G1 — source registry review (see "G1 open items")
+**Current phase:** 1.1 — research wave 1 (konark · lingaraj · history) · **Next gate:** G2 — research review
 
 ## Gates
 
 | Gate | Status | Date | Decision / notes |
 |---|---|---|---|
 | G0 plan amendments, decisions D1–D6 | ✅ approved | 2026-09-18 | A1–A15 approved. D1 pre-render · D2 OpenStreetMap outline · D3 per-claim sign-off for catalogue/snippet evidence · D4 Opus research/fact-check, Sonnet others · D5 git, repo `kalinga-sthapatya` · D6 Konark reconstruction optional P2, captioned |
-| G1 source registry | open | 2026-09-18 | 23 sources merged into data/sources.json (details: research/verdicts/sources.md). Human checks listed below. |
+| G1 source registry | ✅ approved | 2026-09-18 | 23 sources merged; openlibrary.org approved. Items 2–7 below stay open (non-blocking: those works can't be cited until resolved). |
 | G2 research review | — | | |
 | G3 visual briefs | — | | |
 | G4 visual assets | — | | per asset in data/media.json |
@@ -39,7 +39,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## G1 open items (human)
 
-1. openlibrary.org as catalogue host for `mitra-d-1978` → approve domain?
+1. ~~openlibrary.org~~ approved 2026-09-18.
 2. whc.unesco.org/en/list/246 (Konark listing) returns 403 to agents → human opens it in a browser and confirms; then it is registered.
 3. Sahoo 2012 *Odisha Review* PDF — site has an expired TLS certificate → human confirms the PDF is reachable, or we drop it.
 4. Parida 1999 *Early Temples of Orissa* — no library record found → drop unless the human has a copy/record.
@@ -51,11 +51,11 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 ## Repository
 
 - Remote `origin` = https://github.com/sabyasachi-swain/kalinga-sthapatya.git (empty on 2026-09-18) · future Pages URL https://sabyasachi-swain.github.io/kalinga-sthapatya/
-- First push: waiting for the human's go-ahead (outward action).
+- First push approved by the human 2026-09-18.
 
 ## Running
 
-(none)
+- Research wave 1: kalinga-researcher × 3 → konark, lingaraj, history (Opus). Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
 
 ## Blocked
 

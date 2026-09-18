@@ -1,0 +1,24 @@
+{
+  "target": "sources",
+  "sources": [
+    {
+      "id": "mitra-d-1978",
+      "type": "asi-report",
+      "authors": [
+        "Debala Mitra"
+      ],
+      "title": "Bhubaneswar",
+      "year": "1978 (4th ed.)",
+      "publisher": "Archaeological Survey of India, New Delhi",
+      "url": "https://openlibrary.org/works/OL15323420W/Bhubaneswar",
+      "url_kind": "catalogue",
+      "identifiers": {
+        "isbn": null,
+        "doi": null
+      },
+      "accessed": "2026-09-18",
+      "domain_reviewed": true,
+      "notes": "Catalogue record only (Open Library: Debala Mitra, Archaeological Survey of India, 4th ed., 1978, 79 pp. + 22 plates; not readable or borrowable online). The 1958 first edition was NOT confirmed in any fetched catalogue; only bookseller listings give it. Researchers cannot read this guide online. Domain openlibrary.org approved by the human at gate G1 (2026-09-18)."
+    }
+  ]
+}
