@@ -1,0 +1,968 @@
+{
+  "topic": "history",
+  "run_on": "2026-09-18",
+  "method_note": "Book passages were read from each archive.org item's own OCR full text, using archive.org's search-inside service (fulltext/inside.php). It returns whole OCR passages from the scanned book. So access is recorded as full-text. Page numbers in locators are archive.org SCAN pages (leaf numbers) from that service. The printed page numbers were NOT seen. Quotes keep the OCR spelling errors exactly as returned (e.g. 'Gahga' = Ganga, 'SuryavarhS' = Suryavamsa).",
+  "claims": [
+    {
+      "cid": "history-001",
+      "field": "framework",
+      "text": "Percy Brown split Odisha's temple building into three periods: Early (c. 750–900 CE), Middle (c. 900–1100 CE) and Later (c. 1100–1250 CE).",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=1100",
+          "access": "full-text",
+          "locator": "Orissan style chapter; archive.org scan p. 212 (printed page not seen)",
+          "quote": "These are as follows : (1) Early, cir. A.D. 750 to 900 ; (2) Middle, cir. A.D. 900 to 1100 ; (3) Later, cir. A.D. 1100 to 1250."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "The second group of buildings comprising the \"Middle Period\" of the Orissan style, and dating from cir. 900 to 1100 A.D, consists of a series of temples which represent the movement at its early maturity or prime."
+        }
+      ],
+      "conflicts": "Brown's labels are Early / Middle / Later, NOT Formative / Transitional / Mature. His boundaries also differ from the G0 eras. Brown starts at 750 CE because he dates Parasuramesvara to the late 8th century (see history-008). The research report dates it c. 650 CE and gives Formative 7th–9th c., Transitional 10th–11th c., Mature 11th–13th c.",
+      "notes": "This is the only phase framework found in full text this run. The labels 'Formative / Transitional / Mature' (research report: Behera, Parida, Mohapatra, Sahoo 2012) were NOT verified. See gaps. If the site keeps these labels, it needs either a verified source for them or wording like 'Scholars such as Percy Brown divide…' using Brown's own labels."
+    },
+    {
+      "cid": "history-002",
+      "field": "framework",
+      "text": "Historian K. C. Panigrahi tells Bhubaneswar's story by ruling family: Shailodbhavas, Bhauma-Karas, Somavamshis (Kesaris), then the Gangas and Suryavamshis.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "section heading; archive.org scan p. 258 (printed page not seen)",
+          "quote": "Bhubanes^var under the Sailodbhavas"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "section headings; archive.org scan pp. 267 and 281 (printed pages not seen)",
+          "quote": "Bhubaneswar under the Ga^iga and SOrva-vaiIiSa Kings"
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR headings: p. 267 reads 'Bhubaneswar under the Somava*!) or KeiARl Kinds' (= Somavamsi or Kesari Kings); p. 281 = Ganga and Surya-vamsa Kings. This is a dynastic framework, not a stylistic one. Useful for the 'dynasty' line on each era card."
+    },
+    {
+      "cid": "history-003",
+      "field": "eras.rock-cut-roots.period",
+      "text": "The Udayagiri and Khandagiri caves were cut into the rock in about the 2nd–1st century BCE.",
+      "value": "c. 2nd–1st century BCE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Orissan%20temples",
+          "access": "full-text",
+          "locator": "archive.org scan p. 68 (printed page not seen)",
+          "quote": "All the excavations of the Orissan group appear to have been made within the 150 years previous to the Christian Era, after which the production ceased"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Kharavela",
+          "access": "full-text",
+          "locator": "archive.org scan p. 68 (printed page not seen)",
+          "quote": "According to an inscription carved on the rock of a shallow natural cave on Udaigiri, called the Hathi Gumpha, the mean date of these excavated chambers corresponds to about B. C. 160."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Only one accepted source (Brown) seen, so scholarly. Brown's 'about B.C. 160' is a mean date from the Hathigumpha inscription, as he read it; do not show it as an exact year. Do not display 160 BCE as fact."
+    },
+    {
+      "cid": "history-004",
+      "field": "eras.rock-cut-roots.dynasty",
+      "text": "The Hathigumpha inscription tells of King Kharavela, ruler of Kalinga. Scholars say he was a Jain who supported the monks living in these hills.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Kharavela",
+          "access": "full-text",
+          "locator": "archive.org scan p. 68 (printed page not seen)",
+          "quote": "This inscription records, among other information, the chief episodes in the reign of king Kharavela, ruler of Kalinga, the ancient Orissa"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Kharavela",
+          "access": "full-text",
+          "locator": "archive.org scan p. 68 (printed page not seen)",
+          "quote": "Kharavela was by religion a Jain, and appears to have been personally interested in the priestly community who had selected these hills as a place of retreat."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The dynasty name (Chedi / Mahameghavahana, research report §1) was NOT seen in any fetched source; it is a gap. Brown's 'appears to have been' is a scholarly reading. The Hathigumpha inscription itself (a primary source) was not opened in an edition this run."
+    },
+    {
+      "cid": "history-005",
+      "field": "eras.rock-cut-roots.design_change",
+      "text": "These are not temples. They are rooms cut into the rock for monks, called gumpha (cave). They show early skill in carving stone in Kalinga.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Orissan%20temples",
+          "access": "full-text",
+          "locator": "archive.org scan p. 71 (printed page not seen)",
+          "quote": "The local generic name for these Orissan monasteries is 'gumpha', meaning a cave"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Orissan%20temples",
+          "access": "full-text",
+          "locator": "archive.org scan p. 72 (printed page not seen)",
+          "quote": "The architectural treatment of Rani Gumpha is characteristic of the Orissan style of rock-architecture as a whole"
+        }
+      ],
+      "conflicts": "Brown also calls the workmanship 'clumsy and crude' compared with Asokan or Western Ghats caves (scan p. 71). So the site should not praise the caves' carving as the finest of its time. The second sentence ('early skill in carving stone') is the writer's framing. The fact-checker may want to trim it to the first two sentences.",
+      "notes": "Glossary: 'gumpha' must be added to glossary.json if used."
+    },
+    {
+      "cid": "history-006",
+      "field": "eras.rock-cut-roots.temples",
+      "text": "Examples: the Udayagiri and Khandagiri caves near Bhubaneswar, including Rani Gumpha and Hathi Gumpha.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Orissan%20temples",
+          "access": "full-text",
+          "locator": "archive.org scan p. 72 (printed page not seen)",
+          "quote": "The architectural treatment of Rani Gumpha is characteristic of the Orissan style of rock-architecture as a whole"
+        },
+        {
+          "source_id": "konow-thomas-1915",
+          "fetched_url": "https://ia801500.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.48789&doc=2015.48789.Epigraphia-Indica--Vol13&path=/26/items/in.ernet.dli.2015.48789&q=Khandagiri%20caves",
+          "access": "full-text",
+          "locator": "No. 13; article heading at archive.org scan p. 191 (contents give printed p. 159)",
+          "quote": "No. 13.—INSCRIPTIONS IN THE UDAYAGIRI AND KHANDAGIRI CAVES."
+        }
+      ],
+      "temples": [
+        { "name": "Udayagiri and Khandagiri caves", "temple_id": null }
+      ],
+      "conflicts": "",
+      "notes": "G1 OPEN ITEM RESOLVED: the author of Epigraphia Indica XIII, No. 13, 'Inscriptions in the Udayagiri and Khandagiri caves', is R. D. BANERJI. Byline on the article's first page (archive.org scan p. 191 of in.ernet.dli.2015.48789), OCR: 'Bt R. D. Banerji, M.A.' (fetched https://ia801500.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.48789&doc=2015.48789.Epigraphia-Indica--Vol13&path=/26/items/in.ernet.dli.2015.48789&q=Banerji). The volume's contributors list, 'arranged alphabetically', reads (OCR) 'R. D. Banebji:— No. 13. Inscriptions in the Udayagiri and Khandagiri caves'. The very next entry is 'Lionel D. Babnktt:— No. 2. Nidagumli inscription of A.D. 1107' (fetched https://dn790007.ca.archive.org/0/items/in.ernet.dli.2015.48789/2015.48789.Epigraphia-Indica--Vol13_djvu.txt). This adjacency probably explains the Barnett misreading. A 'Barnett' search of the second scan (epigraphiaindica014773mbp) found Barnett bylines only at scan pp. 42, 63, 242 and 275, none at the Khandagiri article (scan p. 192). The title 'Minor inscriptions of Kharavela' (research report bibliography) was NOT seen. The real title is 'Inscriptions in the Udayagiri and Khandagiri caves'. The article also discusses later inscriptions: mbp scan p. 199 mentions Somavamshi king Udyota-kesari. The article says Khandagiri cave inscriptions 'were published for the first time by James Prinsep in 1837' (in.ernet scan p. 191)."
+    },
+    {
+      "cid": "history-007",
+      "field": "eras.formative.period",
+      "text": "The first stone temples still standing in Bhubaneswar were built between about the 7th and 9th centuries CE. Scholars disagree on the exact dates.",
+      "value": "c. 7th–9th century CE",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 258 (printed page not seen)",
+          "quote": "All that can be said with certainty is that the temples of the ParaSuramesvara group belong to the period of their rule."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 23 (printed page not seen)",
+          "quote": "According to the latest tentative chronology, the Sailodbhavas flourished from the second quarter of the sixth century and ended in the secondhalf of the eighth."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=1100",
+          "access": "full-text",
+          "locator": "archive.org scan p. 212 (printed page not seen)",
+          "quote": "These are as follows : (1) Early, cir. A.D. 750 to 900 ; (2) Middle, cir. A.D. 900 to 1100 ; (3) Later, cir. A.D. 1100 to 1250."
+        }
+      ],
+      "conflicts": "Panigrahi places the Parasuramesvara group in the Sailodbhava period, which ended in the second half of the 8th century. Brown's Early period is c. 750–900 CE, and he dates Parasuramesvara to the end of the 8th century (history-008). The 7th–9th c. range covers both views.",
+      "notes": "The 7th–9th c. era boundary is the project's G0 construct, not a quoted range. The fact-checker should confirm that 'c. 7th–9th century CE' is a fair span of the two cited views."
+    },
+    {
+      "cid": "history-008",
+      "field": "eras.formative.temples",
+      "text": "Examples: the Parasuramesvara temple and the Vaital Deul in Bhubaneswar. Percy Brown groups them together as early temples.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "That its elements are a considerable advance on those of Parasrameswar and Vaital Deul of the previous group is quite clear"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "archive.org scan p. 213 (printed page not seen)",
+          "quote": "the approximate date of the Parasrameswar temple is towards the end of the eighth century"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 258 (printed page not seen)",
+          "quote": "All that can be said with certainty is that the temples of the ParaSuramesvara group belong to the period of their rule."
+        }
+      ],
+      "temples": [
+        { "name": "Parasuramesvara Temple", "temple_id": "parasuramesvara" },
+        { "name": "Vaital Deul", "temple_id": null }
+      ],
+      "conflicts": "Parasuramesvara date: Brown 'towards the end of the eighth century'; Panigrahi puts it in the Sailodbhava period (the research report says he gives c. 650 CE, but that figure was not seen this run). Vaital Deul date: Brown gives 'c, 900 A.D.' (scan p. 140) and calls it the 'tenth century temple of Vaital Deul' (scan p. 172). The research report says c. 8th century. Brown also calls Vaital Deul 'a Siva temple of the Orissan group' (scan p. 240); the research report says it is dedicated to Chamunda.",
+      "notes": "Membership in the early group is solid in both sources; the dates are not. The temple ledgers should carry the dates."
+    },
+    {
+      "cid": "history-009",
+      "field": "eras.formative.design_change",
+      "text": "The basic Odisha temple took shape: a deul (tower over the shrine) with a jagamohana (front hall) before it. Early towers look simple and heavy.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 212 (printed page not seen)",
+          "quote": "In front of the deul is a square building or assembly hall corresponding to the mandapa in other parts, but here known as the jagamohan. These two edifices combined constitute the essentials of the Orissan temple type."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "archive.org scan p. 213 (printed page not seen)",
+          "quote": "The shape of the tower of the Parasrameswar is definitely rudimentary"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagamohan",
+          "access": "full-text",
+          "locator": "archive.org scan p. 213 (printed page not seen)",
+          "quote": "The jagamohan itself may have been the subsequent addition, although on grounds of style this does not appear likely."
+        }
+      ],
+      "conflicts": "Brown (scan p. 212) also says a temple 'in the first instance consisted very often of a sanctuary only'. The research report (§3) calls Parasuramesvara 'the first Odishan temple to add a jagamohana'. Brown does not say 'first' in the passages seen.",
+      "notes": "'heavy' comes from Brown's 'the Parasrameswar example, although inclined to be heavy and crude' (scan p. 213). The triratha plan, trianga bada and flat-roofed mukhasala in the research report were NOT found; see gaps. Glossary: deul, jagamohana."
+    },
+    {
+      "cid": "history-010",
+      "field": "eras.formative.design_change",
+      "text": "The Vaital Deul has a long, rounded roof like a barrel. Percy Brown linked this shape to older Buddhist chaitya halls.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 140 (printed page not seen)",
+          "quote": "its unmish*j|able vaulted roof occasionally survives in the Hindu temple, as for instance in the Teli ka Mandir (eleventh century) at Gwalior, and the singularly interesting Vaital Deul (c, 900 A.D.), at Bhubaneswar"
+        }
+      ],
+      "conflicts": "Brown dates Vaital Deul c. 900 CE; research report says 8th century (see history-008).",
+      "notes": "'its' in the quote refers to the Buddhist chaitya hall, named in the sentence before it on the same page. Glossary: khakhara, chaitya."
+    },
+    {
+      "cid": "history-011",
+      "field": "eras.formative.dynasty",
+      "text": "This was the time of the Shailodbhava kings, then the Bhauma-Kara kings. We do not know which king built which early temple.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 258 (printed page not seen)",
+          "quote": "wc do not know whether any of the Sailodbhava rulers was a builder of any of the temples here"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 267 (printed page not seen)",
+          "quote": "The Bhauma-karas contributed their best to the gro^vth of art and architecture not only of Bhubaneswar, but also of Orissa"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi (scan p. 267) adds: 'There is not a single tradition in the country, which connects any of the known rulers of the dynasty with any of its numerous existing monuments at Bhubaneswar' (Bhauma-karas). So avoid naming builders. The research report's 'tradition ascribes [Vaital Deul] to Queen Tribhuvana Mahadevi' was not checked."
+    },
+    {
+      "cid": "history-012",
+      "field": "eras.transitional.period",
+      "text": "Percy Brown's 'Middle Period' runs from about 900 to 1100 CE. He saw it as the style's early prime.",
+      "value": "c. 10th–11th century CE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "The second group of buildings comprising the \"Middle Period\" of the Orissan style, and dating from cir. 900 to 1100 A.D, consists of a series of temples which represent the movement at its early maturity or prime."
+        }
+      ],
+      "conflicts": "Brown's Middle Period (900–1100) also seems to include Lingaraja (c. 1000, history-017), which the G0 plan puts in 'mature'. The G0 'transitional' (10th–11th c.) and 'mature' (11th–12th c.) eras overlap within Brown's single Middle Period.",
+      "notes": "The label 'Transitional' is not supported by any fetched source; Brown's label is 'Middle'."
+    },
+    {
+      "cid": "history-013",
+      "field": "eras.transitional.temples",
+      "text": "Example: the Mukteshvara temple in Bhubaneswar, probably built around 975 CE in Percy Brown's view. He called it the first temple of this phase.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "What is believed to be the first example of the phase is the small temple of Muktesvara situated with a number of others on the outskirts of the town of Bhubaneswar, and probably built about A.D. 975."
+        }
+      ],
+      "temples": [
+        { "name": "Mukteshvara Temple", "temple_id": "mukteshwar" }
+      ],
+      "conflicts": "CONTRADICTS the research report §3: 'Percy Brown dated it c. 950 CE'. The 1959 printing of Brown says 'probably built about A.D. 975'. Panigrahi's 966 CE (research report) was not seen this run. Also 'about A.D. 975' is a stylistic date, so show it as a range or 'c.'.",
+      "notes": "Rajarani and Brahmesvara (G0 examples) were not sourced this run; see gaps."
+    },
+    {
+      "cid": "history-014",
+      "field": "eras.transitional.design_change",
+      "text": "Carving became richer and more finished. Mukteshvara is famous for its carved arched gateway, the torana (arched gate), and it has carvings inside too.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "It is a miniature gem of architecture as it is not only a highly finished structure, ornamented with fascinating carved patterns, but in addition it is approached by an arched gateway, or torana"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22second%20group%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "The Mukteswara temple is one of the few temples of the Orissan group which has sculptured decoration in its interior."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Glossary: torana."
+    },
+    {
+      "cid": "history-015",
+      "field": "eras.transitional.design_change",
+      "text": "K. C. Panigrahi argues that ideas from the Upper Mahanadi valley (old Kosala) came to coastal Odisha. He says they started a new style there.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Somavamsis",
+          "access": "full-text",
+          "locator": "archive.org scan p. 280 (printed page not seen)",
+          "quote": "we have shown how the art and architecture of the Upper Rfahanadi Valley formerly known as Kosala or Mahako^la, travelled to Utkala to initiate a revival of artistic conceptions"
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is Panigrahi's argument, made while dating Mukteshvara; attribute it to him by name. It is one scholar's view."
+    },
+    {
+      "cid": "history-016",
+      "field": "eras.transitional.dynasty",
+      "text": "This was the age of the Somavamshi kings, also called Kesaris. Scholar K. C. Panigrahi says King Janamejaya founded the dynasty.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Somavamsis",
+          "access": "full-text",
+          "locator": "archive.org scan p. 280 (printed page not seen)",
+          "quote": "it was Janamejaya who founded the Somavariiii or KcSarl dynasty of Kosala and Utkala."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Linking Mukteshvara to a particular king (Yayati I) is a pitfall and is NOT claimed here. No reign range for the dynasty was seen."
+    },
+    {
+      "cid": "history-017",
+      "field": "eras.mature.period",
+      "text": "The largest temples of Bhubaneswar and Puri were built around 1000–1100 CE. Percy Brown dates Lingaraja to about 1000 CE and Puri's Jagannath temple to about 1100 CE.",
+      "value": "c. 11th–12th century CE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Bhubaneswar",
+          "access": "full-text",
+          "locator": "figure caption; archive.org scan p. 182 (printed page not seen)",
+          "quote": "SECTION AND PLAN OF THE GREAT (LINGARAJ) TEMPLE AT BHUBANESWAR, ORISSA CIR.1000 A.D."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=1100",
+          "access": "full-text",
+          "locator": "archive.org scan p. 215 (printed page not seen)",
+          "quote": "about A.D. 1100 its place was taken by the present structure."
+        }
+      ],
+      "conflicts": "Brown gives Jagannath 'cir. A.D. 1100' (scan p. 214) and says the present structure took its place 'about A.D. 1100'. The research report says 'rebuilt from c. 1112 CE' under Chodaganga. Panigrahi (history-020) notes Chodaganga's Lingaraja inscription of 1114 CE. The later halls were added 'probably a century or more later' (history-018), which stretches the era into the 12th century.",
+      "notes": "The 11th–12th c. era boundary is the G0 construct. Brown's own scheme splits these two temples between his Middle and Later periods. The quote 'about A.D. 1100 its place…' is read in context as the Puri temple; the OCR snippet does not name it in the same sentence. The fact-checker should confirm on the full scan page."
+    },
+    {
+      "cid": "history-018",
+      "field": "eras.mature.design_change",
+      "text": "The full temple now had four halls in a straight line. The jagamohana was joined by a natamandira (dance hall) and a bhogamandapa (hall of offerings).",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 212 (printed page not seen)",
+          "quote": "The two buildings usually supplemented were first the Nat~Mandir or Dancing Hall, and secondly in front of this the Bhog Mamlir or Hall of Offerings."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "the temple as originally designed was composed of only the two st ructures, the Sri Mandir, and the jagarnohan, the two other halls being added probably a century or more later."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown (scan p. 212): these halls were added 'As the style progressed and also as the temple ritual was developed'. At Lingaraja the extra halls came later than the tower, so do not say they were built together. Glossary: natamandira, bhogamandapa."
+    },
+    {
+      "cid": "history-019",
+      "field": "eras.mature.design_change",
+      "text": "Towers grew very tall. At Lingaraja the walls rise straight, then curve inward toward the top. At Puri the curve near the top is smoother.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "At the height of about 50 feet the contours of the structure, up to this point vertical, begin to incline inwards, speeding up into a pronounced parabolic curve to produce the \"shoulder\" at 125 feet from the ground."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 215 (printed page not seen)",
+          "quote": "the overhang of the shoulder, which in this instance has been reduced to a more graceful line, giving its profile additional refinement and balance."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Heights here are Brown's figures (50 ft to the curve, 125 ft to the shoulder), not total heights; do not use them as the tower's height. Brown also calls Puri 'merely an arid replica of its predecessor at Bhubaneswar' because of later cement repairs (scan p. 215). Brown calls Lingaraja's nat mandir with 16 pillars 'the only real example of a hypostyle hall in Orissa' — but that sentence (scan p. 215) is about the Puri temple's hall. Keep it to the Puri ledger if used. 'Towers grew very tall' is the writer's framing, not a quote."
+    },
+    {
+      "cid": "history-020",
+      "field": "eras.mature.dynasty",
+      "text": "Somavamshi kings built the great Shiva temple at Bhubaneswar, in Panigrahi's view. Then the Eastern Gangas took over coastal Odisha under King Anantavarman Chodaganga.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Somavamsis",
+          "access": "full-text",
+          "locator": "archive.org scan p. 279 (printed page not seen)",
+          "quote": "the kings of tlu dynasty were instrumental in raising the greatest Saiva Kmple at Bhubaneswar besides a number of smaller ones"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 281 (printed page not seen)",
+          "quote": "The direct connexion of the Gahgas with Utkala or Orissa began svith its conquest by Anantavarman Cho^agahgadeva"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 281 (printed page not seen)",
+          "quote": "there is an inscription in the lifigaraja temple which records t gift of a perpetual lamp during the reign of ChotJagaAgadeva m Saka year I036=a.d. 1114."
+        }
+      ],
+      "conflicts": "Panigrahi (scan p. 281) notes the conquest date 'has hitherto been taken to be the Saka year 1040 - A.D. 1118' (OCR '11 io'), but the 1114 CE Lingaraja inscription shows the Ganga link began earlier. The research report gives '1112 CE' for the conquest of Utkala.",
+      "notes": "The 'greatest Saiva temple' (= Lingaraja) attribution to the Somavamshi dynasty is Panigrahi's view; name no king (Yayati I pitfall). Linking Chodaganga to the PURI temple was NOT verified this run (research report cites the Kendupatna plate; not opened). See gaps."
+    },
+    {
+      "cid": "history-021",
+      "field": "eras.mature.temples",
+      "text": "Examples: the Lingaraja temple in Bhubaneswar and the Jagannath temple in Puri.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "As it stands at present the Lingaraja coasists of the four structures which comprise the fully developed Orissan temple-type"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=1100",
+          "access": "full-text",
+          "locator": "archive.org scan p. 214 (printed page not seen)",
+          "quote": "the Jagannath (dr A.D. 1100), at Puri"
+        }
+      ],
+      "temples": [
+        { "name": "Lingaraja Temple", "temple_id": "lingaraj" },
+        { "name": "Jagannath Temple, Puri", "temple_id": "jagannath-puri" }
+      ],
+      "conflicts": "",
+      "notes": "OCR 'dr' = 'cir.'."
+    },
+    {
+      "cid": "history-022",
+      "field": "eras.grand-finale.period",
+      "text": "The Sun Temple at Konark was built in the 13th century CE, around the middle of that century.",
+      "value": "13th century CE (c. 1250 CE)",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "unesco-konarak-summary",
+          "fetched_url": "https://www.unesco.org/en/articles/sun-temple-konarak",
+          "access": "full-text",
+          "locator": "summary text",
+          "quote": "This 13th-century Sun Temple is a monumental representation of the Indian Sun god Surya's chariot"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Konarak",
+          "access": "full-text",
+          "locator": "archive.org scan p. 211 (printed page not seen)",
+          "quote": "that of Konarak was erected in the middle of the thirteenth century"
+        }
+      ],
+      "conflicts": "",
+      "notes": "'13th century' has a UNESCO source plus Brown, so it could meet 'established' for the temple's century. As an ERA boundary it is our construct, so scholarly is proposed. Do not use the Kendupatna plate to date Konark (pitfall)."
+    },
+    {
+      "cid": "history-023",
+      "field": "eras.grand-finale.design_change",
+      "text": "At Konark all the parts were planned as one design. The whole temple is shaped like the Sun god's chariot, with huge stone wheels and seven horses.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 217 (printed page not seen)",
+          "quote": "no longer is it a fortuitous range of separate structures, as in the Lingaraja and Jagannath examples, but a reasoned and systematic co-ordination of its parts into an architectural unity."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 217 (printed page not seen)",
+          "quote": "the building to be fashioned like a ratha or wheeled car being whirled along by the seven horses of the sun."
+        },
+        {
+          "source_id": "unesco-konarak-summary",
+          "fetched_url": "https://www.unesco.org/en/articles/sun-temple-konarak",
+          "access": "full-text",
+          "locator": "summary text",
+          "quote": "This 13th-century Sun Temple is a monumental representation of the Indian Sun god Surya's chariot"
+        }
+      ],
+      "conflicts": "Wheel count: Brown says 'an immense terrace with 12 giant wheels ... fixed on either side' (scan p. 217); the research report says 24 wheels. The wording is ambiguous, so the text avoids a number.",
+      "notes": "Brown also (scan p. 217) says Konark 'illustrates in every aspect the fulfilment and finality of the style'. Brown's jagamohan '100 feet side and 100 feet high' (scan p. 217) conflicts with the research report's ~39 m (128 ft); leave that to the Konark ledger."
+    },
+    {
+      "cid": "history-024",
+      "field": "eras.grand-finale.design_change",
+      "text": "Konark's great main tower has fallen. Only its base is left; the big front hall still stands.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=mandir",
+          "access": "full-text",
+          "locator": "archive.org scan p. 218 (printed page not seen)",
+          "quote": "This great tower has disappeared, except for its foundations"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagamohan",
+          "access": "full-text",
+          "locator": "archive.org scan p. 217 (printed page not seen)",
+          "quote": "All that remains moderately intact being the jagamohan or assembly hall, as a record of the character of the whole."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The collapse date and cause are debated (pitfall); none is claimed here. The second quote is a short sentence-level snippet from the search service, so the fact-checker should confirm its full wording on the scan page."
+    },
+    {
+      "cid": "history-025",
+      "field": "eras.grand-finale.dynasty",
+      "text": "K. C. Panigrahi calls this the Ganga period. He says many smaller temples were also built at this time.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Gahga%20Period%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 199 (printed page not seen)",
+          "quote": "Besides the temples mentioned above, the Gahga period also witnessed die erection of a large number of smaller temples."
+        }
+      ],
+      "conflicts": "",
+      "notes": "This claim is weak for the era card. The key fact — Konark built by Eastern Ganga king Narasimhadeva I (r. 1238–1264) — was NOT found in any source fetched this run. The UNESCO summary page does not name him. Leave eras.grand-finale.dynasty null unless the Konark ledger supplies it (candidates: asi-konarak-whs, mitra-d-2003, behera-2005)."
+    },
+    {
+      "cid": "history-026",
+      "field": "eras.grand-finale.temples",
+      "text": "Example: the Sun Temple at Konark.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Konarak",
+          "access": "full-text",
+          "locator": "figure caption; archive.org scan p. 212 (printed page not seen)",
+          "quote": "Temple of the Sun at Konarak, cir. A.D. 1250."
+        }
+      ],
+      "temples": [
+        { "name": "Sun Temple, Konark", "temple_id": "konark" }
+      ],
+      "conflicts": "",
+      "notes": "Ananta Vasudeva (1278 CE) was not sourced this run; see gaps."
+    },
+    {
+      "cid": "history-027",
+      "field": "framework",
+      "text": "Percy Brown described a 'Later' style of about 1200 CE. It had small, richly finished temples.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Later%20Period%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 216 (printed page not seen)",
+          "quote": "The third period or \"Later\" style of Orissan architecture which flourished about 1200 A.D., includes a number of temples, none of which is large, but all are remarkable for their rich and finished appearance."
+        }
+      ],
+      "conflicts": "Brown's 'Later' period is mainly small temples. He treats Konark separately as the style's 'fulfilment and finality'. This differs from a simple 'mature = biggest' reading.",
+      "notes": "Background for the orchestrator; probably not a card sentence."
+    },
+    {
+      "cid": "history-028",
+      "field": "eras.late-kalinga.period",
+      "text": "From 1435 CE the Suryavamshi kings, also called Gajapatis, ruled Odisha. Their power faded in the 16th century.",
+      "value": "15th–16th century CE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilendra",
+          "access": "full-text",
+          "locator": "archive.org scan p. 26 (printed page not seen)",
+          "quote": "The man was Kapilendra or Kapilesvaradeva who ^vas originally a Ganga officer holding the humble title of MahSpalra but who, after a successful coup d’etat, occupied the throne in a.d. 1435."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilendra",
+          "access": "full-text",
+          "locator": "archive.org scan p. 26 (printed page not seen)",
+          "quote": "under Frataparudra who ruled from 1497 to 1541, it was already on the decline."
+        }
+      ],
+      "conflicts": "Panigrahi is not consistent: scan p. 26 gives Kapilendra's accession as A.D. 1435, but scan p. 200 gives his reign as 'a.d. 1433-1467'. So '1435' should be shown as 'c. 1435' or the sentence reworded to '15th century'.",
+      "notes": "Propose era period text without the exact year if the fact-checker prefers: 'Suryavamshi (Gajapati) rule, 15th–16th century CE'."
+    },
+    {
+      "cid": "history-029",
+      "field": "eras.late-kalinga.design_change",
+      "text": "After the Gangas, fewer great temples were built. Panigrahi found the building style changed little, but the carving became less skilled.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "After the Gangas, the glorious period of temple-building activities in Orissa was over, but the spirit lingered on during the succeeding period of SuryavarhS supremacy which also witnessed the erection of some notable temples in Orissa."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "It seems that the dynastic change did not result in any great change in architectural style, but in sculpture a definite set-back is to be perceived."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi's view, based on Bhubaneswar only ('It seems'). Attribute to him."
+    },
+    {
+      "cid": "history-030",
+      "field": "eras.late-kalinga.temples",
+      "text": "Example: the Kapilesvara temple in Bhubaneswar. Panigrahi thought it was possibly built in the Gajapati period, and the last notable temple there.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "The only other notable temple that seems to have belonged to this period is Aat of Kapilesvara,'situated on the bank of the Gangua about a mile to the south of the Lihgaraja."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "The temple of Kapilesvara appears to be the last notable monument to be built at Bhubaneswar."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "Like the important Gahga temples, it has a three-chambered frontal complex, but the late date of the temple is more evident from its cult images."
+        }
+      ],
+      "temples": [
+        { "name": "Kapilesvara Temple, Bhubaneswar", "temple_id": null }
+      ],
+      "conflicts": "Panigrahi dates it only by style and says it is 'possible' it 'belongs to the same epoch' as the Papanasini porch (1449 CE). He also says the present temple stands on the site of an earlier one. Hedged, single-scholar dating, so uncertain is proposed.",
+      "notes": "REPRESENTATIVE LATE TEMPLE FOR THE SILHOUETTE: Kapilesvara, Bhubaneswar. Panigrahi says it 'has a three-chambered frontal complex' like the important Ganga temples, i.e. a rekha tower plus three halls in a line. That is enough for a generic silhouette, but no drawing or photo source was fetched. The research report's Mayurbhanj/Baripada examples were NOT sourced (gap). Panigrahi's figure numbers for it: Fig. 10 (earlier remains), Fig. 101 (Karttikeya image)."
+    },
+    {
+      "cid": "history-031",
+      "field": "eras.late-kalinga.temples",
+      "text": "A half-ruined porch near the Papanasini tank in Bhubaneswar has an inscription from Gajapati Kapilendra's reign. Panigrahi reads its date as 1449 CE.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilesvara",
+          "access": "full-text",
+          "locator": "archive.org scan p. 200 (printed page not seen)",
+          "quote": "the half-ruined porch standing near the PapanasinI tank still bears an inscription referring itself to the reign of Kapilesvara (a.d. 1433-1467), which proves beyond doubt that the structure belonged to his reign."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Gajapati",
+          "access": "full-text",
+          "locator": "archive.org scan p. 63 (printed page not seen)",
+          "quote": "gives the year a.Ds 1449> which should be taken to be t!ie date of the PapanaiinI temple."
+        }
+      ],
+      "temples": [
+        { "name": "Papanasini porch (half-ruined), Bhubaneswar", "temple_id": null }
+      ],
+      "conflicts": "The 1449 date comes from Panigrahi converting regnal years 'according to the mode of counting the regnal years adopted by the Gajapatis'. The inscription edition itself was not opened, so this is not tier established.",
+      "notes": "Only a half-ruined porch, so it is not a good silhouette model. It is the only inscription-dated structure of this era found this run. Panigrahi (scan p. 63) suggests the builder was 'the commander-in-chief of the Gajapati Kapilesvaradeva' ('it seems most likely')."
+    },
+    {
+      "cid": "history-032",
+      "field": "eras.late-kalinga.dynasty",
+      "text": "The Suryavamshi kings, also called the Gajapatis, were founded by Kapilendra. Other strong rulers were Purushottama and Prataparudra.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilendra",
+          "access": "full-text",
+          "locator": "archive.org scan p. 26 (printed page not seen)",
+          "quote": "The rulers of the dynasty that he founded became known as the Surya-Vamsis or Gajapatis and it produced two more able rulers, Purusottamadeva and Prataparudradeva."
+        }
+      ],
+      "conflicts": "",
+      "notes": ""
+    },
+    {
+      "cid": "history-033",
+      "field": "dynasties.shailodbhava",
+      "text": "The Shailodbhavas came from Kongoda, in today's Ganjam district. Panigrahi's tentative dates put them from the 6th to the 8th century CE.",
+      "value": "c. 6th–8th century CE (tentative)",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 23 (printed page not seen)",
+          "quote": "According to the latest tentative chronology, the Sailodbhavas flourished from the second quarter of the sixth century and ended in the secondhalf of the eighth."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 23 (printed page not seen)",
+          "quote": "The cradle of the Sailodbhava power was Kohgoda, the modern Ganjam district"
+        }
+      ],
+      "conflicts": "Research report §9 gives the Shailodbhavas as '7th–8th c.'. Panigrahi's tentative chronology starts in the second quarter of the 6th century.",
+      "notes": "Panigrahi himself calls the chronology tentative, so uncertain is proposed. He also cites a Ganjam plate of Madhavaraja II dated 'a.d. 619' (scan p. 23)."
+    },
+    {
+      "cid": "history-034",
+      "field": "dynasties.bhauma-kara",
+      "text": "The Bhauma-Karas rose in northern Odisha. Their capital was Viraja, today's Jajpur. Panigrahi says they did a great deal for art and building.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Sailodbhava",
+          "access": "full-text",
+          "locator": "archive.org scan p. 23 (printed page not seen)",
+          "quote": "The real cause of the break-up of the Sailodbhava kingdom may be traced to the rise of the Bhauma-karasin northern Tosali with their capital at Viraja or modem Jajpur in the Cuttack district."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 267 (printed page not seen)",
+          "quote": "The Bhauma-karas contributed their best to the gro^vth of art and architecture not only of Bhubaneswar, but also of Orissa"
+        }
+      ],
+      "conflicts": "",
+      "notes": "No reign range: Panigrahi discusses the start of the Bhauma era at length (scan pp. 260–261, not fully read), so dates stay a gap. Panigrahi (scan p. 24) says male rulers' names ended in -kara (Sivakara, Subhakara, Santikara). Research report mentions 'notable female rulers (Tribhuvana Mahadevi)'; not checked."
+    },
+    {
+      "cid": "history-035",
+      "field": "dynasties.somavamshi",
+      "text": "The Somavamshis, also called Kesaris, first ruled Kosala in the upper Mahanadi valley, then Odisha's coast. Their official faith was Shaivism.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Somavamsis",
+          "access": "full-text",
+          "locator": "archive.org scan p. 280 (printed page not seen)",
+          "quote": "The Somavamsis were primarily the kings of Kosala and as we know from the Brahmesvara inscription, it was Janamejaya who first conquered O^ra or Orissa by killing its king with a kunta."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Somavamsis",
+          "access": "full-text",
+          "locator": "archive.org scan p. 279 (printed page not seen)",
+          "quote": "Although, the official faith of the Somavamsis was Saivism, they were undoubtedly tolerant of all sects."
+        }
+      ],
+      "conflicts": "Panigrahi (scan p. 267) warns that 'Kesari' was a popular title used for several pre-Ganga dynasties, not only the Somavamshis, and that Bhubaneswar priests 'attribute all the temples to the agency of the Keiaris'. So 'Kesari' is not a safe builder label.",
+      "notes": "Quote 1 OCR: 'Somavamsis' appears as a search match. No reign range seen. Madala Panji lists 65 'Kesari' names (Panigrahi scan p. 267): tradition, not history. Popular tradition merges Yayati I and II (scan p. 280); do not name Yayati as a builder."
+    },
+    {
+      "cid": "history-036",
+      "field": "dynasties.eastern-ganga",
+      "text": "The Eastern Gangas took control of coastal Odisha under King Anantavarman Chodaganga. An inscription shows he reigned there by 1114 CE.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 281 (printed page not seen)",
+          "quote": "The direct connexion of the Gahgas with Utkala or Orissa began svith its conquest by Anantavarman Cho^agahgadeva"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22Bhubaneswar%20under%22",
+          "access": "full-text",
+          "locator": "archive.org scan p. 281 (printed page not seen)",
+          "quote": "there is an inscription in the lifigaraja temple which records t gift of a perpetual lamp during the reign of ChotJagaAgadeva m Saka year I036=a.d. 1114."
+        }
+      ],
+      "conflicts": "Research report §9: capital moved to Cuttack 'in 1112/1122'; §3: conquest of Utkala in 1112 CE. Panigrahi says the conquest date was earlier taken as Saka 1040 (= 1118 CE), but the Lingaraja inscription of 1114 CE shows an earlier link.",
+      "notes": "No reign ranges seen (Chodaganga 1078–1150, Anangabhima III, Narasimha I 1238–1264 are all gaps). Panigrahi (scan p. 284) also says 'the Gahga period is especially memorable for a great religious movement for a synthesis of different cults and sects' — possible extra line."
+    },
+    {
+      "cid": "history-037",
+      "field": "dynasties.gajapati",
+      "text": "Kapilendra, once a Ganga officer, took the throne in about 1435 CE. His Suryavamshi (Gajapati) dynasty declined under Prataparudra, who ruled 1497–1541 CE.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilendra",
+          "access": "full-text",
+          "locator": "archive.org scan p. 26 (printed page not seen)",
+          "quote": "The man was Kapilendra or Kapilesvaradeva who ^vas originally a Ganga officer holding the humble title of MahSpalra but who, after a successful coup d’etat, occupied the throne in a.d. 1435."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kapilendra",
+          "access": "full-text",
+          "locator": "archive.org scan p. 26 (printed page not seen)",
+          "quote": "under Frataparudra who ruled from 1497 to 1541, it was already on the decline."
+        }
+      ],
+      "conflicts": "Panigrahi elsewhere (scan p. 200) gives Kapilesvara's reign as A.D. 1433–1467, which does not match the 1435 accession on scan p. 26. Hence 'about 1435'.",
+      "notes": "Research report §9 says the Gajapatis 'institutionalized the Jagannath state cult'; not verified this run."
+    }
+  ],
+  "new_sources": [],
+  "gaps": [
+    {
+      "field": "framework (Formative / Transitional / Mature labels)",
+      "searched": [
+        "Sahoo 2012, Odisha Review, https://magazines.odisha.gov.in/Orissareview/2012/May/engpdf/39-43.pdf — fetch failed: 'certificate has expired'",
+        "behera-1993, mohapatra-1986, donaldson-1985 — catalogue-only in registry, not openable",
+        "Parida 1999 'Early Temples of Orissa' — not in registry, not searched (budget)",
+        "brown-1959 full text — uses Early / Middle / Later instead",
+        "kramrisch-1946, fergusson-1876 — not searched (budget)"
+      ],
+      "why_blank": "No fetched accepted source uses the words Formative / Transitional / Mature. Brown's Early/Middle/Later (history-001) is the verified alternative."
+    },
+    {
+      "field": "eras.formative.design_change (triratha plan, trianga bada, flat-roofed mukhasala)",
+      "searched": ["brown-1959 search-inside: jagamohan, mandir, Parasrameswar", "panigrahi-1961 search-inside (Sailodbhava, Bhubaneswar under)"],
+      "why_blank": "No passage naming triratha or trianga bada was seen. Bose 1932 and Panigrahi's architecture chapters would be the next places to search (terms: 'triratha', 'three-fold', 'Tri-anga', 'Pabhaga')."
+    },
+    {
+      "field": "eras.mature.design_change (pancharatha / saptaratha plans, panchanga bada)",
+      "searched": ["brown-1959 search-inside passages on Lingaraja (scan p. 214)"],
+      "why_blank": "Not seen. Brown describes the tower's curve and the four halls but not ratha counts or bada divisions in the passages read."
+    },
+    {
+      "field": "eras.transitional.temples (Rajarani, Brahmesvara)",
+      "searched": ["brown-1959 'Bhubaneswar' search listed Rajarani at scan p. 146 but only as a summary, not verbatim", "panigrahi-1961 p. 280 mentions the Brahmesvara inscription but not its date"],
+      "why_blank": "No verbatim dating quote for Rajarani or Brahmesvara was captured (budget). The temple ledgers should supply them (Brahmesvara 1058/1060 CE inscription)."
+    },
+    {
+      "field": "eras.mature.dynasty (Jagannath Puri built by Chodaganga; completed by Anangabhima III)",
+      "searched": ["panigrahi-1961 'Bhubaneswar under' (scan p. 281) — gives Chodaganga's conquest, not the Puri building", "brown-1959 — dates Jagannath c. 1100 without naming a builder"],
+      "why_blank": "The builder attribution was not seen in a fetched source. The Kendupatna plate edition was not opened."
+    },
+    {
+      "field": "eras.grand-finale.dynasty (Konark by Eastern Ganga king Narasimhadeva I, r. 1238–1264)",
+      "searched": ["unesco.org/en/articles/sun-temple-konarak — does not name the king", "brown-1959 'Narasimha' search — only Pallava Narasimha hits", "panigrahi-1961 'Konarak' search — no matches (spelling may differ, e.g. Konarka)"],
+      "why_blank": "Not found in fetched sources this run; take from the Konark ledger (asi-konarak-whs, mitra-d-2003, behera-2005)."
+    },
+    {
+      "field": "eras.grand-finale.temples (Ananta Vasudeva, 1278 CE)",
+      "searched": ["none — budget"],
+      "why_blank": "Not fetched; list with temple_id null only after a source is recorded."
+    },
+    {
+      "field": "eras.late-kalinga.temples (Mayurbhanj / Baripada examples from research §1)",
+      "searched": ["panigrahi-1961 (Bhubaneswar only)"],
+      "why_blank": "No source for any 15th–16th c. temple in Mayurbhanj or Baripada was found. The only sourced late examples are Kapilesvara and the Papanasini porch in Bhubaneswar (history-030, history-031)."
+    },
+    {
+      "field": "eras.rock-cut-roots.dynasty (Chedi / Mahameghavahana name)",
+      "searched": ["brown-1959 'Kharavela' search", "konow-thomas-1915 in.ernet scan 'Kharavela' search — zero matches (OCR may use diacritics)"],
+      "why_blank": "Dynasty name not seen; only 'king Kharavela, ruler of Kalinga'."
+    },
+    {
+      "field": "Hathigumpha inscription edition (research §7 places it in Epigraphia Indica XIII)",
+      "searched": ["konow-thomas-1915 in.ernet scan search-inside 'Kharavela' — 0 matches", "EI XIII contents: article No. 13 is 'Inscriptions in the Udayagiri and Khandagiri caves' by R. D. Banerji"],
+      "why_blank": "Could not confirm that the Hathigumpha text is edited in EI XIII. Do not cite EI XIII for Hathigumpha until checked."
+    },
+    {
+      "field": "dynasties.*.reign ranges (Bhauma-Kara, Somavamshi, Eastern Ganga kings)",
+      "searched": ["panigrahi-1961 search-inside: Bhauma-karas, Somavamsis, Bhubaneswar under"],
+      "why_blank": "No explicit reign ranges were captured apart from Gajapati dates (1435; Prataparudra 1497–1541) and the Shailodbhava tentative range."
+    }
+  ]
+}

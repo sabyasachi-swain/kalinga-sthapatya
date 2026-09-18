@@ -51,11 +51,12 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 ## Repository
 
 - Remote `origin` = https://github.com/sabyasachi-swain/kalinga-sthapatya.git (empty on 2026-09-18) · future Pages URL https://sabyasachi-swain.github.io/kalinga-sthapatya/
-- First push approved by the human 2026-09-18.
+- Pushed to origin/main 2026-09-18 (human-approved).
 
 ## Running
 
-- Research wave 1: kalinga-researcher × 3 → konark, lingaraj, history (Opus). Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
+- Research wave 1: ledgers done — konark (29 claims), lingaraj (25), history (37). Konark fact-check resumed; lingaraj + history fact-checks next. Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
+- Phase 4 batch 1: 30 Gemini assets in inbox (V-00…V-52, all generic set; rasters are JPEG named .png) → asset-integrator CHECK mode running.
 
 ## Blocked
 
@@ -63,6 +64,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Incidents
 
+- 2026-09-19 ~00:10 IST — second usage-limit stop (reset 04:00). All three ledgers had been saved; fact-check and asset check resumed 05:12.
 - 2026-09-18 ~20:35 IST — all three running agents stopped on an account usage limit (reset 22:40). Nothing had been written. Resumed at 23:08 with their context intact.
 
 ## Proposals from agents (not yet applied)

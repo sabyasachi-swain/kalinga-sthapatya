@@ -1,0 +1,704 @@
+{
+  "topic": "lingaraj",
+  "run_on": "2026-09-19",
+  "method_note": "All archive.org quotes were read through the archive.org search-inside API (fulltext/inside.php), which returns the OCR text of the scanned book around each hit. The fetched_url for each quote is that exact API URL; open it to see the passage. OCR errors are kept as they appear, and the <IA_FTS_MATCH> highlight tags are removed. 'leaf N' is the scan page index given by the API, NOT the printed page number. Printed page numbers were not seen, so each locator starts with 'unverified'.",
+  "claims": [
+    {
+      "cid": "lingaraj-001",
+      "field": "facts.date",
+      "text": "Scholars date the main temple to the 11th century CE.",
+      "value": "11th century CE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=stupendous",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 30)",
+          "quote": "The present temple of Lingaraja is a monument of the eleventh century, bu persistent tradition recorded in the orthodox Sanskrit texts"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "the Lingaraja (cir. A.D. 1000) at Bhubaneswar, and the Jagannath (dr A.D. 1100), at Puri"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Lingaraj",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 182, plate caption)",
+          "quote": "SECTION AND PLAN OF THE GREAT (LINGARAJ) TEMPLE AT BHUBANESWAR, ORISSA CIR.IOOO A.D."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 191)",
+          "quote": "it is also most probable that it was begun by Yayati II (c, 1020*1040) andcomplcted by his successor Uddyota Kesari (c. 1040-1065), the last great king of the Somavarhii dynasty."
+        }
+      ],
+      "conflicts": "Brown 1959: c. 1000 CE. Panigrahi 1961: 11th century; begun c. 1020-1040 and completed c. 1040-1065. Older chronicle-based dates are much earlier: Fergusson 1876 follows the traditional Kesari list, which starts Yayati c. 473 CE (see lingaraj-015). A verse in the Madala Panji tradition gives Saka 588 (666 CE); Panigrahi reads Saka 888 (966 CE) in a Keonjhar manuscript. He links that verse to a Krittivasa temple, not to the present 11th-century building.",
+      "notes": "The date is stylistic or indirect. No foundation inscription was found. The research report's range 'c. 1000-1100 CE' covers both Brown and Panigrahi. The site could show 'c. 1000-1100 CE' as value if preferred."
+    },
+    {
+      "cid": "lingaraj-002",
+      "field": "facts.dynasty",
+      "text": "It was built in the time of the Somavamshi (Kesari) kings.",
+      "value": "Somavamshi (Kesari)",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 194)",
+          "quote": "It is true that the temple of Lihgaraja built during the Somavamii period abo possesses these side struc- lutes, but there are evident signs in them that they were later addi- tions, possibly of the Ganga period."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kesari",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 187)",
+          "quote": "The wholly wong dates, assigned by the chronicle to tlie KeSari or Somavarhri kings with a great show of an accurate chronology"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Only one accepted full-text source (Panigrahi) names the dynasty for this temple, so the tier is scholarly. The second quote shows that Panigrahi treats 'Kesari' and 'Somavamshi' as the same kings. The dynasty's century range (10th-11th c.) is in the research report; I did not quote it from a source here."
+    },
+    {
+      "cid": "lingaraj-003",
+      "field": "facts.dynasty (patron)",
+      "text": "No inscription names the builder. Historian K.C. Panigrahi thought King Yayati II began it and his son Uddyota Kesari finished it.",
+      "value": null,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "It was Yayati II and his wn and successor Uddyota Kesari who built the great temple of Bhubaneswar (otherwise known as Kpttivasa or Lingaraja)."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 191)",
+          "quote": "it is also most probable that it was begun by Yayati II (c, 1020*1040) andcomplcted by his successor Uddyota Kesari (c. 1040-1065), the last great king of the Somavarhii dynasty."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 282)",
+          "quote": "inscriptions definitely crediting kings with the building of temples are conspicuous by their absence not only in Bhubaneswar but also in other parts of Orissa"
+        }
+      ],
+      "conflicts": "Panigrahi (1961) names Yayati II (c. 1020-1040) and Uddyota Kesari (c. 1040-1065). He gives Yayati I the Mukteshvara (966 CE), not Lingaraja: 'It was thus Yayati I who built the temple of Mukte^vara at Bhubaneswar in A.D. 966' (leaf 277). The research report says 'Some accounts attribute the main temple to Somavamshi Yayati I (1025-1040)'. Wikipedia credits that claim to Upinder Singh 2008, p. 622, which I did not open. The Madala Panji tradition names Yayati Kesari, Ananta Kesari and Lalatendu Kesari (Panigrahi leaf 186). Panigrahi explains the chronicle's mix-up this way: 'Since the Pdnji has taken ts»o Yayaiis as one and the same person, it has also attributed liie building of the temples of Lingaraja .at Bhubaneswar and ofjagannatha at Furi to one and the same king' (leaf 272).",
+      "notes": "Patron attribution is unproven, so the tier is uncertain. Treat the Yayati II attribution under the same pitfall rule as Yayati I. Do NOT publish 'Yayati I built Lingaraja': the one accepted source I read says Yayati II."
+    },
+    {
+      "cid": "lingaraj-004",
+      "field": "facts.height",
+      "text": "Scholars give the main tower's height as about 55 m (180 ft).",
+      "value": "about 55 m (180 ft)",
+      "value_m": 55,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "Rising to a height of about 180 feet and dominating the entire landscape within an area of about ten miles, this great temple represents the quintessence of the Kaliiiga type of architecture"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%22180%20ft%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 433)",
+          "quote": "Then height is nearly tbe same, both of them being over 180 ft, but tbe upper part of tbe northern towei is so much more solid"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 14)",
+          "quote": "the gigantic structures like the great Lihgaraja, 128 feet high, to the miniatures of a few feet"
+        }
+      ],
+      "conflicts": "Panigrahi 1961 contradicts himself: 'about 180 feet' at leaf 120 (his description of the temple) but '128 feet high' at leaf 14 (introduction). The 128 may be a misprint or transposition, but I cannot confirm that. Fergusson 1876 says 'over 180 ft' while comparing the northern tower with Tanjore. I worked out from context that Fergusson's 'northern' tower is the Bhuvaneswar great temple. Leaf 433 gives it as 75 ft across the central projection, and leaf 442 says Puri is '80 ft across the centre, or 5 ft more than the great temple at Bhuvaneswar'.",
+      "notes": "180 ft = 54.9 m, rounded to 55 m (value_m). No ASI measurement was found (mitra-d-1978 is catalogue-only), so the text must say 'about'. The tier is uncertain because of Panigrahi's internal conflict. A fact-checker could raise it to scholarly if the 128 ft figure is shown to be a misprint."
+    },
+    {
+      "cid": "lingaraj-005",
+      "field": "facts.deity",
+      "text": "The temple is a Shiva shrine. Its presiding god is known as Tribhuvanesvara, also called Krittivasa and Lingaraja.",
+      "value": "Shiva as Tribhuvanesvara (Lingaraja)",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Tribhuvanesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "From the early medieval period, Tribhuvaneivara (also known as K^ittivasa and Lingaraja) came to be the presiding deity of the place."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Bhogamandapa",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 290)",
+          "quote": "In remodelling the Lihgar5ja temple, the Gahga kings also intro* duced some Vai^navite features wliich arc not to be found in any Saivashrine."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Tribhuvanesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 45, translating a Sanskrit text)",
+          "quote": "He, who is famous, svell-fcnown, and engaged in thedaily worship of Siva, ivill establish this lingan of Tribhuvanesvara in accordance with my command."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi's spellings are Tribhuvanesvara, Krittivasa (OCR 'K^ittivasa', 'Kpttivasa') and Lingaraja. Brown and Mitra call the building the 'Great Temple' or 'Great Tower'. The third quote is Panigrahi's translation of a traditional Sanskrit text, used only to show the god is worshipped as a linga of Shiva. Glossary gap: I found no source giving a plain meaning of 'Tribhuvanesvara'; do not add a translation unless one is sourced."
+    },
+    {
+      "cid": "lingaraj-006",
+      "field": "facts.temple_type",
+      "text": "The main shrine is a pancharatha deul, meaning its walls step out in five vertical bands on each side.",
+      "value": "pancharatha deul",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "the sanctuary is otherwise a pancka-ratke deul having close architectural afTinities with the BrahmeSvara temple."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Natamandira",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 198)",
+          "quote": "The Parvatl temple is sapta-ratha in plan, while tlic Lingaraja is paheha-ratha."
+        }
+      ],
+      "conflicts": "",
+      "notes": "None of the passages I fetched uses the word 'rekha' for Lingaraja. The rekha classification (temple_type = rekha) is in the research report §2 but needs a source such as bose-1932; see gaps. The gloss 'five vertical bands' explains what 'pancha-ratha' means; it does not quote a source. Check the glossary entry for 'pancharatha'."
+    },
+    {
+      "cid": "lingaraj-007",
+      "field": "one_liner",
+      "text": "The great Shiva temple of Bhubaneswar, which scholars call the finest temple of its kind in Odisha.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "the former being not only the finest living example of the Orissan group, but it ranks as one of the foremost architectural productions of the country."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "The temple of Lihgaraja is by far the most notable temple not only of Bhubaneswar, but also of Orissa"
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is a judgement by named scholars. The fact-checker may prefer to attribute it: 'which scholars such as Percy Brown call…'."
+    },
+    {
+      "cid": "lingaraj-008",
+      "field": "sections.why_built",
+      "text": "The temple stands on very old holy ground. Percy Brown noted that the many temples around it show how sacred this place was.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "plainly indicating that this neighbourhood was a place of great veneration, a holy land of profoundly religious significance."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown then guesses the site may once have belonged to Buddhists or Jains ('not unlikely'). I left that guess out as too speculative for the text."
+    },
+    {
+      "cid": "lingaraj-009",
+      "field": "sections.why_built",
+      "text": "Historian K.C. Panigrahi thought this great temple replaced an older, smaller temple on the same spot. Some early sculptures in the courtyard may come from it.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 47)",
+          "quote": "several early sculptures are still existing within the compound of the Lingaraja temple, some of which might have originally belonged to the earlier temple that has been replaced by the present one."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 47)",
+          "quote": "It seems that the priests could influence the powerful kings to replace the older structures in important shrines by the newer and better ones, even though the older ones were not completely ruined."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Hedged interpretation ('might have', 'It seems') by one scholar."
+    },
+    {
+      "cid": "lingaraj-010",
+      "field": "sections.why_built",
+      "text": "According to tradition, King Sasanka built an earlier temple at this shrine in the 7th century CE. No trace of that temple has been identified.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Tribhuvanesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 46)",
+          "quote": "All the four works agree in crediting him xvith the building of a temple in the shrine of Tribhuvanesvara or Lihgaraja. The present temple of Lingaraja and the other temples situated within its compound are much later structures"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Tribhuvanesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 46)",
+          "quote": "IVe are not in a position, however, to identify the particular temple built by ;Sas3hka in the shrine of Tribhuvanesvara."
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is a tradition from four late Sanskrit texts; the Ekamra Purana is placed no earlier than the 14th century by Panigrahi leaf 34. In the first quote, 'him' is Sasanka. The '7th century' comes from Panigrahi leaf 30: 'attests to the existence of a stone terete in this shrine in the early part of the seventh century' (OCR). Label it as tradition."
+    },
+    {
+      "cid": "lingaraj-011",
+      "field": "sections.construction",
+      "text": "The tower is built wholly of stone, from base to top. James Fergusson wrote that every stone in it carries a carved pattern.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%22180%20ft%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 433)",
+          "quote": "tbe noitbein example excels tbe other immeasurably in tbe fact that it is wholly in stone from tbe base to tbe apex"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%22180%20ft%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 433)",
+          "quote": "every individual stone in tbe tower has a pattern carved upon it, not so as to break its outbne, but sufficient to relieve any idea of monotony"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Fergusson's 'northern example' is the Bhuvaneswar great temple, contrasted with Tanjore (see lingaraj-004 for the context evidence). Which kind of stone the tower is built of was NOT found; see gaps."
+    },
+    {
+      "cid": "lingaraj-012",
+      "field": "sections.construction",
+      "text": "The tower is hollow inside. R.D. Banerji saw rooms stacked one above another, reached by a stair built inside the thick wall.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "Prof. R. D. Banerji records from his personal observation that the sanctuary is a hollow pyramid composed of several superimposed chambers, the access to which is obtained by a staircase built tlirough the thickness of the wall."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "This new technique was perhaps neces* sitated on account of the extreme height of the tower which could not be sustained by a single roof as in the smaller temples."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi reports Banerji's observation; Banerji's own book (History of Orissa) was not opened. A second sentence could be added: 'Panigrahi suggested this was needed because the tower is so tall.' That is Panigrahi's hedged view ('perhaps')."
+    },
+    {
+      "cid": "lingaraj-013",
+      "field": "sections.construction",
+      "text": "The temple stands in a walled courtyard about 158 m by 142 m (520 by 465 ft). The thick outer wall is made of laterite blocks.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=feet",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaves 153-154; 1963 reprint)",
+          "quote": "The area forming the courtyard of the Great Tower measures 520 x 465 feet, with a 28 feet projection on the north side."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=feet",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 154; 1963 reprint)",
+          "quote": "The wall surrounding this area is built of partially dressed taterite blocks, and is 7 feet 5 inches thick."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "It stands in the midst of a number of smaller temples tvithin a spacious comound of latcrite measuring 520 feet in length and 465 feet in breadth"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "occupies the centre of a large quadrangular enclosure measuring 520 feet by 465 feet, contained within a high and solid wall"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra's 'Great Tower' is Lingaraja; leaf 153 of the same scan (q=feet%20high) says: 'The largest edifice at Bhuvane^vara is the Great Tower.' The metric figures are conversions: 520 ft = 158.5 m and 465 ft = 141.7 m. Three sources agree, but none is primary-class, so the tier is scholarly. The OCR reads 'taterite', which means laterite."
+    },
+    {
+      "cid": "lingaraj-014",
+      "field": "sections.special",
+      "text": "Lingaraja has all four parts of a fully developed Odisha temple in one line: the tower shrine, the porch hall, the dance hall and the offering hall.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22bhog%20mandir%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "As it stands at present the Lingaraja coasists of the four structures which comprise the fully developed Orissan temple-type, namely the Deul, or Sri Mandir"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22bhog%20mandir%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "the Pillared Hall or Jagarnohan, in other words the mandapam ; the Dancing Hall, or Nat Mandir, and the Hall of Offerings, or Bhog Mandir."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Jagamohan",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 432)",
+          "quote": "The whole length is ncaily 300 ft, -sMth a bieadth vai;)ing from GO ft to 75 ft"
+        }
+      ],
+      "conflicts": "",
+      "notes": "'In one line' comes from Brown leaf 215, where he describes Puri as 'Built on the same principle as the Great Temple, at Bhubaneswar, and consisting of four edifices in one alignment'. Fergusson's leaf 432 describes the great temple at Bhuvaneswar (it is followed by the tower comparison at leaf 433). Its 300 ft total length (about 91 m) could be a second 'special' sentence. Pair this claim with lingaraj-017: the last two halls were added later."
+    },
+    {
+      "cid": "lingaraj-015",
+      "field": "sections.special",
+      "text": "Many smaller shrines crowd the courtyard around the main temple. Percy Brown compared this to Buddhist shrines grouped around a great stupa.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "Within the enclosure many subsidiary \"chapels\" and shrines have been grouped around the main temple, contributions by ardent devotees as acts of merit."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "cannot fail to recall the practice of the Buddhists in congregating their votive chaityas around the large central stupa."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The comparison is Brown's interpretation and is attributed to him."
+    },
+    {
+      "cid": "lingaraj-016",
+      "field": "sections.special",
+      "text": "Its huge tower can be seen across the land for many kilometres. Panigrahi called it the best example of the Kalinga style.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "Rising to a height of about 180 feet and dominating the entire landscape within an area of about ten miles, this great temple represents the quintessence of the Kaliiiga type of architecture"
+        }
+      ],
+      "conflicts": "",
+      "notes": "'Quintessence' is shortened to 'best example'; the checker may prefer 'the purest example'. 'Ten miles' is about 16 km, and 'many kilometres' avoids stating a precise distance."
+    },
+    {
+      "cid": "lingaraj-017",
+      "field": "sections.parts (dating of added halls)",
+      "text": "At first the temple had only the tower shrine and its porch. The dance hall and the offering hall were added later.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Jagamohan",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 432)",
+          "quote": "The oiigiiial temple, houevei, like almost all those in Oiissa, consisted only of a vimana, or Baia De-wuil, and a porch or Jagamohan"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Natamandira",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 198)",
+          "quote": "in the Lingaraja, the Natamandira and the Bhogamandipa represent later additions."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 194)",
+          "quote": "The important Lihgaraja that originally possessed a single chamber as Us porch, was furnished with two more, apparctttly during the Ganga period."
+        }
+      ],
+      "conflicts": "When were the halls added? Fergusson 1876 says 'The Nat and Bhog-mandus, shaded lighter, were added in the beginning of the 12th centuiy' (leaf 432). Panigrahi 1961 says 'apparently during the Ganga period' (leaf 194). See lingaraj-018 for the 1099-1104 CE date.",
+      "notes": "Two scholars agree that the halls were added later, so this sentence gives no date. If a date is wanted: 'probably in the 12th century CE or later', tier uncertain."
+    },
+    {
+      "cid": "lingaraj-018",
+      "field": "sections.parts (dating of added halls)",
+      "text": "An old chronicle-based account dates the dance hall to 1099–1104 CE. Later historians rejected that chronicle's dates, so this date is debated.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Salini",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 435)",
+          "quote": "Attached to the Jagamohan of this temple is a Nat-mandii, oi dancing-hall, whose date is, foitunately, peifectly well known"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Salini",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 435)",
+          "quote": "It was erected by the 11016 of Salini between the yeais 1099 and 1104"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Bhuvaneswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 429)",
+          "quote": "were succeeded m oi about A n 473 by Yayati, the first of the Kesari line"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kesari",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 187)",
+          "quote": "The wholly wong dates, assigned by the chronicle to tlie KeSari or Somavarhri kings with a great show of an accurate chronology"
+        }
+      ],
+      "conflicts": "Fergusson 1876 dates the natamandira to 1099-1104, built by the wife of 'Salini' (OCR '11016' = 'wife'). He relies on the traditional Kesari king list, which begins with Yayati c. 473 CE (leaf 429). Panigrahi 1961 calls the chronicle's Kesari dates 'wholly wrong' and places the added halls 'apparently during the Ganga period' (leaf 194). I did not see Fergusson's footnote naming his source.",
+      "notes": "The research report says 'the natamandira was added c. 1099-1104 CE'. Its only traceable source is Fergusson 1876, reached through Wikipedia's citation. This is a chronicle-based date, not an inscription, so it must never be shown as established. Uncertain at most; the fact-checker may choose to leave it out."
+    },
+    {
+      "cid": "lingaraj-019",
+      "field": "sections.parts (dating of added halls)",
+      "text": "Panigrahi suggested the porch may have been built by Queen Kolavati, mother of King Uddyota Kesari. This rests partly on a temple chronicle.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "The AtSdald Pdnji states that, since the eastern part of the LiftgarSja temple had become out of plumb, Tulavati Rani wife of Vasukalpa Keiarl, got it dismantled and rebuilt."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=successor",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "It is most likely that she built the Jagamoham of the Lingaraja, whicli is to the cast of the main temple."
+        }
+      ],
+      "conflicts": "The Madala Panji names 'Tulavati Rani, wife of Vasukalpa Kesari'. Panigrahi identifies her with Kolavati (Brahmesvara inscription), whom he makes the queen of Yayati II. Both identifications are his inferences.",
+      "notes": "This rests on a chronicle tradition plus one scholar's identification, so it is uncertain. The research report does not mention it. Optional; include only with 'According to the temple chronicle…' framing."
+    },
+    {
+      "cid": "lingaraj-020",
+      "field": "sections.parts.element_ids",
+      "text": "Parts present: bada (wall), gandi (tower), mastaka (crown), jagamohana (porch hall), natamandira (dance hall) and bhogamandapa (offering hall). There is no raised platform (pista).",
+      "value": ["bada", "gandi", "mastaka", "jagamohana", "natamandira", "bhogamandapa"],
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22bhog%20mandir%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "the Pillared Hall or Jagarnohan, in other words the mandapam ; the Dancing Hall, or Nat Mandir, and the Hall of Offerings, or Bhog Mandir."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Natamandira",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 198)",
+          "quote": "The temple of Parvaii stands on. a high plinth, but that of Lingaraja rises abruptly from the ground level."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Pista is excluded because Panigrahi says Lingaraja 'rises abruptly from the ground level' and has no high plinth. The four halls are sourced to Brown. bada, gandi and mastaka are the standard vertical parts of any Odishan deul (research report §2), but I did not see these terms in a Lingaraja-specific passage. Fergusson leaf 433 mentions the tower's 'circular crowning object'."
+    },
+    {
+      "cid": "lingaraj-021",
+      "field": "sections.parts.intro",
+      "text": "Panigrahi explained that by this time the god was thought to live like a king. So he needed an audience hall, a dance hall and a dining hall.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=stupendous",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 285)",
+          "quote": "A presiding deity svas to live in state as much as a king would do. He was to have an audience hall (JasionoAana), dancing hall (^YdUrnandira) and dining hall [Dho§a‘AlaaJa^)"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi means Ganga-period ideas ('By the time the Gangas established their rule in Orissa'). This is an attributed interpretation. It fits with the halls being later Ganga additions (lingaraj-017)."
+    },
+    {
+      "cid": "lingaraj-022",
+      "field": "sections.influences",
+      "text": "The main shrine is closely related in design to the nearby Brahmesvara temple, which was built a little earlier.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=feet%20high",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 120)",
+          "quote": "the sanctuary is otherwise a pancka-ratke deul having close architectural afTinities with the BrahmeSvara temple."
+        }
+      ],
+      "conflicts": "Brahmesvara is c. 1061 CE by Panigrahi's reckoning (leaf 60) but 1058/1060 CE in the pitfalls anchors. With Lingaraja begun c. 1020-1040 (Panigrahi), 'a little earlier' may not hold on Panigrahi's own dates.",
+      "notes": "SAFER TEXT: drop 'which was built a little earlier' and say only 'closely related in design to the nearby Brahmesvara temple'. Panigrahi's dates put Lingaraja's start (c. 1020-1040) BEFORE Brahmesvara (c. 1061). I kept the phrase only so the checker can see the problem, and recommend removing it."
+    },
+    {
+      "cid": "lingaraj-023",
+      "field": "sections.influences",
+      "text": "Later kings of the Ganga dynasty tried to match or beat Lingaraja. They built even bigger temples at Puri and Konark, using the same four-hall plan.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=stupendous",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 285)",
+          "quote": "had built a gigantic temple structure like the great Lingardja and the eminent mcinbcrxafthc Gaiiga dynasty by trying to emulate or even to outstrip them, built the more stupendous temples like lliosc at I'uri and Konarica."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22Great%20Temple%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "Built on the same principle as the Great Temple, at Bhubaneswar, and consisting of four edifices in one alignment"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's quote is about Puri only. Neither quote says Konark used the four-hall plan. SAFER TEXT: 'They built even bigger temples at Puri and Konark. Percy Brown noted that Puri follows the same four-hall plan.'"
+    },
+    {
+      "cid": "lingaraj-024",
+      "field": "sections.special",
+      "text": "When Ganga kings later remodelled the temple, they added some features linked to Vishnu. Panigrahi noted these are not found in other Shiva shrines.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Bhogamandapa",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 290)",
+          "quote": "In remodelling the Lihgar5ja temple, the Gahga kings also intro* duced some Vai^navite features wliich arc not to be found in any Saivashrine."
+        }
+      ],
+      "conflicts": "",
+      "notes": "I did not see which features Panigrahi means (the text after leaf 290 was not retrieved). Do not name them."
+    }
+  ],
+  "location": {
+      "note_on_placement": "Moved out of claims[]: in the temple schema, location is a plain block {place, district, lat, lng, coord_source}, not a Claim, and OSM is not an accepted citation type, so it carries no tier.",
+      "value": { "place": "Bhubaneswar", "district": "Khordha", "lat": 20.238369, "lng": 85.833719, "coord_source": "https://www.openstreetmap.org/way/225868292" },
+      "evidence": [
+        {
+          "source_id": null,
+          "fetched_url": "https://nominatim.openstreetmap.org/search?q=Lingaraj+Temple+Bhubaneswar&format=json",
+          "access": "full-text",
+          "locator": "osm_type way, osm_id 225868292",
+          "quote": "Lord Lingaraj Temple, Rath Road, Ward 60, South East Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751002, India"
+        },
+        {
+          "source_id": null,
+          "fetched_url": "https://www.openstreetmap.org/way/225868292",
+          "access": "full-text",
+          "locator": "way tags",
+          "quote": "name=Lord Lingaraj Temple; amenity=place_of_worship; historic=archaeological_site; religion=hindu; wikidata=Q2365530"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Nominatim gives the coordinates of the mapped temple-compound area (a 'way'), not an exact point on the tower. The way also has a mis-tagged 'name:hi=entrada para no-hindues prohibida' (Spanish text in the Hindi-name field). It is not an accepted source for access rules, so do not use it."
+    }
+  ],
+  "new_sources": [],
+  "gaps": [
+    {
+      "field": "sections.construction (stone of the main tower)",
+      "searched": ["panigrahi-1961 search-inside (feet high, stupendous)", "fergusson-1876 search-inside (leaf 433)", "mitra-r-1880 search-inside (feet, height)"],
+      "why_blank": "Wikipedia cites 'Khondalite and laterite' to Javeed 2008, a popular book I did not open. The only material I found in an accepted source is laterite for the compound wall and its enclosure. What the tower itself is built of (sandstone or khondalite) was not seen."
+    },
+    {
+      "field": "sections.parts: Ganga grants (Saka 1094 = 1172 CE, Rajaraja II)",
+      "searched": ["panigrahi-1961 search-inside q=Rajaraja (only Meghesvara inscription found)", "WebSearch (returned only Wikipedia, blogs, tourism sites)"],
+      "why_blank": "No accepted source seen. Wikipedia cites Nihar Ranjan Patnaik, Economic History of Orissa (Indus, 1997), p. 57, which was not opened. The original inscription's publication (Epigraphia Indica or a similar volume) was not identified."
+    },
+    {
+      "field": "facts.temple_type ('rekha' wording)",
+      "searched": ["panigrahi-1961 search-inside", "brown-1959 search-inside"],
+      "why_blank": "No fetched Lingaraja passage uses the word 'rekha'. bose-1932 was not searched (budget). The only sourced type is pancharatha deul (lingaraj-006)."
+    },
+    {
+      "field": "facts.height (ASI or measured figure)",
+      "searched": ["panigrahi-1961 (180 ft and 128 ft, both found)", "fergusson-1876 ('over 180 ft')", "mitra-r-1880 search-inside q=height, q=\"180 feet\" (no tower height retrieved)"],
+      "why_blank": "No ASI measurement was found; mitra-d-1978 is catalogue-only. Mitra 1880's tower height was not retrieved by the search API."
+    },
+    {
+      "field": "facts.dynasty (Yayati I attribution)",
+      "searched": ["panigrahi-1961 (attributes Yayati II, not Yayati I)", "Wikipedia lead to Upinder Singh 2008 p. 622 (not opened)"],
+      "why_blank": "I found no accepted source that attributes Lingaraja to Yayati I."
+    },
+    {
+      "field": "access rules (Hindus-only)",
+      "searched": ["panigrahi-1961", "brown-1959", "mitra-r-1880"],
+      "why_blank": "No accepted source seen. Wikipedia cites a Bhubaneswar Municipal Corporation tourism page, which is not accepted. The OSM tag is not a source."
+    },
+    {
+      "field": "sketchfab",
+      "searched": ["https://api.sketchfab.com/v3/search?type=models&q=lingaraj", "https://api.sketchfab.com/v3/search?type=models&q=lingaraja%20temple&downloadable=true", "https://api.sketchfab.com/v3/models/e7ec5b5dd06948fd941214a6ce39e04f"],
+      "why_blank": "No Creative-Commons model found. 'Lingaraj Temple Complex' by Priyanshi_Agrawal has an empty licence, is not downloadable, and its description says it was generated with Meshy's AI toolkit. 'Lingraj Temple Main Entry' by vijay3ddesigner has licence None in the search results. The downloadable filter returned no results. Set sketchfab to null."
+    },
+    {
+      "field": "glossary",
+      "searched": [],
+      "why_blank": "Terms used here need glossary entries or confirmation: pancharatha, deul, jagamohana, natamandira, bhogamandapa, bada, gandi, mastaka, pista, laterite, Tribhuvanesvara (no sourced meaning found — do not translate)."
+    },
+    {
+      "field": "catalogue-only registry sources",
+      "searched": ["mitra-d-1978", "donaldson-1985", "behera-1993", "mohapatra-1986"],
+      "why_blank": "Not readable online, so not used. No claim here rests on them."
+    }
+  ]
+}
