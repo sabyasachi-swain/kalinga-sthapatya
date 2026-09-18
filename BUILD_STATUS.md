@@ -68,7 +68,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 ## Running
 
 - Research wave 1: konark ✅ (11/18/0/0) · lingaraj ✅ (5 approved, 17 revised, 2 rejected, 0 needs-human; height null) · history ✅ (6 approved, 27 revised, 1 rejected, 3 needs-human — all framework).
-- Research wave 2: parasuramesvara, mukteshwar, jagannath-puri researchers running (Opus). architecture next.
+- Research wave 2: parasuramesvara, mukteshwar, jagannath-puri researchers running (Opus) + architecture (types, elements, glossary) running. Academy topic (why-questions, builder steps) split out — starts when a slot frees.
 - Phase 4 batch 1: review done → visual-briefs/BATCH-1-REVIEW.md. 12 ready, 3 ready-with-notes, 6 good-but-low-res, 10 to regenerate (V-33 text+trident; V-43–45 domes). Waiting on the human.
 
 ## Blocked
