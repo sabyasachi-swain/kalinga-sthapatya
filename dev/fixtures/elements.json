@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "id": "fixture-element-1",
+      "name": "FIXTURE Gandi-like Part",
+      "plain_name": "Lorem ipsum tower part",
+      "group": "vertical-division",
+      "parent": null,
+      "what": {
+        "text": "FIXTURE: this is a made-up part used only to test component rendering.",
+        "tier": "scholarly",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 12" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "why": null,
+      "temple_ids": ["fixture-temple-a"]
+    },
+    {
+      "id": "fixture-element-2",
+      "name": "FIXTURE Base Part",
+      "plain_name": "Lorem ipsum base part",
+      "group": "bada-part",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    }
+  ]
+}

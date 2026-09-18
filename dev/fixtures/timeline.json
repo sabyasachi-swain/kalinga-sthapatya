@@ -1,0 +1,34 @@
+{
+  "eras": [
+    {
+      "id": "fixture-era-1",
+      "order": 1,
+      "label": "FIXTURE Era: Lorem Ipsum Beginnings",
+      "period": {
+        "text": "FIXTURE: about the 1st–2nd century of make-believe.",
+        "value": "c. 1st–2nd century FIXTURE",
+        "tier": "scholarly",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 3" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "headline": "FIXTURE headline: lorem ipsum dolor sit amet",
+      "design_change": [
+        {
+          "text": "FIXTURE: temples in this made-up era supposedly grew a fake extra room.",
+          "tier": "uncertain",
+          "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+          "note": "FIXTURE note: some made-up scholars disagree on whether this happened at all.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "dynasty": null,
+      "temples": [{ "temple_id": "fixture-temple-a" }, { "name": "FIXTURE Temple B", "temple_id": null }],
+      "media": "V-FIX3"
+    }
+  ]
+}

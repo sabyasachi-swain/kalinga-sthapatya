@@ -1,0 +1,107 @@
+{
+  "temples": [
+    {
+      "id": "fixture-temple-a",
+      "name": "FIXTURE Temple A",
+      "name_odia": null,
+      "page": "temples/fixture-temple-a.html",
+      "temple_type": "rekha",
+      "era_id": "fixture-era-1",
+      "sort_year": 999,
+      "location": {
+        "place": "FIXTURE Town",
+        "district": "FIXTURE District",
+        "lat": 20.0,
+        "lng": 85.0,
+        "coord_source": "https://example.org/fixture-coords"
+      },
+      "one_liner": {
+        "text": "FIXTURE: lorem ipsum dolor sit amet, this fake temple stands for testing only.",
+        "tier": "scholarly",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 1" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "facts": {
+        "date": {
+          "text": "FIXTURE: built around 900–920 FIXTURE-CE.",
+          "value": "c. 900–920 FIXTURE-CE",
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 10" },
+            { "id": "fixture-source-2", "locator": "unverified" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "dynasty": {
+          "text": "FIXTURE: attributed to the made-up Lorem dynasty.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 15" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "height": null,
+        "deity": {
+          "text": "FIXTURE: according to tradition, dedicated to a made-up deity; other fixture sources disagree.",
+          "tier": "uncertain",
+          "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+          "note": "FIXTURE note: Fixture Scholar Two says deity X; Fixture Scholar Three says deity Y. Unresolved.",
+          "access": "snippet",
+          "human_approved": "2026-09-18",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "temple_type": {
+          "text": "FIXTURE: classified as a made-up rekha-style tower, known only from a catalogue listing.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-4", "locator": "unverified" }],
+          "note": null,
+          "access": "catalogue-only",
+          "human_approved": "2026-09-18",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["fixture-element-1", "fixture-element-2"],
+          "intro": [
+            {
+              "text": "FIXTURE: this fake temple has a fake tower and a fake base, shown for layout testing.",
+              "tier": "scholarly",
+              "sources": [{ "id": "fixture-source-1", "locator": "p. 20" }],
+              "note": null,
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-18"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "FIXTURE: lorem ipsum dolor sit amet, a fake patron built this for a fake reason.",
+            "tier": "uncertain",
+            "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+            "note": "FIXTURE note: no fixture source actually agrees on why this fake temple was built.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "construction": [],
+        "special": [],
+        "size": { "height_m": null, "note": null },
+        "influences": []
+      },
+      "media": { "hero": "V-FIX2", "silhouette": "V-FIX1", "parts_diagram": "V-FIX3" },
+      "sketchfab": null
+    }
+  ]
+}

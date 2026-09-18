@@ -1,0 +1,61 @@
+{
+  "temple_types": [
+    {
+      "id": "fixture-type-1",
+      "name": "FIXTURE Deula",
+      "plain_name": "Lorem ipsum tower temple",
+      "roof_shape": {
+        "text": "FIXTURE: a made-up curved roof shape, for testing card layout only.",
+        "tier": "established",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 5" }, { "id": "fixture-source-2", "locator": "unverified" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "typical_use": null,
+      "deity_association": null,
+      "examples": ["fixture-temple-a"],
+      "media": "V-FIX1"
+    }
+  ],
+  "why_questions": [
+    {
+      "id": "fixture-why-1",
+      "order": 1,
+      "question": "FIXTURE: why is this made up?",
+      "answer": [
+        {
+          "text": "FIXTURE: because lorem ipsum dolor sit amet, this is only a test answer.",
+          "tier": "uncertain",
+          "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+          "note": "FIXTURE note: made-up scholars disagree about this made-up question.",
+          "access": "snippet",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "media": "V-FIX2"
+    }
+  ],
+  "builder_steps": [
+    {
+      "id": "fixture-step-1",
+      "order": 1,
+      "title": "FIXTURE Step: Lorem ipsum ground plan",
+      "body": [
+        {
+          "text": "FIXTURE: a fake step in a fake building process, for layout testing only.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-4", "locator": "unverified" }],
+          "note": null,
+          "access": "catalogue-only",
+          "human_approved": "2026-09-18",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "media": "V-FIX3"
+    }
+  ]
+}

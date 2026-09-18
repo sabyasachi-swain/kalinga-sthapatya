@@ -1,0 +1,42 @@
+{
+  "terms": [
+    {
+      "id": "fixture-term-1",
+      "term": "Fixturagandi",
+      "odia": null,
+      "short": {
+        "text": "FIXTURE: a made-up word meaning \"lorem ipsum tower\" for testing only.",
+        "tier": "scholarly",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 40" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "long": [
+        {
+          "text": "FIXTURE: a longer made-up explanation, lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 41" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "element_id": "fixture-element-1",
+      "temple_ids": ["fixture-temple-a"],
+      "see_also": []
+    },
+    {
+      "id": "fixture-term-2",
+      "term": "Fixturamastaka",
+      "odia": null,
+      "short": null,
+      "long": [],
+      "element_id": null,
+      "temple_ids": [],
+      "see_also": []
+    }
+  ]
+}

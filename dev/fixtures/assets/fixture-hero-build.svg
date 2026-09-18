@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+  <g id="layer-ground">
+    <path pathLength="1" d="M600 700 L1100 700"/>
+  </g>
+  <g id="layer-pista">
+    <path pathLength="1" d="M650 700 L650 660 L1050 660 L1050 700"/>
+  </g>
+  <g id="layer-bada">
+    <path pathLength="1" d="M700 660 L700 480 L1000 480 L1000 660"/>
+    <path pathLength="1" d="M700 560 L1000 560"/>
+  </g>
+  <g id="layer-gandi">
+    <path pathLength="1" d="M700 480 C 720 300, 760 200, 850 140 C 940 200, 980 300, 1000 480"/>
+    <path pathLength="1" d="M760 400 L940 400"/>
+    <path pathLength="1" d="M780 320 L920 320"/>
+  </g>
+  <g id="layer-mastaka">
+    <path pathLength="1" d="M820 140 L880 140"/>
+    <path pathLength="1" d="M800 130 C 820 100, 880 100, 900 130"/>
+    <path pathLength="1" d="M850 100 L850 70"/>
+  </g>
+  <g id="layer-jagamohana">
+    <path pathLength="1" d="M650 660 L650 560 L720 500 L620 500 L620 660"/>
+  </g>
+</svg>

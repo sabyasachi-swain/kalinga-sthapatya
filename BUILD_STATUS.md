@@ -55,7 +55,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- kalinga-frontend-builder → Phase 2 foundation (build script, CSS, JS, index/about/404, dev fixtures)
+- kalinga-frontend-builder → Phase 2 fix round 1 (preview CSS paths, 404.html absolute URLs on GitHub Pages, colour-only emoji on About). Phase 2 build itself done; orchestrator verified with headless Chrome at 1440px and a true 375px frame.
 
 ## Blocked
 

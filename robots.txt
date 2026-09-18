@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sabyasachi-swain.github.io/kalinga-sthapatya/sitemap.xml

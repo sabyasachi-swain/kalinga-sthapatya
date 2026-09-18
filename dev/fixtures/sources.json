@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "id": "fixture-source-1",
+      "type": "book",
+      "authors": ["FIXTURE Author One"],
+      "title": "Lorem Ipsum: A Fake Study of Nothing in Particular",
+      "year": "1999",
+      "publisher": "FIXTURE Press",
+      "url": "https://example.org/fixture-source-1",
+      "url_kind": "publisher",
+      "identifiers": { "isbn": null, "doi": null },
+      "accessed": "2026-09-18",
+      "domain_reviewed": true,
+      "notes": "FIXTURE — dev preview only, not a real source."
+    },
+    {
+      "id": "fixture-source-2",
+      "type": "asi-report",
+      "authors": ["FIXTURE Survey Office"],
+      "title": "FIXTURE Report on the Lorem Ipsum Monument",
+      "year": "1950",
+      "publisher": "FIXTURE Government Press",
+      "url": "https://example.org/fixture-source-2",
+      "url_kind": "official",
+      "accessed": "2026-09-18",
+      "domain_reviewed": true,
+      "notes": "FIXTURE — dev preview only, not a real source."
+    },
+    {
+      "id": "fixture-source-3",
+      "type": "journal-article",
+      "authors": ["FIXTURE Scholar Two", "FIXTURE Scholar Three"],
+      "title": "Lorem Ipsum Dolor: Debated Fixture Claims Revisited",
+      "year": "2005",
+      "publisher": "Journal of FIXTURE Studies",
+      "url": "https://example.org/fixture-source-3",
+      "url_kind": "doi",
+      "accessed": "2026-09-18",
+      "domain_reviewed": true,
+      "notes": "FIXTURE — dev preview only, not a real source."
+    },
+    {
+      "id": "fixture-source-4",
+      "type": "thesis",
+      "authors": ["FIXTURE Candidate"],
+      "title": "FIXTURE Catalogue-Only Thesis: Lorem Ipsum Never Actually Read",
+      "year": "2010",
+      "publisher": "FIXTURE University",
+      "url": "https://example.org/fixture-source-4",
+      "url_kind": "catalogue",
+      "accessed": "2026-09-18",
+      "domain_reviewed": true,
+      "notes": "FIXTURE — dev preview only, not a real source."
+    }
+  ]
+}
