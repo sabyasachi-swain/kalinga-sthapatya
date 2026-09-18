@@ -1,0 +1,7 @@
+# local-only
+node_modules/
+.claude/settings.local.json
+research/backups/
+qa/reports/*.html
+.DS_Store
+Thumbs.db
