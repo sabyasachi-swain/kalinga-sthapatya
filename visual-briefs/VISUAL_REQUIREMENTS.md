@@ -389,3 +389,14 @@ temple dots placed by code from verified coordinates.
 ## 10. Regeneration notes
 
 (Integrator/brief-writer add entries here: `V-NN — <date> — what failed — what to change in the prompt`.)
+
+- **Batch 1 (2026-09-19)** — full review and paste-ready fix prompts: [BATCH-1-REVIEW.md](BATCH-1-REVIEW.md).
+  Lessons for future prompts: Gemini adds text labels to "exploded"/diagram-style renders unless told
+  repeatedly; it drifts to domes in multi-step series unless V-00 is attached as a shape reference at
+  every step; it substitutes wheeled carts for rollers; default output is ~1.4K, not 2K.
+  - V-33 — text labels baked in, trident emblem, crown pieces fused, five bada zones unclear → regenerate
+  - V-43/V-44/V-45 — tower became a dome with cupolas → regenerate with V-00 attached as shape reference
+  - V-42 — wheeled cart instead of rollers → edit
+  - V-32 — camera angle differs from V-30/V-31 → regenerate with V-30 attached
+  - V-35 — stray gap in wall silhouette, extra colours → regenerate SVG
+  - V-37 — missing `corbel` group id · V-51 — 3% short · V-52 — window holes not cut → SVG follow-ups

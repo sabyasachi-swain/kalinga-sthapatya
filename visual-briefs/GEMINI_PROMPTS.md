@@ -336,6 +336,7 @@ From the BOTTOM of the image to the TOP, in this order and roughly in these vert
    flattened, ribbed stone disc (like a giant gear-edged cushion); a dome-shaped cap; a pot-shaped
    finial; and at the very top a small plain metal emblem on a short staff with a plain cloth flag.
 
+IMPORTANT: write NO words or labels anywhere (no "CROWN", "TOWER", "WALL", "PLATFORM"). The emblem on the staff is a small plain flat metal plate — not a trident or any weapon.
 All pieces are centred on the same vertical axis. The whole composition fills the frame with a small
 white margin. No text, labels, arrows, numbers, lines or watermarks anywhere. No people, no background
 scenery, no second building.
@@ -460,18 +461,18 @@ view. Leave the centre-top of the frame open (the building will rise there in la
 Soft morning light from the left. No text, letters, numbers, watermarks, modern tools, machines or vehicles.
 ```
 
-**V-41 · The platform rises** — IMAGE · 16:9 · `V-41_step-2.png` · Attach V-40
+**V-41 · The platform rises** — IMAGE · 16:9 · `V-41_step-2.png` · Attach V-40 **and V-00** (shape reference — without it Gemini drifts to domes)
 ```
-Keep EXACTLY the same site, camera position, framing, painting style and light as the attached image.
+Keep EXACTLY the same site, camera position, framing, painting style and light as the first attached image; any tower must match the shape of the tower in the second attached image (curved sugar-loaf, never a dome).
 Change only this: on the marked plan, the temple's platform has now been built — several courses of
 dark red-brown laterite stone blocks, fitted tightly without mortar, forming a low solid plinth with
 a simple moulded edge. Some stone rows on the ground are used up. Wooden rollers lie beside a block
 being moved. Tiny faceless figures for scale only. No text, watermarks, machines or modern objects.
 ```
 
-**V-42 · The walls go up** — IMAGE · 16:9 · `V-42_step-3.png` · Attach V-41
+**V-42 · The walls go up** — IMAGE · 16:9 · `V-42_step-3.png` · Attach V-41 **and V-00** (shape reference — without it Gemini drifts to domes)
 ```
-Keep EXACTLY the same site, camera, framing, style and light as the attached image. Change only this:
+Keep EXACTLY the same site, camera, framing, style and light as the first attached image; the tower must match the shape of the tower in the second attached image (a curved sugar-loaf rekha tower — never a dome, no corner cupolas). Stones move on wooden log rollers — no wheeled carts. Change only this:
 on the platform, the square sanctum wall section now stands to full wall height, built of grey-brown
 stone blocks fitted without mortar, its faces broken into projecting vertical bands and divided into
 five stacked horizontal zones (base mouldings, lower wall, a band of mouldings, upper wall, top
@@ -479,27 +480,27 @@ cornice) — carving only roughly blocked out. Large stone blocks are being move
 toward it. Tiny faceless figures for scale. No text, watermarks, machines or modern objects.
 ```
 
-**V-43 · The tower curves upward** — IMAGE · 16:9 · `V-43_step-4.png` · Attach V-42
+**V-43 · The tower curves upward** — IMAGE · 16:9 · `V-43_step-4.png` · Attach V-42 **and V-00** (shape reference — without it Gemini drifts to domes)
 ```
-Keep EXACTLY the same site, camera, framing, style and light as the attached image. Change only this:
+Keep EXACTLY the same site, camera, framing, style and light as the first attached image; the tower must match the shape of the tower in the second attached image (a curved sugar-loaf rekha tower — never a dome, no corner cupolas). Stones move on wooden log rollers — no wheeled carts. Change only this:
 the tower is now half built above the walls, its courses of stone stepping gradually inward so the
 sides begin to curve toward the top. A long, gently sloping earthen ramp leans against one side of
 the tower, up which a large stone block is being hauled on rollers. Tiny faceless figures for scale.
 No text, watermarks, scaffolding of steel, machines or modern objects.
 ```
 
-**V-44 · The crown is placed** — IMAGE · 16:9 · `V-44_step-5.png` · Attach V-43
+**V-44 · The crown is placed** — IMAGE · 16:9 · `V-44_step-5.png` · Attach V-43 **and V-00** (shape reference — without it Gemini drifts to domes)
 ```
-Keep EXACTLY the same site, camera, framing, style and light as the attached image. Change only this:
+Keep EXACTLY the same site, camera, framing, style and light as the first attached image; the tower must match the shape of the tower in the second attached image (a curved sugar-loaf rekha tower — never a dome, no corner cupolas). Stones move on wooden log rollers — no wheeled carts. Change only this:
 the tower is complete with its full sugar-loaf curve, and the earthen ramp is lower. At the summit, a
 great flattened, ribbed circular stone disc is being lowered into place with ropes and a wooden
 pulley frame. The dome cap and pot-shaped finial wait beside it. Tiny faceless figures for scale.
 No text, watermarks, machines or modern objects.
 ```
 
-**V-45 · The team** — IMAGE · 16:9 · `V-45_step-6.png` · Attach V-44
+**V-45 · The team** — IMAGE · 16:9 · `V-45_step-6.png` · Attach V-44 **and V-00** (shape reference — without it Gemini drifts to domes)
 ```
-Keep EXACTLY the same site, camera, framing, style and light as the attached image. Change only this:
+Keep EXACTLY the same site, camera, framing, style and light as the first attached image; the tower must match the shape of the tower in the second attached image (a curved sugar-loaf rekha tower — never a dome, no corner cupolas). Stones move on wooden log rollers — no wheeled carts. Change only this:
 the ramp is gone and the temple stands complete, carvings finished, with a smaller stepped-roof hall
 beginning in front. In the foreground, three small groups of simple, faceless figures in plain period
 clothing: on the left, a patron standing with two attendants; in the centre, a master
