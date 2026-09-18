@@ -2,7 +2,7 @@
 
 Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
-**Current phase:** 1.0 done → waiting at G1 · Phase 2 — Frontend foundation (running) · **Next gate:** G1 — source registry review (see "G1 open items")
+**Current phase:** waiting at G1 (Phase 1.0 and Phase 2 done) · **Next gate:** G1 — source registry review (see "G1 open items")
 
 ## Gates
 
@@ -32,7 +32,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 - [ ] Phase 1.1–1.3 — research + fact-check (parasuramesvara · mukteshwar · lingaraj · jagannath-puri · konark · architecture · history)
 - [ ] Phase 1.4–1.5 — REVIEW.md → G2 → merge
 - [ ] Phase 1V — briefs (global now, temples after 1.5) → G3
-- [ ] Phase 2 — frontend foundation
+- [x] Phase 2 — frontend foundation (2026-09-18, commit 2339a57; verified in headless Chrome 1440px + true 375px)
 - [ ] Phase 3 — data-driven pages
 - [ ] Phase 4 — visual integration (G4 per asset)
 - [ ] Phase 5 — QA, strict validation → G5 → deploy
@@ -55,7 +55,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- kalinga-frontend-builder → Phase 2 fix round 1 (preview CSS paths, 404.html absolute URLs on GitHub Pages, colour-only emoji on About). Phase 2 build itself done; orchestrator verified with headless Chrome at 1440px and a true 375px frame.
+(none)
 
 ## Blocked
 
