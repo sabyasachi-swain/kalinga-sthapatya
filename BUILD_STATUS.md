@@ -52,7 +52,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 - **Era framework (revisits G0 decision A14):** no accessible source uses "Formative / Transitional / Mature"; Percy Brown 1959 (full text) uses Early c. 750–900 / Middle c. 900–1100 / Later c. 1100–1250. Decide: relabel/rebound the eras to a citable framework, or keep labels as our own editorial grouping (stated as such, not attributed to scholars).
 - Konark: surviving jagamohana height (Mitra ~39 m vs ASI web 30 m vs Brown 100 ft); collapse timing (1837 vs 1848); sand-fill 1901–1905; Kalapahar (Behera: no reliable evidence); craftsmen 12 vs 16 years (tradition either way).
-- Lingaraja: patron (Panigrahi: Yayati II + Uddyota Kesari); height (180 ft vs 128 ft, no ASI figure); natamandira 1099–1104 CE only from Fergusson's rejected king list.
+- Lingaraja: height left blank by the fact-checker — sources give 128 ft, 160–165 ft (R. Mitra), ~180 ft, >180 ft; no ASI figure. Human may choose to publish an `uncertain` range claim without size comparison (needs a small schema change) or keep blank. Natamandira 1099–1104 rejected. Patron uncertain (Panigrahi: Yayati II + Uddyota Kesari).
 - Dates vs research report: Parasuramesvara (Brown: late 8th c., report c. 650); Mukteshvara (Brown c. 975); Vaital Deul (Brown c. 900); Jagannath (Brown c. 1100 vs 1112).
 - Era 6 representative: Kapilesvara temple, Bhubaneswar (Panigrahi, hedged).
 - Implementation plan's map/timeline filter labels ("6th–7th, 9th–10th") don't match any sourced periods → Phase 3 derives filters from approved era data.
@@ -64,7 +64,8 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- Research wave 1: konark ✅ fact-checked (11 approved, 18 revised, 0 rejected, 0 needs-human; staged passes) · history + lingaraj fact-checks running. Wave 2 next: parasuramesvara, mukteshwar, jagannath-puri, architecture.
+- Research wave 1: konark ✅ (11/18/0/0) · lingaraj ✅ (5 approved, 17 revised, 2 rejected, 0 needs-human; height null) · history fact-check running.
+- Research wave 2: parasuramesvara, mukteshwar, jagannath-puri researchers running (Opus). architecture next.
 - Phase 4 batch 1: review done → visual-briefs/BATCH-1-REVIEW.md. 12 ready, 3 ready-with-notes, 6 good-but-low-res, 10 to regenerate (V-33 text+trident; V-43–45 domes). Waiting on the human.
 
 ## Blocked

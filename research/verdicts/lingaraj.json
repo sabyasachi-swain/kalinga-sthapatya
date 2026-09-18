@@ -1,0 +1,243 @@
+{
+  "topic": "lingaraj",
+  "checked_on": "2026-09-19",
+  "method": "Every fetched_url (archive.org fulltext/inside.php search-inside API) was re-fetched on 2026-09-19. The JSON returns OCR text snippets with a 'page' value, which is the scan leaf index, not the printed page. Each quote was matched against the returned text, allowing for OCR noise. Where a quote was only partly visible or its context mattered, I ran extra search-inside queries on the same scan (q=veneration, q=Kalasa, q=%22Great%20Tower%22, q=Uddyota, q=replaced, q=Tulavati, q=seventh%20century, q=Tanjore, q=%22great%20temple%22). All sources used (panigrahi-1961, brown-1959, fergusson-1876, mitra-r-1880) are already in data/sources.json, are type 'book', and are hosted on archive.org (trusted, not blocked). No source is primary-class, so no claim can be 'established'. Locators are written as 'scan leaf N (printed page unverified)'.",
+  "verdicts": [
+    {
+      "cid": "lingaraj-001",
+      "field": "facts.date",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All four quotes were found: Panigrahi leaf 30 ('a monument of the eleventh century') and leaf 191 (Yayati II c. 1020-1040, Uddyota Kesari c. 1040-1065); Brown leaf 214 ('cir. A.D. 1000') and leaf 182 (plate caption 'CIR.IOOO A.D.'). The date is stylistic or indirect, with no foundation inscription, so it is scholarly. '11th century CE' fits both sources. A note is added giving each scholar's figure.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-002",
+      "field": "facts.dynasty",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 194 and 187). Leaf 194 applies 'built during the Somavamsi period' to the main temple only; the side halls are later, possibly Ganga. So the text now says 'main temple'. Only one scholar is cited, so the tier is scholarly.",
+      "revised_text": "The main temple was built in the time of the Somavamshi (Kesari) kings."
+    },
+    {
+      "cid": "lingaraj-003",
+      "field": "sections.why_built (patron; no patron field exists in the temple schema)",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All three quotes were found; the leaf 277 snippet was checked in full through q=Tulavati. Panigrahi calls the Yayati II / Uddyota Kesari attribution 'most probable' (leaf 191) and says 'It was Yayati II and his son and successor Uddyota Kesari who built the great temple' (leaf 277). Leaf 282 says that inscriptions crediting kings with building temples are missing in Bhubaneswar. RULING: this is one scholar's inference, and the pitfall rule on Yayati attributions applies. Tier 'uncertain' with a note, never established. The wording keeps Panigrahi's hedge ('most likely'). He credits Yayati I with the Mukteshvara, not with Lingaraja (leaf 277, verified). The claim is moved to sections.why_built because facts.dynasty already holds lingaraj-002.",
+      "revised_text": "No known inscription names the builder. Historian K.C. Panigrahi thought it most likely that King Yayati II began it and his son Uddyota Kesari finished it."
+    },
+    {
+      "cid": "lingaraj-004",
+      "field": "facts.height",
+      "verdict": "rejected",
+      "tier": null,
+      "quote_check": "found",
+      "reason": "All three quotes were found: Panigrahi leaf 120 'about 180 feet', Panigrahi leaf 14 '128 feet high', and Fergusson leaf 433 'over 180 ft'. However, a further source in the registry gives a different measured figure. Mitra 1880 (mitra-r-1880, 1963 reprint), scan leaf 162, found through q=Kalasa: 'The height of the temple from the paved court-yard to the top of the Kalasa is 160 feet ... the total height originally must have been about 165 feet.' Mitra's leaf 226 repeats 160 ft when comparing with Puri. That gives three sources and four figures: 128 ft (39 m), 160-165 ft (49-50 m) and about/over 180 ft (55 m), with no ASI measurement. The ledger's text 'Scholars give ... about 55 m (180 ft)' overreaches, because it ignores Mitra's more precise measurement. RULING: with a spread of 39-55 m, a single value_m would feed computed size comparisons with a number the sources do not agree on. facts.height = null and sections.size = {height_m: null, note: null}. To reopen, the researcher should record Mitra leaf 162 in the ledger and look for the ASI figure (Debala Mitra, Bhubaneswar). A human could then approve an 'uncertain' claim.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-005",
+      "field": "facts.deity",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Quotes were found on leaves 214, 290 and 45. Leaf 214 says Tribhuvanesvara (also known as Krittivasa and Lingaraja) is the presiding deity 'of the place'. Leaf 277 (verified) calls the great temple 'Krittivasa or Lingaraja'. Leaf 290 treats it as a Saiva shrine. The wording is reframed respectfully ('Hindus worship him here as...'). The leaf 45 translation of a traditional text is not needed and was dropped.",
+      "revised_text": "The temple is dedicated to Shiva. Hindus worship him here as Tribhuvanesvara, also known as Krittivasa and Lingaraja."
+    },
+    {
+      "cid": "lingaraj-006",
+      "field": "facts.temple_type",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (leaf 120 'pancha-ratha deul'; leaf 198 'Lingaraja is pancha-ratha'). The gloss 'walls step out in five vertical bands on each side' is not in any fetched source, so it was removed; the meaning must come from a sourced glossary entry. No fetched source calls Lingaraja 'rekha'. The structural temple_type enum is set to 'rekha' as instructed, but the claim says only what is sourced.",
+      "revised_text": "According to K.C. Panigrahi, the main shrine is a pancharatha deul."
+    },
+    {
+      "cid": "lingaraj-007",
+      "field": "one_liner",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found: Brown leaf 214 'the finest living example of the Orissan group' and Panigrahi leaf 120 'by far the most notable temple not only of Bhubaneswar, but also of Orissa'. 'Finest temple of its kind' merges the two views loosely. The new wording follows Panigrahi's phrase, which Brown's judgement also supports; both are cited. 'Shiva temple' rests on Panigrahi leaf 290 (Saiva shrine).",
+      "revised_text": "The great Shiva temple of Bhubaneswar, which scholars call the most notable temple in Odisha."
+    },
+    {
+      "cid": "lingaraj-008",
+      "field": "sections.why_built",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on Brown leaf 214. Checking the full snippet (q=veneration) shows that what 'plainly indicates' the veneration is 'the large concentration of temples within and around the town of Bhubaneswar itself'. 'Very old holy ground' overreaches: Brown does not say 'old' here. The text now follows Brown.",
+      "revised_text": "The temple stands in a very holy area. Percy Brown noted that the many temples in and around Bhubaneswar show how sacred this place was."
+    },
+    {
+      "cid": "lingaraj-009",
+      "field": "sections.why_built",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found verbatim on leaf 47; the full snippet was checked. 'Smaller' is not in the source, so it was removed. The hedges ('might have', 'It seems') are kept.",
+      "revised_text": "Historian K.C. Panigrahi thought this temple replaced an older temple on the same spot. Some early sculptures in the courtyard may have come from that older temple."
+    },
+    {
+      "cid": "lingaraj-010",
+      "field": "sections.why_built",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Both leaf 46 quotes were found. The '7th century' was confirmed through q=seventh%20century: leaf 30 says 'the existence of a stone temple in this shrine in the early part of the seventh century', and Panigrahi has Sasanka ruling in Orissa up to at least 619 CE. 'No trace of that temple has been identified' overreaches: Panigrahi says only that he cannot identify which temple Sasanka built. The text is labelled as tradition.",
+      "revised_text": "According to tradition, King Sasanka built an earlier temple at this shrine in the 7th century CE. Panigrahi could not identify which temple that was."
+    },
+    {
+      "cid": "lingaraj-011",
+      "field": "sections.construction",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Fergusson leaf 433. The passage calls the building only the 'northern example', compared with Tanjore. The same leaf carries the heading/plate 'GREAT TEMPLE AT BHUVANESWAR' ('Plan of Great Temple at Bhuvaneswar'), which supports the identification. Both statements come from one 1876 author, so they are attributed to him. Nothing here implies 'no metal' (pitfall checked).",
+      "revised_text": "James Fergusson noted that the tower is built wholly of stone, from base to top. He also wrote that every stone in it has a carved pattern."
+    },
+    {
+      "cid": "lingaraj-012",
+      "field": "sections.construction",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Panigrahi leaf 120. The text correctly attributes the observation to R.D. Banerji as reported by Panigrahi.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-013",
+      "field": "sections.construction",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Mitra 1880 leaves 153-154, Panigrahi leaf 120 and Brown leaf 214 all give 520 x 465 ft. Mitra leaf 153 says 'The largest edifice at Bhuvanesvara is the Great Tower', confirming what 'Great Tower' refers to. Laterite for the wall is confirmed by Mitra leaf 154 and Panigrahi leaf 120. The metric conversions are correct (158.5 m by 141.7 m). No source is primary-class, so the tier is scholarly.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-014",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both Brown leaf 214 quotes were found. 'In one line' is inferred from Brown's sentence about Puri (leaf 215), not stated for Lingaraja, so it was removed. The Fergusson 300 ft quote was found (leaf 432), but it does not support this sentence, so it was dropped from this claim. 'As it stands at present' becomes 'Today'.",
+      "revised_text": "Today Lingaraja has all four buildings of a fully developed Odisha temple: the tower shrine, the porch hall, the dance hall and the offering hall."
+    },
+    {
+      "cid": "lingaraj-015",
+      "field": "sections.special",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Brown leaf 214. The comparison is correctly attributed to Brown.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-016",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on Panigrahi leaf 120. 'Can be seen across the land for many kilometres' turns 'dominating the entire landscape within an area of about ten miles' into a claim about visibility; the new text stays with 'dominates'. The claim no longer relies on the 180 ft figure (see the lingaraj-004 ruling).",
+      "revised_text": "Panigrahi wrote that the temple dominates the landscape for miles around. He called it the purest example of the Kalinga style of building."
+    },
+    {
+      "cid": "lingaraj-017",
+      "field": "sections.parts.intro",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Fergusson leaf 432, Panigrahi leaf 198 and Panigrahi leaf 194. Two scholars agree that the two outer halls were later additions. No date is stated.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-018",
+      "field": "sections.parts (natamandira date 1099-1104 CE)",
+      "verdict": "rejected",
+      "tier": null,
+      "quote_check": "found",
+      "reason": "All four quotes were found (Fergusson leaves 435 and 429; Panigrahi leaf 187). The date rests only on Fergusson 1876, whose basis is not visible in the fetched text; he names no source in the snippet. The claim's key steps are not supported by the quotes. (1) That Fergusson's date is 'chronicle-based' is the researcher's inference from Fergusson using the Kesari king list elsewhere (leaf 429). (2) 'Later historians rejected that chronicle's dates': only Panigrahi is cited, and he does not address 1099-1104 directly. His 'Ganga period' for the added halls may even overlap those years. Giving a precise year range to families from one 19th-century assertion with an unseen basis is not acceptable, even as 'uncertain'. lingaraj-017 already says the halls were added later.",
+      "revised_text": null
+    },
+    {
+      "cid": "lingaraj-019",
+      "field": "sections.parts.intro",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Both quotes were found on leaf 277. The full snippet (q=Tulavati) adds: 'It seems most probable that Tulavati Rani is no other than Kolavati Rani, the builder of the Brahmesvara temple, but she was not the queen of Vasukalpa Kesari but of Yayati Kesari or Yayati II', and 'Kolavatidevi, the mother of Uddyota Kesari'. So the identification is verified as Panigrahi's inference. The text is reframed to lead with the chronicle and to attribute the identification to Panigrahi. The tier is uncertain: a chronicle tradition plus one scholar's identification.",
+      "revised_text": "According to a temple chronicle, a queen had the eastern part of the temple rebuilt. Panigrahi thought she was Queen Kolavati, mother of Uddyota Kesari, and that she most likely built the porch hall."
+    },
+    {
+      "cid": "lingaraj-020",
+      "field": "sections.parts (element_ids + intro)",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Brown leaf 214; Panigrahi leaf 198). The four buildings are sourced (Brown), and 'the tower' is sourced (Panigrahi leaf 120, Fergusson leaf 433). No Lingaraja-specific passage using bada or mastaka was seen, so element_ids is limited to gandi, jagamohana, natamandira and bhogamandapa; bada and mastaka can be added once sourced. 'No pista' is supported as 'no high plinth' (leaf 198: Lingaraja 'rises abruptly from the ground level'). The four-building list already appears in lingaraj-014, so the intro sentence now covers only the plinth point, in plain English.",
+      "revised_text": "The main temple rises straight from the ground, with no high plinth (raised base) under it. Panigrahi contrasted this with the Parvati temple, which stands on a high plinth."
+    },
+    {
+      "cid": "lingaraj-021",
+      "field": "sections.parts.intro",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on leaf 285 (OCR noise on the Odia hall names only). 'By this time' refers to context that was not quoted, so it is replaced with neutral wording. The interpretation is attributed to Panigrahi.",
+      "revised_text": "Panigrahi explained that a temple's chief god came to be seen as living like a king. So the god needed an audience hall, a dance hall and a dining hall."
+    },
+    {
+      "cid": "lingaraj-022",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on leaf 120. As the researcher flagged, 'which was built a little earlier' contradicts Panigrahi's own dates, so it was removed. 'Nearby' is not in the quote and was also removed. The view is attributed to Panigrahi.",
+      "revised_text": "Panigrahi found the main shrine closely related in design to the Brahmesvara temple."
+    },
+    {
+      "cid": "lingaraj-023",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Panigrahi leaf 285 and Brown leaf 215 were both found. Brown's 'same principle ... four edifices in one alignment' is about the Puri temple (confirmed), not Konark, so Konark is no longer linked to the four-hall plan. Panigrahi's 'emulate or even to outstrip them' refers to the (Somavamshi) kings who built Lingaraja; the wording now follows him.",
+      "revised_text": "Panigrahi wrote that later Ganga kings tried to match or outdo the builders of Lingaraja. They built even grander temples at Puri and Konark. Percy Brown noted that Puri follows the same four-building plan, in one line."
+    },
+    {
+      "cid": "lingaraj-024",
+      "field": "sections.special",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on leaf 290. The features themselves are not named, which is correct.",
+      "revised_text": null
+    }
+  ],
+  "location": {
+    "verdict": "approved",
+    "reason": "https://www.openstreetmap.org/way/225868292 re-fetched: name 'Lord Lingaraj Temple', amenity=place_of_worship, historic=archaeological_site, religion=hindu, wikidata=Q2365530. Nominatim re-fetched: way 225868292, lat 20.2383690, lon 85.8337190, display_name '... Bhubaneswar ... Khordha, Odisha ...'. The point is the centre of the compound area, not the tower. The mis-tagged name:hi field is ignored. OSM is a coordinate source only, not a citation.",
+    "value": { "place": "Bhubaneswar", "district": "Khordha", "lat": 20.238369, "lng": 85.833719, "coord_source": "https://www.openstreetmap.org/way/225868292" }
+  },
+  "sketchfab": { "verdict": "null", "reason": "Per the researcher's gap, no Creative-Commons model was found; the only candidate is unlicensed and AI-generated. Not re-searched; a null needs no verification." },
+  "rulings": {
+    "facts.height": "NULL. Three sources give four figures (128 ft Panigrahi leaf 14; 160 ft measured, about 165 ft original, Mitra 1880 leaf 162; about 180 ft Panigrahi leaf 120; over 180 ft Fergusson leaf 433), with no ASI figure. A 39-55 m spread cannot be used for computed size comparisons. sections.size.height_m = null.",
+    "patron": "Uncertain. 'No known inscription names the builder. Historian K.C. Panigrahi thought it most likely that King Yayati II began it and his son Uddyota Kesari finished it.' The note says only Panigrahi was checked and that he gives Yayati I the Mukteshvara.",
+    "natamandira_1099_1104": "Rejected. Only Fergusson 1876 gives it, his basis is not visible, and the 'chronicle-based, later rejected' framing is not supported by the quotes.",
+    "lingaraj-022": "Revised: 'built a little earlier' removed.",
+    "lingaraj-023": "Revised: the four-hall plan is attributed to Puri only (Brown)."
+  },
+  "gaps_for_researcher": [
+    "facts.height: record Mitra 1880 leaf 162 (160 ft court-to-kalasa, about 165 ft original) and leaf 226; look for the ASI figure (Debala Mitra, Bhubaneswar) in full text.",
+    "sections.parts.element_ids: bada and mastaka need a Lingaraja-specific source. Mitra 1880 leaf 161 appears to describe the kalasa and crowning parts, but it was not quoted.",
+    "facts.temple_type: 'rekha' needs a source (e.g. bose-1932).",
+    "glossary: pancharatha, deul, Tribhuvanesvara, Krittivasa, plinth, laterite need entries or confirmation.",
+    "natamandira date: find Fergusson's stated source (footnote) or a modern accepted source before re-proposing."
+  ]
+}
