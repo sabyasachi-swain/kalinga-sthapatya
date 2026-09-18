@@ -1,20 +1,16 @@
 {
+  "target": "sources",
   "sources": [
     {
       "id": "donaldson-1985",
       "type": "book",
-      "authors": [
-        "Thomas E. Donaldson"
-      ],
+      "authors": ["Thomas E. Donaldson"],
       "title": "Hindu Temple Art of Orissa",
       "year": "1985–1987",
       "publisher": "E.J. Brill, Leiden (Studies in South Asian Culture, XII)",
       "url": "https://books.google.co.in/books/about/Hindu_temple_art_of_Orissa.html?id=4IYMAQAAMAAJ&redir_esc=y",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": "9789004071735",
-        "doi": null
-      },
+      "identifiers": { "isbn": "9789004071735", "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Catalogue record only (Google Books, snippet view; no full text online). Record shows Thomas E. Donaldson, Brill, 1985, ISBN 9004071733 / 9789004071735, but labels the volume 'Volume 12, Part 2'. Retailers give 9789004071742 for Vol. 1, so check which volume/set this ISBN covers before citing it. brill.com/view/title/2581 returned HTTP 403 and could not be checked. Three volumes, 1985–1987."
@@ -22,20 +18,13 @@
     {
       "id": "boner-rath-sarma-1966",
       "type": "primary-text",
-      "authors": [
-        "Ramacandra Kaulacara",
-        "Alice Boner (translator)",
-        "Sadasiva Rath Sarma (translator)"
-      ],
+      "authors": ["Ramacandra Kaulacara", "Alice Boner (translator)", "Sadasiva Rath Sarma (translator)"],
       "title": "Silpa Prakasa: Medieval Orissan Sanskrit Text on Temple Architecture",
       "year": "1966",
       "publisher": "E.J. Brill, Leiden",
       "url": "https://search.worldcat.org/title/Silpa-Prakasa-:-Medieval-Orissan-Sanskrit-text-on-temple-architecture/oclc/490220157",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Catalogue record only (WorldCat: Ramacandra Kaulacara, Alice Boner, Sadasiva Rath Sarma; E. J. Brill, Leiden, 1966). No full text online was found. HathiTrust record 000561641 returned HTTP 403. Book reviews exist at Cambridge Core (JRAS, BSOAS, JAS); they are reviews, not the edition itself."
@@ -43,23 +32,13 @@
     {
       "id": "baumer-das-das-nd",
       "type": "primary-text",
-      "authors": [
-        "Ramacandra Kaulacara",
-        "Alice Boner (translator)",
-        "Sadasiva Rath Sarma (translator)",
-        "Bettina Baumer (ed.)",
-        "Rajendra Prasad Das (ed.)",
-        "Sadananda Das (ed.)"
-      ],
+      "authors": ["Ramacandra Kaulacara", "Alice Boner (translator)", "Sadasiva Rath Sarma (translator)", "Bettina Baumer (ed.)", "Rajendra Prasad Das (ed.)", "Sadananda Das (ed.)"],
       "title": "Silpa Prakasa (revised edition)",
       "year": "n.d. (publisher page gives no date)",
       "publisher": "IGNCA / Motilal Banarsidass, Delhi",
       "url": "https://www.motilalbanarsidass.com/products/silpa-prakasa",
       "url_kind": "publisher",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Publisher page only (no full text online). The page names Boner and Rath Sarma, and Baumer, R.P. Das and S. Das for the revised edition, with IGNCA; hardbound, 490 pp. It calls this 'a completely revised version and text translation' of the 1966 Brill edition. The page shows NO year and NO ISBN. Retailers list 2005 and ISBN 9788120820524, but no library catalogue confirming them could be fetched. A human should confirm the year and ISBN, then rename the id (e.g. baumer-2005)."
@@ -67,18 +46,13 @@
     {
       "id": "panigrahi-1961",
       "type": "book",
-      "authors": [
-        "Krishna Chandra Panigrahi"
-      ],
+      "authors": ["Krishna Chandra Panigrahi"],
       "title": "Archaeological Remains at Bhubaneswar",
       "year": "1961",
       "publisher": "Orient Longmans, Bombay",
       "url": "https://archive.org/details/in.ernet.dli.2015.111041",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India; PDF and OCR text downloadable). The OCR title page reads 'Orient Longmans' (Bombay, Calcutta, Madras, New Delhi), '© Krishna Chandra Panigrahi 1961'. The archive.org metadata wrongly says 1960 / New Delhi. The title page is authoritative."
@@ -86,18 +60,13 @@
     {
       "id": "mitra-r-1875",
       "type": "book",
-      "authors": [
-        "Rajendralala Mitra"
-      ],
+      "authors": ["Rajendralala Mitra"],
       "title": "The Antiquities of Orissa, Vol. I",
       "year": "1875",
       "publisher": "Wyman and Co., Calcutta (published under orders of the Government of India)",
       "url": "https://archive.org/details/in.ernet.dli.2015.38323",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India, public domain; PDF and OCR text downloadable). Metadata: 'Antiquities Of Orissa Vol. 1', Mitra, Rajendralala, 1875, Wyman And Co., Kolkata, 267 pp. A second scan of Vol. I is at archive.org/details/in.ernet.dli.2015.102782 (not checked separately)."
@@ -105,18 +74,13 @@
     {
       "id": "mitra-r-1880",
       "type": "book",
-      "authors": [
-        "Rajendralala Mitra"
-      ],
+      "authors": ["Rajendralala Mitra"],
       "title": "The Antiquities of Orissa, Vol. II",
       "year": "1880",
       "publisher": "W. Newman & Co., Calcutta (published under orders of the Government of India)",
       "url": "https://archive.org/details/in.ernet.dli.2015.44126",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India, public domain). The scan is a 1963 REPRINT by Indian Studies: Past & Present. Its editor's note says Vol. II was 'originally published in 1880'. It includes the 1880 title page (W. Newman & Co., Calcutta). The archive.org metadata publisher 'K. L. Mukhopadhyaya' does not match the scanned title pages. Page numbers may differ from the 1880 printing."
@@ -124,18 +88,13 @@
     {
       "id": "ganguly-1912",
       "type": "book",
-      "authors": [
-        "Mano Mohan Ganguly"
-      ],
+      "authors": ["Mano Mohan Ganguly"],
       "title": "Orissa and Her Remains, Ancient and Mediaeval",
       "year": "1912",
       "publisher": "Thacker, Spink & Co., Calcutta",
       "url": "https://archive.org/details/in.ernet.dli.2015.536395",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India; PDF and OCR text downloadable; 648 pp.). Metadata: Ganguly, Mano Mohan; 1912; Thacker Spink. The '(Puri District)' subtitle in the research report was not seen in the metadata."
@@ -143,18 +102,13 @@
     {
       "id": "fergusson-1876",
       "type": "book",
-      "authors": [
-        "James Fergusson"
-      ],
+      "authors": ["James Fergusson"],
       "title": "History of Indian and Eastern Architecture",
       "year": "1876",
       "publisher": "John Murray, London",
       "url": "https://archive.org/details/in.ernet.dli.2015.62030",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India; PDF and OCR text downloadable; 772 pp.). First edition: London, John Murray, Albemarle Street, 1876. For the 1910 revision see fergusson-1910."
@@ -162,20 +116,13 @@
     {
       "id": "fergusson-1910",
       "type": "book",
-      "authors": [
-        "James Fergusson",
-        "James Burgess (reviser)",
-        "Richard Phené Spiers (reviser)"
-      ],
+      "authors": ["James Fergusson", "James Burgess (reviser)", "Richard Phené Spiers (reviser)"],
       "title": "History of Indian and Eastern Architecture (revised edition, 2 vols)",
       "year": "1910",
       "publisher": "John Murray, London",
       "url": "https://wellcomecollection.org/works/c5gap8ud",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Wellcome Collection record: 'by the late James Fergusson; revised and ed. with additions, Indian architecture by James Burgess, and Eastern architecture by R. Phené Spiers', London: J. Murray, 1910, 2 vols. Wellcome says a digitised copy is viewable online but marks it 'In copyright'. Treat as readable online, subject to Wellcome's reuse terms."
@@ -183,18 +130,13 @@
     {
       "id": "brown-1959",
       "type": "book",
-      "authors": [
-        "Percy Brown"
-      ],
+      "authors": ["Percy Brown"],
       "title": "Indian Architecture (Buddhist and Hindu Periods)",
       "year": "1959",
       "publisher": "D.B. Taraporevala Sons & Co., Bombay",
       "url": "https://archive.org/details/dli.csl.8666",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India / Central Secretariat Library; free PDF download). This is the 1959 printing, not the 1942 first edition cited in the research report. Cite this edition's pages. WARNING: archive.org item in.ernet.dli.2015.16883 (1942, 'Indian Architecture') is the ISLAMIC PERIOD volume, per its OCR title page; do not use it for temples. A 1971 printing (archive.org/details/indianarchitectu0000perc) is borrow-only."
@@ -202,18 +144,13 @@
     {
       "id": "mitra-d-1978",
       "type": "asi-report",
-      "authors": [
-        "Debala Mitra"
-      ],
+      "authors": ["Debala Mitra"],
       "title": "Bhubaneswar",
       "year": "1978 (4th ed.)",
       "publisher": "Archaeological Survey of India, New Delhi",
       "url": "https://openlibrary.org/works/OL15323420W/Bhubaneswar",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Catalogue record only (Open Library: Debala Mitra, Archaeological Survey of India, 4th ed., 1978, 79 pp. + 22 plates; not readable or borrowable online). The 1958 first edition was NOT confirmed in any fetched catalogue; only bookseller listings give it. Researchers cannot read this guide online."
@@ -221,18 +158,13 @@
     {
       "id": "mitra-d-2003",
       "type": "asi-report",
-      "authors": [
-        "Debala Mitra"
-      ],
+      "authors": ["Debala Mitra"],
       "title": "Konarak",
       "year": "2003 (first published 1968)",
       "publisher": "Archaeological Survey of India, New Delhi",
       "url": "https://archive.org/details/konarak00mitr",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (IndiaCulture / Public Resource collection; free download; 96 pp.). This is the 2003 ASI printing; the record also mentions a 1976 second edition. The 1968 first-publication date comes from Open Library's work list for Debala Mitra. Cite pages of this 2003 printing."
@@ -240,18 +172,13 @@
     {
       "id": "bose-1932",
       "type": "primary-text",
-      "authors": [
-        "Nirmal Kumar Bose"
-      ],
+      "authors": ["Nirmal Kumar Bose"],
       "title": "Canons of Orissan Architecture",
       "year": "1932",
       "publisher": "R. Chatterjee, Calcutta",
       "url": "https://archive.org/details/in.ernet.dli.2015.100340",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India, public domain; PDF and OCR text downloadable; 302 pp.). Metadata: Bose, Nirmal Kumar; 1932; R. Chatterjee, Calcutta."
@@ -259,18 +186,13 @@
     {
       "id": "behera-1993",
       "type": "book",
-      "authors": [
-        "Karuna Sagar Behera"
-      ],
+      "authors": ["Karuna Sagar Behera"],
       "title": "Temples of Orissa",
       "year": "1993",
       "publisher": "Orissa Sahitya Akademi, Bhubaneswar",
       "url": "https://books.google.co.in/books/about/Temples_of_Orissa.html?id=6NzVAAAAMAAJ&redir_esc=y",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Catalogue record only (Google Books: Karuna Sagar Behera, Orissa Sahitya Akademi, 1993, 111 pp.). It was digitised from a University of Michigan copy but has no full view. No ISBN was shown."
@@ -278,18 +200,13 @@
     {
       "id": "behera-2005",
       "type": "book",
-      "authors": [
-        "Karuna Sagar Behera"
-      ],
+      "authors": ["Karuna Sagar Behera"],
       "title": "Konark: The Black Pagoda",
       "year": "2005",
       "publisher": "Publications Division, Ministry of Information & Broadcasting, Government of India",
       "url": "https://archive.org/details/konarkblackpagod00behe",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": "9788123012360",
-        "doi": null
-      },
+      "identifiers": { "isbn": "9788123012360", "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (free download; 125 pp.). Metadata: Behera, Karuna Sagar (1939-2008); 2005; Publications Division; ISBN 8123012365 / 9788123012360."
@@ -297,20 +214,13 @@
     {
       "id": "boner-rath-sarma-das-1972",
       "type": "primary-text",
-      "authors": [
-        "Alice Boner",
-        "Sadasiva Rath Sarma",
-        "Rajendra Prasad Das"
-      ],
+      "authors": ["Alice Boner", "Sadasiva Rath Sarma", "Rajendra Prasad Das"],
       "title": "New Light on the Sun Temple of Konarka: Four Unpublished Manuscripts Relating to Construction History and Ritual of this Temple",
       "year": "1972",
       "publisher": "Chowkhamba Sanskrit Series Office, Varanasi",
       "url": "https://archive.org/details/newlightonsuntem0000alic",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Borrow-only on archive.org (access-restricted, lending library; no free download; 482 pp.). Metadata: Alice Boner, Sadasiva Rath Sarma, Rajendra Prasad Das; 1972; Chowkhamba Sanskrit Series Office. The subtitle comes from the HathiTrust record 000009198 title seen in search results; the HathiTrust page itself was not fetched (host returns 403)."
@@ -318,18 +228,13 @@
     {
       "id": "mohapatra-1986",
       "type": "book",
-      "authors": [
-        "Ramesh Prasad Mohapatra"
-      ],
+      "authors": ["Ramesh Prasad Mohapatra"],
       "title": "Archaeology in Orissa: Sites and Monuments, Vol. 1",
       "year": "1986",
       "publisher": "B.R. Publishing Corporation, Delhi",
       "url": "https://books.google.co.in/books/about/Archaeology_in_Orissa.html?id=Cw5DAAAAYAAJ&redir_esc=y",
       "url_kind": "catalogue",
-      "identifiers": {
-        "isbn": "9788170183471",
-        "doi": null
-      },
+      "identifiers": { "isbn": "9788170183471", "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Catalogue record only (Google Books, no eBook or full view). Record: Volume 1, Ramesh Prasad Mohapatra, B.R. Publishing Corporation, 1986, 530 pp., ISBN 8170183472 / 9788170183471. The work has 2 volumes; the ISBN recorded here is Vol. 1's. The set ISBN from retailers (8170183464) was not confirmed in a catalogue."
@@ -337,19 +242,13 @@
     {
       "id": "konow-thomas-1915",
       "type": "epigraphy",
-      "authors": [
-        "Sten Konow (ed.)",
-        "F. W. Thomas (ed.)"
-      ],
+      "authors": ["Sten Konow (ed.)", "F. W. Thomas (ed.)"],
       "title": "Epigraphia Indica, Vol. XIII (1915–16)",
       "year": "1915–16",
       "publisher": "Superintendent Government Printing, India (Calcutta)",
       "url": "https://archive.org/details/in.ernet.dli.2015.48789",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India, public domain; 442 pp.). OCR title page: 'VOL. XIII. 1915-16', edited by Sten Konow and F. W. Thomas. This registers the VOLUME. The research report's 'R.D. Banerji, Minor inscriptions of Kharavela' is probably 'No. 13. Inscriptions in the Udayagiri and Khandagiri caves'. One OCR reading of the contents credits it to R. D. Banerji, p. 159; another scan (epigraphiaindica014773mbp) puts the name 'Lionel D. Barnett' next to it. Open p. 159 and confirm the author before citing Banerji. The title 'Minor inscriptions of Kharavela' was not seen."
@@ -357,18 +256,13 @@
     {
       "id": "kramrisch-1946",
       "type": "book",
-      "authors": [
-        "Stella Kramrisch"
-      ],
+      "authors": ["Stella Kramrisch"],
       "title": "The Hindu Temple (2 vols)",
       "year": "1946",
       "publisher": "University of Calcutta",
       "url": "https://archive.org/details/in.ernet.dli.2015.282158",
       "url_kind": "archive",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text on archive.org (Digital Library of India, public domain). The URL is Vol. I (310 pp.). Vol. II (322 pp.) is at https://archive.org/details/in.ernet.dli.2015.282159 (also checked: Kramrisch, 1946, University of Calcutta, public domain). Locators must say which volume."
@@ -376,18 +270,13 @@
     {
       "id": "icomos-2000",
       "type": "unesco-icomos",
-      "authors": [
-        "ICOMOS"
-      ],
+      "authors": ["ICOMOS"],
       "title": "Report on the ICOMOS Reactive Monitoring Mission to the Sun Temple, Konârak; February 2000",
       "year": "2000",
       "publisher": "UNESCO World Heritage Centre / ICOMOS",
       "url": "https://whc.unesco.org/en/documents/140288",
       "url_kind": "official",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Document record only. The WHC page gives title, author ICOMOS, date 1 February 2000, property Sun Temple, Konârak, and a short description. The report file itself shows 'File not found', so the report text is NOT readable online. Only the page's description can be quoted."
@@ -395,18 +284,13 @@
     {
       "id": "unesco-whc-2000",
       "type": "unesco-icomos",
-      "authors": [
-        "UNESCO World Heritage Committee (Bureau)"
-      ],
+      "authors": ["UNESCO World Heritage Committee (Bureau)"],
       "title": "Decision 24 BUR IV.B.65: Sun Temple of Konarak (India)",
       "year": "2000",
       "publisher": "UNESCO World Heritage Centre, Paris",
       "url": "https://whc.unesco.org/en/decisions/5825",
       "url_kind": "official",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text of the decision online (WHC decisions page, 24th session of the Bureau, 2000). It records the Bureau's response to the February 2000 ICOMOS mission and the ASI structural study (World Heritage Fund Emergency Assistance, 1998). This is the state-of-conservation record the report cites via soc/2434; that SOC page returned HTTP 403."
@@ -414,18 +298,13 @@
     {
       "id": "unesco-konarak-summary",
       "type": "unesco-icomos",
-      "authors": [
-        "UNESCO"
-      ],
+      "authors": ["UNESCO"],
       "title": "Sun Temple, Konârak",
       "year": "n.d.",
       "publisher": "UNESCO, Paris",
       "url": "https://www.unesco.org/en/articles/sun-temple-konarak",
       "url_kind": "official",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text online (short unesco.org summary page, undated). It states inscription 1984, criteria (i)(iii)(vi), reference 246, and links to whc.unesco.org/en/list/246. It is a stand-in because the WHC list page itself (whc.unesco.org/en/list/246) returned HTTP 403 on every attempt. Pitfall: UNESCO's short description mentions 'six horses'; scholarship and ASI say seven."
@@ -433,18 +312,13 @@
     {
       "id": "asi-konarak-whs",
       "type": "asi-report",
-      "authors": [
-        "Archaeological Survey of India"
-      ],
+      "authors": ["Archaeological Survey of India"],
       "title": "Sun Temple, Konarak (1984), Odisha",
       "year": "n.d.",
       "publisher": "Archaeological Survey of India, New Delhi",
       "url": "https://asi.nic.in/pages/WorldHeritageKonarak",
       "url_kind": "official",
-      "identifiers": {
-        "isbn": null,
-        "doi": null
-      },
+      "identifiers": { "isbn": null, "doi": null },
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text online (ASI World Heritage page, undated). It describes the temple as a solar chariot 'dragged by seven rearing horses', a sanctum with a 'presumably over 68 m. high' sikhara (an estimate), and a jagamohana '30. m. square and 30. m. high'; it gives inscription year 1984."

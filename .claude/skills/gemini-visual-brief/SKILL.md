@@ -62,3 +62,7 @@ check dimensions/format, and report pass/fail per item **to the orchestrator, wh
 Only after approval: convert to WebP (keep SVG as SVG, optimise), move original to
 `visual-briefs/originals/`, place output under `img/…`, update `data/media.json` (`status`, `width`,
 `height`, `alt`, `credit`, hotspots). Never "fix" an image by editing its content; request a regeneration.
+
+**Disclosure is decided by content, not by id lists:** any image, silhouette or diagram that depicts a
+*specific real temple* (even schematically) gets `shows_real_temple: true`, `disclosure_visible: true`
+and a caption ("AI-generated illustration" / "AI-generated diagram — schematic"). Generic type drawings do not.
