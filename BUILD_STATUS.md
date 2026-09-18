@@ -64,8 +64,8 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- Research wave 1: ledgers done — konark (29), lingaraj (24), history (37). Fact-checkers running: konark, history, lingaraj. Wave 2 after: parasuramesvara, mukteshwar, jagannath-puri, architecture.
-- Phase 4 batch 1: 30 Gemini assets in inbox (V-00…V-52, all generic set; rasters are JPEG named .png) → asset-integrator CHECK mode running.
+- Research wave 1: konark ✅ fact-checked (11 approved, 18 revised, 0 rejected, 0 needs-human; staged passes) · history + lingaraj fact-checks running. Wave 2 next: parasuramesvara, mukteshwar, jagannath-puri, architecture.
+- Phase 4 batch 1: review done → visual-briefs/BATCH-1-REVIEW.md. 12 ready, 3 ready-with-notes, 6 good-but-low-res, 10 to regenerate (V-33 text+trident; V-43–45 domes). Waiting on the human.
 
 ## Blocked
 

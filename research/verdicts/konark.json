@@ -1,0 +1,252 @@
+{
+  "topic": "konark",
+  "checked_on": "2026-09-19",
+  "method": "Every fetched_url re-fetched. Long archive.org OCR texts (mitra-d-2003, behera-2005, harle-1986) were checked with the archive.org full-text search-inside endpoint (fulltext/inside.php) of each item, which returns the complete sentence plus the scan page index (n-number). All three works are freely downloadable in full on archive.org, so quotes confirmed this way are recorded as access 'full-text'. Locators give the archive.org scan page index; printed page numbers were NOT checked. unesco-whc-2000, icomos-2000, asi-konarak-whs, unesco-konarak-summary and PMC12203308 were fetched directly.",
+  "rulings": {
+    "facts.height": "konark-006 = facts.height, tier 'uncertain', value_m 39. Mitra (ASI monograph, scan n44) says the jagamohana is 'about 39 metres' from base to top, and Bahinipati et al. 2025 give 125 ft 8 in (about 38.3 m) above ground. But the ASI World Heritage page gives '30. m. high'. I cannot show the 30 m figure is a different measurement, so this is two ASI publications disagreeing. Per policy the checker does not pick a winner: uncertain, with the disagreement stated in the text and note. Wording: 'The surviving porch (jagamohana) is about 39 m (128 ft) high from base to top. One ASI web page gives 30 m instead. The main tower has fallen.' konark-007 (original tower, estimated c. 61–70 m) is kept separate as sections.size.note, tier uncertain, and is never facts.height.",
+    "parts.element_ids": "Approved: pista, bada, jagamohana, natamandira, wheel, horses, vimana-base. Excluded: gandi and mastaka (main tower fallen; ASI page: 'The sanctum and the nata-mandira have lost their roof'; Harle: only base mouldings and parts of walls and niches remain). bhogamandapa excluded because the naming conflict is resolved as ONE building: Mitra (scan n70) says the detached hall 'is generally believed to be a nata-mandapa (festive hall)' and 'It is also known as the bhoga-mandapa or hall of offerings because of its similarity to the bhoga-mandapa at Lingaraja'; Mitra's index lists 'bhoga-mandapa/ nata mandapa (of Sun Temple)'. Behera 2005 calls it the natamandira (scan n7, n61, n90) and notes 'Some scholars believe that it was a bhogamandapa or a refectory' (n94). ASI web page: 'nata-mandira (hall of dance)'. Adding bhogamandapa would imply a second hall that no source describes. The function debate is disclosed in the parts intro claim (konark-029, uncertain). Element ids are cross-checked against elements.json only at merge."
+  },
+  "verdicts": [
+    {
+      "cid": "konark-001",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "All four quotes found. ASI page: 'Built in the thirteenth century...'. UNESCO: 'This 13th-century Sun Temple'. Mitra scan n16: 'Narasimhadeva (1238-64) of the Ganga dynasty erected a temple in front of the earlier one built by Purandara-kesari...' (the preceding sentence reports a Puri chronicle, so Mitra's copper-plate sentence at n17 is the firmer anchor). Behera scan n41: 'no exact date is available either for its beginning or for its completion.' Scholarly is right: dated by the builder's reign, no foundation inscription. Behera n42 also reports Madala Panji versions (begun 2nd or 3rd anka, consecrated 22nd anka) with 'no corroborative evidence'; added to the note. Kendupatna plate not used.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-002",
+      "verdict": "approved",
+      "tier": "established",
+      "reason": "Mitra scan n17 (copper-plates of the Ganga dynasty name Narasimhadeva as builder of a mahat-kutira of Surya) and n16 found; Behera n41 found; Harle scan n248 found verbatim in the full DLI text (upgrades that evidence from snippet to full-text). ASI monograph (primary-class) reporting the Ganga copper-plate record plus two independent scholars agree, so established meets the table. The plates are not named; Kendupatna is not mentioned.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-003",
+      "verdict": "approved",
+      "tier": "established",
+      "reason": "UNESCO 'monumental representation of the Indian Sun god Surya's chariot' found; Mitra n17 'Ushnarasmi or Surya' found; ASI 'gigantic solar chariot' found. Two primary-class records plus Mitra agree.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-004",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "Both Behera sentences confirmed in full text (scan n50: 'The main temple or the Vimana (also called deula) is of the rekha order and has a curvilinear superstructure.'; n63: 'There is no doubt that it was a rekha temple with curvilinear superstructure and decorative programme of contemporary temples.'). Access upgraded to full-text. 'Tall' is supported by the ASI page ('a lofty ... sikhara'), added as a source. Text revised to gloss terms and to say the tower has fallen, so the fact strip never implies a standing rekha tower.",
+      "revised_text": "The main temple, or vimana, was a rekha deula (a temple with a tall, curved tower). That tower has since fallen.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-005",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "Mitra scan n27 found: 'The roof of the porch is in the form of a stepped pyramid, truncated near the top. It is made up of pidhas arranged in three tiers, called potalas, and separated by a recessed vertical wall called kanti.' Mitra's glossary (n100) defines jagamohana as 'hall in front of a sanctuary'. Single source, so scholarly. Text revised to gloss jagamohana and pidha in plain words.",
+      "revised_text": "The surviving porch, the jagamohana (the hall in front of the sanctum), has a pidha roof (a roof of stacked stone layers). It looks like a stepped pyramid and rises in three tiers.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-006",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Mitra scan n44 found: 'The height of the extant portion of the jagamohana from the base to the top is about 39 metres, giving an idea of what the original height of the sanctuary might have been'. Bahinipati (PMC) found: 'the height of the porch above ground level is calculated to be 125 ft and 8 in' (about 38.3 m). ASI page found: 'a jagamohana (30. m. square and 30. m. high)'. Two ASI publications disagree and I cannot show they measure different things, so uncertain (see rulings.facts.height). Text revised to state the disagreement. 39 m = 128 ft.",
+      "revised_text": "The surviving porch (jagamohana) is about 39 m (128 ft) high from base to top. One ASI web page gives 30 m instead. The main tower has fallen.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-007",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "All four found. Harle scan n248 (full DLI text): 'Of the great deul, which must originally have stood to a height of some 225 ft (70 m.), only the base mouldings and parts of the walls and niches remain.' Mitra n44: 'archaeologists conjecture that it was in the range of 61 metres.' ASI: 'presumably over 68 m. high'. Bahinipati: 'the total height of the sanctum reaches 227 ft and 8 in.' Estimates only; stays in sections.size.note, never facts.height. Wording smoothed ('first height' was unclear).",
+      "revised_text": "The main tower has fallen. Experts can only estimate how tall it was. Their estimates range from about 61 m to about 70 m (200–230 ft).",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-008",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "ASI quote found verbatim. The ledger's Mitra quote is slightly misworded: the text at scan n24 reads 'The Main Temple was conceived as a colossal chariot with twelve pairs of wheels and drawn by seven richly-caparisoned horses in spirited gallop.' The substance is identical and supports the claim. Scholarly kept because UNESCO's summary says six horses (pitfall: use seven, cite ASI/Mitra).",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-009",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "Behera scan n46 found: 'The deep devotional motive, in the construction of the Sun temple, cannot be doubted.' Mitra n17 found. Framed as the scholar's reading.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-010",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Behera n42 found: 'It is likely that construction of Konark temple was undertaken after his victory over Muslim rulers of Bengal in 1245 A.D.' n48 found: 'he possibly wanted to promote the prestige of his kingdom by erecting a great temple to surpass the grand Jagannatha temple of Puri.' The ledger text said 'Scholars also suggest', but only one scholar is cited, and 'wars ... in the 1240s' blurs Behera's 'victory ... in 1245'. Revised to attribute to Behera alone.",
+      "revised_text": "K.S. Behera suggests other reasons too. He thinks building probably began after the king's victory over the rulers of Bengal around 1245 CE. The king may also have wanted a temple grander than the Jagannatha temple at Puri.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-011",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "ASI and UNESCO quotes found verbatim. The Mitra quote is misworded (see konark-008); the correct n24 sentence supports it. Harle n248 (full text) also describes stone wheels on the terrace and life-size stone horses by the steps. Scholarly kept because of UNESCO's 'six horses'. Text reworded: the horses are part of the design, not literally pulling.",
+      "revised_text": "The whole temple was designed as a huge stone chariot for the Sun god. It has 24 carved wheels (12 pairs) and seven stone horses to pull it.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-012",
+      "verdict": "approved",
+      "tier": "established",
+      "reason": "ASI page 'The sanctum and the nata-mandira have lost their roof' found; Mitra n18 'collapse of the sikhara over the sanctuary of the Main Temple' found (and n29: 'a large part of the bada of the sanctuary of Temple 1, has fallen and the sanctum is consequently open to the sky'); Harle n248 'only the base mouldings and parts of the walls and niches remain' found in full DLI text, so the detail is kept. ASI + ASI monograph + Harle agree.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-013",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Mitra n18 found (both sentences). Behera n154 ('Some scholars are inclined to believe that a natural catastrophe like earthquake or lightning brought about the collapse of the temple.') and n136 ('...some scholars believed that the temple was never completed.') found in full text. 'Damage by invaders' overstated Mitra, who says gradual crumbling with decay begun by desecration; text revised to match.",
+      "revised_text": "Nobody knows for sure why the main tower fell. Ideas include a sinking foundation, an earthquake or lightning, or slow decay after invaders damaged the temple. Some scholars even doubt it was ever finished.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-014",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Behera n7 found: 'its remaining fragment was brought down by a strong gale in October, 1848.' and 'In 1626 it was already deserted and worship had ceased.' Mitra n19 found in full: 'James Fergusson visited Konarak in 1837 and prepared a drawing of temple. He estimated the height of the portion of the sanctuary still extant to be between 42.67 and 45.72 metres.' Mitra n20 found: 'At the time of archaeologist Rajendralala Mitra's visit in 1868, the sanctuary was reduced to \"an enormous mass of stones studded with a few pipal trees here and there\".' Behera n153 confirms Fergusson's 1837 drawing. CE added to years; 1848 kept attributed to Behera.",
+      "revised_text": "Part of the tower still stood when James Fergusson drew it in 1837 CE. Historian K.S. Behera writes that a storm brought the last piece down in October 1848 CE. By 1868 CE only a huge heap of stones remained.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-015",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Behera n155 found in full text (all three quotes). Full passage: 'Kalapahar no doubt attacked Orissa in 1568 and desecrated the Jagannath temple. This is mentioned in the Madala Panji and other local texts like the Chakadapothi ... But these texts are silent about his attack on Konark temple.' The ledger text said the tradition places an attack on the temple 'around 1568 CE'; Behera's 1568 is the attack on Orissa, not on Konark. Revised to separate the two.",
+      "revised_text": "According to a local tradition, Kalapahar, a general from Bengal, damaged the temple. He did attack Odisha in 1568 CE. But historian K.S. Behera finds no reliable evidence that he ruined Konark.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-016",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "Mitra n29 found (full passage: 'Three basic rock types ... chlorite, laterite and khondalite. While the use of chlorite was limited to the door frames and a few sculptures, laterite was used in the invisible core of the platform and staircases, as well as in the foundation. The rest was built of poor-quality khondalite.'). Bahinipati found. Behera n55 sentence found but is general to Orissan temples, so it is not cited. The specific uses rest on Mitra alone, so lowered to scholarly (tie-breaker). 'Wears away easily' is not in the quote; replaced with Mitra's own 'poor-quality', attributed.",
+      "revised_text": "Builders used three kinds of stone. Most of the temple is khondalite, which ASI's Debala Mitra calls poor-quality stone. Laterite formed the hidden core of the platform and the foundations. Chlorite was used only for door frames and a few sculptures.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-017",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "Mitra n29 found (both sentences; in the book the rafts sentence comes first). Behera n55 found (general to Orissan temples; supporting only). Hedges kept.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-018",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "Behera n57 found: 'In later temples as at Konark, the Orissan architects made use of iron beams.' and 'The iron beams have been used as supports under the false-roof and under the architraves, which are placed above the doorways.' Behera n110 (Konark section): 'These were used to support the false roof and the architraves of the doorways.' Mitra n20 found ('taking out the iron cramps and dowels'). Bahinipati found. 'Parts of the roof' changed to 'false ceiling' to match the sources. Pitfall respected (iron was used).",
+      "revised_text": "Iron was used too. Iron beams supported a false ceiling and the stone beams above doorways. Iron cramps and dowels held stones together.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-019",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Bahinipati quotes found, BUT the article does not tie these figures to palm-leaf records or to Boner et al. 1972: the '12 years, 10 months, and 14 days' sentence and the 27 January 1258 sentence cite only Dey 2016 and Donaldson 1985. The ledger's 'palm-leaf records ... studied by Alice Boner and colleagues in 1972' is therefore not supported by anything opened and is removed. Behera n42 found: Baya chakada 'has been set aside until a systematic study of the original text is undertaken to establish its historical value', and Madala Panji dates have 'no corroborative evidence'. The Boner 1972 catalogue-only evidence is dropped (it showed only a title). Revised to attribute the numbers to the 2025 study.",
+      "revised_text": "According to a 2025 study that draws on earlier scholars, building took about 12 years and 10 months. The study dates the temple's consecration to 1258 CE. Historian K.S. Behera says the old written accounts of the building still need careful checking.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-020",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "Behera n43 found: 'Another legend associated with a twelve year old boy fixing the kalasa of the temple, is quite popular in Orissa. For sixteen years twelve hundred carpenters and masons worked in building the sun temple of Konark. Visu Maharana, the master craftsman...' So Behera's 'sixteen years' IS the legend. Bahinipati found: 'Legend has it that, over twelve years, 1,200 carpenters and masons worked'. The '...final vase' snippet is in fact n44: 'completing the porch upto the final vase'. Behera n44 also says Gopabandhu Das 'for the first time coined the name Dharmapada for the boy'. The ledger text stated '12 years' only and used the spelling 'Bishu', which no opened source uses. Revised to give both durations and Behera's spelling.",
+      "revised_text": "According to tradition, 1,200 craftsmen built the temple under the master craftsman Visu Maharana. Retellings disagree on how long they worked: 12 years or 16 years. In a popular legend, his 12-year-old son Dharmapada fixed the crowning pot (kalasa) on top.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-021",
+      "verdict": "approved",
+      "tier": "established",
+      "reason": "UNESCO page 'Year of Inscription' 1984 found; Behera n7 found verbatim ('It has been included in the list of World Heritage sites in 1984 for its outstanding universal value to humanity.'). Two sources incl. UNESCO, so single_authoritative is not needed and is dropped.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-022",
+      "verdict": "approved",
+      "tier": "established",
+      "reason": "Mitra n39 found verbatim; Behera n7 found verbatim; Bahinipati found. ASI monograph + two scholarly sources agree on the fact of the sand-fill.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-023",
+      "verdict": "approved",
+      "tier": "uncertain",
+      "reason": "Behera n162 ('In 1901, a new phase ... began') and n163 ('The above mentioned work was completed in 1904 and since then there is no access into the interior of Jagamohana.') found in full text; Behera n7 gives 1903 and J.A. Baurdillon; Mitra n40 'completed in 1905' found; Bahinipati 1903 / Sir John Woodburn found. Text reports the spread without picking a winner. Mitra's 'December 1900 visit of Woodburn' in the ledger conflicts field was NOT seen by me and is left out of the note.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-024",
+      "verdict": "revised",
+      "tier": "established",
+      "reason": "Quotes 1 and 2 found (full sentences: '...structural study being implemented with financial assistance from the World Heritage Fund Emergency Assistance, made available in 1998 to the Archaeological Survey of India.'; 'The ICOMOS Mission found that there was no immediate threat to the monument due to structural instability.'). Quote 3 NOT verbatim: the decision says the Bureau 'requested the Secretariat to assist the authorities in formulating a technical co-operation request for completing the structural survey for developing a strategy for removing the sand within the Sun Temple.' So UNESCO did not 'ask for a plan'; text revised. ICOMOS record description found verbatim. UNESCO/ICOMOS records of their own acts, two sources.",
+      "revised_text": "In 1998, the World Heritage Fund gave emergency money to the Archaeological Survey of India for a structural study. In February 2000, an ICOMOS expert found no immediate danger of collapse. UNESCO then asked its staff to help India seek support for a plan to remove the sand.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-025",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "Mitra n14 found verbatim, including '(the white-washed temple of Jagannatha ...) at Puri'. Behera n7 'once famous as the Black Pagoda' agrees.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-026",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "reason": "Harle scan n248 found verbatim in the full, freely downloadable DLI text; access upgraded from snippet to full-text, so no G2 sign-off is needed. Attributed view.",
+      "revised_text": null,
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-027",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "Behera n12 found verbatim in full text. 'A long Indian tradition' says more than the quote, which only says Sun temples developed in different parts of India. Reworded.",
+      "revised_text": "Konark is one of many Sun temples built in India. Others were built at Modhera in Gujarat and Martand in Kashmir.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-028",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "reason": "UNESCO: 'The Sun temple at Konarak stands as a magnificent testament to Kalinga architecture' found. The gloss 'the temple style of ancient Odisha' is not in the source and is removed; the glossary entry must define Kalinga architecture.",
+      "revised_text": "UNESCO calls the Sun Temple 'a magnificent testament to Kalinga architecture'.",
+      "quote_check": "found"
+    },
+    {
+      "cid": "konark-029",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "reason": "ASI quote found verbatim. Mitra n44 found ('consists of a sanctuary (deul), its attached porch (jagamohana) and an isolated pillared edifice (bhoga-mandapa)'); Mitra n70: 'generally believed to be a nata-mandapa (festive hall)' and 'also known as the bhoga-mandapa'. Behera n94: 'Some scholars believe that it was a bhogamandapa or a refectory'. Harle n248 found: 'The deul stood, with the jagamohana, on a high terrace with six huge stone wheels ... attached to each side'. The ledger said all three buildings stand on the wheeled platform; the sources put only the sanctum and porch there (Mitra n2: the porch 'originally shared a platform with the sanctuary'; the hall stands on its own platform, n70). One hall with a debated function (dance hall vs hall of offerings), so uncertain with a note. See rulings.parts.element_ids.",
+      "revised_text": "The temple had a sanctum with a tall tower and a porch (jagamohana). Both stand on one high platform carved with wheels. A separate pillared hall stands in front, in the same line. ASI calls it the nata-mandira (dance hall), but some scholars think it was a bhoga-mandapa (hall of offerings).",
+      "quote_check": "found"
+    }
+  ],
+  "sources_verified": {
+    "harle-1986": "archive.org item in.ernet.dli.2015.118068 (details page and metadata fetched): 'The Art And Architecture Of The Indian Subcontinent', Harle, J.C, 1986, Penguin (London), out of copyright, full PDF/text downloadable. Scan page n0 shows 'THE PELICAN HISTORY OF ART'; scan n3 imprint shows 'Penguin Books Ltd, Harmondsworth, Middlesex, England'. The series name and Harmondsworth imprint were therefore seen and are kept.",
+    "bahinipati-2025": "https://doi.org/10.12688/f1000research.157831.2 resolves (302) to https://f1000research.com/articles/13-1540/v2: 'The Konark Temple's Construction: A Critical Review of the Historical, Cultural, and Scientific Evidence', Bahinipati, Biswal, Suar; F1000Research 13:1540, version 2, 2025 (v1 20 Dec 2024); peer review status shown as 2 approved, 1 approved with reservations. Registered URL set to the DOI (trusted host). The article treats Dharmapada and the 1,200 workers as historical; used only for reported measurements and dates, never to upgrade a tradition.",
+    "location": "Nominatim lookup W168244384 returned lat 19.8875639, lon 86.0944895, 'Konark Sun Temple, NH316, Konark, Puri, Odisha, 752111, India'. OSM way page fetched: name 'Konark Sun Temple', ref:whc 246, whc:inscription_date 1984."
+  },
+  "not_used": [
+    "boner-rath-sarma-das-1972: catalogue-only title evidence in konark-019 dropped; Bahinipati does not cite it for the figures used.",
+    "Glossary terms needed (not researched here): vimana, rekha deula, jagamohana, pidha, sanctum, nata-mandira, bhoga-mandapa, khondalite, laterite, chlorite, kalasa, ICOMOS, Kalinga architecture."
+  ]
+}
