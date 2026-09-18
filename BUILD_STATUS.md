@@ -54,7 +54,10 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 - Konark: surviving jagamohana height (Mitra ~39 m vs ASI web 30 m vs Brown 100 ft); collapse timing (1837 vs 1848); sand-fill 1901–1905; Kalapahar (Behera: no reliable evidence); craftsmen 12 vs 16 years (tradition either way).
 - Lingaraja: height left blank by the fact-checker — sources give 128 ft, 160–165 ft (R. Mitra), ~180 ft, >180 ft; no ASI figure. Human may choose to publish an `uncertain` range claim without size comparison (needs a small schema change) or keep blank. Natamandira 1099–1104 rejected. Patron uncertain (Panigrahi: Yayati II + Uddyota Kesari).
 - Dates vs research report: Parasuramesvara (Brown: late 8th c., report c. 650); Mukteshvara (Brown c. 975); Vaital Deul (Brown c. 900); Jagannath (Brown c. 1100 vs 1112).
-- Era 6 representative: Kapilesvara temple, Bhubaneswar (Panigrahi, hedged).
+- Era 6 representative: Kapilesvara temple, Bhubaneswar (Panigrahi, hedged) — accepted as `uncertain`.
+- History needs-human (3): history-001/002/027 — the framework. Era periods now follow Brown's dates; labels unchanged pending the human.
+- Merge note: grand-finale era `dynasty` was rejected in the history check (quote wasn't about Konark); at merge, reuse the fact-checked Konark dynasty claim (Narasimhadeva I, Ganga) via a fact-checker update.
+- Dynasty profiles (history-033…037) and the Papanasini porch have no schema slot — decide at G2 whether the timeline page shows a dynasty strip.
 - Implementation plan's map/timeline filter labels ("6th–7th, 9th–10th") don't match any sourced periods → Phase 3 derives filters from approved era data.
 
 ## Repository
@@ -64,7 +67,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- Research wave 1: konark ✅ (11/18/0/0) · lingaraj ✅ (5 approved, 17 revised, 2 rejected, 0 needs-human; height null) · history fact-check running.
+- Research wave 1: konark ✅ (11/18/0/0) · lingaraj ✅ (5 approved, 17 revised, 2 rejected, 0 needs-human; height null) · history ✅ (6 approved, 27 revised, 1 rejected, 3 needs-human — all framework).
 - Research wave 2: parasuramesvara, mukteshwar, jagannath-puri researchers running (Opus). architecture next.
 - Phase 4 batch 1: review done → visual-briefs/BATCH-1-REVIEW.md. 12 ready, 3 ready-with-notes, 6 good-but-low-res, 10 to regenerate (V-33 text+trident; V-43–45 domes). Waiting on the human.
 
