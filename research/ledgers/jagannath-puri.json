@@ -1,0 +1,911 @@
+{
+  "topic": "jagannath-puri",
+  "run_on": "2026-09-19",
+  "method_note": "All archive.org quotes were read through the archive.org search-inside API (fulltext/inside.php), which returns the OCR text of the scanned book around each hit. The fetched_url for each quote is that exact API URL. OCR errors are kept as they appear; <IA_FTS_MATCH> highlight tags are removed. 'leaf N' is the scan page index given by the API, NOT the printed page number, so every locator starts with 'unverified'. Ganguly 1912 = in.ernet.dli.2015.536395; Brown 1959 = dli.csl.8666; Panigrahi 1961 = in.ernet.dli.2015.111041; Fergusson 1876 = in.ernet.dli.2015.62030.",
+  "claims": [
+    {
+      "cid": "jagannath-puri-001",
+      "field": "facts.date",
+      "text": "The present temple was built in the late 11th or 12th century CE. Scholars give different years for it.",
+      "value": "c. 1075–1150 CE",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "The probability is that on this site the ruler raised a commemorative column on the occasion of his conquest, but about A.D, 1100 its place was taken by the present structure."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "There are records that it was originally built as a pillar of victory by Chora Ganga, the conqueror of Kalinga in 1030 A.D., but that it was not consecrated until A.D. 1118."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Gange",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 486)",
+          "quote": "If we accept the earlier date, i. e., 997 5aka or 1075-76 A. D., it is certain that the construction of the temple cannot be earlier than 1075 D, and hence not later than 1075*-1-70, or 1145 A*"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "Of Yayati¹s temple of Jagannatha nothing can now be scenj die present temple having been an erection of the twelfth century during thereignof AnantavarmanChodaganga."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Juganat",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 440)",
+          "quote": "In 1131, the Kesaii Vansa, with their Saiva woiship, had been supeiseded by the Ganga Yansa"
+        }
+      ],
+      "conflicts": "Brown 1959: 'about A.D. 1100' (and dates the temple 'cir. A.D. 1100' at leaf 214); he also reports 'records' that Chora Ganga conquered Kalinga in 1030 and consecrated it in 1118. Ganguly 1912: built within Chodaganga's c. 70-year reign, so between 1075 and 1145 CE (he uses Hultzsch's Saka 997 accession). Panigrahi 1961: 'twelfth century' under Chodaganga. Fergusson 1876: the Ganga dynasty replaced the Kesaris in 1131 and built the temple at once (he also placed it AFTER Konark's Black Pagoda, a view later scholars reversed; see jagannath-puri-024). Research report: 'construction ... began after his conquest of Utkala in 1112 CE' — no fetched source gives 1112.",
+      "notes": "No foundation inscription was seen. Brown's '1030 A.D.' for the conquest of Kalinga looks wrong (Chodaganga reigned from c. 1075/1078 per Ganguly), so do not publish it. Value range covers Ganguly's window and Brown/Panigrahi. The fact-checker may prefer the value '12th century CE'."
+    },
+    {
+      "cid": "jagannath-puri-002",
+      "field": "facts.dynasty",
+      "text": "It was built by kings of the Eastern Ganga dynasty. Historians name King Anantavarman Chodaganga as the builder of the present temple.",
+      "value": "Eastern Ganga (Anantavarman Chodaganga)",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 282)",
+          "quote": "He was not merely a builder of mighty forts, but it is he who erected the present temple of JagannStha at Puri."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Gange",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 486)",
+          "quote": "The important facts that can be gathered from the couplet quoted above are the following, vis., (i) that the temple was built by Gange^vara"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Gange",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 486)",
+          "quote": "Gange^vara is otherwise called Cho//aganga whose accession to the throne took place according to Sewell,in 999 5'aka, and according to Dr. Hultzsch, in 997 5'aka."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Juganat",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 440)",
+          "quote": "they set to woik at once to signalise their triumph by electing the temple to Juganat"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Ganguly reads the builder's name from a couplet in the Ganga copper-plates. He says these plates contain 'an inscription of Nrisinha Deva IV' (leaf 485), not Narasimhadeva II's Kendupatna plate as the research report says. I did not open any edition of the plates, so this stays scholarly, not established. Panigrahi's reign length for Chodaganga is '74 years' (leaf 282); Ganguly uses c. 70. The reign range 1078–1150 in the research report was not seen."
+    },
+    {
+      "cid": "jagannath-puri-003",
+      "field": "facts.dynasty (patron: completion)",
+      "text": "Tradition names King Anangabhima as the builder. Historians think Chodaganga began it, and Anangabhima added parts and arranged its worship.",
+      "value": null,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Ganga",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 485)",
+          "quote": "The popular belief ascribes the construction of the temple to Anianka Bhim Deva, the 5th king of the Ganga dynasty ; but the copper-plate grants of the later kings as unearthed and deciphered, place it in an earlier period."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22Ananga%20or%20Aniyanka%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 488)",
+          "quote": "The name of Ananga or Aniyanka has been handed down to posterity as the builder of the temple ; this is probably due to his having built the important appurtenances"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22did%20not%20build%20all%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 488)",
+          "quote": "Choflfaganga did not build all the appurtenances of the temple ; I noticed three inscriptions on the left wall of the Patule.svara temple written in three different characters."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Anangabhima",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 47)",
+          "quote": "the present temple of Jagannatha at Puri built by Ananta-Varman Chodagaftga and his successor Anangabhima in the twelfth wntury, replaced the earlier one built by Yayati Kesari (Yayatl 1) in the tenth century A.n."
+        }
+      ],
+      "conflicts": "WHICH Anangabhima is unresolved. Research report: 'completed under Anangabhima Deva III (r. c. 1211–1238)'. Panigrahi (leaf 47) says 'his successor Anangabhima in the twelfth century'; elsewhere (leaf 61) he dates Anangabhima II to 'a.d. 1190-1198'. Neither fits Anangabhima III's 13th-century reign. Ganguly calls the traditional builder 'the 5th king of the Ganga dynasty' and does not number him.",
+      "notes": "Do NOT publish 'completed under Anangabhima III' or his reign dates: not seen in any fetched source. Safe text names only 'King Anangabhima' with tradition framing. The Yayati I part of Panigrahi's quote belongs to jagannath-puri-010."
+    },
+    {
+      "cid": "jagannath-puri-004",
+      "field": "facts.height",
+      "text": "Scholars give the main tower's height as about 58–65 m (192–215 ft). In the early 1900s, M.M. Ganguly measured it with a surveying instrument at about 65 m (215 ft).",
+      "value": "about 58–65 m (192–215 ft)",
+      "value_m": null,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 502)",
+          "quote": "Having no suitable ground in the vicinity of the temple Height of the where I might setup the theodolite for the deterimana mination of the height of the temple"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22stone%20finial%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 503)",
+          "quote": "The height of the vimana above the compound of the Uttara-par^va Math to the top of the stone finial = 209-42 ft."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22road%20level%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 503)",
+          "quote": "The height of the vimana above the road level to the top of the stone finial."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=214",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 503, the line after the previous quote)",
+          "quote": "= 214-67 ft."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%2280%20ft%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 442)",
+          "quote": "with its poich or Jagamohan, B, it measuies 155 ft east and west, while the great towei rises to a height of 192 ft"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "As now completed the extreme length of these four buildings in a line is 310 feet, with a width of 80 feet, while the tower is nearly 200 feet in height."
+        }
+      ],
+      "conflicts": "ALL HEIGHT FIGURES FOUND: (1) Ganguly 1912, theodolite survey: 214.67 ft (65.4 m) from road level to the top of the stone finial, and 209.42 ft (63.8 m) from the raised Uttara-parsva Math compound, which is 5 ft 3 in above the road. (2) Fergusson 1876: 192 ft (58.5 m). (3) Brown 1959: 'nearly 200 feet' (about 61 m). Rajendralala Mitra (1875/1880), Kramrisch and any ASI figure: NOT searched or not found.",
+      "notes": "Ganguly's is the only real measurement seen, but it is his own 1912 survey, not an ASI measurement, and it runs to the top of the stone finial above road level (it does not include any metal emblem above that). value_m is left null so the human can choose at G2. If a single figure is wanted, Ganguly's 214.67 ft = 65.4 m is the measured one; say 'about 65 m (215 ft)'. Do not show it as a measured ASI height. The 'ground level' behind Ganguly's 'theodolite' quote is road level outside the temple, not the temple floor."
+    },
+    {
+      "cid": "jagannath-puri-005",
+      "field": "facts.deity",
+      "text": "The temple is dedicated to Jagannath. He is worshipped together with his brother Balabhadra and his sister Subhadra.",
+      "value": "Jagannath, with Balabhadra and Subhadra",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 284)",
+          "quote": "It is maintained by some scholars that the images, now known as Jagannatha, Subhadra and Balabhadra, were on^tally triratna symbols tvorshipped"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 441)",
+          "quote": "the three images of Jugandt, his brother Balbhadra, and the sister Subhadhia"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Purushottama",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 483)",
+          "quote": "this vedi of the Mahabbharata is considered to be identical with the vedi or the raised platform of the temple upon which the image of Jagannath has been placed."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 286)",
+          "quote": "Puri, Bhubaneswar, Konarka, Mahavinayaka and Viraja or Jajpur, the traditional five pithas representing five dbtinct cults, continued to be respectively termed as Vaisnava, ^aiva, Saura, Ganapatya and Sakta shrines"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Respect: this is a living temple. Say only what is quoted: the three images and that Puri is counted a Vaishnava shrine. Do not describe rituals or the material of the images; no accepted source was read for that. Ganguly also gives old names for Puri: 'Nilochala, Purushottama Kshetra, S'ri Kshetra' (leaf 480, q=height). Do not use Fergusson's own wording about Buddhism (see jagannath-puri-022)."
+    },
+    {
+      "cid": "jagannath-puri-006",
+      "field": "facts.temple_type",
+      "text": "The main shrine is a pancharatha deul, meaning its walls step out in five vertical bands on each side.",
+      "value": "pancharatha deul",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=plinth",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 497)",
+          "quote": "The Vimtfna ( No. 4, plate XX. A ) starts from a plinth"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=cement",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 497–498; the API gave 497 in one search and 498 in another)",
+          "quote": "cement ; the height of.the janghfl! is ri'-6\". It is a pancharatha dewl, the konakapaga showing 9 bhiimis"
+        }
+      ],
+      "conflicts": "",
+      "notes": "CHECKER: confirm on the scan that Ganguly's 'Vimana (No. 4, plate XX. A)' is the MAIN Jagannath tower. I infer it from context: the passage sits between the enclosure description (leaves 494–497) and the height survey of 'the vimana' (leaves 502–503), and leaf 499 describes Jagannath, Balarama and Subhadra figures on its central projection. If not confirmed, lower to uncertain or drop. 'rekha' is NOT used for Puri in any passage I fetched (see gaps). The gloss 'five vertical bands' explains the term; it is not quoted."
+    },
+    {
+      "cid": "jagannath-puri-007",
+      "field": "one_liner",
+      "text": "The great temple of Jagannath at Puri, built by Eastern Ganga kings. Percy Brown noted it is larger than Bhubaneswar's Lingaraja.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "the famous temple of jagannath at Puri, an appreciably larger building than the Lingaraja, and the principal parts of it erected about a century later."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 283)",
+          "quote": "the eminent members of the Ganga dynasty by trying to emulate or even to outstrip them, built the more stupendous temples like those at Puri and Konarka."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Builder attribution is supported by jagannath-puri-002."
+    },
+    {
+      "cid": "jagannath-puri-008",
+      "field": "sections.why_built",
+      "text": "King Anantavarman Chodaganga ruled a large kingdom, from the Godavari river to the Hooghly river. Historian K.C. Panigrahi says he built the present temple.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 282)",
+          "quote": "they accounted for his military successes and the extension of his kingdom from the Godaveri in the south to the river Hooghly in the north."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 282)",
+          "quote": "He was not merely a builder of mighty forts, but it is he who erected the present temple of JagannStha at Puri."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The conquest itself (history ledger history-020/036: Panigrahi leaf 281) is not re-quoted here. The research report's 'conquest of Utkala in 1112 CE' was not seen."
+    },
+    {
+      "cid": "jagannath-puri-009",
+      "field": "sections.why_built",
+      "text": "James Fergusson (1876) thought the new Ganga kings built the temple to celebrate their victory over the earlier rulers. His dates are now outdated.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Juganat",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 440)",
+          "quote": "they set to woik at once to signalise their triumph by electing the temple to Juganat"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "The probability is that on this site the ruler raised a commemorative column on the occasion of his conquest, but about A.D, 1100 its place was taken by the present structure."
+        }
+      ],
+      "conflicts": "Fergusson: built at once after the Gangas replaced the Kesaris in 1131. Brown: the conqueror first raised a victory column here, which the temple replaced about 1100. Both link the temple to conquest, but their dates differ and neither is backed by an inscription seen.",
+      "notes": "Optional. 'Built to celebrate a victory' is an interpretation. If used, attribute it to named scholars. The 'Rauta' dedication of the kingdom by Anangabhima III was NOT found (see gaps)."
+    },
+    {
+      "cid": "jagannath-puri-010",
+      "field": "sections.why_built",
+      "text": "Puri was a holy place long before this temple was built. An inscription of 1104 CE already mentions Purushottama, an old name for Puri's god.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Ganga",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 485)",
+          "quote": "There cannot be any doubt as to the sanctity of the place existing for a long time anterior to the construction of the present temple."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Deva",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 487)",
+          "quote": "That the name of Puriishottama Deva had reached far and wide before the present temple was built receives ample corroboration from the Nagpur Pra^asti of the Malava ruler dated 1104 A. D., in which mention is made of Puriishottama."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Ganguly (leaf 487) adds a caution: a later inscription of 1137 CE 'only establishes the sanctity of the place', not that the temple existed. 'An old name for Puri's god' comes from Ganguly's 'Purushottama Deva'; the checker may simplify to 'mentions Purushottama (Puri)'. The Nagpur Prasasti's own edition was not opened."
+    },
+    {
+      "cid": "jagannath-puri-011",
+      "field": "sections.why_built",
+      "text": "Historian K.C. Panigrahi thought an earlier Jagannath temple stood here, built by King Yayati I in the 10th century CE. Nothing of it can be seen today.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "It was thus Yayati I who built the temple of Mukte^vara at Bhubaneswar in A.D. 966 and of Jagannatha at Puri in about a.d. 956."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "Of Yayati¹s temple of Jagannatha nothing can now be scenj die present temple having been an erection of the twelfth century during thereignof AnantavarmanChodaganga."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Deva",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 487)",
+          "quote": "That there was originally a temple at Puri for Piiriishottama Deva supplanted by the present one is too obvious"
+        }
+      ],
+      "conflicts": "Panigrahi builds the Yayati I attribution partly on the Madala Panji temple chronicle (leaves 277–278), which he himself says confuses the two Yayatis. Ganguly agrees there was an earlier temple but names no builder.",
+      "notes": "PITFALL: Yayati attributions are unproven; never established. The research report does not mention this earlier temple. Optional; if used, keep 'Panigrahi thought'. The tradition-based date 'about 956' is not in the text on purpose."
+    },
+    {
+      "cid": "jagannath-puri-012",
+      "field": "sections.parts.intro",
+      "text": "Panigrahi explained that in Ganga times a temple's god was thought to live like a king. So he needed an audience hall, a dance hall and more.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 283)",
+          "quote": "A presiding deity was to live in state as much as a Wng would do. He was to have an audience hall {Jfagtunohana), danang hall (JVdtamaJidiri^znA"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Same Panigrahi passage as lingaraj-021 (there read at leaf 285 with 'dining hall'). The OCR on this leaf is cut before 'dining hall', so the text says 'and more'."
+    },
+    {
+      "cid": "jagannath-puri-013",
+      "field": "sections.construction",
+      "text": "At first the temple had only the tower shrine and its porch hall. Percy Brown thought the dance hall and offering hall were added in the 14th–15th centuries CE.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "in which condition it appears to have remained until the fourteenth or fifteenth centuries, when '.he nat and bhog mandirs were added."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 11, list of plates)",
+          "quote": "INTERIOR OF NATMANDIR, JAGANNATH TEMPLE AT PURI, 14ra-l5th CENTURIES"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Deva",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 488)",
+          "quote": "The bhogamandapa and the inner enclosure wall are ascribed to Piirushottama Deva flourishing from the middle to the end of the 15th century A. D."
+        }
+      ],
+      "conflicts": "Brown dates the added halls by style ('appears to'). Ganguly reports that the temple's palm-leaf records credit the offering hall and inner wall to King Purushottama Deva (later 15th century). These roughly agree, but the palm-leaf records are a chronicle tradition.",
+      "notes": "OCR '14ra-l5th' = '14th-15th'. If the Purushottama Deva detail is used, frame it: 'According to the temple's palm-leaf records…' (tier uncertain for that sentence)."
+    },
+    {
+      "cid": "jagannath-puri-014",
+      "field": "sections.construction",
+      "text": "The sea air slowly damaged the old stonework. Later repairs covered much of the tower in cement, which Percy Brown felt made it look heavy.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=replica",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "certain extensive renovations which became necessary a century or more ago, when the original stone masonry decayed, owing probably to centuries of action by the sea air."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=replica",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "Unfortunately these restorations appear to have been effected by means of solid applications of cement, which have made its dose appearance heavy and lifeless"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22plastered%20all%20over%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 497)",
+          "quote": "Vinwn* ^'.2\" in height and plastered all over with_"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown says the sea air was 'probably' the cause; the text keeps it simple but the checker may add 'probably'. Ganguly's OCR line continues 'cement' on the next leaf (see jagannath-puri-006 quote). Brown also calls the temple 'merely an arid replica of its predecessor at Bhubaneswar' in style (leaf 215): a harsh judgement, not recommended for the site."
+    },
+    {
+      "cid": "jagannath-puri-015",
+      "field": "sections.construction",
+      "text": "Metal helps hold parts of the temple up. Percy Brown pointed out iron beams in the dance hall ceiling. By 1912, steel beams and old rails also propped up the porch hall's roof.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 191, plate caption)",
+          "quote": "Puri : the Natmandir. Note the iron beams ceiling."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=plinth",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 503)",
+          "quote": "Architraves of rolled mild steel beams support the lowest pida of the mohana all round, being themselves supported by columns made of old rails connected together by distant pieces."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Fits the pitfall 'iron cramps and beams WERE used'. Brown's caption does not say whether the iron beams are original or later; do not claim either. Ganguly's steel beams and rails are clearly modern props. That leaf 503 describes the main jagamohana is inferred: leaf 504 says 'The eastern doorway of the jagamohana leads to the nata-mandira, the western one to the vimana' (q=vimana). Suggested simpler text: drop the first sentence if the checker thinks it overgeneralises."
+    },
+    {
+      "cid": "jagannath-puri-016",
+      "field": "sections.special",
+      "text": "The temple has four buildings in one straight line: the tower shrine, the porch hall, the dance hall and the offering hall. Together they are about 94 m (310 ft) long.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "Built on the same principle as the Great Temple, at Bhubaneswar, and con¬ sisting of four edifices in one alignment, it first comprised the deul or sanctuary', and its assembly hall or jagamohan"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "As now completed the extreme length of these four buildings in a line is 310 feet, with a width of 80 feet, while the tower is nearly 200 feet in height."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=vimana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 504)",
+          "quote": "The eastern doorway of the jagamohana leads to the nata* mandira, the western one to the vimana."
+        }
+      ],
+      "conflicts": "",
+      "notes": "310 ft = 94.5 m; 80 ft = 24.4 m. Fergusson gives 155 ft for the tower plus porch only (see jagannath-puri-004 quote)."
+    },
+    {
+      "cid": "jagannath-puri-017",
+      "field": "sections.special",
+      "text": "Two high walls surround the temple. The outer wall is built of laterite stone, about 6–7 m (20–24 ft) high, and encloses about 203 m by 195 m (665 by 640 ft).",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 494)",
+          "quote": "built of laterite. The external dimensions of the outer wall are 665 ft, by 640 ft. ; it is not uniformly high, the height varying from 20 ft. to 24 ft. ; it is topped by serrated battlements."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 216)",
+          "quote": "The outer wall 20 feet high, was added at a later date concentric with an inner one and containing a space 665 feet by 640 feet, having a gateway in the centre of each side."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 497)",
+          "quote": "The dimensions of the inner enclosure are 420 ft. by 315 ft. ; 15 steps lead from the eastern entrance to the paved quadrangle enclosed within the inner walls."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%2280%20ft%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 442)",
+          "quote": "measuies 420 ft hy 315 ft, and is enclosed hy a double wall with foul openings"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22440%20feet%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "like the Lingaraja it stands within a spacious courtyard surrounded by a high wall, forming a rectangle 440 feet by 350 feet."
+        }
+      ],
+      "conflicts": "Inner enclosure: Ganguly 1912 and Fergusson 1876 give 420 x 315 ft (128 x 96 m); Brown 1959 gives 440 x 350 ft. Brown also says there are THREE encircling walls, 'known poetically as the \"Three Garlands\"' (leaf 216, q=enclosure); Ganguly and Fergusson describe two (outer and inner / 'a double wall').",
+      "notes": "Outer-wall figures agree in Ganguly and Brown, so the text uses only those. 665 ft = 202.7 m; 640 ft = 195.1 m; 20–24 ft = 6.1–7.3 m. Laterite is named by Ganguly only. Ganguly also says the inner steps 'are made of felspar and khondalite' (leaf 497)."
+    },
+    {
+      "cid": "jagannath-puri-018",
+      "field": "sections.special",
+      "text": "The outer wall has a gate on each of its four sides. The eastern gate, the most important, is the Lion Gate, guarded by two huge lion figures.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 494)",
+          "quote": "The outer enclosure is provided with four gates on the four sides, that on the east being considered the most important ; it is called the Stnka-dwdra or the Lion Gate"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 494)",
+          "quote": "This entrance is flanked on two sides by two huge figures of lion."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 216)",
+          "quote": "The outer wall 20 feet high, was added at a later date concentric with an inner one and containing a space 665 feet by 640 feet, having a gateway in the centre of each side."
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR 'Stnka-dwdra' = Simha-dvara (Lion Gate). Glossary: add 'Simha-dvara' only if wanted."
+    },
+    {
+      "cid": "jagannath-puri-019",
+      "field": "sections.special",
+      "text": "A tall stone pillar stands at the eastern gate. Scholars say it was brought here from the Sun Temple at Konark.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 218, in the Konark description)",
+          "quote": "this free-standing column was transferred some con siderable time ago to adorn the eastern entrance of the Jagannath temple at Puri, where it still remains."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Deva",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 488)",
+          "quote": "The Aruna-stambha was brought from Kon«r-"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Jagannath%20feet",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "the Ariina Stambha standing in front of the eastern gateway of the temple of Jagannath at Puri"
+        }
+      ],
+      "conflicts": "Brown says the pillar bore 'a small image of Arjuna' (OCR; probably Aruna, the Sun god's charioteer, as Ganguly's 'Aruna-stambha' suggests). Ganguly (leaf 494, q=height) gives its total height as 34 feet and says it is 'Iwilt of chlorite'.",
+      "notes": "Ganguly's leaf-488 line is cut at 'Kon«r-' (Konarka). No date for the move is given in quotes seen; do not state one. Optional detail: 'about 10 m (34 ft) tall', from Ganguly."
+    },
+    {
+      "cid": "jagannath-puri-020",
+      "field": "sections.special",
+      "text": "About 30 or 40 smaller shrines stand around the main temple inside the walls.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 216)",
+          "quote": "the main building in the centre, distributed over the remaining area are some 30 or 40 edifices of various shapes and sizes, each a shrine or chapel"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown compares this grouping to the Buddhist stupa tradition (same leaf). Keep that out unless attributed."
+    },
+    {
+      "cid": "jagannath-puri-021",
+      "field": "sections.special",
+      "text": "The dance hall's roof rests on 16 pillars in four rows. Percy Brown called it the only true pillared hall of this kind in Odisha.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=replica",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "the nat mandir, a large building of some 80 feet side, has its ceiling supported by as many as 16 pillars in 4 rows of 4 each, the only real example of a hypostyle hall in Orissa."
+        }
+      ],
+      "conflicts": "Ganguly 1912 (leaf 432, q=Jagannath%20feet) gives 'The Natamandira is a square, each side being 52 feet', but I did not confirm that line refers to Puri; it may be another temple. Not used.",
+      "notes": "'Hypostyle' = a hall whose roof rests on rows of pillars; plain text avoids the word. 80 ft = about 24 m."
+    },
+    {
+      "cid": "jagannath-puri-022",
+      "field": "sections.special",
+      "text": "Historian K.C. Panigrahi saw the Jagannath cult as the best example of Ganga-era blending. It drew on Hindu cults, Buddhism, Jainism and the early local religions of Odisha.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 284)",
+          "quote": "The movement aimed at a synthesis of cults and sects by adopting principles not merely from the different cults of Hinduism, but from Buddhism, Jainism and from the primitive cults"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 284)",
+          "quote": "The cult of Jagannatha embodies all these diverse elements and affords the best example of this synthesis."
+        }
+      ],
+      "conflicts": "",
+      "notes": "An interpretation by one scholar, so attributed. Panigrahi's phrase 'primitive cults that were practised by the primitive people of Orissa' is rendered respectfully as 'the early local religions of Odisha'; the checker may prefer 'the cults of Odisha's early peoples'. He adds that 'different scholars would put different interpretations on the origin' of the cult."
+    },
+    {
+      "cid": "jagannath-puri-023",
+      "field": "sections.special",
+      "text": "Some scholars have suggested links with Buddhism. They proposed that the three sacred images began as Buddhist symbols, or that the temple stands where Buddha's tooth was once kept.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 284)",
+          "quote": "It is maintained by some scholars that the images, now known as Jagannatha, Subhadra and Balabhadra, were on^tally triratna symbols tvorshipped"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "This elevated position suggests that the Jagannath temple occupies the site of some still more ancient monument, not improbably the shrine of the Buddha's tooth at Dantapura, before that precious relic was transported to Ceylon."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 441)",
+          "quote": "as has been frequently suggested, the three images of Jugandt, his brother Balbhadra, and the sister Subhadhia, are only the Buddhist trinity—Buddha, Dharma, Sanga—disguised"
+        }
+      ],
+      "conflicts": "Panigrahi reports the triratna idea as a view held 'by some scholars' and stresses that interpretations differ. Brown's tooth-relic site is 'not improbably'. Fergusson 1876 states the Buddhist origin strongly, in dismissive language about the living faith.",
+      "notes": "RESPECT: this touches the origin of living sacred images. Optional; include only as a debated scholarly suggestion, never as fact, and never quote Fergusson's wording on the site ('degraded'). A family-site editor may reasonably drop this claim."
+    },
+    {
+      "cid": "jagannath-puri-024",
+      "field": "sections.special",
+      "text": "The temple stands on raised ground. Its tall tower can be seen as a landmark across the flat land for many kilometres.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "Moreover as it stands on an eminence, it presents a singularly commanding appearance, its soaring deul pro¬ viding an imposing landmark across the low-lying country for many miles around."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The Konark ledger (konark-series claim on the 'White Pagoda') links the temple to sailors' landmarks via Debala Mitra; not repeated here."
+    },
+    {
+      "cid": "jagannath-puri-025",
+      "field": "sections.influences",
+      "text": "The temple follows the plan of Bhubaneswar's Lingaraja temple. Panigrahi thought the Ganga kings wanted to match or outdo that great temple.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "Built on the same principle as the Great Temple, at Bhubaneswar, and con¬ sisting of four edifices in one alignment"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Puri",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 283)",
+          "quote": "the eminent members of the Ganga dynasty by trying to emulate or even to outstrip them, built the more stupendous temples like those at Puri and Konarka."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's 'Great Temple' = Lingaraja (see lingaraj ledger)."
+    },
+    {
+      "cid": "jagannath-puri-026",
+      "field": "sections.influences",
+      "text": "Percy Brown saw progress in its design: the top of the tower curves in more gracefully than at Lingaraja.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=replica",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "This is shown by the improved shape noticeable in its contours generally, and specifically by the overhang of the shoulder, which in this instance has been reduced to a more graceful line"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Same passage as history-019."
+    },
+    {
+      "cid": "jagannath-puri-027",
+      "field": "sections.influences",
+      "text": "Percy Brown noticed that its gateways and walled courtyards resemble South Indian temple plans of the same period. He thought this was more than a coincidence.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=enclosure",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 216)",
+          "quote": "the principle of such architec tural entrances, and the additional enclosed area, is analogous to the arrangement of pylons and prakarams, which about this time were becoming a characteristic of the Dravidian temple, seems more than a coincidence."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown also says the gateways 'bear no resemblance to the gopuram type of the southern style' in their form (same leaf). The link is in the principle, not the look. Attributed interpretation."
+    },
+    {
+      "cid": "jagannath-puri-028",
+      "field": "sections.influences",
+      "text": "Puri's temple came before the Sun Temple at Konark. M.M. Ganguly noted a carving of Jagannath found in Konark's ruins, which shows Puri's god was already known there.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22temple%20of%20Jagannath%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 475)",
+          "quote": "From this it is evident that the temple of the sun-god must have been built long after the temple of Jagannath at Puri was constructed, i. e. after the twelfth century A. D. at least."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagannath",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 218, on Konark)",
+          "quote": "Jagannath example at Puri, but with its curves of the refined and fluid order"
+        }
+      ],
+      "conflicts": "Fergusson 1876 (leaf 440, q=Juganat) wrote as if the Black Pagoda (Konark) came BEFORE Puri: 'the short sjiace of time that had elapsed between the building of the Black Pagoda and the celebiated one now found theie'. Later scholars (Brown: Konark mid-13th century) reverse this.",
+      "notes": "The second sentence of the text rests on Ganguly's reasoning from 'the figure of Jagannath ... noticeable on a slab recovered from the debris of the vimana of Konarka' (same leaf). Brown's snippet shows he compared Konark's lost tower to Puri's. Simpler alternative: keep only the first sentence."
+    },
+    {
+      "cid": "jagannath-puri-029",
+      "field": "sections.parts.element_ids",
+      "text": "Parts named for this temple: the jagamohana (porch hall), the natamandira (dance hall) and the bhogamandapa (offering hall), in front of the tower shrine.",
+      "value": ["jagamohana", "natamandira", "bhogamandapa"],
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=vimana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 504)",
+          "quote": "The eastern doorway of the jagamohana leads to the nata* mandira, the western one to the vimana."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Deva",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 488)",
+          "quote": "The bhogamandapa and the inner enclosure wall are ascribed to Piirushottama Deva flourishing from the middle to the end of the 15th century A. D."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia902906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22four%20edifices%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 215)",
+          "quote": "in which condition it appears to have remained until the fourteenth or fifteenth centuries, when '.he nat and bhog mandirs were added."
+        }
+      ],
+      "conflicts": "",
+      "notes": "bada, gandi and mastaka are NOT included: no fetched passage names them for the Puri tower. Ganguly mentions the tower's jangha (a part of the wall section) and its 'stone finial', and uses 'bada' only for the jagamohana (leaf 503). The checker may add bada/gandi/mastaka if the human accepts that every rekha deul has them; that is not sourced here. No source seen on a pista (platform) for the main tower."
+    }
+  ],
+  "location": {
+    "note_on_placement": "Plain location block, not a claim. OSM is used for coordinates only, not as a fact source.",
+    "value": { "place": "Puri", "district": "Puri", "lat": 19.8047726, "lng": 85.8180811, "coord_source": "https://www.openstreetmap.org/way/111810053" },
+    "evidence": [
+      {
+        "source_id": null,
+        "fetched_url": "https://nominatim.openstreetmap.org/search?q=Jagannath+Temple+Puri&format=json",
+        "access": "full-text",
+        "locator": "osm_type way, osm_id 111810053",
+        "quote": "Jagannath Temple, Grand Road, Puri, Swargadwara, Puri, Puri (M), Puri, Odisha, 752001, India"
+      },
+      {
+        "source_id": null,
+        "fetched_url": "https://www.openstreetmap.org/way/111810053",
+        "access": "full-text",
+        "locator": "way tags",
+        "quote": "amenity=place_of_worship; name=Jagannath Temple; religion=hindu; name:or=ଶ୍ରୀ ଜଗନ୍ନାଥ ମନ୍ଦିର"
+      }
+    ],
+    "notes": "Nominatim centroid of a 5-node way (a simple outline, about 56 m by 97 m by its bounding box), so this is near the main temple buildings, not the whole walled compound. The way's 'description' tag (a wall 'about seven meters high') is OSM text, not an accepted source; do not use it. Ganguly 1912 (leaf 480, q=height) gives Puri as 'Lat. i9°i8'i7\" and Long. 85°5i'39\"' (OCR; about 19°48'17\" N, 85°51'39\" E), which is close to the OSM point."
+  },
+  "sketchfab": {
+    "value": null,
+    "searched": ["https://api.sketchfab.com/v3/search?type=models&q=jagannath%20temple%20puri"],
+    "notes": "Only ONE model of the temple building has a Creative Commons licence: 'JAGANNATH TEMPLE' by ajit2021 (uid 7c77884c0d964fd8ba682b91563d0698), CC Attribution, downloadable. Its description says 'I JUST MADE THIS BASIC MODEL OF JAGANNATH TEMPLE PURI FOR MOTION GRAPHICS', so it is a simple artist's model, not a survey or scan, and its accuracy is unknown. I saw it only in the search API result; I did not open the model page. Other results: a CC BY-NC model of the deities (not the building; showing sacred images needs a human decision on respect), 'Free Standard' licence (not CC), models with no licence, and one Meshy AI-generated model. Recommendation: null unless the human approves the ajit2021 model at G2 with 'simplified artist's model' labelling."
+  },
+  "new_sources": [],
+  "gaps": [
+    {
+      "field": "facts.date / facts.dynasty (Kendupatna copper-plate; 1134–35 CE donative inscription)",
+      "searched": ["Ganguly 1912 leaves 485–488 (quotes the Ganga copper-plate couplet via 'Nrisinha Deva IV', not Narasimhadeva II)", "no Epigraphia Indica / JASB edition of the Kendupatna plate opened (budget)"],
+      "why_blank": "No published edition of the Kendupatna plate or the 1134–35 CE Puri inscription was opened. No claim cites them."
+    },
+    {
+      "field": "facts.dynasty (completion under Anangabhima III, r. c. 1211–1238)",
+      "searched": ["panigrahi-1961 q=Anangabhima (leaves 47, 61, 62)", "ganguly-1912 q=Ganga, q=\"Ananga or Aniyanka\""],
+      "why_blank": "Sources name 'Anangabhima' without a number, or place him in the 12th century. Anangabhima III's link to the temple and his reign dates were not seen."
+    },
+    {
+      "field": "sections.why_built (Anangabhima III dedicating the kingdom to Jagannath as his 'Rauta'; Gajapati state cult)",
+      "searched": ["panigrahi-1961 q=Anangabhima, q=Puri", "ganguly-1912 q=Ganga"],
+      "why_blank": "Not found in any fetched passage. Leave out."
+    },
+    {
+      "field": "facts.temple_type ('rekha' wording)",
+      "searched": ["ganguly-1912 q=dewl, q=cement, q=plinth", "brown-1959 q=Puri, q=jagannath"],
+      "why_blank": "No fetched Puri passage calls the main tower 'rekha'. bose-1932 and kramrisch-1946 were not searched (budget)."
+    },
+    {
+      "field": "facts.height (other figures)",
+      "searched": ["ganguly-1912 (214.67 ft and 209.42 ft found)", "fergusson-1876 (192 ft found)", "brown-1959 ('nearly 200 feet' found)"],
+      "why_blank": "mitra-r-1875 / mitra-r-1880 were not searched (budget), nor any ASI record. No ASI measurement is known to this ledger."
+    },
+    {
+      "field": "sections.construction (stone of the main tower)",
+      "searched": ["ganguly-1912 leaves 494–503"],
+      "why_blank": "Only the outer wall (laterite), the inner steps (felspar and khondalite) and the Aruna pillar (chlorite) have a material named. The tower's own stone was not seen."
+    },
+    {
+      "field": "access rules (Hindus-only entry)",
+      "searched": ["brown-1959", "ganguly-1912", "panigrahi-1961 (passages read)"],
+      "why_blank": "No accepted source seen stating an entry rule. Do not state it."
+    },
+    {
+      "field": "glossary",
+      "searched": [],
+      "why_blank": "Terms used need glossary entries: jagamohana, natamandira, bhogamandapa, pancharatha, deul, laterite, khondalite, chlorite, Simha-dvara (Lion Gate), Aruna-stambha, Purushottama, triratna (only if claim 023 is kept)."
+    },
+    {
+      "field": "catalogue-only registry sources",
+      "searched": ["donaldson-1985", "behera-1993"],
+      "why_blank": "Not readable online, so not used."
+    }
+  ]
+}
