@@ -1,0 +1,960 @@
+{
+  "topic": "parasuramesvara-2",
+  "run_on": "2026-09-19",
+  "method_note": "Supplementary run. Leads came from research/leads/parasuramesvara-docx-leads.txt (AI-written, leads only, never cited). archive.org quotes were read through the search-inside API (fulltext/inside.php); fetched_url is that exact API URL. OCR errors are kept; IA_FTS_MATCH tags are removed. 'leaf N' is the API's scan index, NOT a printed page, so locators start with 'unverified'. The fetch tool relays OCR text and sometimes normalises it; where two fetches of the same passage differed, the note says so. The IGNCA form (ignca-orkhurda145) was downloaded as a 4-page PDF and read directly; its page numbers are the PDF pages actually seen. General part definitions (bada, pabhaga, gandi, mastaka, raha…) reuse research/ledgers/architecture.json quotes that were re-opened in this run; the matching arch-0xx id is named in notes. Spellings: Panigrahi 'Parasuramesvara', Brown 'Parasrameswar', Bose 'ParaSurameSwar', Ganguly 'Parasuramesvara' / OCR variants.",
+  "claims": [
+    {
+      "cid": "parasuramesvara2-001",
+      "field": "sections.construction",
+      "text": "Builders in Bhubaneswar had no cranes. K.C. Panigrahi explained that they buried the rising walls in earth. Then they dragged heavy stones up a long earth ramp.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=earth",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 79)",
+          "quote": "The indigenous method of constructing stone structuresand carrying huge stones to great heights ivhcn modern cranes were not in use, was to bury the structures in earth as they progressed in Iteight,"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=earth",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 79)",
+          "quote": "and then to make inclined planes on one side of Utem on ivhicli the stones of great weight could be dragged to desired heights. Almost ail the temples of Bhubaneswar excepting the miniature ones, seem to have been built by this method,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is Panigrahi's GENERAL account for Bhubaneswar temples, not a statement about the Parasuramesvara in particular. Same passage: the Lingaraja ramp remains lie on the west side; the digging for ramp earth often made the temple's tank; the Khiching temple was rebuilt this way 'in recent times'. The leads doc says 'sand ramps'; Panigrahi says 'earth' and 'inclined planes'. Pitfall-safe: says nothing about iron or mortar."
+    },
+    {
+      "cid": "parasuramesvara2-002",
+      "field": "sections.construction",
+      "text": "Because the walls were buried during building, the tower and the hall could not rise together. Panigrahi says the tower came first, and the hall was added afterwards.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=prevented",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 79)",
+          "quote": "The process of burying the structures in earth at the time of their construction, prevented the bmlders front construction of both the"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22after%20its%20completion%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 78)",
+          "quote": "main temple and the porch simultaneously. Tlie rule was therefore to build the main temple first and then add a porch after its completion."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22after%20its%20completion%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 78)",
+          "quote": "but the two structures could not very often be adjusted exactly on those points. It is therefore not surprising at present to discover some discrepancies at these points of juncture."
+        }
+      ],
+      "conflicts": "The leads doc says Panigrahi explained the Parasuramesvara's irregular junction this way. In the passages found, Panigrahi states a general rule for Bhubaneswar and does NOT name the Parasuramesvara. Applying it to this temple is an inference.",
+      "notes": "Leaves 78 and 79 are duplicate scans of the same printed page (the sentence runs across the two hits). Panigrahi adds that two columns of the front face were usually left uncarved as meeting points for the porch. Suggested site wording keeps the rule general: 'In Bhubaneswar the tower was usually built first…'."
+    },
+    {
+      "cid": "parasuramesvara2-003",
+      "field": "sections.special",
+      "text": "The hall is joined to the tower in an untidy way. Its back end covers up some carvings on the tower's front face.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "In any case the joining of the two structures is a haphazard piece of work, as the end of the pillared hall covers up some of the carving on the face of the sanctuary."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown also says the sculpture differs between the two buildings: 'some of that on the jagamohan being so naive as to be classed as a folk-art' (same leaf). Single source, so scholarly."
+    },
+    {
+      "cid": "parasuramesvara2-004",
+      "field": "sections.special",
+      "text": "Scholars disagree about which part is older. Percy Brown thought the tower might be a later replacement. He also noted signs that the hall was added later.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagamohan",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "The sanctuary may have been added a generation or so later, to take the place of an earlier edifice which had probably fallen into decay."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagamohan",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "On the other hand there are indications that the jagamohan itself may have been the subsequent addition, although on grounds of style this does not appear likely."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22after%20its%20completion%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 78)",
+          "quote": "Tlie rule was therefore to build the main temple first and then add a porch after its completion."
+        }
+      ],
+      "conflicts": "Brown 1959: the sanctuary may be a generation later, replacing a decayed earlier shrine; he also admits signs the hall is later but thinks style argues against it. Panigrahi 1961: a general rule that the porch was added after the main temple (not said of this temple in the passages seen). Debala Mitra's view (leads doc: hall is a later addition) was NOT verified: her Bhubaneswar (mitra-d-1978) is catalogue-only.",
+      "notes": "Brown calls the junction 'One inexplicable feature'. Leads doc's summary of Brown ('the jagamohana is the older') matches his first hypothesis only."
+    },
+    {
+      "cid": "parasuramesvara2-005",
+      "field": "elements.bada.parts",
+      "text": "N.K. Bose describes the wall (bada) in three parts: the pabhaga (foot), the jangha (shin) and the baranda, a band of mouldings on top.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=shin",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 133)",
+          "quote": "the pabhaga or the division corresponding to the foot (i. e. the base), the Jangfia or the shin and the baranda, which is a set of mouldings crowning the bara."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=gandi",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 100, glossary)",
+          "quote": "gandi literally trunk; curvilinear spire or pyramidal roof above bada and below the mastaka of a temple"
+        }
+      ],
+      "conflicts": "Mitra (ASI) glosses jangha as 'thigh'; Bose as 'shin' (see arch-047).",
+      "notes": "Reuses arch-022/025/044 (Bose leaf 133 re-opened and confirmed in this run). Mitra's gandi entry is cited only to place the bada below the gandi. Label text for images: pabhaga = foot mouldings, jangha = wall face, baranda = top mouldings."
+    },
+    {
+      "cid": "parasuramesvara2-006",
+      "field": "glossary.trianga-bada.short",
+      "text": "Bose found that the earliest temples have a three-part wall: pabhaga, jangha and baranda. Later temples have five parts. This three-part wall is called a trianga bada.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 143)",
+          "quote": "all the temples which can definitely be assigned to a comparatively earlier epoch on the evidence of epigraphy or sculptural style, have a ham composed of three elements, vix. pabhaga, jangha and baranda."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Any Other')",
+          "quote": "The bada has three divisions (trianga bada) in elevation."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Reuses arch-045 (Bose leaf 143 re-opened and confirmed). The IGNCA form uses the word 'trianga bada' for THIS temple, which fills the earlier ledger's gap 'facts.temple_type (trianga bada)'. OCR 'ham' = bara (Bose's spelling of bada)."
+    },
+    {
+      "cid": "parasuramesvara2-007",
+      "field": "sections.parts (this temple: bada)",
+      "text": "The wall of this temple has the early three-part form, called a trianga bada.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Any Other')",
+          "quote": "The bada has three divisions (trianga bada) in elevation."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=recess",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 359)",
+          "quote": "The Bdda does not show the usual five elements ; only the Jangha and Barândi have been used, and the remaining three elements have been omitted."
+        }
+      ],
+      "conflicts": "Terms differ. IGNCA: three divisions (trianga bada). Ganguly 1912 counts only two of his five bada elements ('Jangha' and 'Barandi'); in his scheme 'Jangha' is the base-moulding set that Bose calls pabhaga. Both agree the wall is simpler than the usual five-part wall.",
+      "notes": "IGNCA is a government-doc (supporting only), Ganguly is an old book with non-standard terms, so scholarly, not established. Bose's plate list (leaf 17) names the Parasuramesvara pabhaga as his example of a three-moulding base (see 008)."
+    },
+    {
+      "cid": "parasuramesvara2-008",
+      "field": "elements.pabhaga.what",
+      "text": "The pabhaga is the 'foot' of the wall: a set of three to five stone mouldings. Bose names five: khura, kumbha, pata, kani and basanta.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=mouldings",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 290, glossary)",
+          "quote": "Division corresponding to the foot; set of three, four or five mouldings at the base of a temple (above pis(a or pedestal)."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=mouldings",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 163)",
+          "quote": "The ratio of the different mouldings of the pabha^ja, viz. the kbura, kumhfia, pafa, kani and basanfa will be according to one of the following tables"
+        }
+      ],
+      "conflicts": "Bose's translated text (leaf 264) lists the five as khura, 'kalasa', pata, kani, basanta; the leaf 163 list says kumbha. Bose's glossary (leaf 288) notes kalasa can mean 'the moulding known as kumbha'.",
+      "notes": "Extends arch-040. Only Bose names the five mouldings, so scholarly. Single-moulding glossary entries (khura, kumbha, pata, kani, basanta shapes) were not fetched; see gaps."
+    },
+    {
+      "cid": "parasuramesvara2-009",
+      "field": "sections.parts (this temple: pabhaga)",
+      "text": "At this temple the foot of the wall has only three mouldings, not the usual five. Scholars name them differently.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=mouldings",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 17, list of illustrations)",
+          "quote": "Pabhdga, consisting of three mouldings, ParaSurameSwar"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Basanta",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 359)",
+          "quote": "Departure from the usual type is also noticed in the Jangha, the first element of the Bdda ; for, instead of the five component mouldings, or projections, it consists of the following three, boldly executed, viz., Prtda, Kiimuda, and Basanta"
+        }
+      ],
+      "conflicts": "The leads doc names the three as 'khura, kumbha and pata'. No accepted source seen says this. Ganguly 1912 names them Pada, Kumuda and Basanta (OCR 'Prtda, Kiimuda'), and elsewhere (leaf 158) says that at the Parasuramesvara 'Pata and Kani are altogether wanting' and that its second element 'is again, not a kumbha at all'. Bose gives only the count (three).",
+      "notes": "Do not publish the three names. The count 'three' is supported by two sources. Ganguly's leaf 158 wording came back with different OCR renderings in two fetches, so it is kept in conflicts, not as a quote."
+    },
+    {
+      "cid": "parasuramesvara2-010",
+      "field": "elements.jangha.what",
+      "text": "The jangha is the upright face of the wall, set back between rows of mouldings. Bose translates the word as 'shin'.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=shin",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 287, glossary)",
+          "quote": "Jangha, JangA&Shin ; recessed vertical portion of wall"
+        }
+      ],
+      "conflicts": "Mitra (ASI 2003) glosses jangha as 'thigh' (arch-047).",
+      "notes": "Re-verifies arch-047's Bose quote. Merge with arch-047 at fact-check."
+    },
+    {
+      "cid": "parasuramesvara2-011",
+      "field": "elements.mastaka.parts",
+      "text": "Above the tower (gandi) sits the crown (mastaka). From bottom to top: the beki (throat), the amla (a ribbed disc), the khapuri (skull), the kalasa (water-pot) and the ayudha (the god's weapon).",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "Just above the gandi is the beki or the throat ; then comes the amid or dmalaka, a flattened spheroid, ribbed at the sides"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "Above the amid comes the khapuri or skull, and on it is placed the kalasa or water-pot and dyudha"
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=gandi",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 101, glossary)",
+          "quote": "mastaka head; crowning elements above the gandi of a temple"
+        }
+      ],
+      "conflicts": "Bose says 'mastaka' is a name coined for convenience (arch-024).",
+      "notes": "Re-verifies arch-024, 060–064. Bose is listed as a primary-text in the content policy and Mitra is ASI, hence established is proposed; the checker may lower to scholarly. OCR: 'amid'/'dmalaka' = amla/amalaka, 'dyudha' = ayudha. For THIS temple: Brown's 'immensely wide fluted amala-sila' (parasuramesvara-013) and Ganguly's note that the beki, amla and khapuri were rebuilt and a new kalasa added in the restoration (claim 030)."
+    },
+    {
+      "cid": "parasuramesvara2-012",
+      "field": "elements.raha.kanika",
+      "text": "In a triratha (three-strip) temple, a central strip called the raha juts out from each wall. The two corner strips are the kanikas. Temples with more strips are pancharatha (five), saptaratha (seven) or navaratha (nine).",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=ratha",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 101, glossary)",
+          "quote": "In a tri-ratha temple a central exterior projection (raha) divides the wall into three rathas, the two on the outer sides being on the same plane and known as kanika."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=ratha",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 101, glossary)",
+          "quote": "Temples with five, seven and nine such rathas, the result of the increase in projections on each face, are respectively known as pancha-ratha, sapta-ratha and nava-ratha"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Re-verifies arch-049/051/052. Bose's matching quotes are in arch-049 and arch-052 (not re-opened this run). Mitra is an ASI guide, so established needs a second source: add Bose from arch-052 at fact-check or lower to scholarly."
+    },
+    {
+      "cid": "parasuramesvara2-013",
+      "field": "facts.temple_type",
+      "text": "The main shrine is a rekha temple (curved tower) with a triratha plan. Its side niches already hint at the later five-strip (pancharatha) plan.",
+      "value": "rekha, triratha",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=recess",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 359)",
+          "quote": "The Vimmia is a Triratha dewl."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Any Other')",
+          "quote": "The temple is triratha on plan, though the projecting niches flanking the central projection already herald the pancharatha type."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 10 ('Structural System')",
+          "quote": "The vimana is of rekha order while the jagamohana, instead of being a stepped pyramidal tower (pidha deula) is a rectangular structure with a terraced roof slopping in two stages."
+        }
+      ],
+      "conflicts": "The leads doc says the bada is triratha but the gandi is 'pancha-ratha'. No source seen says the gandi is pancharatha; IGNCA only says the niches 'herald the pancharatha type'.",
+      "notes": "Strengthens parasuramesvara-005 (Panigrahi, indirect) with two direct statements, and fills the earlier gap 'rekha' (IGNCA: 'rekha order'). OCR 'Vimmia' = Vimana."
+    },
+    {
+      "cid": "parasuramesvara2-014",
+      "field": "sections.special",
+      "text": "The tower is decorated with carved arch shapes (chaitya arches), small ribbed discs, shallow niches and round medallions.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=medallion",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 71)",
+          "quote": "The Chahya arches, hsi-Smalakas, shallow niches and medallions that decorate the sikhara of the ParaSuramesvara are to be found in similar positions of the SisireSvara also."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Exteriors')",
+          "quote": "chaitya motifs, mythological animals, birds, human figures mostly amours couples and architectural motifs like vajaramastaka,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR 'Chahya' = Chaitya, 'hsi-Smalakas' probably bhumi-amalakas. No source seen DEFINES 'vajra-mastaka'; IGNCA only lists it (spelled 'vajaramastaka'). Mitra 2003 glossary defines a different term, 'vajra-mundi variant of khakhara-mundi with a highly intricate chaitya-motif on the facade of the roof' (leaf 101, q=vajra-mastaka). A vajra-mastaka definition stays a gap."
+    },
+    {
+      "cid": "parasuramesvara2-015",
+      "field": "sections.special",
+      "text": "An image of the teacher-saint Lakulisa has a place of honour on the temple's front face. Panigrahi notes he is shown with four disciples.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22place%20of%20honour%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 253)",
+          "quote": "While identifying and discussing the cult images of the ParaSurameivara temple in Chapter V, we have shown that the image of Lakulisa has found a place of honour in the front facade of that monument."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Lakulisa%20disciples",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 253)",
+          "quote": "the image of Lakulisa has found a place of honour in the front facade of that monument and that Lakulisa appears in the sculptures with his four disciples"
+        }
+      ],
+      "conflicts": "",
+      "notes": "The second quote came from a fetch that summarised lightly; the first is exact. Glossary: Lakulisa needs an entry ('a Shaiva teacher of the Pasupata group', to be sourced). The leads doc places Lakulisa-with-disciples in a medallion 'above the eastern raha niche'; that position was not verified (Panigrahi leaf 91's Lakulisa-with-disciples medallion 'In the south' may belong to another temple)."
+    },
+    {
+      "cid": "parasuramesvara2-016",
+      "field": "sections.special",
+      "text": "The porch hall (jagamohana) is a low, rectangular hall. Its stone roof slopes down in two levels.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 10 ('Structural System')",
+          "quote": "The vimana is of rekha order while the jagamohana, instead of being a stepped pyramidal tower (pidha deula) is a rectangular structure with a terraced roof slopping in two stages."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "A low rectangular structure comprises the hall of the temple, and this is provided with a double roof and plain massive eaves, while there is a doorway in each of its three free sides and four perforated stone windows."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "The BaflTa of the porch 7ft. in height is a low rectangular parallelepiped having a door opening both on the south and west respectively."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Ganguly's OCR 'BaflTa' = Bada (wall); the porch wall is 7 ft high. Unlike later halls, it has no stepped pidha roof (IGNCA)."
+    },
+    {
+      "cid": "parasuramesvara2-017",
+      "field": "sections.special",
+      "text": "In the middle of the hall roof is a raised part with rows of small windows, called a clerestory. It let in light and air. The restorers later blocked these windows.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "It is topped by a sloping roof formed by slabs of stone 6ft. long having in the centre, a sort of clere-story, or skylight of six windows in front, i.e., on the west, and twelve windows on the sides"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=clere-story",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "The purpose of this is obviously, to admit more light and air, but now after the restoration, the windows of the clere-story referred to have been blocked up."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "They supported a massive architrave raising the ceiling of the nave higher than the aisles, thus forming an embryo clerestory."
+        }
+      ],
+      "conflicts": "Window counts agree with Mitra 1880 (parasuramesvara-010: six in front, twelve on each side). Ganguly says 'twelve windows on the sides, i.e., south and north' (ambiguous: twelve in all, or twelve each).",
+      "notes": "The leads doc says the clerestory is 'fitted with solid stone grilles'; no source seen says so. The 'blocked up' statement is Ganguly's 1912 observation after the PWD repairs."
+    },
+    {
+      "cid": "parasuramesvara2-018",
+      "field": "sections.special",
+      "text": "Inside the hall, six pillars stand in two rows of three. Brown says they were first made from single stones, with plain square shafts.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=jagamohan",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "In the interior of the jagamohan are two rows of pillars, three in each row, producing a miniature nave and aisles; these pillars were originally monoliths having plain square shafts, no bases, but with voluted bracket capitals."
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=clere-story",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "rows of three rectangular pillars. The constructive peculiarity of the porch necessitated the use of pillars which were monolithic before the present restoration was effected."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Both imply the pillars were changed in the restoration ('originally monoliths'; 'monolithic before the present restoration'). Neither says in so many words that they were 'replaced'; the leads doc does. Suggested extra sentence, attributed: 'The pillars were changed during the repairs of about 1903.'"
+    },
+    {
+      "cid": "parasuramesvara2-019",
+      "field": "sections.special",
+      "text": "Sources disagree on the number of hall doors. One says two, on the south and west. Another says there is a door on each of the three free sides.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "The BaflTa of the porch 7ft. in height is a low rectangular parallelepiped having a door opening both on the south and west respectively."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "A low rectangular structure comprises the hall of the temple, and this is provided with a double roof and plain massive eaves, while there is a doorway in each of its three free sides and four perforated stone windows."
+        }
+      ],
+      "conflicts": "Ganguly 1912: doors on the south and west. Panigrahi 1961: 'two doors' (parasuramesvara-010). Brown 1959: a doorway in each of three free sides. Mitra 1880: 'the two doors on each side, and the one in front'. Brown alone gives four perforated windows.",
+      "notes": "Panigrahi separately refers to 'an inscription appearing on the southern door of its Jagamohana' (claim 024), which supports a south door. Suggested safe text: 'The hall has a door on the west and one on the south.' (Ganguly + Panigrahi)."
+    },
+    {
+      "cid": "parasuramesvara2-020",
+      "field": "sections.special",
+      "text": "Beside the west door are two stone window screens. They are carved as young dancers and musicians playing trumpets, lutes and cymbals.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "But one portion stands out as being a pro- duction of exceptional merit, namely the two stone grilles, one on each side of the west doorway."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "These represent figures of young dancers and musicians with trumpet and with shawm, lute and cymbal, so grouped as to form perforated stone windows."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Single source (Brown), scholarly. The leads doc links these dancers to a devadasi tradition; that was on the SKIP list and is not claimed. A shawm is an old wind instrument; 'trumpets' in the text is a simplification the checker may widen to 'wind instruments'."
+    },
+    {
+      "cid": "parasuramesvara2-021",
+      "field": "sections.special",
+      "text": "Percy Brown admired these screens greatly. He compared them to the glazed clay reliefs of the Italian artist Della Robbia, and said they were even livelier.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "In some respects these panels might be reproductions in stone of one of Della Robbia's glazed terracotta reliefs, excelling even the work of that famous Florentine in their vigour and rhythm,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "An attributed opinion. Brown calls it the work of one sculptor who left it as 'the sole record of his inimitable genius'. Per the story-voice memory, the site may prefer 'One art historian compared…' in the body and name Brown in the note."
+    },
+    {
+      "cid": "parasuramesvara2-022",
+      "field": "sections.special",
+      "text": "On the north wall of the hall is a row of nine gods. They are the Seven Mothers (Saptamatrikas), with Ganesha at one end and Virabhadra at the other.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22north-west%20corner%20of%20the%20northern%20wall%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 82)",
+          "quote": "A row of nine deities constituting an early group of Saptamatrikas with their two associates begins from the north-west corner of the northern wall and continues up to the middle."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Matrikas",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 162)",
+          "quote": "threegroupsofSapta-Matrikas are to be found at Bhubaneswar, one on the Jagamokana of the Paraiurameivara, another inside the sanctum of the Vaital and the third on the ceiling of the Muktesvara."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22no%20mouse%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 82)",
+          "quote": "The first one is a Ganesha with the usual attributes kuthara, mudakas, aksharunald and a radish. It has no mouse as its mount"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Virabhadra",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 85)",
+          "quote": "The figure is to be identified with Virabhadra who is enjoined to be represented in association with the MatriKass"
+        }
+      ],
+      "conflicts": "Order: Panigrahi puts Ganesha FIRST (at the north-west corner) and Virabhadra LAST. The leads doc reverses this ('begins with Virabhadra… culminates with Ganesha'). The leads doc also calls it 'the first Odishan temple to explicitly depict the Saptamatrikas'; Panigrahi says only 'an early group'.",
+      "notes": "Leaf 82 is in Panigrahi's chapter on the Parasuramesvara's cult images; leaf 162 confirms the group is on its jagamohana, so 'north wall' = the hall's north wall by combining the two. The Virabhadra quote came from a fetch that flagged possible truncation; the checker should re-open q=Virabhadra. IGNCA also lists 'saptamatrikas' among the exterior carvings. Do not publish 'the first' or 'the earliest'."
+    },
+    {
+      "cid": "parasuramesvara2-023",
+      "field": "sections.special",
+      "text": "Here the Seven Mothers carry no babies. Panigrahi notes that mothers holding babies appear only in later temples, such as the Mukteshvara.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "babies carried in the arms of Sapta-matrikas and Ketu among the planets."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "It is to be noted that these architectural and iconographical features are conspicuous by their absence in the early groups of temples represented by the Parasuramesvara and the Sisireivara,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Leaf 107 lists the Mukteshvara's new features (babies with the Matrikas, Ketu, etc.) and says they are absent in the Parasuramesvara group. 'No babies' is therefore Panigrahi's inference by contrast, not a direct description. Leaf 162 adds 'this new conception about Matrikas holding babies might have been initiated during their epoch' (q=Matrikas)."
+    },
+    {
+      "cid": "parasuramesvara2-024",
+      "field": "sections.special",
+      "text": "The eight guardians of the directions (dikpalas) appear here as a row of carved panels on the hall. Panigrahi thought this was their first appearance on a surviving temple.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Dikpalas",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 170)",
+          "quote": "So far as extant temples go, the eight Dikpalas first apear on the Parasuramclvara temple, though not in their respective posidons. Here on the Jagamokana of the temple, they appear as a running frieze of scalpluTcs,"
+        }
+      ],
+      "conflicts": "The leads doc places the dikpalas on the hall's SOUTH wall; Panigrahi says only 'on the Jagamohana' as a running frieze, not in their proper directions. Wall not verified.",
+      "notes": "Panigrahi (same leaf) says dikpalas in their correct directions are first seen among dated temples at the Brahmesvara. His list of plates includes 'Yama' and 'Indra' from the Parasuramesvara (leaf 10). 'First' is Panigrahi's judgment 'so far as extant temples go', so keep it attributed."
+    },
+    {
+      "cid": "parasuramesvara2-025",
+      "field": "sections.special",
+      "text": "An old inscription on the hall's south door gives the god a different name. Panigrahi thought the temple was first named after Parasara, a teacher of the Pasupata Shaiva group.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22southern%20door%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 253)",
+          "quote": "The name Parasuramesvara was certainly not the original name of that temple, as is evident from an inscription appearing on the southern door of its Jagamohana."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Parasaresvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 254)",
+          "quote": "The script used is Nagarl and the epigraph on palaeographical grounds can be assigned to the eleventh century a.d."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Parasaresvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 254)",
+          "quote": "IVe have thus reasons to believe that the temple was originally named after the Pasupata teacher Paraiara, mentioned in the Mathura Pillar inscription of Chandragupta II as a successor of Kusika, one of the four disciples of LakulT."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 1, Section I item 1 ('Name')",
+          "quote": "Past : Parasaresvara Temple"
+        }
+      ],
+      "conflicts": "Panigrahi (leaf 254) follows A. Ghosh's reading of the inscription: it records a gift of rice to 'Parasasvara' (OCR also 'ParasaSvara', 'Parasarvara'), which Ghosh took as a corruption of 'Parasaresvara'. The leads doc spells the inscribed name 'Parasesvara'. The exact inscribed spelling is not certain from the OCR. Panigrahi calls the name Parasuramesvara 'a later corruption or invention'; the popular story linking it to Parasurama is temple tradition.",
+      "notes": "Tier uncertain: the naming theory is Panigrahi's inference ('reasons to believe'), and the inscription is 11th century, long after the temple was built. Ghosh's original publication (epigraphy) was not opened. Do not put an exact inscribed spelling in site text. Pasupata and Lakulisa need glossary entries."
+    },
+    {
+      "cid": "parasuramesvara2-026",
+      "field": "sections.special",
+      "text": "The main wall niches once held gods carved from separate blocks of stone. Only two, Ganesha and Kartikeya, are still in their original places.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22central%20niches%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 87)",
+          "quote": "Of the images carved out of single blocks of stone and enshrined in the central niches, only two, namely Ganesa and KarttiJeeya, arc still to be found in their ori^nal places (Figs. 97, 106)."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Karttikeya",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 11, list of figures)",
+          "quote": "97. Karttikeya, ParaiurameSvara Temple."
+        }
+      ],
+      "conflicts": "The leads doc says 'only two remain in situ' in one place and gives a niche table with THREE deities 'In Situ' (Kartikeya east, Ganesha south, Kartikeya west) in another. It also puts a 'west raha niche' on a temple whose hall is attached on the west. Panigrahi supports two survivors only. Which wall each survivor is on was NOT found.",
+      "notes": "Leaf 87 is in Panigrahi's Parasuramesvara chapter (Fig. 97 is captioned Karttikeya, Parasuramesvara). Panigrahi (leaf 68) says early temples had eleven niches in all, counting the sanctum door as the front central niche; that quote is mid-sentence: 'the door of the sanctuary occupying the position of the central niche in the front facade, the total number of niches has been eleven'. No source seen says the others were 'looted'; say 'are missing'."
+    },
+    {
+      "cid": "parasuramesvara2-027",
+      "field": "facts.orientation",
+      "text": "The temple faces west. Its hall has its main door on the west side.",
+      "value": "west",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Orientation')",
+          "quote": "Facing towards west."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "namely the two stone grilles, one on each side of the west doorway."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Ganguly (leaf 356) says the clerestory has 'six windows in front, i.e., on the west', confirming the west is the front. The leads doc's reason ('chosen to interact with the setting sun') is unsourced and must not be used."
+    },
+    {
+      "cid": "parasuramesvara2-028",
+      "field": "sections.construction",
+      "text": "The temple is built of sandstone blocks, laid without mortar. Laterite, a red, porous stone, was used for the foundation and the compound walls.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 10 ('Material of Construction')",
+          "quote": "Sandstone is used for building construction, laterite for the foundation and both the inner and outer compound wall."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 10 ('Building Techniques')",
+          "quote": "Ashlar dry masonry."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Fills the earlier ledger's gap 'stone type'. Single government-doc source, so scholarly at most; the policy says a government-doc is 'supporting only', so the checker may want a second source (Panigrahi or Debala Mitra) before publishing. 'Red, porous stone' glosses laterite and is not quoted; laterite needs a glossary entry. 'Without mortar' also rests on Brown (parasuramesvara-007). Pitfall: do not turn 'dry masonry' into 'no iron'."
+    },
+    {
+      "cid": "parasuramesvara2-029",
+      "field": "sections.special",
+      "text": "Unusually, the temple has no raised platform. Its floor is at the same level as the ground around it.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22absence%20of%20plinth%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 356)",
+          "quote": "Another peculiarity which strikes the attention of an observer is the absence of plinth. The level of the floor is that of the adjoining ground."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Supports the earlier ledger's note that no source mentions a pista (platform) for this temple. Ganguly (leaf 359) also says the vimana is shorter than the usual proportion, so it 'looks more solid and compact than the usual type' (q=height). Single source, scholarly."
+    },
+    {
+      "cid": "parasuramesvara2-030",
+      "field": "sections.construction",
+      "text": "Between 1898 and 1903, engineers of the Public Works Department repaired the temple. Uneven sinking of the ground had damaged it, the hall most of all.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=restoration",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 360)",
+          "quote": "Credit is due to the P. W. D. for an effective restoration of the temple which cost them Rs. 3,465* ; much damage was"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22badly%20damaged%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 360; margin note 'Restoration by the P.W.D.' is interleaved)",
+          "quote": "Restoration by caused to the temple by unequal settlement. theP.w.D. Jagamohana was most badly damaged, and"
+        },
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=Arnott",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 416, footnote)",
+          "quote": "Report with photographs of the Repairs executed to some of the Principal temples at Bhnbaneivara between 1898 and 1903 by M. H. Arnott."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 2, Section I item 5 ('Subsequent changes')",
+          "quote": "The temple was thoroughly repaired by the public work Department in 1903."
+        }
+      ],
+      "conflicts": "Dates: Panigrahi (parasuramesvara-009) and IGNCA say 1903; Ganguly cites Arnott's report on repairs to several Bhubaneswar temples 'between 1898 and 1903'. The report covers several temples, so the Parasuramesvara's own repair year within 1898–1903 is not fixed.",
+      "notes": "Arnott's report itself was not opened; it is known here only through Ganguly's citations. The ASI Annual Report 1905–06 (archive.org in.ernet.dli.2015.208472) returned no hit for any spelling of Parasuramesvara or Bhubaneswar (see gaps). Arnott's role ('Superintending Engineer, P. W. D.') is given by Ganguly at leaf 548, about Konark. Suggested text: 'Around 1898–1903…'. The leads doc calls Arnott 'Executive Engineer'; not verified."
+    },
+    {
+      "cid": "parasuramesvara2-031",
+      "field": "sections.construction",
+      "text": "The repairers rebuilt the top of the tower: the neck, the ribbed disc and the cap. They also added a new water-pot finial, which old photos do not show.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=%22effectively%20reconstructed%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 360)",
+          "quote": "the Beki, Am\\a and Karpuri have been effectively reconstructed, and a new kalasa has been substituted, for, on referring to plate XII made from a photograph before the restoration, we do not notice the kalasa."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Ganguly's 'Karpuri' = khapuri; OCR 'Am\\a' = Amla. The quote begins mid-sentence ('replaced by new ones ;' precedes it; the object replaced was not seen). Important for image labels: the present mastaka parts are largely restoration work."
+    },
+    {
+      "cid": "parasuramesvara2-032",
+      "field": "sections.construction",
+      "text": "The lion figures on the upper tower were put there during the repairs. They are not original.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ganguly-1912",
+          "fetched_url": "https://ia803103.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.536395&doc=2015.536395.orissa-and&path=/26/items/in.ernet.dli.2015.536395&q=lions",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 360)",
+          "quote": "The lions that are found in the recess stated above were placed there at the time of restoring the temple."
+        }
+      ],
+      "conflicts": "The leads doc calls them 'Dopiccha-simha' (double-bodied lions) and says they were added for 'structural weighting or aesthetic completion'. Ganguly gives neither the type nor a reason. Where 'the recess stated above' is was not seen; Ganguly's leaf 359 mentions the area between the amla and the tower top.",
+      "notes": "Do not use 'dopichha' or give a reason. Suggested label: 'Lions added during the repairs (c. 1898–1903)'. Ganguly (leaf 364) also blames 'ignorance of the engineer of the P. W. D. in charge of the restoration' for some feature; what it was is not seen."
+    },
+    {
+      "cid": "parasuramesvara2-033",
+      "field": "facts.height",
+      "text": "Published heights differ. A government record gives about 12.8 m (about 42 ft). Percy Brown gave the tower as 44 ft (about 13.4 m).",
+      "value": "about 12.8–13.4 m (42–44 ft)",
+      "value_m": 12.8,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Quantification')",
+          "quote": "Area Dimension ( L x B x H) : 15.45 mtrs x 6.98 mtrs x 12.80 mtrs"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=windows",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "the entire length of the two being only 48 feet, while the sikhara of trie former is but 44 feet high."
+        }
+      ],
+      "conflicts": "IGNCA form: H 12.80 m (does not say what point it is measured to). Brown 1959: tower 44 ft (13.41 m). The leads doc's 40.25 ft (12.27 m), attributed there to IGNCA/ASI, is NOT in the IGNCA form; it traces to Wikipedia citing D.P. Ghosh 1950, not opened. Length: IGNCA 15.45 m (50.7 ft) vs Brown 'only 48 feet' (14.6 m) for tower plus hall.",
+      "notes": "12.80 m = 42.0 ft. Neither is an ASI survey measurement, so always 'about'. value_m 12.8 is a proposal; the checker may keep 13.4 (existing parasuramesvara-003) or show the range. The IGNCA figures are 'Area Dimension' of the monument (two blocks), B 6.98 m is presumably the hall width, not stated."
+    },
+    {
+      "cid": "parasuramesvara2-034",
+      "field": "sections.size",
+      "text": "The temple stands inside a compound wall. The enclosed area is about 26.9 m by 26.0 m.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Spatial Organization')",
+          "quote": "A square vimana with a rectangular jagmohana, enclosed within a compound wall."
+        },
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 3, Section II item 9 ('Allocation of Spaces')",
+          "quote": "Allocation of Spaces : 26.85 mtrs (L) x 25.95 mtrs (W)"
+        }
+      ],
+      "conflicts": "The leads doc gives a compound wall of '32.00 m (L) x 16.60 m (B) x 2.00 m (H) with 0.30 m thickness'. Its footnote points to the Wikipedia page of a DIFFERENT temple (Talesvara Siva Temple). Not used.",
+      "notes": "IGNCA's 'Allocation of Spaces' is read here as the compound size; the form does not say so explicitly, so the checker may drop the second sentence and keep only 'inside a compound wall'. The hall size 29 ft 4 in x 22 ft 6 in (leads doc) was not found; see gaps."
+    },
+    {
+      "cid": "parasuramesvara2-035",
+      "field": "facts.deity",
+      "text": "It is still a living temple. The main object of worship is a Shiva linga set in a round base (yonipitha).",
+      "value": "Shiva (linga)",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "ignca-orkhurda145",
+          "fetched_url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+          "access": "full-text",
+          "locator": "PDF p. 2, Section I item 4 ('Property Use')",
+          "quote": "It is a living temple; the presiding deity is a Sivalinga within a circular yonipitha."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Parasaresvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 254)",
+          "quote": "ParasaSvara is nodoubt the name of the deity inside the temple for whom the donation was made"
+        }
+      ],
+      "conflicts": "Fergusson 1876 thought the temple Vaishnava (parasuramesvara-004).",
+      "notes": "Fills the earlier ledger's gap 'facts.deity (linga in worship today)'. IGNCA also calls it a 'Protected Monument of Archaeological Survey of India' (p. 2) and dates it to the 'First half of the 7th century AD', 'Sailodbhava rule', adding 'Three sets of inscriptions of varying dates are found in the temple, which assign the temple to the early part of the 7th century A.D.' (p. 2). That supports Panigrahi's date in parasuramesvara-001 but is a government-doc, supporting only. 'Yonipitha' needs a neutral glossary entry ('the round base that holds the linga')."
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "ignca-orkhurda145",
+      "type": "government-doc",
+      "authors": ["Jaya Shankar Naik (lister)", "S. Pradhan (reviewer)"],
+      "title": "Parasuramesvara Temple, Bhubaneswar, Dist.-Khurda: Documentation format for Archaeological / Heritage Sites / Monuments, Serial No. OR/KDA/BSR-141",
+      "year": null,
+      "publisher": "Indira Gandhi National Centre for the Arts (IGNCA), New Delhi",
+      "url": "https://ignca.gov.in/asi_reports/Orkhurda145.pdf",
+      "url_kind": "official",
+      "identifiers": { "isbn": null, "doi": null },
+      "accessed": "2026-09-19",
+      "domain_reviewed": false,
+      "notes": "4-page PDF form, read in full. No date is printed on the form; the fetch tool reported PDF metadata created 2009 (not seen on the page), so year is null. It is an IGNCA heritage-documentation form, NOT an ASI report, even though it sits under /asi_reports/; it names ASI Bhubaneswar Circle as the protecting body. Its references are Debala Mitra 1958, Donaldson 1986 Vol. II, Panigrahi 1961, Senapati 1977 Puri Gazetteer, Mohapatra 1986. Treat as supporting-only (government-doc). Gives coordinates 85°50'34\"E, 20°14'59\"N (the site's coord_source rule asks for OSM, so not used for location)."
+    }
+  ],
+  "gaps": [
+    {
+      "field": "sections.special (Panigrahi on THIS temple's junction)",
+      "searched": ["panigrahi-1961 q=buried, sand, earth, prevented, junction, irregular, 'same time', simultaneously, 'after its completion', 'later addition'"],
+      "why_blank": "Panigrahi's ramp and porch-added-later rule is general (leaves 78-79). No passage found applying it to the Parasuramesvara junction or saying its lower sanctum wall was buried. 'Sand ramps' wording not found (Panigrahi says earth / inclined planes)."
+    },
+    {
+      "field": "Debala Mitra's view that the hall is later; Donaldson's view on the north niche (Parvati vs Mahishasuramardini)",
+      "searched": ["archive.org advancedsearch title:Bhubaneswar creator:Mitra (0 results)", "data/sources.json: mitra-d-1978 and donaldson-1985 are catalogue-only"],
+      "why_blank": "Neither book is readable online. Not claimed."
+    },
+    {
+      "field": "sections.construction (1898-1903 restoration: ASI Annual Report 1905-06)",
+      "searched": ["in.ernet.dli.2015.208472 q=Parasuramesvara (only a Gudimallam temple hit, leaf 297), Arnott, Bhubaneswar, Bhuvaneswar, Bhubanesvar, Parasurameswar, 'Orissa temple', 'Parasuramesvara Bhuvanesvar'"],
+      "why_blank": "No hit for this temple or Arnott in the 1905-06 report. The restoration facts rest on Ganguly 1912, Panigrahi 1961 and IGNCA. Arnott's 1903 report itself was not found or opened."
+    },
+    {
+      "field": "restoration: sanctum door sill, lintel and left door-band replaced with plain blocks",
+      "searched": ["ganguly-1912 q=lintel (no hit on leaves 355-366), replaced, restoration", "panigrahi-1961 (not specifically searched beyond leaf 67 from the first ledger)"],
+      "why_blank": "Not found in any accepted source."
+    },
+    {
+      "field": "raha-niche deities by direction (Ganesha south? Kartikeya east?) and the north-niche identity",
+      "searched": ["panigrahi-1961 q='central niches', Karttikeya, niches", "ganguly-1912 q=niche, porch"],
+      "why_blank": "Panigrahi names the two survivors (Ganesha, Kartikeya) but the passages seen do not give their walls. Panigrahi leaf 94 ('Ganesa, Karttikeya and Mahisa-mardini respectively in the south, west and north') appears to describe another temple and was not used. Ganguly (leaf 364) says 'The bas-relief on the northern niche of the Vimana depicts a hunting scene' (horse-rider spearing a lion, a man piercing an elephant); a possible lead for the north lintel, not claimed."
+    },
+    {
+      "field": "jagamohana window placement (two west, one north, one south) and the claim the side windows were later insertions",
+      "searched": ["brown-1959 q=windows, jagamohan", "ganguly-1912 q=porch, clere-story"],
+      "why_blank": "Brown gives four perforated windows and two grilles beside the west door; no source seen gives the other two windows' walls or says they were later."
+    },
+    {
+      "field": "sections.size (jagamohana 29 ft 4 in x 22 ft 6 in; compound wall height/thickness)",
+      "searched": ["ganguly-1912 q=height (leaves 356-368)", "IGNCA form (full)", "brown-1959 leaf 213"],
+      "why_blank": "Not found. Ganguly leaves 365-368 give porch measurements (e.g. 'The outside height of the bdda = 14'-5\"') but it was not clear they belong to this temple, so not used. The leads doc's compound-wall figures belong to Talesvara."
+    },
+    {
+      "field": "pabhaga moulding names for THIS temple",
+      "searched": ["bose-1932 q=khura, 'kumbha pata', mouldings", "ganguly-1912 q=Basanta, wanting, replaced"],
+      "why_blank": "Sources disagree (see parasuramesvara2-009). Only the count 'three' is claimed."
+    },
+    {
+      "field": "glossary (single mouldings: khura, kumbha, pata, kani, basanta; vajra-mastaka)",
+      "searched": ["bose-1932 glossary via q=khura ('Khura — A kind of pisia', leaf 289: a pedestal type, not the moulding)", "mitra-d-2003 q=vajra-mastaka", "panigrahi-1961 q=Vajra-mastaka (no hits)"],
+      "why_blank": "No usable definition of each moulding or of 'vajra-mastaka' was seen. Terms needing glossary entries from this ledger: trianga bada, pabhaga, jangha, baranda, clerestory, Saptamatrikas, dikpala, Lakulisa, Pasupata, laterite, yonipitha, kanika, raha."
+    },
+    {
+      "field": "Brown / Panigrahi on 'earliest systematic Saptamatrikas in Odisha'",
+      "searched": ["panigrahi-1961 q=Matrikas, Sapta-Matrikas"],
+      "why_blank": "Panigrahi says 'an early group' and lists three groups in Bhubaneswar; no source says 'first' or 'earliest'. Not claimed."
+    },
+    {
+      "field": "Lead 9 (eight grahas)",
+      "searched": [],
+      "why_blank": "Skipped as instructed; already covered by parasuramesvara-011. No new source searched."
+    }
+  ]
+}

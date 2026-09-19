@@ -39,17 +39,17 @@ Every fact cited (academic/ASI/UNESCO only), unverifiable → blank; facts only 
 
 ## 4. In flight when this session ended
 
-1. **Researcher (Opus) on Parasuramesvara leads** → expected `research/ledgers/parasuramesvara-2.json`.
-   Leads = `research/leads/parasuramesvara-docx-leads.txt` (text of the human's AI-written docx
-   `supporting-artifacts/parsurameswar-temple/Parsurameswar Temple Historical Research.docx` — LEADS ONLY, never cite;
-   its sources are Wikipedia/tourism/Scribd; it has self-contradictions). Priority leads: sand/earth ramps + irregular
-   hall–tower junction (Panigrahi); part names (pabhaga: khura/kumbha/pata, jangha, baranda, bada, gandi, mastaka
-   parts, raha/kanika, triratha bada vs pancharatha gandi); jagamohana (two-level roof + clerestory grilles, 6 pillars,
-   doors W/S, 4 windows, dancers/musicians, Brown's Della Robbia remark); Saptamatrikas, dikpalas, Lakulisa,
-   "Parasesvara" inscription; raha-niche deities; faces west, laterite wall; 1898–1903 Arnott/PWD restoration;
-   height 40.25 ft (IGNCA/ASI) vs Brown 44 ft. SKIPPED on purpose: Madhavaraja victory pillar, Islamic-invasion survival,
-   devadasi, erotic motifs, urdhva-linga, festival.
-   **If the ledger is missing/partial → re-run the researcher with the same brief (lead list above).**
+1. ✅ **Researcher done** → `research/ledgers/parasuramesvara-2.json` (35 claims: 2 established, 28 scholarly, 5 uncertain;
+   new source `ignca-orkhurda145` = IGNCA monument form, government doc, supporting-only). Leads doc = `research/leads/parasuramesvara-docx-leads.txt` (never cite).
+   Findings that matter for labels/story: pabhaga has 3 mouldings but names disputed (Ganguly: Pada, Kumuda, Basanta —
+   NOT the leads' khura/kumbha/pata); no source for a "pancharatha gandi"; Panigrahi's earth ramps are a GENERAL Bhubaneswar
+   method, never applied to this temple by him (story may say "builders in Bhubaneswar…"); Brown calls the hall–tower junction
+   "haphazard"; hall = two-level roof + clerestory (blocked after repairs), 6 pillars (monolithic before restoration),
+   dancer/musician grilles, Brown's Della Robbia remark; Seven Mothers on hall north wall, without babies (no source says
+   "earliest"); Lakulisa on front face; only Ganesha + Kartikeya niche images survive; faces west; sandstone + laterite
+   foundation/compound wall; living Shiva linga; PWD repairs (Arnott report 1898–1903, rebuilt top, new kalasa, lions added)
+   via Ganguly 1912; height IGNCA 12.80 m (~42 ft) vs Brown 44 ft (leads' 40.25 ft is NOT in IGNCA); leads' compound-wall
+   size came from a different temple (Talesvara). Gaps: vajra-mastaka definition, window positions, plain-block doorway.
 2. **Next after the ledger:** `kalinga-fact-checker` (Opus) → `research/verdicts/parasuramesvara-2.json` + a staged
    fragment that ADDS the approved claims to the parasuramesvara temple (story voice, no names in text) and element
    definitions (elements.json, replacing name-only entries by id). Validate `--staged`, then
