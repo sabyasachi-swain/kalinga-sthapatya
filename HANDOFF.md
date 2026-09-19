@@ -54,7 +54,7 @@ Git: branch `main`, **8 commits ahead of origin** (last `66440a8`) — **push on
 - The research report (`Odisha Temple Archtecture research.md`) is **leads only** and has errors. Corrections
   are in `.claude/skills/kalinga-content-policy/pitfalls.md` (updated 2026-09-19), e.g. Lingaraja is credited by
   Panigrahi to **Yayati II + Uddyota Kesari** (not Yayati I); Mukteshvara is Brown "c. 975" (not 950);
-  Parasuramesvara Brown "late 8th c." (c. 650 not found in any source); the Epigraphia Indica XIII cave-inscriptions
+  Parasuramesvara debated (Panigrahi c. 650 CE vs Brown late 8th c.); the Epigraphia Indica XIII cave-inscriptions
   article is by **R. D. Banerji**.
 - **Heights conflict:** Konark surviving jagamohana ≈39 m (Mitra) vs 30 m (ASI web) → published as 🔴 with note.
   Lingaraja → **null** (128 ft / 160–165 ft / ~180 ft / >180 ft, no ASI figure).

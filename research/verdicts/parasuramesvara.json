@@ -1,0 +1,170 @@
+{
+  "topic": "parasuramesvara",
+  "checked_on": "2026-09-19",
+  "method": "I re-fetched every distinct fetched_url on 2026-09-19. These are archive.org fulltext/inside.php search-inside URLs, which return OCR text snippets with a 'page' value. That value is the scan leaf index, not the printed page. Panigrahi 1961 was checked at q=\"seventh century\", 650, labels, builder, Ketu, ratha, height and Kailasa. Brown 1959 was checked at q=Parasrameswar and \"end of the eighth century\". I also checked Mitra 1880 at q=Parasuramesvara, Fergusson 1876 at q=Parasurameswaia and Bhuvaneswar, and Bose 1932 at q=consisting. I matched each quote against the returned text, allowing for OCR noise. I ran extra queries on the same scans to check context: Panigrahi q=\"next epoch\", \"tri-ratha\", Pramada and 'Parasuramesvara Saiva'; Mitra q=\"Parasuramesvara Temple\", Parasurama and \"elaborately sculptured\". The last three were an attempt to reach leaf 191, but the API never returned it. All five sources already exist in data/sources.json: panigrahi-1961, brown-1959, mitra-r-1880 and fergusson-1876 as 'book', and bose-1932 as 'primary-text'. All are on archive.org, which is trusted and not blocked. The one primary-class source, bose-1932, supports only the parts claim, so no claim qualifies as 'established'. Locators are written as 'scan leaf N (printed page unverified)'. No new sources.",
+  "verdicts": [
+    {
+      "cid": "parasuramesvara-001",
+      "field": "facts.date",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All seven quotes were found: Panigrahi leaf 41 ('first or second part of the seventh century A.D., which should also be taken to be the date of the ParaSuramesvara temple'), leaf 67 ('c. a.d. 650') and leaf 38 (Banerji: 'cannot be earlier than the eighth century A.D.'); Brown leaf 213 ('towards the end of the eighth century') and leaf 11 (plate list 'c. 8th CENTURY A.D.'); Mitra leaf 192 ('I take the temple to be of the 9th century'); Fergusson leaf 429 ('A D 450, instead of A d 500'). NOTE FOR THE ORCHESTRATOR: 'c. A.D. 650' appears verbatim in Panigrahi 1961 at scan leaves 67, 80 and 175, so it is Panigrahi's own figure, not only the report's. RULING: every date is stylistic or palaeographic, and no foundation inscription is known. The scholars disagree, so the tier is uncertain and no view is chosen. The display value 'c. 7th–8th century CE (debated)' covers the two modern views without making up a range. The note names all five views. Brown also says the shrine 'may have been a subsequent addition' to the hall (leaf 213), which is added to the note.",
+      "revised_text": "Scholars disagree about when it was built. K.C. Panigrahi dated it to about 650 CE. Percy Brown dated it towards the end of the 8th century CE. Older writers gave dates from about 500 CE (Fergusson) to the 9th century CE (Mitra)."
+    },
+    {
+      "cid": "parasuramesvara-002",
+      "field": "facts.dynasty",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All three quotes were found in one leaf 258 snippet, checked in full. The same snippet says 'Bhubaneswar was included in the Sailodbhava kingdom, but we do not know whether any of the Sailodbhava rulers was a builder of any of the temples here.' The ledger's first sentence, 'If Panigrahi's date is right', is fair. But 'No inscription tells us who built it' is not in any quote. It is replaced with Panigrahi's own warning, as the orchestrator asked. Fergusson's 'It may, however, belong to the preceding dynasty' (leaf 429) was found and goes in the note. Tier uncertain, because the period depends on Panigrahi's disputed date. No patron is named, and the text does not say 'built by the Shailodbhavas'.",
+      "revised_text": "Panigrahi placed it in the time of the Shailodbhava kings, who then ruled the Bhubaneswar area. But he wrote that we do not know whether any of them built temples here."
+    },
+    {
+      "cid": "parasuramesvara-003",
+      "field": "facts.height",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Brown leaf 213 was found: 'the entire length of the two being only 48 feet, while the sikhara of the former is but 44 feet high.' HEIGHT RULING: I collected every figure. (a) Brown 1959: tower 44 ft (13.41 m), and shrine plus hall 48 ft long. (b) Fergusson 1876: plan 'only 20 ft square', which is not a height. (c) Panigrahi 1961: no figure. Leaf 66 only says the ruined Satrughnesvara core stands 'almost to the same height as that of the Parasuramesvara'. The '34½ feet' at leaf 107 belongs to the Mukteshvara, not this temple. (d) Mitra 1880: the entry opening on leaf 191 could not be retrieved in three more queries, so any figure there is unseen. (e) Wikipedia's 40.25 ft is not an accepted source and was not used. There is no ASI measurement. So one accepted figure exists, and no accepted source contradicts it. Unlike Lingaraja, with its 39–55 m spread, there is no disagreement between accepted sources. It is still a single source and not measured by ASI. So it is published attributed to Brown, tier uncertain, as 'about 13 m (44 ft)' with value_m 13.4. sections.size.height_m = 13.4, as the schema requires it to equal value_m. If the orchestrator wants no computed size comparison from a single unmeasured figure, it can set both to null; I would not object.",
+      "revised_text": "Percy Brown gave the height of its tower as about 13 m (44 ft)."
+    },
+    {
+      "cid": "parasuramesvara-004",
+      "field": "facts.deity",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Panigrahi leaf 107 (bas-relief 'incidents from Siva's life'), Mitra leaf 192 (Ekamra Purana names the divinity Daityesvara) and Fergusson leaf 429 ('certainly Vaishnava'). The accepted sources disagree, so the tier stays uncertain and no winner is chosen. The ledger's display value 'Shiva' goes beyond the evidence, because no fetched sentence says the temple is dedicated to Shiva. The value becomes 'Debated: Shiva or Vishnu'. Each view is attributed by name. The Kirti and Vasa legend is left out of the text. LEAD FOR THE RESEARCHER: Panigrahi leaf 259 (q=Pramada) mentions 'the inscription of the ParaSuramesvara temple' whose donor Pramada was 'most probably' a Pasupata (Shaiva) teacher. This may support a Shaiva reading in a later wave. It is not used here.",
+      "revised_text": "Scholars disagree about its god. Panigrahi pointed to carvings of scenes from Shiva's life. Mitra reported that a sacred text, the Ekamra Purana, names its god Daityesvara. James Fergusson thought it was a Vishnu temple."
+    },
+    {
+      "cid": "parasuramesvara-005",
+      "field": "facts.temple_type",
+      "verdict": "rejected",
+      "tier": null,
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 177 and 175). But no fetched sentence calls THIS temple tri-ratha, and the orchestrator's rule requires the term to be quoted for this temple. The inference is also open to more than one reading. Leaf 175 describes two earlier groups: the Satrughnesvara, whose porch 'connects it with the monuments of the next group ... represented by the Parasuramesvara', and then the Parasuramesvara group. Leaf 177's 'the temples of the earlier group' could mean either one, and leaf 176 was not seen. 'Rekha' and 'trianga' were not found for this temple (ledger gap). facts.temple_type = null. The structural enum temple_type 'rekha' is set by the orchestrator for filtering only and is not a claim.",
+      "revised_text": null
+    },
+    {
+      "cid": "parasuramesvara-006",
+      "field": "one_liner",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Brown leaf 213, Panigrahi leaf 80 and Fergusson leaf 429. 'Shiva' is dropped because facts.deity is uncertain, as the ledger itself suggests. 'One of the oldest' is kept, not 'the oldest'. Panigrahi dates the ruined Satrughnesvara earlier (leaf 80: 'the first dated temple Satrughnesvara (c. A.D. 575)', found), and Brown's 'oldest' is 'judging mainly from its appearance'.",
+      "revised_text": "A small but richly carved temple, and one of the oldest still standing in Bhubaneswar."
+    },
+    {
+      "cid": "parasuramesvara-007",
+      "field": "sections.construction",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Found verbatim at Brown leaf 213. The text says 'without mortar' only and makes no 'no iron/metal' claim, so pitfall row 1 is respected. 'Interlocking edges' is a fair plain-English version of 'interlocking flanges'. There is one scholarly source.",
+      "revised_text": null
+    },
+    {
+      "cid": "parasuramesvara-008",
+      "field": "sections.construction",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found in the full leaf 66 snippet. That passage describes the ruined Satrughnesvara, where the arch is exposed. It links to this temple only through 'Its constructional peculiarities are also the same as those of the Parasuramesvara', and leaf 67 says Parasuramesvara 'shows the same structural peculiarities'. The ledger's text states the arch as seen at Parasuramesvara. That overreaches, so the text now names the comparison and attributes it to Panigrahi. 'Stones stepped inwards' is a gloss on 'corbelled'.",
+      "revised_text": "Panigrahi wrote that this temple was built in the same way as the ruined Satrughnesvara temple. There, a hollow corbelled arch (stones stepped inwards) shows above the doorway. He explained that it kept weight off the stone beams over the door."
+    },
+    {
+      "cid": "parasuramesvara-009",
+      "field": "sections.construction",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Found at Panigrahi leaf 67. The full snippet continues: 'but nevertheless, its original shape and form have been preserved to some extent.' The ledger's 'rebuilt' overreaches; the source says 'repaired'. The text follows the source. 1903 is a single scholar's statement of a modern repair, not a construction date, and it is attributed to Panigrahi. The optional wooden-storey sentence is not included.",
+      "revised_text": "The temple was repaired in 1903. Panigrahi noted that the repairs disturbed much of the old roof inside the shrine, though its first shape partly survives."
+    },
+    {
+      "cid": "parasuramesvara-010",
+      "field": "sections.special",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All four quotes were found: Panigrahi leaf 67, Brown leaf 213 (x2) and Mitra leaf 192. Panigrahi leaf 67 also says 'provides us with an opportunity to study the form of the Jagamohana which is in a good state of preservation', which supports the first two sentences. The light claim rests on Mitra ('This plan of bringing light into the Mohan') and Panigrahi (interior 'more lighted'). The text rightly gives no door count, because the sources disagree (2 or 3), and it does not say 'first temple with a jagamohana'. 'Jagamohana' is used for this temple by Panigrahi and Brown.",
+      "revised_text": null
+    },
+    {
+      "cid": "parasuramesvara-011",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All four quotes were found: Panigrahi leaves 38, 80 (full snippet) and 107. Leaf 38 puts the inscribed planet labels 'on the door of the sanctum'. It does not say 'above', and no fetched sentence says 'eight planets' for this temple. The ledger's 'eight planets' is changed to the directly supported 'leaves out Ketu'. Leaf 80 says Ketu is absent 'in all planet slabs of all the early temples' up to the end of the 9th century. Leaf 107 says Mukteshvara's 'Ketu among the planets' is absent in 'the early groups of temples represented by the Parasuramesvara'. 'Ketu, the ninth planet' is Panigrahi's own phrase (leaf 153, seen at q=Ketu).",
+      "revised_text": "On the shrine doorway is a carved slab of planet gods, with their names inscribed beside them. Panigrahi noted that early temples like this one leave out Ketu, the ninth planet. Later temples such as Mukteshvara include him."
+    },
+    {
+      "cid": "parasuramesvara-012",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Panigrahi leaves 80 and 107, and Mitra leaf 192. The ledger's first sentence states Panigrahi's judgement as fact and changes 'fair state of preservation' to 'good condition'. Each view is now attributed and follows the source wording. Mitra reads the lower panels as Rama scenes, while Panigrahi speaks of Shiva scenes. That difference goes in the note.",
+      "revised_text": "Panigrahi called it the most decorated of the early temples that survive in fair condition. He noted carvings of scenes from Shiva's life. Rajendralala Mitra described rows of horses and elephants carved on the porch hall."
+    },
+    {
+      "cid": "parasuramesvara-013",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found: Brown leaf 213 and Mitra leaf 192. Leaf 192 opens mid-entry, and its content (porch, clerestory, Daityesvara) and the next entry ('To the north-east of Parasuramesvara') show it is the Parasuramesvara entry. 'Short' is not in Brown; he says 'thick-set and heavy-shouldered'. 'Disc' is also not in Brown; he says 'coping stone'. The wording now follows Brown. The Mitra quote is not used in the revised text, so Mitra is not cited.",
+      "revised_text": "Percy Brown described its tower as thick-set and heavy-shouldered, with a very wide ribbed crowning stone. He saw its shape as basic and not yet fully developed."
+    },
+    {
+      "cid": "parasuramesvara-014",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found at Brown leaf 213, together with the Durga/Huchchimaligudi clerestory passage and 'some communication of impressions may have been maintained'. Brown says 'pilasters', which are pillars set into a wall, and links the motif to 'the Gupta mode' and 'the more northerly source'. The text is adjusted to match. Mitra's different origin for the clerestory (Buddhist vihara halls, leaf 192, found) goes in the note.",
+      "revised_text": "Percy Brown saw links with other regions. He compared its tower and raised hall roof with Chalukya temples at Aihole in the Deccan. He linked its carved vase-and-leaf pillar tops to the Gupta style of the north."
+    },
+    {
+      "cid": "parasuramesvara-015",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Brown leaf 213 ('lithic primer', OCR 'hthic'), Panigrahi leaf 177 and Panigrahi leaf 67. 'Later temples changed its plan in several ways' is vague. It is replaced with the one change a quote states about later temples compared with this one (leaf 67). The leaf 177 tri-ratha / pancha-ratha contrast is not used because its referent is unclear (see 005). 'A first lesson book' glosses the English word 'primer'.",
+      "revised_text": "Percy Brown called this temple and the Vaital Deul a stone 'primer' (a first lesson book) on how the Odisha style began. Panigrahi noted that later porch halls had only one door and were less well lit inside."
+    },
+    {
+      "cid": "parasuramesvara-016",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Found at Panigrahi leaf 175 (full snippet). 'Nearby' is not supported. Panigrahi says Bharatesvara 'stands near the Ramesvara', and Brown (leaf 212) says the Parasuramesvara is 'on the outskirts of the town'. The text now uses Panigrahi's own framing: 'at least two other temples, much damaged though, which can be recognized as close cognates', with the same tower shape and front carvings.",
+      "revised_text": "Panigrahi found at least two other damaged temples in Bhubaneswar that closely match it. One, the ruined Bharatesvara, has a similar tower and almost the same carvings on its front."
+    },
+    {
+      "cid": "parasuramesvara-017",
+      "field": "sections.parts.element_ids",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Brown leaf 213 (x2) and Bose leaf 17. The Bose plate caption was also seen at leaf 157: 'Pabhaga consisting of three mouldings, Parasurameswar Temple, Bhubaneswar'. The orchestrator's rule is that terms must be quoted for THIS temple. Quoted for this temple: 'jagamohan(a)' (Brown, Panigrahi), 'deul' (Brown) and 'pabhaga' (Bose). Not quoted for this temple: gandi, mastaka and bada, which are the researcher's own mapping, so they are dropped. element_ids = ['jagamohana', 'pabhaga']. 'Deul' is kept in the text only; it is the whole shrine, not a part element. Bose leaf 17 ('Bara, consisting of pabhaga, jangha and baranda') supports calling the pabhaga the base of the wall. The claim becomes sections.parts.intro[0]. MERGE NOTE: data/elements.json is currently empty, so both element ids must exist there before the post-merge cross-reference check passes.",
+      "revised_text": "The temple has two parts: a tower shrine (deul) and a porch hall (jagamohana) in front of it. N.K. Bose showed that the base of its wall (pabhaga) has three mouldings."
+    }
+  ],
+  "location_ruling": {
+    "verdict": "revised",
+    "reason": "The ledger left lat/lng null after two empty Nominatim searches, but the validator requires them. An Overpass query around the temple (overpass-api.de, amenity=place_of_worship, 500 m radius) returned node 7403431290, 'Parsurameswara Temple', with wikidata Q7140073. I fetched https://www.openstreetmap.org/node/7403431290 and it shows name=Parsurameswara Temple, amenity=place_of_worship, at 20.2431506, 85.8390991. A Nominatim reverse lookup of that node gives state_district 'Khordha', Odisha, which confirms the district.",
+    "value": { "place": "Bhubaneswar", "district": "Khordha", "lat": 20.2431506, "lng": 85.8390991, "coord_source": "https://www.openstreetmap.org/node/7403431290" }
+  },
+  "sketchfab_ruling": {
+    "verdict": "approved",
+    "reason": "The ledger found no Creative-Commons model (three sculpture models by 'pattaprateek', no licence shown). sketchfab = null."
+  },
+  "summary": { "approved": 2, "revised": 14, "rejected": 1, "needs_human": 0 }
+}

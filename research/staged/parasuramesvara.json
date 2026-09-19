@@ -1,0 +1,232 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "parasuramesvara",
+      "name": "Parasuramesvara Temple",
+      "name_odia": null,
+      "page": "temples/parasuramesvara.html",
+      "temple_type": "rekha",
+      "era_id": "formative",
+      "sort_year": 700,
+      "location": {
+        "place": "Bhubaneswar",
+        "district": "Khordha",
+        "lat": 20.2431506,
+        "lng": 85.8390991,
+        "coord_source": "https://www.openstreetmap.org/node/7403431290"
+      },
+      "one_liner": {
+        "text": "A small but richly carved temple, and one of the oldest still standing in Bhubaneswar.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" },
+          { "id": "panigrahi-1961", "locator": "scan leaf 80 (printed page unverified)" },
+          { "id": "fergusson-1876", "locator": "scan leaf 429 (printed page unverified)" }
+        ],
+        "note": "Brown and Fergusson each call it the oldest temple of Bhubaneswar; Brown says he judges 'mainly from its appearance'. Panigrahi dates the ruined Satrughnesvara earlier, so 'one of the oldest' is used.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "Scholars disagree about when it was built. K.C. Panigrahi dated it to about 650 CE. Percy Brown dated it towards the end of the 8th century CE. Older writers gave dates from about 500 CE (Fergusson) to the 9th century CE (Mitra).",
+          "value": "c. 7th–8th century CE (debated)",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "scan leaves 38, 41 and 67 (printed pages unverified)" },
+            { "id": "brown-1959", "locator": "scan leaves 11 and 213 (printed pages unverified)" },
+            { "id": "mitra-r-1880", "locator": "scan leaf 192, 1963 reprint (printed page unverified)" },
+            { "id": "fergusson-1876", "locator": "scan leaf 429 (printed page unverified)" }
+          ],
+          "note": "No foundation inscription is known, so every date comes from style or letter shapes. Panigrahi (1961): the first or second part of the 7th century, about 650 CE. Brown (1959): towards the end of the 8th century, from its style and outside influences; he adds that the shrine may have been added after the hall. R.D. Banerji (reported by Panigrahi): not earlier than the 8th century, from the letter shapes of the planet labels on the door. Mitra (1880): 9th century, because its workmanship and stone match the Mukteshvara and Rajarani. Fergusson (1876): about 500 CE, using the traditional Kesari king list; otherwise he would have said 450 CE.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "Panigrahi placed it in the time of the Shailodbhava kings, who then ruled the Bhubaneswar area. But he wrote that we do not know whether any of them built temples here.",
+          "value": "Shailodbhava period (debated)",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "scan leaf 258 (printed page unverified)" },
+            { "id": "fergusson-1876", "locator": "scan leaf 429 (printed page unverified)" }
+          ],
+          "note": "This rests on Panigrahi's own date of about 650 CE, which other scholars dispute (see date). Fergusson (1876) suggested it 'may belong to the preceding dynasty', before his Kesari kings. No source names the person who paid for it.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": {
+          "text": "Percy Brown gave the height of its tower as about 13 m (44 ft).",
+          "value": "about 13 m (44 ft)",
+          "value_m": 13.4,
+          "tier": "uncertain",
+          "sources": [
+            { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" }
+          ],
+          "note": "Only one height was found in the sources checked: Brown (1959), 44 ft for the tower. He gives 48 ft for the length of shrine and hall together. This is not an ASI measurement. Panigrahi gives no figure, and Fergusson gives only the plan, about 20 ft square. Mitra's description may give a size, but that part could not be read. Other figures circulate, but their sources were not checked.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "deity": {
+          "text": "Scholars disagree about its god. Panigrahi pointed to carvings of scenes from Shiva's life. Mitra reported that a sacred text, the Ekamra Purana, names its god Daityesvara. James Fergusson thought it was a Vishnu temple.",
+          "value": "Debated: Shiva or Vishnu",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "scan leaf 107 (printed page unverified)" },
+            { "id": "mitra-r-1880", "locator": "scan leaf 192, 1963 reprint (printed page unverified)" },
+            { "id": "fergusson-1876", "locator": "scan leaf 429 (printed page unverified)" }
+          ],
+          "note": "Panigrahi (1961) notes carvings of scenes from Shiva's life. Mitra (1880) reports that the Ekamra Purana calls its god Daityesvara, and he reads some porch panels as scenes from Rama's life. Fergusson (1876) judged it Vaishnava from its name and wall carvings. No source checked says outright which god is worshipped here today.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "temple_type": null
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["jagamohana", "pabhaga"],
+          "intro": [
+            {
+              "text": "The temple has two parts: a tower shrine (deul) and a porch hall (jagamohana) in front of it. N.K. Bose showed that the base of its wall (pabhaga) has three mouldings.",
+              "tier": "scholarly",
+              "sources": [
+                { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" },
+                { "id": "bose-1932", "locator": "scan leaves 17 and 157, list of illustrations and plate caption (printed pages unverified)" }
+              ],
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            }
+          ]
+        },
+        "why_built": [],
+        "construction": [
+          {
+            "text": "It is built of large stones laid without mortar. Percy Brown explained that the stones stay in place through their weight and balance, helped by interlocking edges.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Panigrahi wrote that this temple was built in the same way as the ruined Satrughnesvara temple. There, a hollow corbelled arch (stones stepped inwards) shows above the doorway. He explained that it kept weight off the stone beams over the door.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 66 and 67 (printed pages unverified)" }
+            ],
+            "note": "Panigrahi notes that N.K. Bose thought the arch took weight off the lintel. Panigrahi disagrees about exactly which part it protects, but both see it as a weight-relieving device.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The temple was repaired in 1903. Panigrahi noted that the repairs disturbed much of the old roof inside the shrine, though its first shape partly survives.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaf 67 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "special": [
+          {
+            "text": "Its porch hall (jagamohana) is well preserved. It lets scholars study the early form of this hall. A raised central roof and stone windows with carved holes let light in.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaf 67 (printed page unverified)" },
+              { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" },
+              { "id": "mitra-r-1880", "locator": "scan leaf 192, 1963 reprint (printed page unverified)" }
+            ],
+            "note": "The sources give different numbers of doors for the hall (Panigrahi two, Brown three), so no count is given.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "On the shrine doorway is a carved slab of planet gods, with their names inscribed beside them. Panigrahi noted that early temples like this one leave out Ketu, the ninth planet. Later temples such as Mukteshvara include him.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 38, 80 and 107 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Panigrahi called it the most decorated of the early temples that survive in fair condition. He noted carvings of scenes from Shiva's life. Rajendralala Mitra described rows of horses and elephants carved on the porch hall.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 80 and 107 (printed pages unverified)" },
+              { "id": "mitra-r-1880", "locator": "scan leaf 192, 1963 reprint (printed page unverified)" }
+            ],
+            "note": "Mitra reads the lower porch panels as scenes from Rama's life; Panigrahi speaks of scenes from Shiva's life. They may describe different panels.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown described its tower as thick-set and heavy-shouldered, with a very wide ribbed crowning stone. He saw its shape as basic and not yet fully developed.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "size": {
+          "height_m": 13.4,
+          "note": null
+        },
+        "influences": [
+          {
+            "text": "Percy Brown saw links with other regions. He compared its tower and raised hall roof with Chalukya temples at Aihole in the Deccan. He linked its carved vase-and-leaf pillar tops to the Gupta style of the north.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" }
+            ],
+            "note": "Brown suggests only that ideas may have been shared with the Deccan. Mitra (1880) thought the raised hall roof was borrowed instead from Buddhist monastery halls.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown called this temple and the Vaital Deul a stone 'primer' (a first lesson book) on how the Odisha style began. Panigrahi noted that later porch halls had only one door and were less well lit inside.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 213 (printed page unverified)" },
+              { "id": "panigrahi-1961", "locator": "scan leaf 67 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Panigrahi found at least two other damaged temples in Bhubaneswar that closely match it. One, the ruined Bharatesvara, has a similar tower and almost the same carvings on its front.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaf 175 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": { "hero": "V-60", "silhouette": "V-61", "parts_diagram": "V-62" },
+      "sketchfab": null
+    }
+  ],
+  "sources": []
+}
