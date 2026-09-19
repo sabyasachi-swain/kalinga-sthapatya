@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <g id="structure" fill="currentColor">
+    <!-- Base / Bada -->
+    <rect x="250" y="650" width="350" height="350"/>
+    <rect x="600" y="600" width="220" height="400"/>
+    
+    <!-- Jagamohana (Pidha roof) -->
+    <!-- Lower tier -->
+    <polygon points="230,650 620,650 580,550 270,550"/>
+    <!-- Recess -->
+    <rect x="270" y="520" width="310" height="30"/>
+    <!-- Upper tier -->
+    <polygon points="250,520 600,520 540,430 310,430"/>
+    <!-- Kalasha on Jagamohana -->
+    <path d="M 425 430 Q 425 390 410 390 L 440 390 Q 425 390 425 430 Z"/>
+    <circle cx="425" cy="375" r="15"/>
+    <polygon points="420,360 430,360 425,340"/>
+
+    <!-- Gandi (Rekha Deul) -->
+    <path d="M 600 600 L 610 600 C 610 350 670 200 680 150 L 760 150 C 770 200 830 350 830 600 L 840 600 Z"/>
+    
+    <!-- Mastaka (Tower Crown) -->
+    <!-- Beki -->
+    <rect x="700" y="130" width="40" height="20"/>
+    <!-- Amalaka -->
+    <ellipse cx="720" cy="110" rx="60" ry="20"/>
+    <!-- Khapuri & Kalasha -->
+    <path d="M 690 90 C 700 60 740 60 750 90 Z"/>
+    <circle cx="720" cy="45" r="15"/>
+    <polygon points="715,30 725,30 720,0"/>
+  </g>
+</svg>

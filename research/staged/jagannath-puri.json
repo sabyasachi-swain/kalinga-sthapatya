@@ -1,0 +1,346 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "jagannath-puri",
+      "name": "Jagannath Temple, Puri",
+      "name_odia": null,
+      "page": "temples/jagannath-puri.html",
+      "temple_type": "rekha",
+      "era_id": "mature",
+      "sort_year": 1100,
+      "location": {
+        "place": "Puri",
+        "district": "Puri",
+        "lat": 19.8047726,
+        "lng": 85.8180811,
+        "coord_source": "https://www.openstreetmap.org/way/111810053"
+      },
+      "one_liner": {
+        "text": "The great temple of Jagannath at Puri, built by kings of the Ganga dynasty. Percy Brown called it a larger building than Bhubaneswar's Lingaraja.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" },
+          { "id": "panigrahi-1961", "locator": "archive.org OCR leaves 282–283 (printed pages not checked)" }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "The present temple was built in the late 11th or the 12th century CE. Scholars give different years for it.",
+          "value": "late 11th–12th century CE",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "brown-1959", "locator": "archive.org OCR leaves 214–215 (printed pages not checked)" },
+            { "id": "ganguly-1912", "locator": "archive.org OCR leaf 486 (printed page not checked)" },
+            { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 277 (printed page not checked)" },
+            { "id": "fergusson-1876", "locator": "archive.org OCR leaf 440 (printed page not checked)" }
+          ],
+          "note": "No foundation inscription was seen. Brown: about 1100 CE, with 'records' that it was not consecrated until 1118 CE. Ganguly: within Chodaganga's reign, so between 1075 and about 1145 CE. Panigrahi: 12th century, under Chodaganga. Fergusson (1876): begun soon after the Ganga kings took power in 1131. No opened source gives the often-repeated 1112 CE start.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "It was built by kings of the Ganga dynasty. Historians name King Anantavarman Chodaganga as the builder of the present temple.",
+          "value": "Ganga dynasty (Anantavarman Chodaganga)",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 282 (printed page not checked)" },
+            { "id": "ganguly-1912", "locator": "archive.org OCR leaf 486 (printed page not checked)" },
+            { "id": "fergusson-1876", "locator": "archive.org OCR leaf 440 (printed page not checked)" }
+          ],
+          "note": "Ganguly reads the builder's name, Gangesvara (Chodaganga), from a couplet in later Ganga copper-plate grants; the plates themselves were not opened. Popular tradition names Anangabhima instead (see construction).",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": {
+          "text": "M.M. Ganguly surveyed the main tower before 1912. He found it about 65 m (215 ft) high, from road level to the top of its stone finial. Older books give about 58–61 m (192–200 ft).",
+          "value": "about 65 m (215 ft), Ganguly's survey",
+          "value_m": 65.4,
+          "tier": "uncertain",
+          "sources": [
+            { "id": "ganguly-1912", "locator": "archive.org OCR leaves 502–503 (printed pages not checked)" },
+            { "id": "fergusson-1876", "locator": "archive.org OCR leaf 442 (printed page not checked)" },
+            { "id": "mitra-r-1880", "locator": "archive.org OCR leaf 229 (printed page not checked)" },
+            { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" }
+          ],
+          "note": "Ganguly 1912, his own theodolite survey: 214.67 ft (65.4 m) from road level to the top of the stone finial; 209.42 ft from the Uttara-parsva Math compound, 5 ft 3 in above the road. Fergusson 1876 and Rajendralala Mitra 1880: 192 ft (58.5 m). Brown 1959: 'nearly 200 feet' (about 61 m). Not an ASI measurement. Figures of 226 ft and 229 ft seen elsewhere have no accepted source.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "deity": {
+          "text": "The temple is dedicated to Jagannath. He is worshipped together with his brother Balabhadra and his sister Subhadra.",
+          "value": "Jagannath, with Balabhadra and Subhadra",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 284 (printed page not checked)" },
+            { "id": "fergusson-1876", "locator": "archive.org OCR leaf 441 (printed page not checked)" }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "temple_type": {
+          "text": "According to M.M. Ganguly, the main shrine is a pancharatha deul (a tower whose walls step out in five vertical bands on each side).",
+          "value": "pancharatha deul",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "ganguly-1912", "locator": "archive.org OCR leaves 497–498 (printed pages not checked)" }
+          ],
+          "note": "Ganguly: 'It is a pancharatha dewl', its corner projection showing 9 tiers. That this is the main Jagannath tower is read from context (the passage sits in his Jagannath section, between the enclosure description and the height survey of 'the vimana').",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["jagamohana", "natamandira", "bhogamandapa"],
+          "intro": [
+            {
+              "text": "K.C. Panigrahi explained that the temple's god was meant to live in state, like a king. So the god needed halls, such as an audience hall (jagamohana) and a dance hall (natamandira).",
+              "tier": "scholarly",
+              "sources": [
+                { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 283 (printed page not checked)" }
+              ],
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "King Anantavarman Chodaganga ruled a large kingdom, from the Godavari river to the Hooghly river. Historian K.C. Panigrahi says he built the present temple.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 282 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Two scholars linked the temple to a victory. James Fergusson (1876) thought the Ganga kings built it at once to celebrate winning power. Percy Brown thought a victory pillar probably stood here first.",
+            "tier": "uncertain",
+            "sources": [
+              { "id": "fergusson-1876", "locator": "archive.org OCR leaf 440 (printed page not checked)" },
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" }
+            ],
+            "note": "Interpretations. Fergusson: the Ganga kings replaced the Kesaris in 1131 and 'set to work at once to signalise their triumph'. Brown: 'The probability is' that the conqueror raised a commemorative column here, replaced about 1100 by the present temple. No inscription seen supports either.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "M.M. Ganguly wrote that Puri was a holy place long before the present temple. He noted an inscription dated 1104 CE that already mentions Purushottama, a name of Puri's god.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaves 485, 487 (printed pages not checked)" }
+            ],
+            "note": "Ganguly cites the Nagpur Prasasti of a Malava ruler, dated 1104 CE. The inscription's own edition was not opened.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Historian K.C. Panigrahi thought King Yayati I built an earlier Jagannath temple here in the 10th century CE. He wrote that nothing of it can be seen now.",
+            "tier": "uncertain",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 277 (printed page not checked)" },
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaf 487 (printed page not checked)" }
+            ],
+            "note": "The Yayati I attribution is Panigrahi's, partly based on the Madala Panji chronicle, which he says confuses the two Yayatis. Ganguly agrees an earlier temple stood here but names no builder. Unproven.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "construction": [
+          {
+            "text": "According to popular tradition, King Anangabhima built the temple. Historians M.M. Ganguly and K.C. Panigrahi credit Chodaganga, with Anangabhima adding to it later.",
+            "tier": "uncertain",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaves 485, 488 (printed pages not checked)" },
+              { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 47 (printed page not checked)" }
+            ],
+            "note": "Ganguly: popular belief credits 'Anianka Bhim Deva, the 5th king of the Ganga dynasty', but the copper-plates place the temple earlier; Anangabhima's name probably survives because he built 'the important appurtenances'. Panigrahi: built by Chodaganga 'and his successor Anangabhima in the twelfth century'. Which Anangabhima is not settled; no opened source says it was completed under Anangabhima III.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown wrote that at first the temple had only the tower shrine and its porch hall. He thought the dance hall and offering hall were added in the 14th or 15th century CE.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaves 11, 215 (printed pages not checked)" }
+            ],
+            "note": "Ganguly (OCR leaf 488) reports that the offering hall and the inner wall are ascribed to King Purushottama Deva, of the later 15th century; that is a chronicle attribution.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown thought sea air probably decayed the old stonework. Later repairs covered the tower with cement. Brown felt the cement made it look heavy.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" },
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaves 497–498 (printed pages not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "A photograph caption in Percy Brown's book points out iron beams in the dance hall ceiling. In 1912, M.M. Ganguly described steel beams and old rails holding up the lowest layer of the porch hall's roof.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 191 (printed page not checked)" },
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaf 503 (printed page not checked)" }
+            ],
+            "note": "Brown's caption does not say whether the iron beams are original or later. Ganguly's steel beams and rail columns are modern supports.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "special": [
+          {
+            "text": "The temple has four buildings in one straight line: the tower shrine, the porch hall, the dance hall and the offering hall. Together they are about 94 m (310 ft) long.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" },
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaf 504 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "A high outer wall of laterite stone surrounds the temple grounds. It is about 6–7 m (20–24 ft) high and about 203 m by 195 m (665 by 640 ft).",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaf 494 (printed page not checked)" },
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 216 (printed page not checked)" }
+            ],
+            "note": "Laterite is named by Ganguly only. The inner enclosure is 420 by 315 ft in Ganguly and Fergusson but 440 by 350 ft in Brown. Brown also speaks of three encircling walls, 'the Three Garlands'; Ganguly and Fergusson describe two.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The outer wall has a gate on each of its four sides. The eastern gate, thought of as the most important, is the Lion Gate. Two huge lion figures stand on either side of it.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaf 494 (printed page not checked)" },
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 216 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "A tall stone pillar stands in front of the eastern gate. M.M. Ganguly and Percy Brown both say it was brought here from the Sun Temple at Konark.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "archive.org OCR leaves 184, 488 (printed pages not checked)" },
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 218 (printed page not checked)" }
+            ],
+            "note": "Ganguly calls it the Aruna-stambha and gives its total height as 34 feet (OCR leaf 494). No source seen dates the move.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown wrote that some 30 or 40 smaller shrines stand around the main temple, inside the walls.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 216 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The dance hall's roof rests on 16 pillars in four rows. Percy Brown called it the only true pillared hall of this kind in Odisha.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown noted that the temple stands on raised ground. Its tall tower is a landmark across the flat land for many kilometres around.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "size": {
+          "height_m": 65.4,
+          "note": null
+        },
+        "influences": [
+          {
+            "text": "Percy Brown wrote that the temple follows the same plan as Bhubaneswar's Lingaraja temple. K.C. Panigrahi thought the Ganga kings wanted to match or outdo the builders of Lingaraja.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" },
+              { "id": "panigrahi-1961", "locator": "archive.org OCR leaf 283 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown saw progress in its design. He found the tower's outline improved, with a more graceful curve at its shoulder than at Lingaraja.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 215 (printed page not checked)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown noticed that its gateways and walled courtyards resemble South Indian temple plans of the same period. He thought this was more than a coincidence.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "archive.org OCR leaf 216 (printed page not checked)" }
+            ],
+            "note": "Brown compares the principle (gateways and extra enclosures, like Dravidian pylons and prakarams), not the look: he says the gateways 'bear no resemblance to the gopuram type'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The Puri temple is older than the Sun Temple at Konark. M.M. Ganguly pointed to a carving of Jagannath found in Konark's ruins as one sign of this.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "ganguly-1912", "locator": "unverified" },
+              { "id": "brown-1959", "locator": "archive.org OCR leaves 214, 218 (printed pages not checked)" }
+            ],
+            "note": "Brown dates Puri to about 1100 CE and Konark to the 13th century. Fergusson (1876) had the order the other way round.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": { "hero": "V-75", "silhouette": "V-76", "parts_diagram": "V-77" },
+      "sketchfab": null
+    }
+  ],
+  "sources": []
+}

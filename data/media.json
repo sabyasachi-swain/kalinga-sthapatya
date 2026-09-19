@@ -2,7 +2,7 @@
   "assets": [
     {
       "id": "V-01",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-01-logo.svg",
       "alt": "Logo illustration of a curved temple tower with a ribbed crown disc and pot finial.",
@@ -15,13 +15,15 @@
         "tool": "Google Gemini",
         "brief": "V-01"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 64,
+      "height": 64
     },
     {
       "id": "V-03",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/hero/v-03-og.webp",
+      "path": "img/hero/v-03-og.jpg",
       "alt": "Illustration of a skyline of three stylised temple towers of different heights on a cream sky.",
       "decorative": true,
       "caption": null,
@@ -32,11 +34,13 @@
         "tool": "Google Gemini",
         "brief": "V-03"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-10",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/hero/v-10-hero-build.svg",
       "alt": "Line-drawing illustration of a Kalinga temple tower and hall being built up in stages.",
@@ -49,13 +53,15 @@
         "tool": "Google Gemini",
         "brief": "V-10"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1200,
+      "height": 800
     },
     {
       "id": "V-11",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/hero/v-11-hero.webp",
+      "path": "img/hero/v-11-hero.jpg",
       "alt": "Illustration of a stylised Kalinga temple with a curved tower and a tiered hall, under a soft sunrise sky.",
       "decorative": false,
       "caption": "Stylised illustration — not a specific temple",
@@ -66,13 +72,15 @@
         "tool": "Google Gemini",
         "brief": "V-11"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-12",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-12-konark-featured.webp",
+      "path": "img/temples/v-12-konark-featured.jpg",
       "alt": "Illustration of the Konark Sun Temple today, showing its carved hall on a chariot platform with wheels.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -83,11 +91,13 @@
         "tool": "Google Gemini",
         "brief": "V-12"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1264,
+      "height": 848
     },
     {
       "id": "V-13",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-13-icon-rekha.svg",
       "alt": "Icon illustration of a curved rekha temple tower with a ribbed crown disc.",
@@ -100,11 +110,13 @@
         "tool": "Google Gemini",
         "brief": "V-13"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 48,
+      "height": 48
     },
     {
       "id": "V-14",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-14-icon-pidha.svg",
       "alt": "Icon illustration of a pidha temple's stepped pyramid roof topped by a bell and disc.",
@@ -117,11 +129,13 @@
         "tool": "Google Gemini",
         "brief": "V-14"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 48,
+      "height": 48
     },
     {
       "id": "V-15",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-15-icon-khakhara.svg",
       "alt": "Icon illustration of a khakhara temple's oblong barrel-vaulted roof.",
@@ -134,11 +148,13 @@
         "tool": "Google Gemini",
         "brief": "V-15"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 48,
+      "height": 48
     },
     {
       "id": "V-20",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-20-era-1.svg",
       "alt": "Illustration silhouette of a rock-cut cave temple façade with a pillared verandah in a hill.",
@@ -151,11 +167,13 @@
         "tool": "Google Gemini",
         "brief": "V-20"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 400,
+      "height": 400
     },
     {
       "id": "V-21",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-21-era-2.svg",
       "alt": "Illustration silhouette of a small early temple with a curved tower and a low rectangular hall.",
@@ -168,11 +186,13 @@
         "tool": "Google Gemini",
         "brief": "V-21"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 400,
+      "height": 400
     },
     {
       "id": "V-22",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-22-era-3.svg",
       "alt": "Illustration silhouette of a temple with a curved tower, a tiered hall roof and an arched gateway.",
@@ -185,11 +205,13 @@
         "tool": "Google Gemini",
         "brief": "V-22"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 400,
+      "height": 400
     },
     {
       "id": "V-23",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-23-era-4.svg",
       "alt": "Illustration silhouette of a very tall curved temple tower with three lower halls in a row.",
@@ -202,11 +224,13 @@
         "tool": "Google Gemini",
         "brief": "V-23"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 400,
+      "height": 400
     },
     {
       "id": "V-24",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-24-era-5.svg",
       "alt": "Illustration silhouette of a tiered temple hall on a wheeled chariot platform with a dashed ghost tower.",
@@ -219,7 +243,9 @@
         "tool": "Google Gemini",
         "brief": "V-24"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 400,
+      "height": 400
     },
     {
       "id": "V-25",
@@ -240,9 +266,9 @@
     },
     {
       "id": "V-30",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/diagrams/v-30-type-rekha.webp",
+      "path": "img/diagrams/v-30-type-rekha.jpg",
       "alt": "Illustration of a generic rekha-type temple tower with vertical bands and a ribbed crown disc.",
       "decorative": false,
       "caption": null,
@@ -253,13 +279,15 @@
         "tool": "Google Gemini",
         "brief": "V-30"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1200,
+      "height": 896
     },
     {
       "id": "V-31",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/diagrams/v-31-type-pidha.webp",
+      "path": "img/diagrams/v-31-type-pidha.jpg",
       "alt": "Illustration of a generic pidha-type temple with a stepped-tier roof, bell and disc.",
       "decorative": false,
       "caption": null,
@@ -270,7 +298,9 @@
         "tool": "Google Gemini",
         "brief": "V-31"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1200,
+      "height": 896
     },
     {
       "id": "V-32",
@@ -308,7 +338,7 @@
     },
     {
       "id": "V-34",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-34-why-curve.svg",
       "alt": "Diagram illustration comparing a temple tower's curved profile to a stylised mountain peak.",
@@ -321,7 +351,9 @@
         "tool": "Google Gemini",
         "brief": "V-34"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 800,
+      "height": 500
     },
     {
       "id": "V-35",
@@ -342,7 +374,7 @@
     },
     {
       "id": "V-36",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-36-why-body-names.svg",
       "alt": "Diagram illustration comparing a temple elevation's bands to a seated human figure's body regions.",
@@ -355,7 +387,9 @@
         "tool": "Google Gemini",
         "brief": "V-36"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 800,
+      "height": 500
     },
     {
       "id": "V-37",
@@ -376,7 +410,7 @@
     },
     {
       "id": "V-38",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/diagrams/v-38-why-chariot.svg",
       "alt": "Diagram illustration of a temple platform shaped like a chariot with wheels, horses and a rising sun.",
@@ -389,13 +423,15 @@
         "tool": "Google Gemini",
         "brief": "V-38"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 800,
+      "height": 500
     },
     {
       "id": "V-40",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/diagrams/v-40-step-1.webp",
+      "path": "img/diagrams/v-40-step-1.jpg",
       "alt": "Illustration of a temple ground plan marked out with cords and pegs, with stone blocks cut and ready.",
       "decorative": false,
       "caption": null,
@@ -406,13 +442,15 @@
         "tool": "Google Gemini",
         "brief": "V-40"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-41",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/diagrams/v-41-step-2.webp",
+      "path": "img/diagrams/v-41-step-2.jpg",
       "alt": "Illustration of laterite platform courses being laid on a marked-out temple ground plan.",
       "decorative": false,
       "caption": null,
@@ -423,7 +461,9 @@
         "tool": "Google Gemini",
         "brief": "V-41"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-42",
@@ -495,7 +535,7 @@
     },
     {
       "id": "V-50",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-50-marker.svg",
       "alt": "Icon illustration of a map pin with a small temple silhouette inside its head.",
@@ -508,11 +548,13 @@
         "tool": "Google Gemini",
         "brief": "V-50"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 32,
+      "height": 40
     },
     {
       "id": "V-51",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-51-human.svg",
       "alt": "Illustration of a neutral standing human figure silhouette used for scale comparison.",
@@ -525,11 +567,13 @@
         "tool": "Google Gemini",
         "brief": "V-51"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 60,
+      "height": 170
     },
     {
       "id": "V-52",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/icons/v-52-building.svg",
       "alt": "Illustration of a plain five-storey building silhouette used for scale comparison.",
@@ -542,13 +586,15 @@
         "tool": "Google Gemini",
         "brief": "V-52"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 120,
+      "height": 1500
     },
     {
       "id": "V-60",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-60-parasuramesvara-hero.webp",
+      "path": "img/temples/v-60-parasuramesvara-hero.jpg",
       "alt": "Illustration of the Parasuramesvara Temple in Bhubaneswar today, with its curved tower and rectangular hall.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -559,11 +605,13 @@
         "tool": "Google Gemini",
         "brief": "V-60"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-61",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/temples/v-61-parasuramesvara-silhouette.svg",
       "alt": "Silhouette illustration of the Parasuramesvara Temple's side elevation.",
@@ -576,11 +624,13 @@
         "tool": "Google Gemini",
         "brief": "V-61"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1000,
+      "height": 1000
     },
     {
       "id": "V-62",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/temples/v-62-parasuramesvara-parts.svg",
       "alt": "Line-drawing illustration of the Parasuramesvara Temple's parts: tower, wall and hall.",
@@ -593,13 +643,15 @@
         "tool": "Google Gemini",
         "brief": "V-62"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1000,
+      "height": 1000
     },
     {
       "id": "V-63",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-63-parasuramesvara-isometric.webp",
+      "path": "img/temples/v-63-parasuramesvara-isometric.jpg",
       "alt": "Isometric illustration of the Parasuramesvara Temple, showing its layout from above.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -610,13 +662,15 @@
         "tool": "Google Gemini",
         "brief": "V-63"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1024,
+      "height": 1024
     },
     {
       "id": "V-65",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-65-mukteshvara-hero.webp",
+      "path": "img/temples/v-65-mukteshvara-hero.jpg",
       "alt": "Illustration of the Mukteshvara Temple in Bhubaneswar today, with its tower, hall and gateway.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -627,11 +681,13 @@
         "tool": "Google Gemini",
         "brief": "V-65"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-66",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/temples/v-66-mukteshvara-silhouette.svg",
       "alt": "Silhouette illustration of the Mukteshvara Temple's side elevation.",
@@ -644,11 +700,13 @@
         "tool": "Google Gemini",
         "brief": "V-66"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1000,
+      "height": 1000
     },
     {
       "id": "V-67",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "svg",
       "path": "img/temples/v-67-mukteshvara-parts.svg",
       "alt": "Line-drawing illustration of the Mukteshvara Temple's parts, including its free-standing gateway.",
@@ -661,13 +719,15 @@
         "tool": "Google Gemini",
         "brief": "V-67"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1000,
+      "height": 1000
     },
     {
       "id": "V-68",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-68-mukteshvara-isometric.webp",
+      "path": "img/temples/v-68-mukteshvara-isometric.jpg",
       "alt": "Isometric illustration of the Mukteshvara Temple, showing its layout from above.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -678,13 +738,15 @@
         "tool": "Google Gemini",
         "brief": "V-68"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1024,
+      "height": 1024
     },
     {
       "id": "V-70",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-70-lingaraja-hero.webp",
+      "path": "img/temples/v-70-lingaraja-hero.jpg",
       "alt": "Illustration of the Lingaraja Temple in Bhubaneswar today, with its tall tower and row of halls.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -695,7 +757,9 @@
         "tool": "Google Gemini",
         "brief": "V-70"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-71",
@@ -750,9 +814,9 @@
     },
     {
       "id": "V-75",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-75-jagannath-puri-hero.webp",
+      "path": "img/temples/v-75-jagannath-puri-hero.jpg",
       "alt": "Illustration of the Jagannath Temple in Puri seen from outside its enclosure wall.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -763,7 +827,9 @@
         "tool": "Google Gemini",
         "brief": "V-75"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-76",
@@ -801,9 +867,9 @@
     },
     {
       "id": "V-78",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-78-jagannath-isometric.webp",
+      "path": "img/temples/v-78-jagannath-isometric.jpg",
       "alt": "Isometric illustration of the Jagannath Temple, Puri, showing its layout from above.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -814,13 +880,15 @@
         "tool": "Google Gemini",
         "brief": "V-78"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1024,
+      "height": 1024
     },
     {
       "id": "V-80",
-      "status": "placeholder",
+      "status": "approved",
       "kind": "raster",
-      "path": "img/temples/v-80-konark-hero.webp",
+      "path": "img/temples/v-80-konark-hero.jpg",
       "alt": "Illustration of the Konark Sun Temple today, with its carved hall, chariot wheels and horse statues.",
       "decorative": false,
       "caption": "AI-generated illustration",
@@ -831,7 +899,9 @@
         "tool": "Google Gemini",
         "brief": "V-80"
       },
-      "hotspots": []
+      "hotspots": [],
+      "width": 1376,
+      "height": 768
     },
     {
       "id": "V-81",

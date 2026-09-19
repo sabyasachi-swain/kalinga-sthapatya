@@ -448,6 +448,46 @@
       "accessed": "2026-09-18",
       "domain_reviewed": false,
       "notes": "Full text online (ASI World Heritage page, undated). It describes the temple as a solar chariot 'dragged by seven rearing horses', a sanctum with a 'presumably over 68 m. high' sikhara (an estimate), and a jagamohana '30. m. square and 30. m. high'; it gives inscription year 1984."
+    },
+    {
+      "id": "harle-1986",
+      "type": "book",
+      "authors": [
+        "J. C. Harle"
+      ],
+      "title": "The Art and Architecture of the Indian Subcontinent",
+      "year": "1986",
+      "publisher": "Penguin Books, Harmondsworth (The Pelican History of Art)",
+      "url": "https://archive.org/details/in.ernet.dli.2015.118068",
+      "url_kind": "archive",
+      "identifiers": {
+        "isbn": null,
+        "doi": null
+      },
+      "accessed": "2026-09-19",
+      "domain_reviewed": false,
+      "notes": "Full text on archive.org (Digital Library of India item, marked out of copyright; PDF and OCR downloadable; 596 scan pages). Metadata: Harle, J.C; 1986; Penguin (London). Scan n0 shows 'THE PELICAN HISTORY OF ART'; scan n3 imprint 'Penguin Books Ltd, Harmondsworth, Middlesex, England'. Konarak passage at scan n248; the book's index points to printed pp. 250–253, so scan and printed page numbers differ. Check printed pages in the scan before citing them."
+    },
+    {
+      "id": "bahinipati-2025",
+      "type": "journal-article",
+      "authors": [
+        "Susanta Bahinipati",
+        "Dipti Ranjan Biswal",
+        "Damodar Suar"
+      ],
+      "title": "The Konark Temple's Construction: A Critical Review of the Historical, Cultural, and Scientific Evidence",
+      "year": "2025",
+      "publisher": "F1000Research, vol. 13, article 1540 (version 2)",
+      "url": "https://doi.org/10.12688/f1000research.157831.2",
+      "url_kind": "doi",
+      "identifiers": {
+        "isbn": null,
+        "doi": "10.12688/f1000research.157831.2"
+      },
+      "accessed": "2026-09-19",
+      "domain_reviewed": false,
+      "notes": "DOI resolves to https://f1000research.com/articles/13-1540/v2 (version 2, 15 May 2025; version 1, 20 December 2024). Open post-publication peer review: 2 approved, 1 approved with reservations. Full text also on PubMed Central (PMC12203308), where it was read. CAUTION: the authors treat Dharmapada and the 1,200 workers as historical. Use only for reported measurements and cited dates, never to upgrade a tradition."
     }
   ]
 }

@@ -1,1 +1,416 @@
-{ "eras": [] }
+{
+  "eras": [
+    {
+      "id": "rock-cut-roots",
+      "order": 1,
+      "label": "Rock-cut roots",
+      "headline": "Before the temples",
+      "period": {
+        "text": "The Udayagiri and Khandagiri caves were cut into the rock in about the 2nd–1st century BCE.",
+        "value": "c. 2nd–1st century BCE",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "brown-1959",
+            "locator": "scan p. 68 (printed page not seen)"
+          }
+        ],
+        "note": "Percy Brown: the Orissan caves were cut within about 150 years before the Common Era; he reads a mean date of about 160 BCE from the Hathigumpha inscription.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "These are not temples. They are monasteries: rooms cut into the rock for monks. The local name for them is gumpha (cave).",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan pp. 68, 71 (printed pages not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "The Hathigumpha inscription records the reign of King Kharavela, ruler of Kalinga. Percy Brown says Kharavela was a Jain who seems to have taken a personal interest in the monks living in these hills.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "brown-1959",
+            "locator": "scan p. 68 (printed page not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "name": "Udayagiri and Khandagiri caves (incl. Rani Gumpha, Hathi Gumpha)",
+          "temple_id": null
+        }
+      ],
+      "media": "V-20"
+    },
+    {
+      "id": "formative",
+      "order": 2,
+      "label": "First temples",
+      "headline": "The early temples",
+      "period": {
+        "text": "Dates for the earliest group of Bhubaneswar temples are debated. K. C. Panigrahi places the Parasuramesvara group in Shailodbhava times, which ended in the later 8th century CE. Percy Brown's 'Early' period runs from about 750 to 900 CE.",
+        "value": "c. 750–900 CE (Brown); earlier per Panigrahi",
+        "tier": "uncertain",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 23, 258 (printed pages not seen)"
+          },
+          {
+            "id": "brown-1959",
+            "locator": "scan pp. 212–213 (printed pages not seen)"
+          }
+        ],
+        "note": "Panigrahi places the Parasuramesvara group in the Shailodbhava period, which by his tentative chronology ended in the second half of the 8th century CE. Brown dates Parasuramesvara towards the end of the 8th century CE and his Early period to c. 750–900 CE.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "Percy Brown says two buildings make up the basic Odisha temple: the deul (shrine tower) and the jagamohana (front hall). Parasuramesvara has both. Brown calls its tower rudimentary, thick-set and heavy.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan pp. 212–213 (printed pages not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "The Vaital Deul has a rounded, vaulted roof, like a barrel. Percy Brown saw it as a survival of the roof of Buddhist chaitya (prayer) halls.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan p. 140 (printed page not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "This was the time of the Shailodbhava kings, then the Bhauma-Kara kings. Historian K. C. Panigrahi notes that no known king of either family can be linked to a particular temple here.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 23, 258, 267 (printed pages not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "temple_id": "parasuramesvara"
+        },
+        {
+          "name": "Vaital Deul",
+          "temple_id": null
+        }
+      ],
+      "media": "V-21"
+    },
+    {
+      "id": "transitional",
+      "order": 3,
+      "label": "Experiment & refinement",
+      "headline": "A new polish",
+      "period": {
+        "text": "Percy Brown's 'Middle Period' runs from about 900 to 1100 CE. He saw it as the style's early maturity, or prime.",
+        "value": "c. 900–1100 CE",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "brown-1959",
+            "locator": "scan p. 214 (printed page not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "Percy Brown calls Mukteshvara a 'miniature gem', highly finished and decorated with carved patterns. It is approached through a torana (arched gateway). It is one of the few Odisha temples with carvings inside.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan p. 214 (printed page not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "K. C. Panigrahi argues that the art and architecture of the upper Mahanadi valley (old Kosala) travelled to Utkala (Odisha). There, he says, it started a revival of art.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan pp. 280–281 (printed pages not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "In K. C. Panigrahi's account, this was the age of the Somavamshi (Kesari) kings. He says King Janamejaya founded the dynasty.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 267, 272, 280 (printed pages not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "temple_id": "mukteshwar"
+        }
+      ],
+      "media": "V-22"
+    },
+    {
+      "id": "mature",
+      "order": 4,
+      "label": "Monumental scale",
+      "headline": "Towers and halls",
+      "period": {
+        "text": "Percy Brown dates the Lingaraja temple to about 1000 CE. He dates the present Jagannath temple at Puri to about 1100 CE.",
+        "value": "c. 1000–1100 CE",
+        "tier": "uncertain",
+        "sources": [
+          {
+            "id": "brown-1959",
+            "locator": "scan pp. 182, 214–215 (printed pages not seen)"
+          },
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan p. 281 (printed page not seen)"
+          }
+        ],
+        "note": "Percy Brown: Lingaraja c. 1000 CE; Jagannath about 1100 CE, 'not consecrated until' 1118 CE, and linked to 'Chora Ganga, the conqueror of Kalinga in 1030'. K. C. Panigrahi: Chodaganga's rule in Odisha is shown by a Lingaraja inscription of 1114 CE. Dates rest on style and later records.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "The fully developed temple had four buildings in a line. In front of the jagamohana (front hall) came the natamandira (dance hall), then the bhogamandapa (hall of offerings). At Lingaraja these two halls were added later, probably a century or more after the rest.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan pp. 212, 214–215 (printed pages not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "At Lingaraja the tower walls rise straight at first, then curve inward more and more toward the top. At Puri, Percy Brown says, the top of this curve was given a more graceful line.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan pp. 214–215 (printed pages not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "In K. C. Panigrahi's view, Somavamshi kings raised the greatest Shiva temple at Bhubaneswar. Later the Ganga king Anantavarman Chodaganga conquered Utkala (Odisha).",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 279, 281 (printed pages not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "temple_id": "lingaraj"
+        },
+        {
+          "temple_id": "jagannath-puri"
+        }
+      ],
+      "media": "V-23"
+    },
+    {
+      "id": "grand-finale",
+      "order": 5,
+      "label": "Grand finale",
+      "headline": "The chariot of the Sun",
+      "period": {
+        "text": "The Sun Temple at Konark was built in the 13th century CE, around the middle of that century.",
+        "value": "13th century CE (c. 1250 CE)",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "unesco-konarak-summary",
+            "locator": "summary text"
+          },
+          {
+            "id": "brown-1959",
+            "locator": "scan pp. 211–212 (printed pages not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "Percy Brown says Konark's parts were planned together as one design, unlike the separate buildings of Lingaraja and Jagannath. The whole temple is shaped like the chariot of Surya, the Sun god, with wheels and seven horses.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan p. 217 (printed page not seen)"
+            },
+            {
+              "id": "unesco-konarak-summary",
+              "locator": "summary text"
+            }
+          ],
+          "note": "Seven horses follows Brown; the short UNESCO summary page says six.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "Konark's main tower has fallen, and only its foundations remain. The jagamohana (front hall) is the part that still stands fairly intact.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan p. 217 (printed page not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": null,
+      "temples": [
+        {
+          "temple_id": "konark"
+        }
+      ],
+      "media": "V-24"
+    },
+    {
+      "id": "late-kalinga",
+      "order": 6,
+      "label": "Late Kalinga",
+      "headline": "Later temples",
+      "period": {
+        "text": "The Suryavamshi (Gajapati) kings ruled Odisha from the 15th century CE. K. C. Panigrahi says their power was already declining under King Prataparudra, in the early 16th century CE.",
+        "value": "15th–16th century CE",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 26, 200 (printed pages not seen)"
+          }
+        ],
+        "note": "Panigrahi gives Kapilendra's accession as 1435 CE on one page and his reign as 1433–1467 CE on another.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "K. C. Panigrahi says the great age of temple building ended with the Gangas, though some notable temples were still built. In his view, the architectural style changed little, but sculpture declined.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan p. 200 (printed page not seen)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "K. C. Panigrahi thought the Kapilesvara temple in Bhubaneswar possibly belongs to this period. Like the great Ganga temples, it has three halls in front of its shrine.",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan p. 200 (printed page not seen)"
+            }
+          ],
+          "note": "Panigrahi dates it by style only. He says it 'seems to have belonged to this period' and 'appears to be the last notable monument' at Bhubaneswar. He says it stands on the site of an earlier temple. No second source was checked.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "The Suryavamshi (Gajapati) dynasty was founded by Kapilendra, once a Ganga officer. It produced two more able rulers, Purushottama and Prataparudra.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan p. 26 (printed page not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "name": "Kapilesvara Temple, Bhubaneswar",
+          "temple_id": null
+        },
+        {
+          "name": "Papanasini temple porch (half-ruined), Bhubaneswar",
+          "temple_id": null
+        }
+      ],
+      "media": "V-25"
+    }
+  ]
+}

@@ -1,1 +1,114 @@
-{ "elements": [] }
+{
+  "elements": [
+    {
+      "id": "bada",
+      "name": "Bada",
+      "plain_name": "Bada",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "bhogamandapa",
+      "name": "Bhogamandapa",
+      "plain_name": "Bhogamandapa",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "gandi",
+      "name": "Gandi",
+      "plain_name": "Gandi",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "horses",
+      "name": "Horses",
+      "plain_name": "Horses",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "jagamohana",
+      "name": "Jagamohana",
+      "plain_name": "Jagamohana",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "natamandira",
+      "name": "Natamandira",
+      "plain_name": "Natamandira",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "pabhaga",
+      "name": "Pabhaga",
+      "plain_name": "Pabhaga",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "pista",
+      "name": "Pista",
+      "plain_name": "Pista",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "torana",
+      "name": "Torana",
+      "plain_name": "Torana",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "vimana-base",
+      "name": "Vimana base",
+      "plain_name": "Vimana base",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    },
+    {
+      "id": "wheel",
+      "name": "Chariot wheel",
+      "plain_name": "Chariot wheel",
+      "group": "structure",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": []
+    }
+  ]
+}
