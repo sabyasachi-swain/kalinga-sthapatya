@@ -6,11 +6,11 @@ limited token budget — work lean: prefer Sonnet for builders/integrator, one a
 
 ## 0. Update 2026-09-19 (afternoon session) — READ FIRST, supersedes §3/§3b/§4 steps 1–3
 
-- Jagannath fact-checked (27 staged; 022+023 Buddhist/other-origin claims = needs-human, not published). Height 65.4 m 🔴 (Ganguly 1912 survey); date late 11th–12th c. 🔴.  rekha set only because the validator requires it — no source opened calls it rekha (Ganguly: pancharatha deul) → review when architecture is fact-checked.
+- Jagannath fact-checked (27 staged; 022+023 Buddhist/other-origin claims = needs-human, not published). Height 65.4 m 🔴 (Ganguly 1912 survey); date late 11th–12th c. 🔴. `temple_type` "rekha" set only because the validator requires it — no source opened calls it rekha (Ganguly: pancharatha deul) → review when architecture is fact-checked.
 - **Merged** all 7 staged fragments → data/ (validator PASS). Real build: 13 pages incl. 5 temple pages.
 - Images: 35 approved in media.json. Regenerate V-71, V-72, V-73, V-76, V-77, V-81, V-82 (reasons in visual-briefs/BATCH-3-REVIEW.md), plus earlier V-32, V-33, V-35, V-37, V-42–45, V-83, V-84.
 - CSS fixes: closed badge tooltips no longer widen the page on mobile; claim notes no longer overlap badges; long source URLs wrap.
-- **Next:**  (needs human approval) → human enables Pages. Later: §4 step 5.
+- **Next:** `git push origin main` (needs human approval) → human enables Pages. Later: §4 step 5.
 
 ## 1. Objective
 
