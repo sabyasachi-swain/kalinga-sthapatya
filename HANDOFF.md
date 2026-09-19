@@ -34,7 +34,7 @@ Every fact cited (academic/ASI/UNESCO only), unverifiable → blank; facts only 
 | Parasuramesvara text | ✅ rewritten in story voice (`research/verdicts/parasuramesvara-story.md` = old→new table). Other 4 temples still old research-style wording |
 | Pages | ✅ 13 built. UI overhaul from `qa/UI-REVIEW-2026-09-19.md` done (collapsed notes, quiet tier dots, chapter headings, accordions, compare to scale, home cards, "Soon" nav tags, mobile fixes). "See how it's built" switcher + video on Parasuramesvara |
 | Images | 35 approved + interim V-64A/B/C (frames with baked unsourced labels) + V-64V video (10 s, 9.5 MB, `preload=none`), all `interim: true` in media.json. Rejected: V-71, V-72, V-73, V-76, V-77, V-81, V-82 (see `visual-briefs/BATCH-3-REVIEW.md`) |
-| Git | pushed to origin/main at 97b3cc9. After that: this handoff + `qa/TEMPLE-JOURNEY-SPEC.md` + annotated briefs + leads file (commit pending, see §6) |
+| Git | origin/main = 97b3cc9 (live). Local, NOT pushed: handoff, `qa/TEMPLE-JOURNEY-SPEC.md`, draft annotated briefs, leads file, `parasuramesvara-2` ledger — push only with the human's OK |
 | GitHub Pages | human was told to enable Settings → Pages → main / root — confirm it's live |
 
 ## 4. In flight when this session ended
