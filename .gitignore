@@ -10,3 +10,5 @@ visual-briefs/inbox/*
 !visual-briefs/inbox/.gitkeep
 visual-briefs/originals/*
 !visual-briefs/originals/.gitkeep
+visual-briefs/references/*.jpg
+visual-briefs/references/*.png

@@ -1,0 +1,1499 @@
+{
+  "topic": "architecture",
+  "run_on": "2026-09-19",
+  "method_note": "All quotes were read through the archive.org search-inside API (fulltext/inside.php), which returns the OCR text around each hit. The fetched_url is that exact API URL. The OCR text was relayed by the fetch tool with an instruction to copy it character by character; OCR errors are kept (e.g. 'masfaka' = mastaka, 'pirha' = pidha, 'bara' = bada, 'fala jangha' = tala jangha). The fact-checker should re-open each URL to confirm. 'leaf N' is the scan page index from the API, NOT the printed page. Kramrisch locators name the volume. Spellings: Bose 1932 writes bara, pista, pabhaga, jangha, bandhana, baranda, gandi, beki, amla, khapuri, kalasa, ayudha, pirha, Bhadra; Mitra (ASI) 2003 writes bada, pishta, varanda/baranda, beki/beka, mastaka, pidha. The site's standard spellings are used in 'text'.",
+  "claims": [
+    {
+      "cid": "arch-001",
+      "field": "temple_types.overview",
+      "text": "Scholars sort Odisha's temples into three main types: rekha, pidha and khakhara. N.K. Bose also noted a rare fourth type, the Gauriya, with only two late examples in Puri.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 87 (printed page unverified)",
+          "quote": "The temples of Bhubaneswar, built over a span of more than five hundred years, can be resolved into three stylistic groups, viz., Rekha, Pidha and Khakhara orders."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 100 (printed page unverified)",
+          "quote": "In Orissa, we find altogether four different types of temples, namely Rekha, Bhadra, KhakharS and Gouriya. Of these, the first two are very common and are to be found in all parts of the province."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 100 (printed page unverified)",
+          "quote": "Of Goupya temples, we know of only two late examples in the town of Puri ; one beside the Markandeya tank and the other at the gateway of the Uttaraparsa monastery."
+        }
+      ],
+      "conflicts": "Research report §2 says the silpa texts 'recognize three deula types'. Bose 1932 counts four types in Orissa (Gauriya being 'an exotic'). Bose also says the silpasastras give 'specifications of 55 Rekha, 6 Bhadra and 3 Khakhara temples' (leaf 115).",
+      "notes": "Bose calls the pidha type 'Bhadra'. Bose treats Gauriya as exotic and drops it from further study."
+    },
+    {
+      "cid": "arch-002",
+      "field": "temple_types.rekha.description",
+      "text": "A rekha deula (curved-tower temple) has a tall tower whose outline looks like one continuous line.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "rekha deul order of temple characterised by a curvilinear tower which presents the appearance of a continuous line"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "The gandi of the Rekha rises straight up to a short height and then begins to curve inwards at an increasing rate."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra: 'rekha deul'; Bose: 'Rekha'."
+    },
+    {
+      "cid": "arch-003",
+      "field": "temple_types.rekha.roof_shape",
+      "text": "The tower rises straight at first, then curves inward more and more. Bose compared it to a tall bamboo pole bent at the top by a rope. Seen from above, the tower is square.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "The line so formed presents the appearance of a tall bamboo-post which has been slightly bent towards the top by a rope tied tightly at its upper extremity. The cross-section at any point of the gandi is square."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 25 (printed page unverified)",
+          "quote": "A rekha deul is characterised by a curvilinear tower, while the front porch called jagarnohana or bhadra deul, where the devotees assemble, is a pidha deul,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "The bamboo image is Bose's own comparison; the text attributes it to him."
+    },
+    {
+      "cid": "arch-004",
+      "field": "temple_types.rekha.typical_use",
+      "text": "The rekha form is used for the sanctuary, the main shrine. A pidha hall usually stands in front of it.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 25 (printed page unverified)",
+          "quote": "The sanctuary proper is a rekha deul or bada deul but is no longer extant."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 287, glossary (printed page unverified)",
+          "quote": "Jagamohan—That which pleases the whole world ; that which is most pleasing ; name of structure in front of Rekha* usually a Bhadra."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra's sentence is about Konark; Bose's glossary gives the general pattern. Scholarly, not established, because neither states a general rule for the rekha form in so many words."
+    },
+    {
+      "cid": "arch-005",
+      "field": "temple_types.rekha.examples",
+      "text": "The great Jagannatha Temple at Puri has a rekha deula as its main shrine.",
+      "value": "jagannath-puri",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 86 (printed page unverified)",
+          "quote": "Built on the same architectural principle as the Lingaraja Temple at Bhubaneswar, it consists of four edifices in one alignment - the rekha deul, jagamohana and the later additions of the nata and bhoga-mandapas."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The quote is about Jagannatha, Puri. It implies Lingaraja follows the same plan, but no fetched source calls Lingaraja's tower a 'rekha deul' directly, so Lingaraja is left as a gap. The same page gives a height (63 m) for the Puri tower; not used here (other topic)."
+    },
+    {
+      "cid": "arch-006",
+      "field": "temple_types.rekha.examples",
+      "text": "Konark's main sanctuary was also a rekha deula, but it has collapsed.",
+      "value": "konark",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "There are various explanations offered regarding what led to the collapse of the rekha deul or sanctuary at Konarak."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 217 (printed page unverified)",
+          "quote": "This great tower has disappeared, except for its foundations, so that although its general dimensions may be conjectured with a certain degree of exactitude, no record of its style is known."
+        }
+      ],
+      "conflicts": "Brown says 'no record of its style is known' but thinks it 'followed the usual shape and proportions of the Orissan type of tower'. Mitra calls it a rekha deul outright.",
+      "notes": "Collapse cause is debated (pitfalls); this claim says nothing about cause."
+    },
+    {
+      "cid": "arch-007",
+      "field": "temple_types.pidha.description",
+      "text": "A pidha deula has a roof made of flat, stepped layers called pidhas, piled up like a pyramid.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "pidha deul temple of which the pyramidal roof is made of pidhas ; this form of structure is usually limited to the jagamohana, bhoga-mandapa and nata-mandapa in Orissa"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "In Bhadra temples, the gandi is composed of a number of plrhds or horizontal platforms, piled up in the form of a pyramid."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose's name for this type is 'Bhadra'."
+    },
+    {
+      "cid": "arch-008",
+      "field": "temple_types.pidha.roof_shape",
+      "text": "The pidhas shrink as they rise, until the top one is half the size of the bottom one. They can be grouped into tiers called potalas.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=amla",
+          "access": "full-text",
+          "locator": "scan leaf 108 (printed page unverified)",
+          "quote": "The diminution proceeds until the topmost pirha is half in size to the lowermost one. The pirhas may be arranged in one or two tiers, with moderate heights of vertical wall intervening between them. Each of these tiers is called a pofala."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "potala group of pidha"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose's OCR 'pofala' = potala. Bose (leaf 251) adds that Konark's pidha hall has three potalas."
+    },
+    {
+      "cid": "arch-009",
+      "field": "temple_types.pidha.typical_use",
+      "text": "The pidha form is mostly used for halls: the jagamohana (porch hall), the dance hall and the hall of offerings.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "pidha deul temple of which the pyramidal roof is made of pidhas ; this form of structure is usually limited to the jagamohana, bhoga-mandapa and nata-mandapa in Orissa"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 242 (printed page unverified)",
+          "quote": "The Bhadra is also called the MukhasSilS (lit. the building which is placed to wards the face or front of the Rekha), or Pijrha temple on account of its gandi being composed of pirhas."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Matches research report §2 ('Used for the jagamohana and later halls')."
+    },
+    {
+      "cid": "arch-010",
+      "field": "temple_types.pidha.name",
+      "text": "The pidha deula is also called the bhadra deula or the mukhasala.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 242 (printed page unverified)",
+          "quote": "The Bhadra is also called the MukhasSilS (lit. the building which is placed to wards the face or front of the Rekha), or Pijrha temple on account of its gandi being composed of pirhas."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "bhadra deul auspicious temple; it refers to the porch in front of a sanctuary"
+        }
+      ],
+      "conflicts": "",
+      "notes": ""
+    },
+    {
+      "cid": "arch-011",
+      "field": "temple_types.pidha.examples",
+      "text": "The great hall still standing at Konark is a pidha deula. Its pyramid roof has three tiers.",
+      "value": "konark",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "The monument we see today is the jagamohana or the pidha deul, and the pillared bhoga-mandapa which is approached by a flight of carved steps."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 217 (printed page unverified)",
+          "quote": "Much of the imposing appearance of this great structure has been obtained by the treatment of the pyramidal roof. The square portion consists of three tiers diminishing as they ascend,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra leaf 27 also says the porch roof is 'made up of pidhas arranged in three tiers'."
+    },
+    {
+      "cid": "arch-012",
+      "field": "temple_types.pidha.crown",
+      "text": "A pidha roof is topped by a huge bell-shaped part called the ghanta. Above it come the beki, amla, khapuri, kalasa and ayudha, as on a rekha tower.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=amla",
+          "access": "full-text",
+          "locator": "scan leaf 108 (printed page unverified)",
+          "quote": "First comes the beki, then the ghanfd, an enormous ribbed structure shaped like a bell. On the top of the ghanta is a succession of beki, amla, khapuri, kalasa and ayudha as in the Rekha."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "ghanta bell; bell-shaped member in the finial of a pidha temple; it is also called sri"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Schema has no 'crown' field for temple_types; orchestrator may fold this into description or the ghanta glossary entry."
+    },
+    {
+      "cid": "arch-013",
+      "field": "temple_types.khakhara.description",
+      "text": "A khakhara deula has a rectangular (oblong) plan. Its top is long and vaulted, like a wagon roof.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 108 (printed page unverified)",
+          "quote": "The cross-section all through is however rectangular. The masfaka is composed of one or two kbakbaras, this being a structure resembling a rectangular parallelepiped with the vertical sides substituted by cyma reversa."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=khakhara",
+          "access": "full-text",
+          "locator": "scan leaf 46 (printed page unverified)",
+          "quote": "representations of shrines with wagon-vaulted roofs (khakhara - mundis) in close succession."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose (leaf 100) also contrasts the square ground plan of Rekha and Bhadra with the khakhara, but that sentence was cut off in the OCR hit."
+    },
+    {
+      "cid": "arch-014",
+      "field": "temple_types.khakhara.roof_shape",
+      "text": "The roof is a long vault, like an upturned boat's keel, with small finials along its ridge.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 213 (printed page unverified)",
+          "quote": "In spite, however, of its elongated vaulted roof in two stories, with its ridge fmials and chaitya-arch gable ends, all expressive of the Buddhist type,"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 108 (printed page unverified)",
+          "quote": "One or more miniature amlas may be placed along the crest of the kbdkbard,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's sentence describes the Vaital Deul, the type example. 'Keel roof' is Brown's term (leaf 213: 'the ridge of its keel roof'). The research report's 'kakharu (pumpkin)' origin of the name was not found in any source: see gaps."
+    },
+    {
+      "cid": "arch-015",
+      "field": "temple_types.khakhara.typical_use",
+      "text": "Khakhara temples are rare. In 1932 Bose counted only six in Bhubaneswar.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 100 (printed page unverified)",
+          "quote": "The Khakharl type is limited to six examples in Bhubaneswar, but miniatures of this type were very extensively employed as a decorative motif on the body of Rekha or Bhadra temples"
+        }
+      ],
+      "conflicts": "Panigrahi 1961 (leaf 73) lists only three further examples beside Vaital: one in the Lingaraja compound, the Gauri temple, and a miniature near Siddhesvara.",
+      "notes": "The research report credits the 'about six' figure to the Odisha Review; Bose 1932 is the original source."
+    },
+    {
+      "cid": "arch-016",
+      "field": "temple_types.khakhara.typical_use",
+      "text": "Small carved models of khakhara shrines were used widely as decoration on the walls of other temples.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 100 (printed page unverified)",
+          "quote": "The Khakharl type is limited to six examples in Bhubaneswar, but miniatures of this type were very extensively employed as a decorative motif on the body of Rekha or Bhadra temples"
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=khakhara",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "khakhara-mundi miniature representation of a khakhara temple as an ornamental motif"
+        }
+      ],
+      "conflicts": "",
+      "notes": ""
+    },
+    {
+      "cid": "arch-017",
+      "field": "temple_types.khakhara.deity_association",
+      "text": "The best-known khakhara temple, the Vaital Deul, holds an image of the goddess Chamunda, says the ASI guide. Percy Brown called it a Shiva temple. We found no source for a general rule linking khakhara temples to goddesses.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=Vaital",
+          "access": "full-text",
+          "locator": "scan leaf 89 (printed page unverified)",
+          "quote": "Vaital Deul is a Sakta shrine."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=Vaital",
+          "access": "full-text",
+          "locator": "scan leaf 89 (printed page unverified)",
+          "quote": "The image enshrined in the sanctum is the eight¬armed goddess, Chamunda."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 240 (printed page unverified)",
+          "quote": "is the Vaital Deul at Bhuba¬neswar, a Siva temple of the Orissan group and erected a century earlier."
+        },
+        {
+          "source_id": "kramrisch-1946",
+          "fetched_url": "https://ia601909.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.282158&doc=2015.282158.The-Hindu&path=/4/items/in.ernet.dli.2015.282158&q=Khakhara",
+          "access": "full-text",
+          "locator": "Vol. I, scan leaf 192 (printed page unverified)",
+          "quote": "the Vaital Deul or Kapalini Temple, BhiivanesVar, Orissa, about 850 A.D."
+        }
+      ],
+      "conflicts": "Mitra (ASI): a Sakta shrine with Chamunda in the sanctum. Brown 1959: 'a Siva temple'. Kramrisch: 'Kapalini Temple'. Research report §2: khakhara 'reserved mainly for Shakta/goddess temples' — no fetched source states this as a rule.",
+      "notes": "The second khakhara example, the Gauri temple (Bose, Panigrahi), is named after a goddess, but no fetched quote names its enshrined deity."
+    },
+    {
+      "cid": "arch-018",
+      "field": "temple_types.khakhara.examples",
+      "text": "Examples are the Vaital Deul and the small Gauri temple, both in Bhubaneswar.",
+      "value": "vaital-deul; gauri",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 108 (printed page unverified)",
+          "quote": "The gandi of the KhakharS is composed either like that of a Rekha as in the Vaital temple in Bhubaneswar or like that of a Bhadra, with certain minor differences, as in the temple of Gauri in the same village."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Khakhara",
+          "access": "full-text",
+          "locator": "scan leaf 188 (printed page unverified)",
+          "quote": "The small Gauri temple is of the Khakhara type which is akin to the Vaitil temple in its architecture, and thus represents a different architectural conception."
+        },
+        {
+          "source_id": "kramrisch-1946",
+          "fetched_url": "https://ia601909.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.282158&doc=2015.282158.The-Hindu&path=/4/items/in.ernet.dli.2015.282158&q=Khakhara",
+          "access": "full-text",
+          "locator": "Vol. I, scan leaf 192 (printed page unverified)",
+          "quote": "the Vaital Deul represents a subvariety of the Khakhara type, also the Teli-ka-Mandir."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Vaital Deul and Gauri are not MVP temple ids; use names. Dates for Vaital differ (Panigrahi c. 775; Brown c. 850 / c. 900 / 'tenth century' in different places; Kramrisch c. 850) — not used here."
+    },
+    {
+      "cid": "arch-019",
+      "field": "temple_types.khakhara.origin",
+      "text": "Percy Brown and K.C. Panigrahi thought the Vaital Deul's vaulted roof comes from the Buddhist chaitya hall, an older prayer-hall design.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 213 (printed page unverified)",
+          "quote": "For it is obvious that the tower of its sanctuary is not only allied more to the southern style as exemplified by the Dravidian gopurams, but like those structures, its original ancestor was the chaitya-hall of the Buddhists."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Vaital",
+          "access": "full-text",
+          "locator": "scan leaf 72 (printed page unverified)",
+          "quote": "the later builders of Bhubaneswar evolved a type of temple architecture similar to that of the Vaital, which came to be knosvn as Khakhard in their SilpaldstTas"
+        }
+      ],
+      "conflicts": "Panigrahi also reports M.M. Ganguly's view that the shape derives from the rathas of Mahabalipuram.",
+      "notes": "Interpretation; attribute to the scholars."
+    },
+    {
+      "cid": "arch-020",
+      "field": "elements.overview",
+      "text": "From bottom to top, a temple has four main parts: the pista (platform), bada (wall), gandi (tower or roof) and mastaka (crown).",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=wall",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "The body of all these temples can be divided along the vertical axis into four principal parts namely, the pisfa or the pedestal, the bara or the wall, the gandi or the body and the masfaka or the crown."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=gandi",
+          "access": "full-text",
+          "locator": "scan leaf 26 (printed page unverified)",
+          "quote": "These are the pishta or platform, the bada or vertical wall, the gandi or the curvilinear tower in the case of a rekha deul and the pyramidal"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra's sentence continues on the next OCR hit: 'roof in the case of a pidha deul and the mast aka which is the head or crowning elements.'"
+    },
+    {
+      "cid": "arch-021",
+      "field": "elements.pista.what",
+      "text": "The pista is the platform or base that the temple stands on.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pishta",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "pishta platform"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 291, glossary (printed page unverified)",
+          "quote": "Pisfa^, Pifha, Prisfha — Pedestal (examples, Padma, Singha, Bhadra, Bedi, Suthira, Khura, Kumbha, Parijangha, Kurma)."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Spellings: Bose pista; Mitra pishta; Brown pista. Group: vertical-division. The research report's 'optional, mainly Ganga-period' was not found: see gaps."
+    },
+    {
+      "cid": "arch-022",
+      "field": "elements.bada.what",
+      "text": "The bada is the upright wall of the temple. It sits on the platform and holds up the tower or roof.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bada",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "bada enclosure; wall; vertical portion of a temple above pishta and below spire or roof"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=wall",
+          "access": "full-text",
+          "locator": "scan leaf 285, glossary (printed page unverified)",
+          "quote": "Wall ; portion between pis(a and gan^i of a temple."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose spells it 'bara' (the glossary hit shows only the definition; the headword was cut off in the OCR hit). Group: vertical-division."
+    },
+    {
+      "cid": "arch-023",
+      "field": "elements.gandi.what",
+      "text": "The gandi is the main body of the tower above the wall. On a rekha temple it curves inward; on a pidha hall it is a stepped pyramid.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=gandi",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "gandi literally trunk; curvilinear spire or pyramidal roof above bada and below the mastaka of a temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=trunk",
+          "access": "full-text",
+          "locator": "scan leaf 287, glossary (printed page unverified)",
+          "quote": "Trunk ; tower immediately above BSfa of temple ; in Rekha, portion between bara and bisama ; in Bhadra, between bara and behi ; in Khakhara, portion between and kindba-muchuli."
+        }
+      ],
+      "conflicts": "Percy Brown 1959 (leaf 212) uses different names: he calls the tall middle portion of the deul the 'chhapra' and the fluted disc the 'arda' [OCR 'artda'], not gandi and amla.",
+      "notes": "Group: vertical-division."
+    },
+    {
+      "cid": "arch-024",
+      "field": "elements.mastaka.what",
+      "text": "The mastaka is the crown: the round parts stacked on top of the tower.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=gandi",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "mastaka head; crowning elements above the gandi of a temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "The masfaka of the Rekha starts from above the gandi. It is composed of several elements, which are all circular in cross-section."
+        }
+      ],
+      "conflicts": "Bose says 'mastaka' was a name coined for convenience, not a traditional silpa term: 'The masfaka (a name which has been coined for the sake of convenience)' (leaf 134, q=skull) and glossary 'Masfaka — Name coined to denote portion of a temple above gan4i and below kalasa' (leaf 289, q=Kalasa). Mitra treats it as a standard term meaning 'head'.",
+      "notes": "Group: vertical-division. The fact-checker may want the text to say 'a name scholars use for…'."
+    },
+    {
+      "cid": "arch-025",
+      "field": "elements.body-analogy.what",
+      "text": "Many part names compare the temple to a human body. N.K. Bose explains that pabhaga means foot, jangha shin, gandi trunk, beki throat and khapuri skull.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 134 (printed page unverified)",
+          "quote": "It is clear from a study of the above terms that the Rekha temple has been likened to the human body."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=shin",
+          "access": "full-text",
+          "locator": "scan leaf 133 (printed page unverified)",
+          "quote": "The principal components of the bara are the pabhaga or the division corresponding to the foot (i. e. the base), the Jangfia or the shin and the baranda, which is a set of mouldings crowning the bara."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=skull",
+          "access": "full-text",
+          "locator": "scan leaf 134 (printed page unverified)",
+          "quote": "The masfaka (a name which has been coined for the sake of convenience) is made up of the beki or throat, followed by the amt a and the khapuri or skull ; this being surmounted by a katasa or water-pot."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=trunk",
+          "access": "full-text",
+          "locator": "scan leaf 133 (printed page unverified)",
+          "quote": "The gandi (lit. the trunk of the body) or the curvilinear tower is composed of different elements along the various pagas."
+        }
+      ],
+      "conflicts": "Mitra (ASI) glosses jangha as 'thigh', Bose as 'shin' (see arch-047). Mitra glosses mastaka as 'head'; Bose says mastaka is a coined name.",
+      "notes": "Bose's contents page (leaf 15) also mentions the 'concept of the Rekha temple as the human body and as a mountain' (q=%22human%20body%22); the mountain passage itself was not read."
+    },
+    {
+      "cid": "arch-026",
+      "field": "elements.body-analogy.why",
+      "text": "Scholars such as Stella Kramrisch explain the Hindu temple as the body of the Purusha, the cosmic Person or Essence.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "kramrisch-1946",
+          "fetched_url": "https://ia600904.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.282159&doc=2015.282159.The-Hindu&path=/19/items/in.ernet.dli.2015.282159&q=Purusa",
+          "access": "full-text",
+          "locator": "Vol. II, scan leaf 66 (printed page unverified)",
+          "quote": "The form of the Prasada (prasada-murti) is the monumental embodiment of the Purusa, the Essence, it is the form of Consciousness itself."
+        },
+        {
+          "source_id": "kramrisch-1946",
+          "fetched_url": "https://ia601909.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.282158&doc=2015.282158.The-Hindu&path=/4/items/in.ernet.dli.2015.282158&q=%22Purusa%22%20temple%20body",
+          "access": "full-text",
+          "locator": "Vol. I, scan leaf 17 (printed page unverified)",
+          "quote": "The temple building is the substantial, and the 'plan' (mandala) is the ritual, diagrammatic form of the Purusa."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Interpretation, pan-Indian. Kramrisch Vol. II has a section titled 'THE TEMPLE AS PURUSA' (leaf 65). In the passages read she does NOT map the Odia names bada/gandi/mastaka onto the Purusha; that link (research report §2) joins Bose's body-names with Kramrisch's Purusha. Keep the two sentences separate and attributed."
+    },
+    {
+      "cid": "arch-027",
+      "field": "elements.jagamohana.what",
+      "text": "The jagamohana is the hall or porch in front of the sanctuary, where worshippers gather. It usually has a pidha roof.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 25 (printed page unverified)",
+          "quote": "A rekha deul is characterised by a curvilinear tower, while the front porch called jagarnohana or bhadra deul, where the devotees assemble, is a pidha deul,"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 287, glossary (printed page unverified)",
+          "quote": "Jagamohan—That which pleases the whole world ; that which is most pleasing ; name of structure in front of Rekha* usually a Bhadra."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose gives the literal meaning 'that which pleases the whole world'. Group: structure."
+    },
+    {
+      "cid": "arch-028",
+      "field": "elements.jagamohana.tradition",
+      "text": "According to a craftsmen's tradition, the tower is 'male' and the hall 'female', joined like a bride and groom. Bose found nothing in the building texts to support this.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 242 (printed page unverified)",
+          "quote": "The junction between the two is called the gainthiala, which literally means a ceremonial knot tied between the garments of the bride and the bride- groom during the marriage ceremony."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 242 (printed page unverified)",
+          "quote": "There is nothing in the silpasasfras however to support the above view."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 27 (printed page unverified)",
+          "quote": "In fact, the Orissan architects have sometimes conceived the rekha deni as a male temple and the pidha deul as a female one."
+        }
+      ],
+      "conflicts": "Bose: a silpins' saying with no support in the silpasastras except one reference to a 'pungsa bimana or the male temple' (leaf 134). Mitra: architects 'sometimes conceived' it so.",
+      "notes": "Tradition, so tier uncertain. Research report §2 gives it as 'bridegroom'/'bride'. Keep the family text neutral, as here."
+    },
+    {
+      "cid": "arch-029",
+      "field": "elements.natamandira.what",
+      "text": "The natamandira is the dance hall, built in front of the jagamohana in larger temples. It is an open hall.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 212 (printed page unverified)",
+          "quote": "The two buildings usually supplemented were first the Nat~Mandir or Dancing Hall, and secondly in front of this the Bhog Mamlir or Hall of Offerings."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Bhoga-mandapa",
+          "access": "full-text",
+          "locator": "scan leaf 77 (printed page unverified)",
+          "quote": "The Jidta-mandira is an open hall, but the Bhogamandapa is comparatively closed."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi's OCR 'Jidta-mandira' = Nata-mandira; his sentence is about the Ananta-Vasudeva temple. Brown spells Nat Mandir; Mitra 'nata-mandapa'. No ASI definition found, so scholarly. Group: structure."
+    },
+    {
+      "cid": "arch-030",
+      "field": "elements.bhogamandapa.what",
+      "text": "The bhogamandapa is the hall of offerings, the front-most hall in the largest temples.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bhoga-mandapa",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "bhoga-mandapa hall of offering"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 212 (printed page unverified)",
+          "quote": "The two buildings usually supplemented were first the Nat~Mandir or Dancing Hall, and secondly in front of this the Bhog Mamlir or Hall of Offerings."
+        }
+      ],
+      "conflicts": "At Konark, Mitra calls the hall in front of the jagamohana the bhoga-mandapa, but notes it is 'also known as the bhoga-mandapa' by similarity to Lingaraja's (leaf 70); Brown calls the same Konark building the 'nat mandir' (leaf 217).",
+      "notes": "Group: structure."
+    },
+    {
+      "cid": "arch-031",
+      "field": "elements.structure-order.what",
+      "text": "In a fully developed temple, four buildings stand in one line: the deul (sanctuary), jagamohana, natamandira and bhogamandapa. The two front halls were often added later.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 214 (printed page unverified)",
+          "quote": "the temple as originally designed was composed of only the two st ructures, the Sri Mandir, and the jagarnohan, the two other halls being added probably a century or more later."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=rekha",
+          "access": "full-text",
+          "locator": "scan leaf 86 (printed page unverified)",
+          "quote": "Built on the same architectural principle as the Lingaraja Temple at Bhubaneswar, it consists of four edifices in one alignment - the rekha deul, jagamohana and the later additions of the nata and bhoga-mandapas."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's sentence is about Lingaraja; Mitra's about Jagannatha, Puri."
+    },
+    {
+      "cid": "arch-032",
+      "field": "elements.vimana.what",
+      "text": "In Odisha the main shrine is called the deul. It matches what other parts of India call the vimana.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 214 (printed page unverified)",
+          "quote": "namely the Deul, or Sri Mandir, as it Is called in this particular instance, and corresponding to the Vimana in other parts"
+        },
+        {
+          "source_id": "kramrisch-1946",
+          "fetched_url": "https://ia601909.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.282158&doc=2015.282158.The-Hindu&path=/4/items/in.ernet.dli.2015.282158&q=%22Purusa%22%20temple%20body",
+          "access": "full-text",
+          "locator": "Vol. I, scan leaf 31 (printed page unverified)",
+          "quote": "Prasada, the temple or Vimana, and the like; these are the four Vastus or residences mentioned in texts"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Group: structure. Panigrahi also uses 'Vimana' for the main temple (leaf 146, q=Chamunda)."
+    },
+    {
+      "cid": "arch-033",
+      "field": "elements.garbhagriha.what",
+      "text": "The garbhagriha is the sanctum: a small, square inner room with plain walls and one doorway. Its name means 'womb-house'.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=garbha",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "garbha-griha, literally 'womb-house', a small chamber square in plan, its interior walls perfectly plain and without any other opening except the doorway"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=sanctum",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "Rekha temples having three elements in their ham have a ratio of 1:3 between the length of the garbha or sanctum and the total height of the temple."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's passage is a general (pan-Indian) description. 'Where the image is kept' was not quoted, so it is left out. Kramrisch's symbolic reading of the 'womb' was not fetched. Bose spells 'garbha'. Group: structure."
+    },
+    {
+      "cid": "arch-034",
+      "field": "elements.torana.what",
+      "text": "A torana is a free-standing arched gateway. The famous one at the Mukteshvara Temple has two pillars holding up a round arch.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 214 (printed page unverified)",
+          "quote": "This detached portal consists of two pillars supporting around arch within a semi-circular shaped pediment, the whole very substantially proportioned, but all its parts lightened and diversified by exquisite carving."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "scan leaf 106 (printed page unverified)",
+          "quote": "they show that like the Muktesvara torat^, it was built in sections and had an arch supported by two pillars."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=torana",
+          "access": "full-text",
+          "locator": "scan leaf 43 (printed page unverified)",
+          "quote": "This took the form of a torana (Skt. from tor, a pass) a special kind of entrance archway"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown OCR 'around arch' = 'a round arch'. Panigrahi (leaf 106): no torana survives at any other existing Bhubaneswar temple; parts of an earlier one were excavated at Dola-mandapa. Group: structure."
+    },
+    {
+      "cid": "arch-040",
+      "field": "elements.pabhaga.what",
+      "text": "The pabhaga is the bottom part of the wall: a set of three to five stone mouldings (bands). Its name means 'foot'.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=foot",
+          "access": "full-text",
+          "locator": "scan leaf 290, glossary (printed page unverified)",
+          "quote": "Division corresponding to the foot ; set of three, four or five mouldings at the base of a temple (above pis(a or pedestal)."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bandhana",
+          "access": "full-text",
+          "locator": "scan leaf 53 (printed page unverified)",
+          "quote": "As in all Orissa temples, the bada of this temple has five divisions - the lowest being the pabhaga, followed by lower jangha, bandhana, upper jangha and varanda."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Parent: bada. Group: bada-part. The Bose glossary hit shows the definition without its headword; leaf 290 'Pa — Quarter ; foot ; shortened form of pdbhaga' is adjacent."
+    },
+    {
+      "cid": "arch-041",
+      "field": "elements.tala-jangha.what",
+      "text": "The tala jangha is the lower of the two plain upright bands of the wall. It sits between the pabhaga and the bandhana.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bada",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "jangha thigh; vertical portion of the bada between projecting sets of mouldings; tala jangha, the lower one between pabhaga and bandhana mouldings; upara jangha, the upper one between bandhana and varanda mouldings"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "It is only in the later temples that we find the barn being divided info five portions, namely the pabhdga, the fata jangha or lower jangha, the bdndhand or the bond, the upav jangha or the upper jangha and the baranda."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose OCR 'fata jangha' = tala jangha. Parent: bada. Group: bada-part. 'Plain upright band' paraphrases 'recessed vertical portion of wall' (Bose glossary, leaf 287) and 'vertical portion of the bada'; the jangha is often carved with niches, so the builder may drop 'plain'."
+    },
+    {
+      "cid": "arch-042",
+      "field": "elements.bandhana.what",
+      "text": "The bandhana is a band of mouldings across the middle of the wall, between the lower and upper jangha. Its name means 'bond'.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bandhana",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "bandhana bond; moulding (single or multiple) between two janghas of a temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "It is only in the later temples that we find the barn being divided info five portions, namely the pabhdga, the fata jangha or lower jangha, the bdndhand or the bond, the upav jangha or the upper jangha and the baranda."
+        }
+      ],
+      "conflicts": "",
+      "notes": "No source read says the bandhana has a structural tying job; the text only gives the word's meaning. Parent: bada. Group: bada-part."
+    },
+    {
+      "cid": "arch-043",
+      "field": "elements.upara-jangha.what",
+      "text": "The upara jangha is the upper upright band of the wall, between the bandhana and the baranda.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bada",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "jangha thigh; vertical portion of the bada between projecting sets of mouldings; tala jangha, the lower one between pabhaga and bandhana mouldings; upara jangha, the upper one between bandhana and varanda mouldings"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "It is only in the later temples that we find the barn being divided info five portions, namely the pabhdga, the fata jangha or lower jangha, the bdndhand or the bond, the upav jangha or the upper jangha and the baranda."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose spells 'upar jangha'; Mitra 'upara jangha'. Parent: bada. Group: bada-part."
+    },
+    {
+      "cid": "arch-044",
+      "field": "elements.baranda.what",
+      "text": "The baranda is the set of mouldings that crowns the top of the wall.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=shin",
+          "access": "full-text",
+          "locator": "scan leaf 133 (printed page unverified)",
+          "quote": "The principal components of the bara are the pabhaga or the division corresponding to the foot (i. e. the base), the Jangfia or the shin and the baranda, which is a set of mouldings crowning the bara."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bada",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "varanda (also baranda ) mouldings forming the topmost element of the bada of a temple"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra's headword is 'varanda'. Parent: bada. Group: bada-part."
+    },
+    {
+      "cid": "arch-045",
+      "field": "glossary.trianga-bada.short",
+      "text": "A trianga bada is a wall with three parts: pabhaga, jangha and baranda. Bose found it on the earlier temples of Bhubaneswar.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "all the temples which can definitely be assigned to a comparatively earlier epoch on the evidence of epigraphy or sculptural style, have a ham composed of three elements, vix. pabhaga, jangha and baranda."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=central",
+          "access": "full-text",
+          "locator": "scan leaf 144 (printed page unverified)",
+          "quote": "we can definitely conclude that the iti-angn is the earlier Orissan type of han/, the panclningo being a development of later origin."
+        }
+      ],
+      "conflicts": "Mitra (ASI, leaf 53) writes 'As in all Orissa temples, the bada of this temple has five divisions', which ignores the three-part walls Bose describes.",
+      "notes": "Bose OCR: 'tri-anga'/'trianga', 'bara' OCR'd as 'ham'/'han/'. Only one source (Bose), so scholarly. Bose counts 'sixteen or seventeen temples of this order in the village of Bhubaneswar itself' (leaf 143)."
+    },
+    {
+      "cid": "arch-046",
+      "field": "glossary.panchanga-bada.short",
+      "text": "A panchanga bada is a wall with five parts: pabhaga, tala jangha, bandhana, upara jangha and baranda. Bose found it on the later temples.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=elements",
+          "access": "full-text",
+          "locator": "scan leaf 143 (printed page unverified)",
+          "quote": "It is only in the later temples that we find the barn being divided info five portions, namely the pabhdga, the fata jangha or lower jangha, the bdndhand or the bond, the upav jangha or the upper jangha and the baranda."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bandhana",
+          "access": "full-text",
+          "locator": "scan leaf 53 (printed page unverified)",
+          "quote": "As in all Orissa temples, the bada of this temple has five divisions - the lowest being the pabhaga, followed by lower jangha, bandhana, upper jangha and varanda."
+        }
+      ],
+      "conflicts": "The five parts agree. Bose: five-part walls belong to later temples. Mitra: five divisions 'as in all Orissa temples'.",
+      "notes": "The 'later temples' clause is Bose's alone, hence scholarly."
+    },
+    {
+      "cid": "arch-047",
+      "field": "glossary.jangha.short",
+      "text": "The jangha is the upright band of the wall between rows of mouldings. Bose translates the word as 'shin'; the ASI guide says 'thigh'.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=shin",
+          "access": "full-text",
+          "locator": "scan leaf 287, glossary (printed page unverified)",
+          "quote": "Jangha, JangA&Shin ; recessed vertical portion of wall"
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=bada",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "jangha thigh; vertical portion of the bada between projecting sets of mouldings;"
+        }
+      ],
+      "conflicts": "Bose 1932: jangha = 'shin'. Mitra (ASI) 2003: jangha = 'thigh'. They agree on the architectural meaning.",
+      "notes": "Only the body-word translation is disputed; the architectural definition could be split off as established."
+    },
+    {
+      "cid": "arch-048",
+      "field": "elements.paga.what",
+      "text": "A paga is an upright strip of the wall that is pushed forward from the wall face. The pagas run all the way up the tower.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=plane",
+          "access": "full-text",
+          "locator": "scan leaf 290, glossary (printed page unverified)",
+          "quote": "Segment ; segments produced upon face of temple by producing part of it to a more forward plane."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=wall",
+          "access": "full-text",
+          "locator": "scan leaf 115 (printed page unverified)",
+          "quote": "These projections run along the entire height of the temple up to the end of the gandi and partake of all movements, either of projection or of depression, suffered by the wall itself."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=paga",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "paga segment"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose's glossary hit (leaf 290) shows the definition without its headword; Bose leaf 201 (q=pagas) says 'The paga has already been defined as a segment produced on the outer face of a temple'. Bose adds (leaf 115) that inside walls are 'kept rigorously plain'. Parent: gandi/bada. Group: plan."
+    },
+    {
+      "cid": "arch-049",
+      "field": "elements.raha.what",
+      "text": "The raha is the central paga on each side. It sticks out the furthest.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=raha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "raha middle segment (of a temple) having the greatest projection"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=central",
+          "access": "full-text",
+          "locator": "scan leaf 201 (printed page unverified)",
+          "quote": "The central paga is known as raha according to one system and as go-rafha or madhya-rafha according to the Other."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Parent: paga. Group: plan."
+    },
+    {
+      "cid": "arch-050",
+      "field": "elements.anuratha.what",
+      "text": "On a five-part (pancharatha) wall, the anuratha is the paga between the central raha and the corner kanika.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=central",
+          "access": "full-text",
+          "locator": "scan leaf 284, glossary (printed page unverified)",
+          "quote": "Anurafha, Anarfha, Anorfha—Hume of 2nd. pilaster, from the central one, in the rekha-gandi of a pancharafha temple ; name of 3rd pilaster in sapfa- and naba-rafha temples."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=paga",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "anuratha projection next to the kanika-paga in pancha-ratha, sapta-ratha and nava-ratha temples"
+        }
+      ],
+      "conflicts": "",
+      "notes": "In seven- and nine-part plans an 'anuraha' sits between raha and anuratha (Mitra glossary: 'anuraha projection next to the raha (central projection) in sapta-ratha and nava-ratha temples', q=raha). Research report §2 lists 'anuratha, anuraha' in the wrong order from the centre outward. Parent: paga. Group: plan."
+    },
+    {
+      "cid": "arch-051",
+      "field": "elements.kanika.what",
+      "text": "The kanika is the corner paga, the outermost strip at each corner of the temple.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=paga",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "kanika, kanika-paga corner segment of a temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=kanika",
+          "access": "full-text",
+          "locator": "scan leaf 288, glossary (printed page unverified)",
+          "quote": "Kanika — Outermostpilasterinthebody of a temple; kanyasa."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Parent: paga. Group: plan."
+    },
+    {
+      "cid": "arch-052",
+      "field": "elements.ratha.what",
+      "text": "Rathas (or pagas) are the forward-stepping strips on the outside wall. One central step makes three rathas (triratha). More steps make five (pancharatha), seven (saptaratha) or nine (navaratha). Inside, the room stays square.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=ratha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "In a tri-ratha temple a central exterior projection (raha) divides the wall into three rathas, the two on the outer sides being on the same plane and known as kanika."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pancha-ratha",
+          "access": "full-text",
+          "locator": "scan leaf 25 (printed page unverified)",
+          "quote": "Built on a common platform, both structures are square internally. The exterior, however, is variegated into a pancha-ratha plan by projections known in Orissan Silpa-sastras or architectural canons as rathas or pagas."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=central",
+          "access": "full-text",
+          "locator": "scan leaf 115 (printed page unverified)",
+          "quote": "A temple in which the central paga has been once more treated -in this manner, will have five pagas on its face ; such an example being called pancha-rafha (the one having five rafhakas or pagas)."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 386, glossary (printed page unverified)",
+          "quote": "Navaratha deul, a structure showing nine pilasters on its facade."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra glossary continues: 'Temples with five, seven and nine such rathas ... are respectively known as pancha-ratha, sapta-ratha and nava-ratha'. Mitra leaf 25 is about Konark. Group: plan. Text has 4 short sentences; one is 16 words."
+    },
+    {
+      "cid": "arch-053",
+      "field": "elements.bhumi-amla.what",
+      "text": "On a rekha tower, each corner strip is split into storeys called bhumis. Each storey is topped by a small ribbed disc, the bhumi-amla.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=trunk",
+          "access": "full-text",
+          "locator": "scan leaf 133 (printed page unverified)",
+          "quote": "the outermost paga is subdivided info a number of bhtmis or planes, each of which is composed of a number of mouldings surmounted by a miniature amid, called the bhumi-amla or amid of the plane."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=paga",
+          "access": "full-text",
+          "locator": "scan leaf 284, glossary (printed page unverified)",
+          "quote": "bhumi-a.^ similar structure used to demarcate one bhumi from another in kanika paga of rekha gan4h"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose only (Mitra's guide was not searched for bhumi-amla), so scholarly. Parent: gandi (on the kanika paga). Group: not a mastaka-part; suggest 'plan' or a new gandi-part group."
+    },
+    {
+      "cid": "arch-060",
+      "field": "elements.beki.what",
+      "text": "The beki is the narrow round 'neck' just above the tower, under the amla. Its name means throat or neck.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "beki/beka neck; cylindrical member immediately above gandi and below amla of a rekha temple and above gandi and below ghanta of a pidha temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "Just above the gandi is the beki or the throat ; then comes the amid or dmalaka, a flattened spheroid, ribbed at the sides and resembling an enormous fruit of the amalaki in appearance."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose: 'throat'; Mitra: 'neck'. Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-061",
+      "field": "elements.amla.what",
+      "text": "The amla is the big, flattened, ribbed stone disc on top of the tower. It is shaped like the amla (Indian gooseberry) fruit.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "amla fluted oblate spheroid resembling an amalaka fruit, that forms an important component of the crowning elements of a rekha or a pidha temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=paga",
+          "access": "full-text",
+          "locator": "scan leaf 284, glossary (printed page unverified)",
+          "quote": "Amfa^ Ata, Angfa, Aafa, Amafakya, Am afana— Fruit of the PhyKanfhus Emblica ; ribbed structure, of the shape of an extremely flattened spheroid, set above the beki in Rekha temple"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Bose also spells amalaka ('dmalaka'); Brown 'amala-sila'. The fruit is Phyllanthus emblica per Bose; 'Indian gooseberry' is the common English name, not quoted — the builder may prefer 'the amla fruit'. Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-062",
+      "field": "elements.khapuri.what",
+      "text": "The khapuri is a flattish, bell-shaped cap above the amla. Its name means 'skull'.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "khapuri skull; flatfish bell-shaped member above the amla in the finial of a rekha or pidha temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "Above the amid comes the khapuri or skull, and on it is placed the kalasa or water-pot and dyudha or the weapon of the deity to whom the temple is consecrated."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra OCR 'flatfish' = flattish (Mitra leaf 27 has 'flattish bell-shaped member'). Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-063",
+      "field": "elements.kalasa.what",
+      "text": "The kalasa is a stone water-pot shape set on top of the khapuri.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=kalasa",
+          "access": "full-text",
+          "locator": "scan leaf 100, glossary (printed page unverified)",
+          "quote": "kalasa water-pot, pitcher-shaped member in the finial of a temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Kalasa",
+          "access": "full-text",
+          "locator": "scan leaf 288, glossary (printed page unverified)",
+          "quote": "Kalasa — Water-pot ; similar structure placed on top ot a temple ; (rarely) handi or the moulding known as kumbha."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-064",
+      "field": "elements.ayudha.what",
+      "text": "The ayudha is the weapon or emblem of the temple's god, placed at the very top. At Konark it is now missing.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=bamboo",
+          "access": "full-text",
+          "locator": "scan leaf 107 (printed page unverified)",
+          "quote": "Above the amid comes the khapuri or skull, and on it is placed the kalasa or water-pot and dyudha or the weapon of the deity to whom the temple is consecrated."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=kalasa",
+          "access": "full-text",
+          "locator": "scan leaf 27 (printed page unverified)",
+          "quote": "khapuri (skull; flattish bell-shaped member), kalasa (water-pot) and ayndha (sacred weapon or emblem), the last two now missing."
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR: Bose 'dyudha', Mitra 'ayndha'. Mitra's 'missing' refers to the Konark jagamohana crown. Panigrahi (leaf 72) glosses the Vaital's finials as including 'Sjfudhas [IrUSlas)' (ayudhas = tridents). Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-065",
+      "field": "elements.dhvaja.what",
+      "text": "The dhvaja is the flag flown at the very top of the temple. The building text Bose translated even gives its size.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=flag",
+          "access": "full-text",
+          "locator": "scan leaf 190 (printed page unverified)",
+          "quote": "The flag at the top of the temple should be 5 5n. wide and 15 an. long."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=flag",
+          "access": "full-text",
+          "locator": "scan leaf 64 (printed page unverified)",
+          "quote": "If the remainder be 1, then the bandha of the house will be dhwaja or the flag."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Only Bose; his leaf-64 use of 'dhwaja = flag' is in a house-measurement rule, not the temple crown, so the link dhvaja = temple-top flag is by word meaning only. Mitra's 'dhvaja-stambha' (leaf 77, q=khondalite) is a flag-post pillar, a different thing. Consider tier uncertain if the fact-checker wants a direct 'dhvaja' = temple flag quote. Parent: mastaka. Group: mastaka-part."
+    },
+    {
+      "cid": "arch-066",
+      "field": "elements.pidha.what",
+      "text": "A pidha is one flat, jutting layer of the stepped roof of a pidha hall. The word means a flat wooden seat.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=pidha",
+          "access": "full-text",
+          "locator": "scan leaf 101, glossary (printed page unverified)",
+          "quote": "pidha flatfish wooden seat; projecting moulding constituting the pyramidal roof of a pidha temple"
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=Bhadra",
+          "access": "full-text",
+          "locator": "scan leaf 291, glossary (printed page unverified)",
+          "quote": "Pij[ha — Flat wooden seat ; elements of which the gandi of Bhadra temples is composed ; p.~detil, Bhadra temple."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra OCR 'flatfish' = flattish. Bose spells 'pirha'. Parent: gandi (of a pidha deula). Group: vertical-division part."
+    },
+    {
+      "cid": "arch-067",
+      "field": "elements.wheel.what",
+      "text": "At Konark, huge carved stone wheels line the sides of the temple's high platform, so the temple looks like a chariot. The ASI guide counts twelve pairs.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=wheels",
+          "access": "full-text",
+          "locator": "scan leaf 24 (printed page unverified)",
+          "quote": "The Main Temple was conceived as a colossal chariot with twelve pairs of wheels and drawn by seven richly-caparisoned horses in spirited gallop."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=wheels",
+          "access": "full-text",
+          "locator": "scan leaf 24 (printed page unverified)",
+          "quote": "The lavishly-ornamented wheels of the divine chariot are carved against the sides of the high platform and also on two sides of the east staircase immediately in front of the main entrance to the porch."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 217 (printed page unverified)",
+          "quote": "The base of the structure therefore is an immense terrace with 12 giant wheels, (Plate LXXXIX), each nearly ten feet high fixed on either side, to simulate the vehicle of the god,"
+        }
+      ],
+      "conflicts": "Wheel count wording differs: Mitra leaf 24/43/44 'twelve pairs'; Mitra leaf 107 'twelve exquisitely-carved wheels'; Brown '12 giant wheels ... fixed on either side' (i.e. 12 per side). Mitra leaf 2: 'twelve-wheeled chariot'.",
+      "notes": "Brown's 'nearly ten feet high' is an estimate, not an ASI measurement; not put in text. Group: structure (Konark-specific)."
+    },
+    {
+      "cid": "arch-068",
+      "field": "elements.wheel.why",
+      "text": "The ASI guide explains the twelve pairs of wheels as the twelve months of the year.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=wheels",
+          "access": "full-text",
+          "locator": "scan leaf 44 (printed page unverified)",
+          "quote": "The twelve pairs of wheels symbolise the twelve months of a year and are carved against the three sides of the platform."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Symbolic interpretation, single source: scholarly at most."
+    },
+    {
+      "cid": "arch-069",
+      "field": "elements.horses.what",
+      "text": "Seven carved horses, rearing on the sides of the front staircase, seem to pull Konark's stone chariot of the Sun god.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=horses",
+          "access": "full-text",
+          "locator": "scan leaf 24 (printed page unverified)",
+          "quote": "The rearing horses are sculpted against the sides of this staircase."
+        },
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=horses",
+          "access": "full-text",
+          "locator": "scan leaf 2 (printed page unverified)",
+          "quote": "The Sun Temple of Konarak, a monument of vivid architectural imagination, was conceived in the form of a mammoth, twelve-wheeled chariot drawn by seven galloping horses."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 217 (printed page unverified)",
+          "quote": "in front is a wide flight of steps, its sides supported by seven richly caparisoned steeds, rearing and straining in their harness as they strive to drag its great bulk along."
+        }
+      ],
+      "conflicts": "Seven, not six (pitfalls: one UNESCO summary says six).",
+      "notes": "Group: structure (Konark-specific)."
+    },
+    {
+      "cid": "arch-070",
+      "field": "elements.vimana-base.what",
+      "text": "Konark's temple stands on a very high platform. Its sides are carved with the chariot wheels.",
+      "proposed_tier": "established",
+      "evidence": [
+        {
+          "source_id": "mitra-d-2003",
+          "fetched_url": "https://ia803206.us.archive.org/fulltext/inside.php?item_id=konarak00mitr&doc=konarak00mitr&path=/12/items/konarak00mitr&q=wheels",
+          "access": "full-text",
+          "locator": "scan leaf 24 (printed page unverified)",
+          "quote": "The lavishly-ornamented wheels of the divine chariot are carved against the sides of the high platform"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=deul",
+          "access": "full-text",
+          "locator": "scan leaf 217 (printed page unverified)",
+          "quote": "On the high platform thus formed the temple building was raised in two conjoined parts,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mitra leaf 2: the jagamohana 'originally shared a platform with the sanctuary' (q=bhoga-mandapa). No height for the platform was taken. Group: structure (Konark-specific)."
+    }
+  ],
+  "new_sources": [],
+  "gaps": []
+}
