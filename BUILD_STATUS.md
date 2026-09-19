@@ -10,10 +10,10 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 |---|---|---|---|
 | G0 plan amendments, decisions D1–D6 | ✅ approved | 2026-09-18 | A1–A15 approved. D1 pre-render · D2 OpenStreetMap outline · D3 per-claim sign-off for catalogue/snippet evidence · D4 Opus research/fact-check, Sonnet others · D5 git, repo `kalinga-sthapatya` · D6 Konark reconstruction optional P2, captioned |
 | G1 source registry | ✅ approved | 2026-09-18 | 23 sources merged; openlibrary.org approved. Items 2–7 below stay open (non-blocking: those works can't be cited until resolved). |
-| G2 research review | — | | |
+| G2 research review | ✅ delegated to orchestrator | 2026-09-19 | Human: "proceed to publish… give some confidence categorization". Rule: publish established/scholarly/uncertain (fact-checked approved/revised); DO NOT publish needs-human, snippet/catalogue-only, rejected, or sensitive claims (left null). Eras: keep six, descriptive labels (Rock-cut roots · First temples · Experiment & refinement · Monumental scale · Grand finale · Late Kalinga), periods as cited by fact-checkers. Heights: as ruled by fact-checkers (Lingaraja null). |
 | G3 visual briefs | — | | |
-| G4 visual assets | — | | per asset in data/media.json |
-| G5 launch | — | | |
+| G4 visual assets | ✅ delegated (batch 1) | 2026-09-19 | Approve PASS/PASS-with-notes + low-res-but-correct (V-01,03,10,11,13,14,15,20–24,30,31,34,36,38,40,41,50,51,52); keep JPEG (no install). Placeholders stay for V-32,33,35,37,42–45. V-60–63: publish only if integrator check is a clean PASS. |
+| G5 launch | ✅ approved by human | 2026-09-19 | "proceed to publish" — push + enable GitHub Pages after merge, build and QA pass. |
 
 ## Done (2026-09-18 setup)
 
