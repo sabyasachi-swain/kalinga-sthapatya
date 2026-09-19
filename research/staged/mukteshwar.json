@@ -1,0 +1,296 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "mukteshwar",
+      "name": "Mukteshvara Temple",
+      "name_odia": null,
+      "page": "temples/mukteshwar.html",
+      "temple_type": "rekha",
+      "era_id": "transitional",
+      "sort_year": 970,
+      "location": {
+        "place": "Bhubaneswar",
+        "district": "Khordha",
+        "lat": 20.2426872,
+        "lng": 85.8405031,
+        "coord_source": "https://www.openstreetmap.org/way/1337725739"
+      },
+      "one_liner": {
+        "text": "A small, richly carved temple in Bhubaneswar, known for the carved arched gateway in front of it.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+          { "id": "panigrahi-1961", "locator": "scan leaf 104 (printed page unverified)" }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "Scholars date it to the late 10th century CE, but they differ on the exact year.",
+          "value": "c. 966–975 CE",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaves 106, 186, 187 and 272 (printed pages unverified)" }
+          ],
+          "note": "Percy Brown (1959) judged from details of its style that it was 'probably built about' 975 CE. K.C. Panigrahi (1961) argued for 966 CE. He took that year from a palm-leaf manuscript verse about a Shiva temple, and linked it to this temple through a local tradition that a king called Yayati Kesari built it. Panigrahi also places it between the Sisiresvara (c. 800 CE) and the Brahmesvara (c. 1060 CE). No inscription dates the temple. The research report's 'Brown c. 950' is not supported by Brown's text.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "Historian K.C. Panigrahi placed it early in the rule of the Somavamshi (Kesari) kings.",
+          "value": "Somavamshi (Kesari)",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "scan leaves 186, 187 and 277 (printed pages unverified)" }
+          ],
+          "note": "This is one scholar's view. Panigrahi bases it on the temple's style and on a local tradition that a king called Yayati Kesari built it, whom he identifies as the Somavamshi ruler Yayati I. Percy Brown (1959) dates the temple but names no dynasty in the passage checked. No inscription links the temple to a dynasty.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": {
+          "text": "The temple is small. Its tower rises only about 10.5 m (35 ft).",
+          "value": "about 10.5 m (35 ft)",
+          "value_m": 10.5,
+          "tier": "scholarly",
+          "sources": [
+            { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaf 107 (printed page unverified)" }
+          ],
+          "note": "Brown: the tower is 'hardly 35 feet high'. Panigrahi: 'a height of only 34' feet, with an unclear fraction in the scan text. Rajendralala Mitra (1880) gives 'barely 3S feet' (scan text unclear: 35 or 38). None of these is an ASI measurement.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "deity": null,
+        "temple_type": {
+          "text": "According to K.C. Panigrahi, the main shrine has a pancharatha plan, and its jagamohana (porch hall) is of the pidha type.",
+          "value": "pancharatha shrine with pidha jagamohana",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "panigrahi-1961", "locator": "scan leaves 107 and 184 (printed pages unverified)" }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["gandi", "jagamohana", "torana"],
+          "intro": [
+            {
+              "text": "The temple has a tower shrine and a jagamohana (porch hall). A carved arched gateway, the torana, stands in front.",
+              "tier": "scholarly",
+              "sources": [
+                { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+                { "id": "panigrahi-1961", "locator": "scan leaf 184 (printed page unverified)" }
+              ],
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "Rajendralala Mitra wrote that the temple stands where a mango grove once grew. Hermits had lived there, so it was called Siddharanya, 'the grove of the perfect beings'. It also had natural springs, so many temples were built there.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "mitra-r-1880", "locator": "scan leaves 187–188, 1963 reprint (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "No known inscription names the builder. According to local tradition, a king called Yayati Kesari built it. Historian K.C. Panigrahi identified him as King Yayati I.",
+            "tier": "uncertain",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 187, 272, 277 and 282 (printed pages unverified)" }
+            ],
+            "note": "This is one scholar's inference, not proven. Panigrahi (1961) says Yayati I 'most likely' built the temple, in 966 CE, which falls in the reign he gives for Yayati I (c. 950–975 CE). He also notes that inscriptions crediting kings with building temples are absent at Bhubaneswar. Percy Brown (1959) names no builder. Panigrahi credits the Lingaraja temple to Yayati II, not Yayati I.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "construction": [
+          {
+            "text": "The temple is small. Percy Brown gave it as about 14 m (45 ft) long and about 7.6 m (25 ft) across at its widest point.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "A low, eight-sided wall surrounds the temple. K.C. Panigrahi thought it was modelled on the wall of an older temple next door, where the Siddhesvara temple now stands. He found no other eight-sided temple wall in Bhubaneswar.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 104, 106 and 107 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "James Fergusson noted that the porch has no pillars inside. Percy Brown noted that it is one of the few Odisha temples with carvings inside as well as outside.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "fergusson-1876", "locator": "scan leaf 431 (printed page unverified)" },
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "special": [
+          {
+            "text": "In front stands a free-standing gateway called a torana (arched gateway). Two carved pillars hold up a round arch.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+              { "id": "mitra-r-1880", "locator": "scan leaf 189, 1963 reprint (printed page unverified)" },
+              { "id": "panigrahi-1961", "locator": "scan leaves 104 and 106 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Percy Brown called the arch one of the most original ideas in the whole Odisha style. In 1961, K.C. Panigrahi noted that no other surviving temple in Bhubaneswar has such an arch.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+              { "id": "panigrahi-1961", "locator": "scan leaf 106 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Scholars have praised its beauty. Percy Brown called it 'a miniature gem of architecture'. James Fergusson wrote that, in its class, it was 'the gem of Orissan architecture'.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" },
+              { "id": "fergusson-1876", "locator": "scan leaf 431 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The temple is small, but its parts fit together very well. Rajendralala Mitra wrote that the eye does not notice how small it is. Percy Brown also praised its fine proportions.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "mitra-r-1880", "locator": "scan leaf 188, 1963 reprint (printed page unverified)" },
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Its carvings show many lively scenes. Rajendralala Mitra listed a hermit teaching a pupil, a reader with a palm-leaf book, and a lady holding a pet parrot.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "mitra-r-1880", "locator": "scan leaf 188, 1963 reprint (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "According to local tradition recorded by Rajendralala Mitra in 1880, the arch was not built just for decoration. At the swing festival, a chair was hung from two iron rings on the arch. A festival image of the god was placed in it and swung.",
+            "tier": "uncertain",
+            "sources": [
+              { "id": "mitra-r-1880", "locator": "scan leaf 189, 1963 reprint (printed page unverified)" }
+            ],
+            "note": "Mitra reports what 'the people say' and does not endorse it. Percy Brown and K.C. Panigrahi describe the torana only as a gateway. Whether the custom continues today was not checked.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "size": {
+          "height_m": 10.5,
+          "note": null
+        },
+        "influences": [
+          {
+            "text": "Percy Brown wrote that it is believed to be the first temple of the 'Middle Period' of Odisha temple building. He dated that period to about 900–1100 CE.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "brown-1959", "locator": "scan leaf 214 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "K.C. Panigrahi wrote that its builder brought in a new culture, with new designs, carvings and images of gods. He said this temple divides Bhubaneswar's temples into an early group and a late group.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaf 106 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "K.C. Panigrahi wrote that many of its features became the standard for the important temples built after it. Its porch marks the beginning of the pidha type of temple.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 104 and 184 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Panigrahi saw it as a link between old and new. Its tower shape and plan resemble older temples such as the Sisiresvara. Its porch, rounded edges and some carvings point ahead to the later Brahmesvara temple.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 106 and 184 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "K.C. Panigrahi thought its arch was probably modelled on an older gateway. Parts of that older arch were dug out of a mound called Dola-mandapa, between the old temple town and the Brahmesvara temple. In 1961 they were in the Orissa State Museum.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "panigrahi-1961", "locator": "scan leaves 106 and 107 (printed pages unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "In 1876, James Fergusson saw two 'sister styles' among Odisha's older temples. He thought about half of them follow the Mukteshvara type.",
+            "tier": "scholarly",
+            "sources": [
+              { "id": "fergusson-1876", "locator": "scan leaf 437 (printed page unverified)" }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": { "hero": "V-65", "silhouette": "V-66", "parts_diagram": "V-67" },
+      "sketchfab": null
+    }
+  ],
+  "sources": []
+}

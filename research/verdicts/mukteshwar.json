@@ -1,0 +1,245 @@
+{
+  "topic": "mukteshwar",
+  "checked_on": "2026-09-19",
+  "method": "On 2026-09-19 I re-fetched every fetched_url in the ledger. Each is an archive.org fulltext/inside.php search-inside URL, and each returns OCR text with a 'page' value. That value is the scan leaf index, not the printed page. I matched each quote against the returned text, allowing for OCR noise. The search-inside text is the book's full-text OCR, so it counts as full-text access. I ran two extra queries on the Panigrahi scan. q=probability returned leaf 107 in full, and leaf 107 gives a height. q=%22conspicuous%20by%20their%20absence%22 returned leaf 282 on the absence of builder inscriptions. Leaf 187 was read in full through q=966. The ledger's q=Muktesvara Panigrahi URL came back only as a summary; that is noted where it matters. Every source used (panigrahi-1961, brown-1959, mitra-r-1880, fergusson-1876) is already in data/sources.json. All four are type 'book' and are hosted on archive.org, which is trusted and not blocked. No source is primary-class, so no claim can be 'established'. Locators are written as 'scan leaf N (printed page unverified)'.",
+  "verdicts": [
+    {
+      "cid": "mukteshwar-001",
+      "field": "facts.date",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All four quotes were found. Brown leaf 214: 'probably built about A.D. 975'. Panigrahi leaf 272: 'Vayati 1 most likely built the temple of Muktesvara in a.d. 966'. Panigrahi leaf 106: between Sisiresvara (c. 800) and Brahmesvara (c. 1060). Panigrahi leaf 107: earlier than the Brahmesvara. RULING (as asked): the sources differ, so the tier is 'uncertain' with a note naming who says what. Brown gives about 975, from style. Panigrahi gives 966, from a chronicle verse plus local tradition. Merged with mukteshwar-002 into one facts.date claim. The display text avoids exact years; the value is the range 'c. 966–975 CE'. The research report's 'Brown c. 950' is wrong: Brown says about 975, and no fetched source gives 950.",
+      "revised_text": "Scholars date it to the late 10th century CE, but they differ on the exact year."
+    },
+    {
+      "cid": "mukteshwar-002",
+      "field": "facts.date (competing years) → merged into facts.date note",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "All four quotes were found: Brown leaf 214 (pilaster-base detail), Panigrahi leaf 186 (Saka 888, not 588), leaf 187 (Krittivasa temple of A.D. 966, not the Lingaraja) and leaf 271 ('lost 300 years'). I read leaf 187 in full through q=966, and it shows the step the researcher missed. 'The temple of Muktesvara, according to the tradition current at Bhubaneswar, was built by Yayati Kesari who should be identified as Yayati I'. It continues: 'The date a.d. 966 falling within the reign of Yayati I (r. a.d. 950-975)'. So Panigrahi's 966 joins a chronicle date for an unnamed Shiva temple to a local tradition about the builder. That makes it an inference, not a record. The content is now carried in the facts.date note, not as a separate claim.",
+      "revised_text": null
+    },
+    {
+      "cid": "mukteshwar-003",
+      "field": "facts.dynasty",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 186 and 277). Leaf 187 adds that 'all evidences of architectural and sculptural evolution ... place this monument in the early part of the Somavamsi period'. Only one scholar is cited, and the view is tied to the Yayati I attribution, so the tier stays 'uncertain'. The phrase 'This rests on one historian's reading' is replaced by attributing the view to Panigrahi. The note mentions Yayati, as the validator requires.",
+      "revised_text": "Historian K.C. Panigrahi placed it early in the rule of the Somavamshi (Kesari) kings."
+    },
+    {
+      "cid": "mukteshwar-004",
+      "field": "patron → placed in sections.why_built (the temple schema has no patron field)",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 277 and 272). Leaf 187 (verified) shows the attribution starts from 'the tradition current at Bhubaneswar' that Yayati Kesari built it. Panigrahi then identifies that king as Yayati I. Leaf 282 (verified through q=%22conspicuous%20by%20their%20absence%22) says 'inscriptions definitely crediting kings with the building of temples are conspicuous by their absence'. That supports 'No known inscription names the builder'. RULING: the Yayati I attribution is one scholar's inference from tradition, never established. Tier 'uncertain' with a note. The text is labelled as tradition, and the exact year is kept in the note. The ledger's text also said 'this has not been proven'. That is fair as a summary of the evidence, but the note says it instead of the display text.",
+      "revised_text": "No known inscription names the builder. According to local tradition, a king called Yayati Kesari built it. Historian K.C. Panigrahi identified him as King Yayati I."
+    },
+    {
+      "cid": "mukteshwar-005",
+      "field": "facts.height",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found: Brown leaf 214 ('its tower is hardly 35 feet high') and Mitra leaf 188 ('barely 3S feet high' in the OCR). The ledger says Panigrahi gives no height, but that is wrong. Panigrahi leaf 107 (found through q=probability) says 'it is a small monument rising to a height of only 34^ feet'. The OCR mark after 34 is probably a fraction. HEIGHT RULING: two accepted sources agree to within about half a foot (34–35 ft, i.e. 10.4–10.7 m). The third (Mitra) reads 35 or 38 ft, which is at most about 1 m higher. That counts as substantial agreement, unlike Lingaraja's 39–55 m spread. So the height is published as 'about 10.5 m (35 ft)', value_m 10.5, citing Brown and Panigrahi. Mitra is left out of the sources because of the OCR doubt and is mentioned in the note. The tier is scholarly, not uncertain, because two scholars agree and none disagree. The 'uncertain' tier is for competing views, and there are none. This raise rests on the new Panigrahi evidence, not on filling the page. It is not an ASI measurement, so the text keeps 'about'. sections.size.height_m = 10.5.",
+      "revised_text": "The temple is small. Its tower rises only about 10.5 m (35 ft)."
+    },
+    {
+      "cid": "mukteshwar-006",
+      "field": "facts.temple_type",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both leaf 184 quotes were found. The paragraph's subject is 'the Muktesvara' ('we have shown that the Muktesvara actually divides the temples...'), so 'iispancha-ratha plan' is this temple's. The leaf 104 quote was found as well. Leaf 107 adds 'The porch in the Muktesvara which is a pidha temple'. The glosses 'walls that step out in five vertical bands' and 'stepped, tiered roof' do not appear in any fetched source, so they were removed. Meanings must come from sourced glossary entries. 'Jagamohana (porch hall)' is supported, because Panigrahi uses 'porch' and 'Jagamohana' for the same structure (leaves 184 and 107). The word 'rekha' was not found for this temple. The structural enum temple_type is 'rekha' as instructed, but the claim says only what is sourced.",
+      "revised_text": "According to K.C. Panigrahi, the main shrine has a pancharatha plan, and its jagamohana (porch hall) is of the pidha type."
+    },
+    {
+      "cid": "mukteshwar-007",
+      "field": "one_liner",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Brown leaf 214; Panigrahi leaf 104). 'Famous' was changed to 'known for'. 'Stone' was removed from the arch: no quote says what the torana is made of. 'Richly carved' is supported by Brown ('ornamented with fascinating carved patterns') and Panigrahi ('Elegantly decorated from top to bottom').",
+      "revised_text": "A small, richly carved temple in Bhubaneswar, known for the carved arched gateway in front of it."
+    },
+    {
+      "cid": "mukteshwar-008",
+      "field": "sections.why_built",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three Mitra quotes were found (leaves 187 and 188). Leaf 187 ends '...having been the dwelling place of some hermits,' and leaf 188 begins 'is known by the name of liddhSranya'. That is the same sentence running across the page break, and I accept the join. The grove was a 'mango tope' (mango grove). The text is reframed to attribute the account to Mitra, and it now keeps his causal chain: the hermits gave the grove its name, the springs were a further benefit, and 'therefore' the place was chosen for many temples. 'Old grove' was replaced with his 'mango grove'.",
+      "revised_text": "Rajendralala Mitra wrote that the temple stands where a mango grove once grew. Hermits had lived there, so it was called Siddharanya, 'the grove of the perfect beings'. It also had natural springs, so many temples were built there."
+    },
+    {
+      "cid": "mukteshwar-009",
+      "field": "sections.construction",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "The quote was found on Brown leaf 214. The conversions are correct (45 ft = 13.7 m, about 14 m; 25 ft = 7.6 m), and the figures are attributed to Brown. There is a single source, so the tier is scholarly.",
+      "revised_text": null
+    },
+    {
+      "cid": "mukteshwar-010",
+      "field": "sections.construction",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 106 and 104). Leaf 107 (verified) adds that the present Siddhesvara stands on an earlier temple's site and keeps remains of that temple's octagonal wall. Leaf 106 adds: 'Barring these two examples, no octagonal compound wall is to be found in any temple at Bhubaneswar.' The text now names the Siddhesvara site and adds the 'no other' point. 'Low' is sourced ('low compound wall').",
+      "revised_text": "A low, eight-sided wall surrounds the temple. K.C. Panigrahi thought it was modelled on the wall of an older temple next door, where the Siddhesvara temple now stands. He found no other eight-sided temple wall in Bhubaneswar."
+    },
+    {
+      "cid": "mukteshwar-011",
+      "field": "sections.construction",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Fergusson leaf 431; Brown leaf 214). I accept that 'It has no pillars internally' refers to the porch. The same sentence goes on 'and the roof externally exhibits at least the germ of what we find in the porches of the great temple' (leaf 431, q=%22gem%20of%22 match), which compares porches. The two points come from different authors, so each is now attributed separately.",
+      "revised_text": "James Fergusson noted that the porch has no pillars inside. Percy Brown noted that it is one of the few Odisha temples with carvings inside as well as outside."
+    },
+    {
+      "cid": "mukteshwar-012",
+      "field": "sections.special",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found: Brown leaf 214 ('detached portal consists of two pillars supporting around arch'), Mitra leaf 189 ('supported on two columns of excellent and elaborate workmanship') and Panigrahi leaf 104. Panigrahi leaf 106 also says it 'had an arch supported by two pillars'. 'Free-standing' fairly renders Brown's 'detached'. 'Carved' is supported by Brown ('exquisite carving') and Mitra. Three scholars agree, but none is primary-class, so the tier is scholarly. Mitra's torana height ('IS feet') is correctly left out because of the OCR.",
+      "revised_text": null
+    },
+    {
+      "cid": "mukteshwar-013",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Brown leaf 214; Panigrahi leaf 106). Mitra leaf 189 separately says the archway is 'totally unlike every other structure of the kind at Bhuvanesvara'. Panigrahi's statement is dated to 1961, as the researcher suggested. 'Standing' becomes 'surviving', to match his 'existing'.",
+      "revised_text": "Percy Brown called the arch one of the most original ideas in the whole Odisha style. In 1961, K.C. Panigrahi noted that no other surviving temple in Bhubaneswar has such an arch."
+    },
+    {
+      "cid": "mukteshwar-014",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All five quotes were found: Brown leaf 214; Fergusson leaf 431, twice; Mitra leaf 188; Panigrahi leaf 104. RULING on 'gem': it is allowed only as quoted and attributed. Brown's 'a miniature gem of architecture' is verbatim. Fergusson's sentence is on the same leaf as his Mukteswara paragraph, just after the caption of Woodcut 231 ('Temple of Muktcswara'). Its subject is the same temple: the text runs 'the roof externally / exhibits at least the germ ... Its dimensions ... the gem of Orissan architecture'. His words are now quoted directly ('in its class', 'the gem of Orissan architecture'), not paraphrased. Only Brown and Fergusson are cited in the staged claim.",
+      "revised_text": "Scholars have praised its beauty. Percy Brown called it 'a miniature gem of architecture'. James Fergusson wrote that, in its class, it was 'the gem of Orissan architecture'."
+    },
+    {
+      "cid": "mukteshwar-015",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Brown leaf 214; Mitra leaf 188). The same Mitra snippet also says the mind 'fails to detect the smallness of the structure'. The text now attributes the 'does not look small' point to Mitra, instead of stating it as fact.",
+      "revised_text": "The temple is small, but its parts fit together very well. Rajendralala Mitra wrote that the eye does not notice how small it is. Percy Brown also praised its fine proportions."
+    },
+    {
+      "cid": "mukteshwar-016",
+      "field": "sections.special",
+      "verdict": "approved",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Mitra leaf 188. 'Lively' is supported by 'statuettes vigorous and full of action' in the same snippet. The list is attributed to Mitra and is suitable for children.",
+      "revised_text": null
+    },
+    {
+      "cid": "mukteshwar-017",
+      "field": "sections.special",
+      "verdict": "revised",
+      "tier": "uncertain",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Mitra leaf 189. The custom is a local tradition reported by one writer in 1880, so the text now starts 'According to local tradition' and uses the past tense. Current practice was not checked. 'The people say it was erected not with that view' means as an ornament; the text keeps that and does not go further. 'Stand-in image' becomes 'festival image', which is closer to Mitra's 'by proxy' and more respectful.",
+      "revised_text": "According to local tradition recorded by Rajendralala Mitra in 1880, the arch was not built just for decoration. At the swing festival, a chair was hung from two iron rings on the arch. A festival image of the god was placed in it and swung."
+    },
+    {
+      "cid": "mukteshwar-018",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Brown leaf 214. Brown's own hedge is 'What is believed to be the first example of the phase', so 'saw it as the first' overstated it; the hedge is restored. 'New' was dropped. The date range stays approximate. Pitfall noted: Brown's 'Middle Period' is not the site's 'transitional' era label, which is pending G2.",
+      "revised_text": "Percy Brown wrote that it is believed to be the first temple of the 'Middle Period' of Odisha temple building. He dated that period to about 900–1100 CE."
+    },
+    {
+      "cid": "mukteshwar-019",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Panigrahi leaf 106. 'Harbinger' is replaced with plain wording that follows the same leaf: 'introduced new architectural designs, new art motifs and new conceptions about the iconography of the cult images'.",
+      "revised_text": "K.C. Panigrahi wrote that its builder brought in a new culture, with new designs, carvings and images of gods. He said this temple divides Bhubaneswar's temples into an early group and a late group."
+    },
+    {
+      "cid": "mukteshwar-020",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found (Panigrahi leaves 104 and 184). 'Stepped roof' is not in any quote, so it was removed. Panigrahi's words are 'a porch which marks the beginning of a pidha temple'. The view is attributed to him. The Brahmesvara link is left to mukteshwar-021 to avoid repeating it.",
+      "revised_text": "K.C. Panigrahi wrote that many of its features became the standard for the important temples built after it. Its porch marks the beginning of the pidha type of temple."
+    },
+    {
+      "cid": "mukteshwar-021",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found (Panigrahi leaves 184 and 106). The text is attributed to Panigrahi and names the Sisiresvara as he does. 'Smooth and rounded edges' is added from the same quote. Panigrahi calls the relation to Brahmesvara 'not close but distant', so the text says only 'point ahead'.",
+      "revised_text": "Panigrahi saw it as a link between old and new. Its tower shape and plan resemble older temples such as the Sisiresvara. Its porch, rounded edges and some carvings point ahead to the later Brahmesvara temple."
+    },
+    {
+      "cid": "mukteshwar-022",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Fergusson leaf 437. The year was added to mark this as an 1876 view, and 'sister styles' is quoted as Fergusson's term. Fergusson's '8th and 9th centuries' is about the styles in general and is not used.",
+      "revised_text": "In 1876, James Fergusson saw two 'sister styles' among Odisha's older temples. He thought about half of them follow the Mukteshvara type."
+    },
+    {
+      "cid": "mukteshwar-023",
+      "field": "sections.influences",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "Both quotes were found on Panigrahi leaf 106. Leaf 107 adds that the torana's model came from temples 'now no longer in existence'. The view is attributed and keeps his hedge ('In all likelihood'). 'Stone' and 'near Bhubaneswar' are not in the quotes. The mound was 'in between the temple town and the Brahmesvara'. The museum location is dated to 1961.",
+      "revised_text": "K.C. Panigrahi thought its arch was probably modelled on an older gateway. Parts of that older arch were dug out of a mound called Dola-mandapa, between the old temple town and the Brahmesvara temple. In 1961 they were in the Orissa State Museum."
+    },
+    {
+      "cid": "mukteshwar-024",
+      "field": "sections.parts (element_ids + intro)",
+      "verdict": "revised",
+      "tier": "scholarly",
+      "quote_check": "found",
+      "reason": "All three quotes were found (Panigrahi leaf 184; Brown leaf 214, twice). The ids gandi, jagamohana and torana are accepted. For 'gandi': Brown says 'tower', Panigrahi says 'sikhara', and the same mapping was accepted for Lingaraja. pista, bada and mastaka are correctly left out because they are unsourced for this temple. The intro was rewritten as a plain description, not a note about sources.",
+      "revised_text": "The temple has a tower shrine and a jagamohana (porch hall). A carved arched gateway, the torana, stands in front."
+    }
+  ],
+  "location": {
+    "verdict": "approved",
+    "reason": "Re-fetched https://www.openstreetmap.org/way/1337725739, version 2, 5 nodes. Tags: name=Mukteswar Temple, amenity=place_of_worship, historic=temple, religion=hindu, wikidata=Q3635669, wikipedia='en:Mukteshvara Temple, Bhubaneswar'. The wikipedia tag confirms which Mukteshwar this is; it is used for identity only, not as a citation. Re-fetched Nominatim: way 1337725739, lat 20.2426872, lon 85.8405031, display_name 'Mukteswar Temple, Lewis Road, ... Bhubaneswar ... Khordha, Odisha, 751002, India'. The point is the centre of a 5-node outline. OSM is the coordinate source only, not a citation.",
+    "value": { "place": "Bhubaneswar", "district": "Khordha", "lat": 20.2426872, "lng": 85.8405031, "coord_source": "https://www.openstreetmap.org/way/1337725739" }
+  },
+  "sketchfab": { "verdict": "null", "reason": "The ledger found no Creative-Commons model: all three search hits have licence null, and one is at a different site. Not re-searched; a null needs no verification." },
+  "rulings": {
+    "facts.date": "UNCERTAIN. Text: 'Scholars date it to the late 10th century CE, but they differ on the exact year.' Value: 'c. 966–975 CE'. Note: Brown 1959 says 'probably built about' 975 CE, from style. Panigrahi 1961 says 966 CE, from a palm-leaf manuscript verse plus local tradition. The report's 'Brown c. 950' is wrong.",
+    "patron": "UNCERTAIN, in sections.why_built, with a note. Tradition credits 'Yayati Kesari', and Panigrahi identifies him as Yayati I ('most likely', 966 CE). No known inscription names the builder (Panigrahi leaf 282). Never established.",
+    "facts.height": "PUBLISHED: about 10.5 m (35 ft), value_m 10.5, scholarly. Brown 1959: tower 'hardly 35 feet'. Panigrahi 1961 leaf 107: 'only 34^ feet' (the ledger missed this). Mitra 1880: 'barely 3S feet' (OCR 35 or 38; excluded from sources and mentioned in the note). The figures agree to within 1 m; there is no ASI measurement. sections.size.height_m = 10.5.",
+    "torana": "APPROVED as sourced: a free-standing ('detached') gateway with two pillars holding up a round arch, per Brown, Mitra and Panigrahi. 'Gem' praise appears only as direct quotes attributed to Brown and Fergusson.",
+    "facts.temple_type": "REVISED. 'Pancharatha' and 'pidha' (jagamohana) are quoted for this temple (Panigrahi leaves 184 and 107). 'Rekha' is not quoted for it; the enum 'rekha' is structural only. 'Torana' and 'jagamohana' are quoted for this temple.",
+    "location": "APPROVED: OSM way 1337725739 is the Mukteswar Temple, Bhubaneswar (Khordha)."
+  },
+  "gaps_for_researcher": [
+    "facts.deity: no fetched passage states the dedication. Mitra leaf 188 mentions 'saints worshipping Siva' among the carvings, which is not a dedication statement.",
+    "facts.temple_type: 'rekha' needs a source that uses the word for this temple.",
+    "facts.height: a human could read Mitra 1880 leaf 188 ('3S feet') and leaf 189 (torana 'IS feet') in the archive.org viewer. An ASI figure would still be better.",
+    "Panigrahi leaf 107 (q=probability) has more usable material: latticed windows in the jagamohana, probably borrowed from the Parasuramesvara. The researcher could propose it.",
+    "Panigrahi's list of 'firsts' (half-serpent Nagas, Panchatantra scenes): the ledger's q=Muktesvara URL returned only a summary on re-fetch. It needs a verbatim search-inside query (e.g. q=Panchatantra).",
+    "glossary: torana, pancharatha, pidha, jagamohana, gandi, Somavamshi (Kesari) need sourced entries (data/glossary.json is empty)."
+  ]
+}
