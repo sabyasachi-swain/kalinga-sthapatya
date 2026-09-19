@@ -1,0 +1,761 @@
+{
+  "topic": "mukteshwar",
+  "run_on": "2026-09-19",
+  "method_note": "I read every archive.org quote through the archive.org search-inside API (fulltext/inside.php). It returns the OCR text of the scanned book around each hit. The fetched_url for each quote is that exact API URL. OCR errors are kept as they appear, and <IA_FTS_MATCH> tags are removed. 'leaf N' is the scan page index from the API, NOT the printed page. I did not see printed page numbers, so every locator starts with 'unverified'. The API output came through WebFetch's summariser. Where it returned the raw 'text' field, I copied that. OCR ambiguities are flagged in notes.",
+  "claims": [
+    {
+      "cid": "mukteshwar-001",
+      "field": "facts.date",
+      "text": "Scholars date the temple to the late 10th century CE.",
+      "value": "late 10th century CE",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "What is believed to be the first example of the phase is the small temple of Muktesvara situated with a number of others on the outskirts of the town of Bhubaneswar, and probably built about A.D. 975."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22most%20likely%20built%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 272)",
+          "quote": "We have shown in Chapter IX that Vayati 1 most likely built the temple of Muktesvara in a.d. 966"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=harbinger",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "its chronological position lies somewhere between the Sirire^vara (c. a.d. 800) and the Brahmesvara (c. a.d. 1060) temples."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Muktesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "Although the Muktesvara possesses architectural and sculptural affinities with the Brahmeivara (c. a.i>. 1060), in point of chronology the former is certainly earlier."
+        }
+      ],
+      "conflicts": "Brown 1959: 'probably built about A.D. 975', from style (leaf 214). Panigrahi 1961: A.D. 966 (leaves 272, 277). His evidence is a year in a palm-leaf manuscript verse, not a building inscription (see mukteshwar-002). Panigrahi also places it between Sisiresvara (c. 800) and Brahmesvara (c. 1060). Older writers point earlier. Fergusson 1876 (leaf 437) says the Mukteswara and great-temple types 'get confounded together rn the 8th and 9th centuries'. That is about styles, not this temple's date. Mitra 1880 (leaf 192) dates another temple to 'the 9th century from the similitude of its workmanship and material with those of the Muktesvara and the RSjarani temples'. That implies, but does not state, a 9th-century date for Mukteshvara. The research report's 'c. 950-975 CE' and 'Percy Brown dated it c. 950 CE' are not supported. Brown says c. 975, and no fetched source gives 950.",
+      "notes": "Stylistic and indirect dating only, so never established. Both main scholars place it in the late 10th century, which supports the scholarly tier. If a range is wanted for value, 'c. 966-975 CE' covers Panigrahi and Brown. The '950' lower bound in the report and pitfalls has no fetched source."
+    },
+    {
+      "cid": "mukteshwar-002",
+      "field": "facts.date (competing exact years)",
+      "text": "Percy Brown judged from its style that it was built about 975 CE. K.C. Panigrahi argued for 966 CE, using a year written in an old palm-leaf manuscript.",
+      "value": "c. 966-975 CE",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "There are certain details in the design of this temple, which enable its date to be fixed with tolerable accuracy as for instance the shape of the vase base of the pilasters"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=probability",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 186)",
+          "quote": "The date given in the verse as recorded in the manuscript is the Saka year 888, and not 588."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=966",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 187)",
+          "quote": "a temple of K{itu%ma (Siva) was built in A.D. 966, but this temple d ocs not appear to be the Lihgariija"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22orally%20handed%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 271)",
+          "quote": "While discussing the date of tlie Mukteivara in Chapter IX, wc have also shotvn that it has lost 300 years in computing the dale of that temple"
+        }
+      ],
+      "conflicts": "Panigrahi's 966 CE works like this. The Madala Panji tradition has a verse that credits a Krittivasa (Shiva) temple to Yayati, Ananta and Lalatendu Kesari 'in the Saka year 588' (666 CE) (leaf 186). The Keonjhar palm-leaf manuscript reads Saka 888 (966 CE). Panigrahi rejects the link to the present Lingaraja (leaf 187) and assigns the 966 date to Mukteshvara. At leaf 271 he says the chronicle 'lost 300 years' in dating 'the Mukteivara'. His step from the verse to this particular temple was not seen in full; the Chapter IX argument was only partly retrieved. Brown gives c. 975 from stylistic details: pilaster bases, bracket supports and figure modelling (leaf 214).",
+      "notes": "Two different methods give two different years. The 966 date rests on a chronicle verse re-read by one scholar, so it is uncertain. Never show 966 as an exact, established year. Pair with mukteshwar-004 (Yayati I)."
+    },
+    {
+      "cid": "mukteshwar-003",
+      "field": "facts.dynasty",
+      "text": "It was probably built in the time of the Somavamshi (Kesari) kings. This rests on one historian's reading of the evidence.",
+      "value": "Somavamshi (Kesari)",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=probability",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 186)",
+          "quote": "which corresponds to A.D. 966 and thus comes within the range of probability for the date of a Somavaih^ or Keiari monument."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=966",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "It was thus Yayati I who built the temple of Mukte^vara at Bhubaneswar in A.D. 966 and of Jagannatha at Puri in about a.d. 956."
+        }
+      ],
+      "conflicts": "Brown 1959 does not name a dynasty for Mukteshvara in the passage I read (leaf 214). The research report calls it 'the earliest work of the Somavamshi period'. I did not find that wording in any fetched source.",
+      "notes": "The dynasty link here depends on Panigrahi's Yayati I attribution and his 966 date, so I propose uncertain rather than scholarly. The fact-checker may raise it to scholarly if a second accepted source names the Somavamshis for this temple. Donaldson (catalogue-only) probably does, but I could not read it. Use 'Somavamshi (Kesari)' per style pitfall."
+    },
+    {
+      "cid": "mukteshwar-004",
+      "field": "facts.dynasty (patron)",
+      "text": "No inscription names the builder. Historian K.C. Panigrahi thought King Yayati I built it in 966 CE, but this has not been proven.",
+      "value": null,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=966",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 277)",
+          "quote": "It was thus Yayati I who built the temple of Mukte^vara at Bhubaneswar in A.D. 966 and of Jagannatha at Puri in about a.d. 956."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22most%20likely%20built%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 272)",
+          "quote": "We have shown in Chapter IX that Vayati 1 most likely built the temple of Muktesvara in a.d. 966"
+        }
+      ],
+      "conflicts": "Panigrahi (1961) names Yayati I and says 'most likely' (leaf 272). The chronicle verse he builds on names 'Yayati Keiari, continued by Ananta Kciari and completed by Lali* tendu Ke^ari' (leaf 186). The chronicle links that verse to a Krittivasa (Lingaraja) temple, not to Mukteshvara. Brown 1959 names no patron. No building inscription is known to me from any fetched source. The research report says the Yayati I attribution is one 'most scholars do not accept as proven'. I found no source that states that consensus, so it is kept out of the text.",
+      "notes": "Pitfall rule: Yayati attributions are never established and always carry a note. The text says 'thought' and 'not proven'. 'No inscription names the builder' is my summary of the absence of evidence in the sources I read. The Lingaraja ledger quotes Panigrahi leaf 282 that such inscriptions are 'conspicuous by their absence' in Bhubaneswar. I did not re-fetch that page in this run; the checker may add it."
+    },
+    {
+      "cid": "mukteshwar-005",
+      "field": "facts.height",
+      "text": "Its tower is only about 11 m (35 ft) high.",
+      "value": "about 11 m (35 ft)",
+      "value_m": 10.7,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The Mukteswara temple is 45 feet long, 25 feet at its widest part, and its tower is hardly 35 feet high"
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "The temple is barely 3S feet high, and the porch 25 feet"
+        }
+      ],
+      "conflicts": "All height figures found: (1) Brown 1959, tower 'hardly 35 feet high'; also 45 ft long and 25 ft at its widest (leaf 214). (2) Mitra 1880, temple 'barely 3S feet high' and porch '25 feet' (leaf 188). The OCR '3S' is unreadable as a number and could be 35 or 38; I could not see the page image. (3) Mitra 1880, torana 'IS feet high' (leaf 189); the OCR could be 15 or 18 (see gaps). Panigrahi 1961 and Fergusson 1876 gave no height in the passages retrieved. Fergusson (leaf 431) says only that its dimensions are 'somewhat less than those of the last temple desciihed'. No ASI measurement was found; mitra-d-1978 is catalogue-only.",
+      "notes": "35 ft = 10.67 m, so value_m is 10.7 and the display is 'about 11 m (35 ft)'. The one clearly legible figure is Brown's. Mitra's figure is probably consistent but unconfirmed because of OCR. Following the lower-tier tie-breaker, I propose uncertain. The fact-checker could raise it to scholarly if Mitra's page image shows '35'. Not an ASI measurement, so the text keeps 'about'."
+    },
+    {
+      "cid": "mukteshwar-006",
+      "field": "facts.temple_type",
+      "text": "The tower shrine has a pancharatha plan, with walls that step out in five vertical bands. Its porch has a pidha (stepped, tiered) roof.",
+      "value": "pancharatha shrine with pidha porch",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "iispancha-ratha plan and in the sunken cornice, it may be found to have possessed afiinities with the SiSireSvara and other temples of the preceding group."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "But there are certain features, such as the pidhd form of the Jagamohana, the smooth and rounded edges, and certain details in sculptural decoration and iconography which lead us on to the Brahmesvara in the ultimate analysis."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "came to be the standard of all the other important temples that followed it. Here we find a porch which marks the beginning of a pidkS temple"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Just before the first quote, the OCR reads 'In shape and form of the sikhaTa, [OCR garble] iispancha-ratha plan'. 'iispancha-ratha' is OCR for 'its pancha-ratha'; the subject is the Muktesvara, named in the same paragraph. The word 'rekha' was NOT found for this temple in any fetched source (see gaps). Do not set temple_type 'rekha' from this ledger. The glosses ('five vertical bands', 'stepped, tiered roof') explain the terms; they are not quotes. Check the glossary entries for pancharatha and pidha."
+    },
+    {
+      "cid": "mukteshwar-007",
+      "field": "one_liner",
+      "text": "A small, richly carved temple in Bhubaneswar, famous for the stone arch gateway in front of it.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "It is a miniature gem of architecture as it is not only a highly finished structure, ornamented with fascinating carved patterns, but in addition it is approached by an arched gateway, or torana, of the most elegant design and execution"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "Elegantly decorated from top to bottom^ it stands within a gracefully laid-out low compound wall with a beautiful torana in front (Figs. 55*56)."
+        }
+      ],
+      "conflicts": "",
+      "notes": "It avoids naming the deity, because no fetched source states the dedication (see gaps). 'Famous' is a mild editorial word; the checker may prefer 'known for'."
+    },
+    {
+      "cid": "mukteshwar-008",
+      "field": "sections.why_built",
+      "text": "The temple stands in an old grove that was once called Siddharanya, 'the grove of the perfect beings'. Rajendralala Mitra thought its natural springs drew temple builders there.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "is known by the name of liddhSranya or the \"grove of the perfect beings.\""
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "It has also the benefit of several natural springs. The place was, therefore, selected for the location of a great number of temples, of which more than a score are still entire."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Muktesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 187; 1963 reprint)",
+          "quote": "[91]. Muktesvara Templa :—About three hundred yards to the west of the last, there wis once a mango tope, which, having been the dwelling place of some hermits,"
+        }
+      ],
+      "conflicts": "",
+      "notes": "The OCR 'liddhSranya' is Siddharanya. The leaf 187 sentence breaks off after 'hermits,'. The leaf 188 paragraph starts 'is known by the name of…', so I read it as the same sentence continued across the page break. I could not see the words in between. This explains why the site was chosen, not why the temple was built; the patron's purpose was not found (see gaps). 'Thought' marks Mitra's inference ('therefore')."
+    },
+    {
+      "cid": "mukteshwar-009",
+      "field": "sections.construction",
+      "text": "The temple is small. Percy Brown gave it as about 14 m (45 ft) long and about 7.6 m (25 ft) across at its widest point.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The Mukteswara temple is 45 feet long, 25 feet at its widest part, and its tower is hardly 35 feet high"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Conversions: 45 ft = 13.7 m and 25 ft = 7.6 m. There is a single source, so the text attributes the figures to Brown. Mitra 1880 gives the porch as '25 feet' without saying which dimension (leaf 188)."
+    },
+    {
+      "cid": "mukteshwar-010",
+      "field": "sections.construction",
+      "text": "A low wall with eight sides surrounds the temple. K.C. Panigrahi thought its builders copied this shape from an older temple site nearby.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "model of the octagonal compound wall in the Muktesvara was derived from its prototype that existed in the site of the present Siddhesvara."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "Elegantly decorated from top to bottom^ it stands within a gracefully laid-out low compound wall with a beautiful torana in front (Figs. 55*56)."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi also says (leaf 106) that 'Barring these two examples, no octagonal compound wall is to be found in any temple at Bhubaneswar'. That means the Muktesvara and the Siddhesvara site. This could become a 'special' sentence. The 'older temple site' is the site of the present Siddhesvara temple, next door."
+    },
+    {
+      "cid": "mukteshwar-011",
+      "field": "sections.construction",
+      "text": "The porch has no pillars inside. Unusually for an Odisha temple, it has carvings inside as well as outside.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=231",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 431)",
+          "quote": "its poich paitakes nioie of the legnlai Orissan type It has no pillais internally, and the loof externally"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The Mukteswara temple is one of the few temples of the Orissan group which has sculptured decoration in its interior."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Fergusson's OCR is poor: 'poich paitakes nioie of the legnlai Orissan type' = 'porch partakes more of the regular Orissan type'; 'pillais' = 'pillars'. That the pillar-less part is the porch is my reading of 'It' after the porch clause. The checker may want to drop the first sentence if that reading is doubted. The two sentences rest on different sources."
+    },
+    {
+      "cid": "mukteshwar-012",
+      "field": "sections.special",
+      "text": "In front stands a free-standing stone gateway called a torana (arched gateway). Two carved pillars hold up a round arch.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "This detached portal consists of two pillars supporting around arch within a semi-circular shaped pediment, the whole very substantially proportioned, but all its parts lightened and diversified by exquisite carving."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=arch",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 189; 1963 reprint)",
+          "quote": "Right in front of the porch is an archway or Toran, IS feet high (plate XXXVII). It is supported on two columns of excellent and elaborate workmanship, totally unlike every o:her structure of the kind at Bhuvanesvara."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "Elegantly decorated from top to bottom^ it stands within a gracefully laid-out low compound wall with a beautiful torana in front (Figs. 55*56)."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Brown's OCR 'around arch' = 'a round arch'. Brown calls it 'detached', and I render that as 'free-standing'. Three scholars agree, but there is no primary-class (ASI/UNESCO) source, so the tier is scholarly. Do not use Mitra's torana height; the OCR 'IS' is unreadable (see gaps)."
+    },
+    {
+      "cid": "mukteshwar-013",
+      "field": "sections.special",
+      "text": "Percy Brown called the arch one of the most original ideas in the whole Odisha style. K.C. Panigrahi noted that no other standing temple in Bhubaneswar has one.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The torana archway in front of the entrance is one of the most original conceptions throughout the entire style, and evidently the production of an artist having superior vision and skill"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "No torana is also to be found in any of the existing temples at Bhubaneswar"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi's sentence goes on to describe an excavated earlier torana (mukteshwar-023), so 'no other standing temple' is the correct scope. His 'existing temples' excludes the Muktesvara itself, which he is comparing against. This was true as of 1961; the checker may want 'In 1961, Panigrahi noted…'."
+    },
+    {
+      "cid": "mukteshwar-014",
+      "field": "sections.special",
+      "text": "Scholars have praised its beauty. Percy Brown called it 'a miniature gem of architecture', and James Fergusson thought it the gem of Odisha architecture of its kind.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "It is a miniature gem of architecture as it is not only a highly finished structure, ornamented with fascinating carved patterns, but in addition it is approached by an arched gateway, or torana, of the most elegant design and execution"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=%22gem%20of%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 431)",
+          "quote": "Its dimensions aie somewhat less than those of the last temple desciihed, but m its class it may be considered the gem of Oiissan aichitectnie"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=231",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 431)",
+          "quote": "The temple of Miikteswaia (Woodcut Ko 231) is veij^ similai in geiieial design to that of Paiasniameswaia, hnt even iichei and nioio vaiied in detail"
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "The first of these is the smallest of the four, but it is at the same time the handsomest—a charming epitome of the perfection of Orissan temple architecture"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "The Mukteivara', the earliest of the three, is one of the most beautiful temples of India and has been described by Mr M. M. Ganguly* as a dream realized in sandstone."
+        }
+      ],
+      "conflicts": "",
+      "notes": "The 'gem' descriptions are quoted from sources, as the delegation asked. Fergusson ties the gem sentence to Mukteswara this way. On leaf 431 the paragraph 'The temple of Miikteswaia (Woodcut Ko 231)…' ends '…It has no pillais internally, and the loof externally'. The OCR then starts a new paragraph 'exhibits at least the geim of what we find in the porches…', then the gem sentence. So the gem sentence continues the Mukteswara description across an OCR paragraph break. 'The last temple desciihed' is probably Parasurameswara, but I did not confirm that. Other praise could replace or join these: Mitra 'the handsomest' of four temples in the grove; Panigrahi 'one of the most beautiful temples of India'; Ganguly's 'a dream realized in sandstone', as quoted by Panigrahi. Ganguly 1912 itself was not opened."
+    },
+    {
+      "cid": "mukteshwar-015",
+      "field": "sections.special",
+      "text": "Although the temple is small, its parts fit together so well that it does not look tiny. Percy Brown and Rajendralala Mitra both praised its proportions.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "although of such limited dimensions it is ail so exceptionally well proportioned, and its parts so skilfully adjusted that it readily attracts the eye."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "the parts are so adjusted, so adapted to each other, that the eye fails to detect anything puny, or trite, or common-place in any part of the edifice."
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is a judgement of two named scholars and is attributed to them."
+    },
+    {
+      "cid": "mukteshwar-016",
+      "field": "sections.special",
+      "text": "Its carvings show many lively scenes. Rajendralala Mitra listed a hermit teaching a pupil, a reader with a palm-leaf book, and a lady holding a pet parrot.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "an emaciated hermit giving lessons to a disciple; another reading a palm leaf MS. placed on a crosslegged stool; a lady standing under an umbrella; another standing by a door with a pet parrot on her hand"
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=handsomest",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 188; 1963 reprint)",
+          "quote": "The monkey scroll given in plate XII of Vol.i, is the best specimen of this class of work."
+        }
+      ],
+      "conflicts": "",
+      "notes": "One source only; the text attributes the list to Mitra. A kid-friendly optional extra: Mitra also mentions 'lions mounted on elephants' and a carved band of climbing monkeys, the 'monkey scroll'. Panigrahi (leaf 106 summary, not quoted) says several motifs first appear here, including Panchatantra fable scenes. I did not retrieve that passage verbatim, so it is not used."
+    },
+    {
+      "cid": "mukteshwar-017",
+      "field": "sections.special",
+      "text": "In 1880, Rajendralala Mitra reported a local custom. At the swing festival, a stand-in image of the god was placed in a chair hung from iron rings on the arch and swung.",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=arch",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 189; 1963 reprint)",
+          "quote": "on which occasion a chair is hung by two iron rings fixed to the arch, and therein the image is placed and kept swinging, very much in the same way in which the Lord of the Universe celebrates the feast"
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=arch",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 189; 1963 reprint)",
+          "quote": "As an ornamental appendage to the temple the archway is particularly graceful, but the people say it was erected not with that view."
+        }
+      ],
+      "conflicts": "Mitra reports the local view that the arch was built for this festival ('the people say'). He does not endorse it. Brown and Panigrahi treat the torana as an architectural gateway.",
+      "notes": "This is a local custom reported by one 19th-century writer. I did not check whether it continues today. The belief that the arch was built for the swing is a tradition, so the tier is uncertain. If used, frame it as 'According to local tradition reported in 1880…'. Optional; the checker may leave it out."
+    },
+    {
+      "cid": "mukteshwar-018",
+      "field": "sections.influences",
+      "text": "Percy Brown saw it as the first temple of a new 'Middle Period' in Odisha building. That period ran from about 900 to 1100 CE.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The second group of buildings comprising the \"Middle Period\" of the Orissan style, and dating from cir. 900 to 1100 A.D, consists of a series of temples which represent the movement at its early maturity or prime."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "That its elements are a considerable advance on those of Parasrameswar and Vaital Deul of the previous group is quite clear, but that it is also not so finished in its forms as the remaining examples of the series"
+        }
+      ],
+      "conflicts": "The research report says it 'marks the culmination of earlier developments and inaugurates a century of experiment'. I did not find that wording in any fetched source; see gaps. Brown's framing is 'first example' of the Middle Period, more advanced than Parasuramesvara and Vaital Deul but less finished than later temples.",
+      "notes": "Brown's own words, 'believed to be the first example of the phase', are in mukteshwar-001's quote. This is an attributed interpretation. Era labels: Brown's 'Middle Period' is not the site's 'Transitional' label (see pitfalls, era framework pending G2)."
+    },
+    {
+      "cid": "mukteshwar-019",
+      "field": "sections.influences",
+      "text": "K.C. Panigrahi called its builder 'the harbinger of a new culture'. He saw this temple as the line that splits Bhubaneswar's temples into an earlier and a later group.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=harbinger",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "The abrupt changes in the early forms of the cult images, in the architectural designs and even in the minute details of the sculptural representations indicate that the builder of the Mukteivara was the harbinger of a new culture."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=harbinger",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "In fact, the Muktesvara divides the numerous temples of Bhubaneswar into two broad groups, early and late, and any of its innovations can confidently be taken as the basis of such a division."
+        }
+      ],
+      "conflicts": "",
+      "notes": "This is the closest sourced idea to the report's 'culmination… and inaugurates' framing. 'Harbinger' may need a gloss for children ('a sign of what was coming'); the checker could use 'the first sign of a new culture'."
+    },
+    {
+      "cid": "mukteshwar-020",
+      "field": "sections.influences",
+      "text": "Many of its new features became standard in the important temples built after it. Its porch with a stepped roof was the first step towards the pidha hall of later temples.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 104)",
+          "quote": "came to be the standard of all the other important temples that followed it. Here we find a porch which marks the beginning of a pidkS temple"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "the incomplete form of the temple to be found as the porch of the Muktcivara, has assumed its full-fledged type in the Brahmcivara"
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR 'pidkS' = 'pidha'. One scholar (Panigrahi), attributed in the checker's final text if preferred ('Panigrahi noted…')."
+    },
+    {
+      "cid": "mukteshwar-021",
+      "field": "sections.influences",
+      "text": "It also looks back. Its tower plan links it to older temples, while its porch and carving style look ahead to the later Brahmesvara temple.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "iispancha-ratha plan and in the sunken cornice, it may be found to have possessed afiinities with the SiSireSvara and other temples of the preceding group."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "But there are certain features, such as the pidhd form of the Jagamohana, the smooth and rounded edges, and certain details in sculptural decoration and iconography which lead us on to the Brahmesvara in the ultimate analysis."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=harbinger",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "The builder of the Muktesvara thus borrowed certain features from the early architectural tradition but also introduced new architectural designs, new art motifs and new conceptions about the iconography of the cult images."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi adds that the Muktesvara-Brahmesvara relation 'is not close but distant' (leaf 184). The text says 'look ahead to', not 'close to'. This sentence plus mukteshwar-018/019 is the best sourced version of the report's 'culmination of earlier developments'."
+    },
+    {
+      "cid": "mukteshwar-022",
+      "field": "sections.influences",
+      "text": "James Fergusson saw two sister styles among Odisha's older temples. He thought about half of them follow the Mukteshvara type.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Mukteswaia",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 437)",
+          "quote": "about one-half of the older temples in Orissa follow the type of the great temple, and one-half that of Mukteswaia, but the two get confounded together rn the 8th and 9th centuries"
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=231",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 437)",
+          "quote": "the second by the gieat temiile (Woodcut No 233) They aie not antagonistic, but sister styles, and seem ceitainly to have had at least partially different origins"
+        }
+      ],
+      "conflicts": "Fergusson's 1876 framework comes before Panigrahi's and Brown's chronologies. His '8th and 9th centuries' is about the styles in general and is earlier than both later scholars' date for Mukteshvara.",
+      "notes": "This is an old (1876) view. Optional; the checker may prefer to leave it out, or keep it as history of scholarship. The 'first' style is 'represented by the temples of Paiasurameswara and Mukteswaia' (leaf 437, from q=Paiasurameswara)."
+    },
+    {
+      "cid": "mukteshwar-023",
+      "field": "sections.influences",
+      "text": "Its arch may have copied an older stone gateway. Parts of that earlier arch were dug up in a mound near Bhubaneswar and went to the Orissa State Museum.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "they show that like the Muktesvara torat^, it was built in sections and had an arch supported by two pillars. In all likelihood this torana which appears to be earlier, provided the model for the Mukteivara one."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=torana",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 106)",
+          "quote": "there is a m^ound in the paddy-fields known as Dola-mandapa situated in between the temple town and the Brahmesvara, which on excavation yielded the arch of a torana along with some of its other parts"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi's hedged view ('In all likelihood'). The mound is the Dola-mandapa. The museum location is as of 1961 ('are nowin the Orissa State Museum'); the current location was not checked. The quote also shows the Muktesvara torana 'was built in sections', which could support a construction sentence."
+    },
+    {
+      "cid": "mukteshwar-024",
+      "field": "sections.parts.element_ids",
+      "text": "Parts named by sources for this temple: the tower shrine, the jagamohana (porch hall) and the torana (arched gateway).",
+      "value": ["gandi", "jagamohana", "torana"],
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22broad%20groups%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 184)",
+          "quote": "But there are certain features, such as the pidhd form of the Jagamohana, the smooth and rounded edges, and certain details in sculptural decoration and iconography which lead us on to the Brahmesvara in the ultimate analysis."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The Mukteswara temple is 45 feet long, 25 feet at its widest part, and its tower is hardly 35 feet high"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22miniature%20gem%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 214)",
+          "quote": "The torana archway in front of the entrance is one of the most original conceptions throughout the entire style"
+        }
+      ],
+      "conflicts": "",
+      "notes": "gandi: sources say 'tower' (Brown) and 'sikhara' (Panigrahi leaf 184), not the Odia word 'gandi'. Mapping these to element id 'gandi' is my inference, so the checker should confirm. pista, bada and mastaka are EXCLUDED because no fetched source names them for this temple. The schema-reference example lists them for mukteshwar, but it is only an example. No source said whether Mukteshvara stands on a raised platform (pista)."
+    }
+  ],
+  "location": {
+    "note_on_placement": "Top-level location block, not a claim. OSM is not an accepted citation type, so it carries no tier.",
+    "value": {
+      "place": "Bhubaneswar",
+      "district": "Khordha",
+      "lat": 20.2426872,
+      "lng": 85.8405031,
+      "coord_source": "https://www.openstreetmap.org/way/1337725739"
+    },
+    "evidence": [
+      {
+        "source_id": null,
+        "fetched_url": "https://nominatim.openstreetmap.org/search?q=Mukteswar+Temple+Bhubaneswar&format=json",
+        "access": "full-text",
+        "locator": "osm_type way, osm_id 1337725739",
+        "quote": "Mukteswar Temple, Lewis Road, Ward 58, South East Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751002, India"
+      },
+      {
+        "source_id": null,
+        "fetched_url": "https://www.openstreetmap.org/way/1337725739",
+        "access": "full-text",
+        "locator": "way tags (version 2, 5 nodes)",
+        "quote": "amenity=place_of_worship; historic=temple; name=Mukteswar Temple; religion=hindu; wikidata=Q3635669"
+      }
+    ],
+    "notes": "Nominatim gives the centre of a small mapped outline (a 'way' of 5 nodes), probably the temple building. The schema example (20.2427, 85.8413) differs in longitude by about 0.0008 degrees, roughly 80 m. Use the OSM value. The OSM way also carries a wikipedia tag; that is not a source and is not used."
+  },
+  "sketchfab": {
+    "value": null,
+    "searched": [
+      "https://api.sketchfab.com/v3/search?type=models&q=mukteswar",
+      "https://api.sketchfab.com/v3/search?type=models&q=mukteshvara"
+    ],
+    "notes": "No Creative-Commons model found. The 'mukteswar' search returned 3 models, all with licence null and not downloadable. 'Mukteshwar temple' (owaisalam887, uid 9850c62bfe524954a8068d5bdc9a249d) does not show which Mukteshwar it is. 'Ganesha from Mukteswara, Athagadapatana, Odisha' is a different site. 'Toilet at Mukteshwar' is unrelated. 'mukteshvara' returned 0 results. Set sketchfab to null."
+  },
+  "new_sources": [],
+  "gaps": [
+    {
+      "field": "facts.deity",
+      "searched": ["panigrahi-1961 search-inside (q=Muktesvara, Mukteivara, torana, harbinger)", "mitra-r-1880 search-inside (q=Muktesvara, handsomest, arch)", "brown-1959 search-inside (q=miniature gem, Muktesvara)", "fergusson-1876 search-inside (q=231, Mukteswaia)"],
+      "why_blank": "No fetched passage states which god the temple is dedicated to. Mitra (leaf 189) says only 'the presiding divinity of the temple is immovable', with 'he'. Carvings include 'saints worshipping Siva', which is not a dedication statement. Leave null. Donaldson / Debala Mitra (catalogue-only) would likely state it."
+    },
+    {
+      "field": "facts.temple_type ('rekha' wording)",
+      "searched": ["panigrahi-1961 (q=ratha; leaf 184 gives pancha-ratha only)", "brown-1959 (leaf 214)", "bose-1932 search-inside q=Mukteswar, Mukteswara, Muktesvara (0 hits each)"],
+      "why_blank": "No fetched source uses the word 'rekha' for Mukteshvara. The schema example has temple_type 'rekha', which is an inference until sourced. Kramrisch 1946 was not searched (budget)."
+    },
+    {
+      "field": "sections.special / sections.size (torana height)",
+      "searched": ["mitra-r-1880 search-inside q=arch (leaf 189)"],
+      "why_blank": "Mitra gives the archway as 'IS feet high' in OCR. The digits cannot be read (15 or 18?), and I could not view the page image. No other source gave a torana height."
+    },
+    {
+      "field": "facts.height (Mitra's figure; ASI figure)",
+      "searched": ["mitra-r-1880 leaf 188 ('barely 3S feet high' — OCR ambiguous)", "panigrahi-1961 q=\"35 feet\" (0 hits)", "fergusson-1876 (no height in retrieved passages)"],
+      "why_blank": "Only Brown's '35 feet' is clearly legible. A human could check Mitra 1880 leaf 188 in the archive.org viewer (https://archive.org/details/in.ernet.dli.2015.44126) to read '3S' and 'IS'. No ASI measurement was accessible."
+    },
+    {
+      "field": "sections.influences (research report's 'culmination of earlier developments and inaugurates a century of experiment')",
+      "searched": ["brown-1959 leaf 214", "panigrahi-1961 leaves 104, 106, 184"],
+      "why_blank": "This wording was not found in any fetched source. It may come from Donaldson 1985 (catalogue-only) or a secondary summary. The sourced equivalents are mukteshwar-018 to -021."
+    },
+    {
+      "field": "sections.why_built (purpose / patron's motive)",
+      "searched": ["panigrahi-1961", "mitra-r-1880", "brown-1959"],
+      "why_blank": "No source gives a reason for building beyond the site's sanctity and springs (mukteshwar-008). The patron is disputed (mukteshwar-004)."
+    },
+    {
+      "field": "sections.construction (stone / material)",
+      "searched": ["panigrahi-1961 leaf 104", "mitra-r-1880 leaf 188"],
+      "why_blank": "The only mention is Ganguly's phrase 'a dream realized in sandstone', quoted by Panigrahi. It is a figure of speech, not a material statement. Ganguly 1912 was not opened. What stone the temple is built of is not established from a fetched source."
+    },
+    {
+      "field": "sections.special (Panigrahi's list of 'firsts': erotic figures, half-serpent Nagas, Panchatantra tales, pearl-carrying swan)",
+      "searched": ["panigrahi-1961 q=Muktesvara (leaves 106-107)"],
+      "why_blank": "The WebFetch summariser mentioned these, but I did not receive the verbatim passage, so they are not used. A follow-up search-inside on 'Panchatantra' (leaves 106-107) would retrieve it."
+    },
+    {
+      "field": "sections.parts (pista, bada, mastaka)",
+      "searched": ["panigrahi-1961", "brown-1959", "mitra-r-1880", "fergusson-1876"],
+      "why_blank": "No source names these parts for this temple."
+    },
+    {
+      "field": "catalogue-only and unsearched registry sources",
+      "searched": ["mitra-d-1978 (catalogue-only)", "donaldson-1985 (catalogue-only)", "behera-1993 (catalogue-only)", "kramrisch-1946 (not searched, budget)", "mitra-r-1875 Vol. I (not searched; it holds the plates Mitra cites, e.g. monkey scroll pl. XII)", "ganguly-1912 (registered, not opened)"],
+      "why_blank": "Not readable online, or not reached within the fetch budget. No claim rests on them."
+    },
+    {
+      "field": "glossary",
+      "searched": [],
+      "why_blank": "Terms used need glossary entries: torana, pancharatha, pidha, jagamohana, gandi, Siddharanya (place name, gloss sourced from Mitra: 'grove of the perfect beings'), Somavamshi (Kesari)."
+    }
+  ]
+}

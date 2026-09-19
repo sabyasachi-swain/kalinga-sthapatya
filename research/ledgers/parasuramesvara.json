@@ -1,0 +1,575 @@
+{
+  "topic": "parasuramesvara",
+  "run_on": "2026-09-19",
+  "method_note": "All archive.org quotes were read through the archive.org search-inside API (fulltext/inside.php). It returns the OCR text of the scanned book around each hit. The fetched_url for each quote is that exact API URL. OCR errors are kept as they appear, and the IA_FTS_MATCH highlight tags are removed. 'leaf N' is the scan page index given by the API, NOT the printed page number. Printed page numbers were not seen, so each locator starts with 'unverified'. Spellings differ by author: Panigrahi 'Parasuramesvara', Brown 'Parasrameswar', Fergusson 'Parasurameswara' (OCR 'Parasurameswaia'), Bose 'Parasurameswar', Mitra 'Parasuramesvara'.",
+  "claims": [
+    {
+      "cid": "parasuramesvara-001",
+      "field": "facts.date",
+      "text": "Scholars disagree about when it was built. K.C. Panigrahi placed it around 650 CE. Percy Brown thought it was built towards the end of the 8th century CE.",
+      "value": "c. 650–800 CE (debated)",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=%22seventh%20century%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 41)",
+          "quote": "be better, if they are assigned to the first or second part of the seventh century A.D., which should ako be taken to be the date of the ParaSurameWera temple."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 67)",
+          "quote": "The temple of ParaSuramesvara (c. a.d. 650) shows the same structural peculiariUes and also provides us with an opportunity to study the form of the Jagamohana which is in a good state of preservation"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22end%20of%20the%20eighth%20century%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "Taking all these factors into consideration it may be inferred that the approximate date of the Parasrameswar temple is towards the end of the eighth century"
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 11, list of plates)",
+          "quote": "1 to 3 BHUBANESWAR : PARASRAMESWAR TEMPLE, c. 8th CENTURY A.D."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=labels",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 38; Panigrahi reporting R.D. Banerji's view)",
+          "quote": "according to the palaeograpliy of the inscriptions on its door, the Paralurameivara, \"the oldest temple in Orissa\" cannot be earlier than the eighth century A.D."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Parasuramesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 192; 1963 reprint)",
+          "quote": "I take the temple to be of the 9th century from the similitude of its workmanship and material with those of the Muktesvara and the RSjarani temples."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Parasurameswaia",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 429)",
+          "quote": "I would not hesitate to give it a date of A D 450, instead of A d 500 It is not large, being only 20 ft square"
+        }
+      ],
+      "conflicts": "Five views. Fergusson 1876: c. 500 CE (he says he would otherwise give 450 CE), using the traditional Kesari king list. Mitra 1880: 9th century, from workmanship and material like Mukteshvara and Rajarani. R.D. Banerji (as reported by Panigrahi leaf 38): not earlier than the 8th century, from the letter-forms of the planet labels on the door. Brown 1959: towards the end of the 8th century, from style (plate list says 'c. 8th century'). Panigrahi 1961: first or second part of the 7th century, c. 650 CE.",
+      "notes": "No foundation inscription is known; every date is stylistic or palaeographic, so never established. The value 'c. 650–800 CE' spans Panigrahi and Brown only; Mitra's 9th century and Fergusson's c. 500 are older outliers listed in conflicts. The checker may prefer 'c. 7th–8th century CE (debated)'."
+    },
+    {
+      "cid": "parasuramesvara-002",
+      "field": "facts.dynasty",
+      "text": "If Panigrahi's date is right, it was built while the Shailodbhava kings ruled this area. No inscription tells us who built it.",
+      "value": "Shailodbhava period (debated)",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=builder",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 258)",
+          "quote": "but wc do not know whether any of the Sailodbhava rulers was a builder of any of the temples here."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=builder",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 258)",
+          "quote": "All that can be said with certainty is that the temples of the ParaSuramesvara group belong to the period of their rule."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=builder",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 258)",
+          "quote": "There are evidences to show that by the middle of the seventh century the Sailodbhavas of Kohgoda (Ganjam) asserted their independence and grew very powerful."
+        }
+      ],
+      "conflicts": "The Shailodbhava link depends on Panigrahi's c. 650 CE date. Brown 1959 dates the temple to the end of the 8th century and names no dynasty for it. Fergusson 1876 says 'It may, however, belong to the preceding dynasty' (before his Kesaris; leaf 429). Panigrahi himself says we do not know whether any Shailodbhava ruler built any temple here.",
+      "notes": "Panigrahi's 'certainty' is about the period only, and it rests on his own date. Because that date is disputed (see parasuramesvara-001), the tier is uncertain. Patron: no source names one; see gaps. Do not write 'built by the Shailodbhavas'."
+    },
+    {
+      "cid": "parasuramesvara-003",
+      "field": "facts.height",
+      "text": "Percy Brown gave the height of its tower as 44 feet, about 13.4 m.",
+      "value": "about 13.4 m (44 ft)",
+      "value_m": 13.4,
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "It consists of a sanctuary with its pillared hall, in other words a deul and its jagamohan, the entire length of the two being only 48 feet, while the sikhara of trie former is but 44 feet high."
+        }
+      ],
+      "conflicts": "Only one height figure was found in an accepted source: Brown 1959, 44 ft for the tower. Fergusson 1876 gives only the plan: 'only 20 ft square' (leaf 429). Panigrahi 1961 gives no height for this temple (search 'height' returned none). Mitra 1880's entry was found (leaf 192) but its opening lines, where a height would be, were not retrieved. Wikipedia gives 40.25 ft (12.27 m) and cites D.P. Ghosh 1950 for other sizes; I did not open Ghosh, so that figure is unverified and conflicts with Brown's.",
+      "notes": "44 ft = 13.41 m. This is not an ASI measurement, so write 'about'. Tier uncertain because of the unverified 40.25 ft figure in circulation and a single source; a checker may raise it to scholarly. Pitfalls.md says '13 m for Parasuramesvara is not' in the research: Brown's 44 ft (about 13.4 m) now supports a figure near 13 m. Brown also gives the total length of tower plus hall as 48 ft (about 14.6 m)."
+    },
+    {
+      "cid": "parasuramesvara-004",
+      "field": "facts.deity",
+      "text": "Its carvings show scenes from the life of the god Shiva, and a temple text names its god Daityesvara. James Fergusson (1876) instead thought it was a Vishnu temple.",
+      "value": "Shiva (Fergusson 1876 thought Vishnu)",
+      "proposed_tier": "uncertain",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "But as wc have already seen, the ParasurSmeivarawhch according to him is the earliest temple of Orissa, contains in bas-relief several incidents from diva's life."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Parasuramesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 192; 1963 reprint)",
+          "quote": "In the Ekamra Purana the divinity of this temple occurs under the name of Daitye^vara, from the fact of Kirti and Vasa having, by order of Siva, worshipped it first."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Bhuvaneswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 429)",
+          "quote": "the oldest temjile in the city of Bhuvaneswar is that called Parasurameswaia (Woodcut No 230), which from its name, as well as the subjects portrayed on its walls, I would take to be certainly Vaishnava."
+        }
+      ],
+      "conflicts": "Panigrahi 1961 describes carvings of Shiva's life and (leaf 175) a Lakulisa image on the matching facade of its twin temple Bharatesvara. Mitra 1880 reports the Ekamra Purana (a late sacred text) naming the god Daityesvara, worshipped by order of Shiva. Fergusson 1876 thought it 'certainly Vaishnava' from its name and carvings.",
+      "notes": "Proposed uncertain only because one accepted source disagrees; Fergusson's view is old and the later sources point to Shiva. The checker may raise to scholarly if Fergusson is judged superseded. No fetched source says outright 'a Shiva linga is worshipped here'; that is a gap. 'Daityesvara' comes from a temple text, so keep the phrase 'a temple text names'."
+    },
+    {
+      "cid": "parasuramesvara-005",
+      "field": "facts.temple_type",
+      "text": "Panigrahi says the temples of its early group have a tri-ratha plan, meaning each wall steps out in three vertical bands.",
+      "value": "tri-ratha",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=ratha",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 177)",
+          "quote": "the temples arc characterized by the pancka-ratka plan unlike the tri-ratha plan of the temples of the earlier groupj"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 175, section heading)",
+          "quote": "Tub ParasurAmeSvara and its Group The provision of a porch in front of the sanctuary, as we have in the 3atfughneivara, indicates an advance on the design of the early tikhara temple"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Indirect: leaf 177 opens the chapter on 'The next epoch' and contrasts it with 'the earlier group'; leaf 175 shows that the earlier group is 'The Parasuramesvara and its Group'. No fetched sentence says 'the Parasuramesvara is tri-ratha' in so many words. The word 'rekha' and the term 'trianga bada' were NOT found for this temple (see gaps). Panigrahi calls it a 'sikhara' (OCR 'tikhara') temple, meaning a temple with a curved tower. The gloss 'three vertical bands' explains the term; it is not quoted. The checker may drop the claim to uncertain because it is inferred across two passages."
+    },
+    {
+      "cid": "parasuramesvara-006",
+      "field": "one_liner",
+      "text": "A small but richly carved Shiva shrine, and one of the oldest surviving temples in Bhubaneswar.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "Judging mainly from its appearance, the oldest building of the entire series is the temple of Parasrameswar, a small structure, but with every stone of an informative nature."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 80)",
+          "quote": "The ParaiurameWara (c. a.d. 650) b by far the most decorated of all the early temples that have come down to us in a fair state of preservation."
+        },
+        {
+          "source_id": "fergusson-1876",
+          "fetched_url": "https://ia801801.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.62030&doc=2015.62030.History-Of-Indian-And-Eastern-Architecture-1876&path=/11/items/in.ernet.dli.2015.62030&q=Bhuvaneswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 429)",
+          "quote": "the oldest temjile in the city of Bhuvaneswar is that called Parasurameswaia (Woodcut No 230)"
+        }
+      ],
+      "conflicts": "Panigrahi dates the ruined Satrughnesvara earlier (c. 575 CE, leaf 66), so 'the oldest' is not safe; 'one of the oldest surviving' is used. The word 'Shiva' depends on parasuramesvara-004 (uncertain).",
+      "notes": "If the checker keeps 004 as uncertain, drop 'Shiva' from the one-liner: 'A small but richly carved temple, and one of the oldest surviving in Bhubaneswar.'"
+    },
+    {
+      "cid": "parasuramesvara-007",
+      "field": "sections.construction",
+      "text": "It is built of large stones laid without mortar. Percy Brown explained that the stones stay in place through their weight and balance, helped by interlocking edges.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=%22end%20of%20the%20eighth%20century%22",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "the masonry consists of stones of large size kept in position by means of their weight and balance, aided by a system of interlocking flanges, so that no mortar or cementing material is needed."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Pitfall check: this says 'no mortar' only. It must NOT be turned into 'no metal' or 'no iron'; iron cramps were used in Odishan temples in general (pitfalls.md). I found no source on whether this temple has iron cramps. 'Interlocking edges' is a plain rendering of 'interlocking flanges'. Which kind of stone was used was not found (see gaps)."
+    },
+    {
+      "cid": "parasuramesvara-008",
+      "field": "sections.construction",
+      "text": "Above the doorway the builders left a hollow corbelled arch, made of stones stepped inwards. Panigrahi explained that it kept weight off the stone beams over the door.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 66)",
+          "quote": "Its constructional peculiariiics arc also iJ>c same as those of the ParaJurSmeivara. The corbelled arch above the door-way, is now revealed as a chasm."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=height",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 66)",
+          "quote": "Thb architectural device was meant to create a vacuum over the horizontal beams forming the roof of the door-way which othenvise had no strong support from below."
+        }
+      ],
+      "conflicts": "Panigrahi notes that N.K. Bose thought the corbelled arch 'svas meant to retluce weight on the lintel', and disagrees about exactly which part it relieves (leaf 66). Both agree it is a weight-relieving device.",
+      "notes": "The passage describes the ruined Satrughnesvara, where the arch is exposed, and says its building methods are the same as Parasuramesvara's. So the claim for Parasuramesvara is by Panigrahi's comparison, not direct observation. The checker may soften to: 'Temples of this early group have a hollow corbelled arch above the doorway.' 'Stepped inwards' explains 'corbelled'; it is not quoted."
+    },
+    {
+      "cid": "parasuramesvara-009",
+      "field": "sections.construction",
+      "text": "The roof inside the shrine was rebuilt in 1903 during repairs, which disturbed some of the original work. Its basic shape survives.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 67)",
+          "quote": "The temple was thoroughly repaired by the Public \\Vorks Department' in 1903, and in the process, muchof the original construction of the roof in the cella has been disturbed"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 67)",
+          "quote": "The arrangements followed in the roof or storey of the cclla in these two early examples and their cognate members, arc suggestive of the storeys {Stus) formed of wooden beams and planks"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Suggested text is 'repaired', not 'rebuilt', to match Panigrahi: 'The temple was repaired in 1903. The repairs disturbed much of the old roof inside the shrine.' Optional second sentence, attributed: 'Panigrahi thought the early shrine roofs copied the wooden floors of village houses.' The date 1903 comes from one scholar, not an ASI record, so the tier is scholarly."
+    },
+    {
+      "cid": "parasuramesvara-010",
+      "field": "sections.special",
+      "text": "Its porch hall (jagamohana) is well preserved. It lets scholars study the early form of this hall. A raised central roof and stone windows with carved holes let light in.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 67)",
+          "quote": "The Jagamohana is a rectangular structure with a clerestory, plain massive eaves, perforated stone windows and two doon."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "They supported a massive architrave raising the ceiling of the nave higher than the aisles, thus forming an embryo clerestory."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "A low rectangular structure comprises the hall of the temple, and this is provided with a double roof and plain massive eaves, while there is a doorway in each of its three free sides and four perforated stone windows."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Parasuramesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 192; 1963 reprint)",
+          "quote": "The clear-storey has a range of six windows in front, and twelve on each side (Plate XLVII). This plan of bringing light into the Mohan is unknown elsewhere in Bhuvanelvara, except in the Mohan of the Vaital Deiil"
+        }
+      ],
+      "conflicts": "The number of doors differs: Panigrahi 'two doors'; Brown 'a doorway in each of its three free sides'; Mitra 'the two doors on each side, and the one in front'. The suggested text gives no count. The research report says it is 'the first Odishan temple to add a jagamohana'; Panigrahi says the older, ruined Satrughnesvara already had one: 'The existence of a Jagamikana or porch facing the west is attested by the remains of its rectangular plinth' (leaf 66, fetched at q=height).",
+      "notes": "Do NOT publish 'first temple with a jagamohana'. The sourced claim is 'well-preserved early jagamohana'. Brown adds that the hall has two rows of three pillars. A clerestory is a raised roof section with openings; that gloss is not quoted and needs a glossary entry."
+    },
+    {
+      "cid": "parasuramesvara-011",
+      "field": "sections.special",
+      "text": "Above the shrine door is a panel of planet gods, with their names carved beside them. Like other early temples, it has eight planets. Later temples such as Mukteshvara add a ninth, Ketu.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=labels",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 38)",
+          "quote": "the inscribed labels giving the names of the planets on the door of the sanctum of the ParaSurameSvara temple"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 80)",
+          "quote": "The absence of Ketu continued to be a noteworthy feature in all planet slabs of all the early temples up to the end of the Bhauma cultural age, i.e. up to the end of the ninth century."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "Ketu among the planets. The sculptures in the ceiling of its Jagamohana are also altogether a new conception. It is to be noted that these architectural and iconographical features are conspicuous by their absence in the early groups of temples represented by the Parasuramesvara"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 80, describing the older Satrughnesvara lintel)",
+          "quote": "containing the images of eight planets, namely Ravi, Soma, hfatigala, Buddha, Brihaspati, ^ukra, 3am and Rahu. Ketu is absent."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Leaf 107 describes the Mukteshvara's new features (including 'Ketu among the planets') and says they are absent in the Parasuramesvara group. 'Eight' is reached by combining: no Ketu (leaves 80, 107) plus the eight-planet list Panigrahi gives for the same early type (Satrughnesvara, leaf 80). No fetched sentence says 'the Parasuramesvara has eight planets' word for word, so the checker may reword to 'it has no Ketu, the ninth planet'. The planet labels are the inscriptions R.D. Banerji used to date the temple (see 001)."
+    },
+    {
+      "cid": "parasuramesvara-012",
+      "field": "sections.special",
+      "text": "It is the most richly decorated of the early temples that survive in good condition. Its carvings include scenes from Shiva's life and rows of horses and elephants.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 80)",
+          "quote": "The ParaiurameWara (c. a.d. 650) b by far the most decorated of all the early temples that have come down to us in a fair state of preservation."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Ketu",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 107)",
+          "quote": "But as wc have already seen, the ParasurSmeivarawhch according to him is the earliest temple of Orissa, contains in bas-relief several incidents from diva's life."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Parasuramesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 192; 1963 reprint)",
+          "quote": "Its porch is oblong, and profusely covered with bas-reliefs representing processions of horses and elephants in the upper linear bands under the cornice, and scenes from the life of R3ma in the lower bands and panels."
+        }
+      ],
+      "conflicts": "Mitra 1880 reads the lower panels as 'scenes from the life of Rama'; Panigrahi 1961 speaks of 'incidents from Siva's life'. They may describe different panels; I cannot tell. The suggested text names only Shiva (Panigrahi) and the horses and elephants (Mitra), attributing nothing contested.",
+      "notes": "Brown 1959 adds: 'a small structure, but with every stone of an informative nature' (leaf 213), and 'The interior is perfectly plum [plain], whereas the walls of the exterior are intricately and profusely carved.' Panigrahi also lists Kartikeya, Nataraja and planet figures among the figures illustrated (list of plates, leaves 10-11), but I did not read his descriptions of them."
+    },
+    {
+      "cid": "parasuramesvara-013",
+      "field": "sections.special",
+      "text": "Its tower is short and heavy, with a very wide ribbed stone disc on top. Percy Brown called its shape an early, simple form.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "The shape ot the tower of the Parasrameswar is definitely rudimentary, as it is thick-set and \"heavy-shouldered\", with an immensely wide fluted amala-sila or coping stone."
+        },
+        {
+          "source_id": "mitra-r-1880",
+          "fetched_url": "https://ia801408.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.44126&doc=2015.44126.Antiquities-Of-Orissa--Vol-2&path=/21/items/in.ernet.dli.2015.44126&q=Parasuramesvara",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 192; 1963 reprint)",
+          "quote": "Its ground plan is a square, and the angles of the spire are left unchamfered, so the square character is preserved throughout."
+        }
+      ],
+      "conflicts": "",
+      "notes": "'Ribbed stone disc' is a plain rendering of 'fluted amala-sila' (the amla). Glossary: amla / amalaka needed."
+    },
+    {
+      "cid": "parasuramesvara-014",
+      "field": "sections.influences",
+      "text": "Percy Brown saw links with other regions. He compared its tower and raised hall roof with Chalukya temples at Aihole in the Deccan. He linked its vase-and-leaf pillar tops to Gupta-period art.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "An interesting comparison may be instituted between this temple, and the somewhat earlier temples of the Chalukyans at Aihole."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "there are certain portions of the architectural ornamentation in the Parasrameswar temple, such as pilasters with vase and foliage capitals, a motif usually associated wim the Gupta mode"
+        }
+      ],
+      "conflicts": "Mitra 1880 gives a different source for the raised hall roof: 'It has obviously been borrowed from the Vihara Halls of the Buddhists, who resorted to this plan of bringing light in some of their cave chapels' (leaf 192). Brown says the clerestory 'may have been derived' from the Chalukya Durga and Huchchimaligudi temples (leaf 213).",
+      "notes": "These are influences ON the temple, each attributed to one scholar. Brown frames the Aihole link as a possible 'communication of impressions', so do not state it as fact."
+    },
+    {
+      "cid": "parasuramesvara-015",
+      "field": "sections.influences",
+      "text": "Percy Brown called this temple and the Vaital Deul a stone 'primer' on how the Odisha style began. Later temples changed its plan in several ways.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "with the other example, the Vaital Deul, these two temples constitute a \"hthic primer on the beginnings of the Orissan mode."
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=ratha",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 177)",
+          "quote": "the temples arc characterized by the pancka-ratka plan unlike the tri-ratha plan of the temples of the earlier groupj"
+        },
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=650",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 67)",
+          "quote": "The interior of the structure which is a pillared hall, is therefore, more lighted than the later Jagamohanas with only one door and two balustradcd windows."
+        }
+      ],
+      "conflicts": "",
+      "notes": "OCR 'hthic' = 'lithic' (stone). A fuller sentence could be: 'In the next group, walls stepped out in five bands (pancha-ratha) instead of three, and porch halls had one door, not several.' Leaf 177 adds that the next group's jagamohanas have 'one door but no window and pillars inside'. On what later temples carried forward, Panigrahi (leaf 107) notes that Mukteshvara's links are with Brahmesvara 'and not with the Parasuramesvara'. So the site should not claim a direct line from this temple to Mukteshvara."
+    },
+    {
+      "cid": "parasuramesvara-016",
+      "field": "sections.influences",
+      "text": "Nearby temples of the same age share its design. Panigrahi noted that the ruined Bharatesvara temple has almost the same carvings on its front.",
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "panigrahi-1961",
+          "fetched_url": "https://ia800101.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.111041&doc=2015.111041.Archaeological-Remains-At-Bhubanswar&path=/5/items/in.ernet.dli.2015.111041&q=Kailasa",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 175)",
+          "quote": "That it is a close contemporary of the ParoSurimeSvara is proved not only by the shape and form of the IMiara, but also by the almost identical motifs decorating the front facade."
+        }
+      ],
+      "conflicts": "",
+      "notes": "Panigrahi says the facade shows Lakulisa at the top, Nataraja in a beaded medallion, and Ravana lifting Mount Kailasa at the bottom; he says this about Bharatesvara as a close copy. Brown (leaf 284) also notes a Begunia-group temple at Barakar, Bengal, 'bearing a resemblance to the sikhara of the Parasrameswar temple', but says it is 'more likely much later'."
+    },
+    {
+      "cid": "parasuramesvara-017",
+      "field": "sections.parts.element_ids",
+      "text": "Parts named by sources for this temple: the tower shrine (deul) with its crowning disc, the porch hall (jagamohana), and a base moulding of three bands.",
+      "value": ["gandi", "mastaka", "jagamohana", "bada"],
+      "proposed_tier": "scholarly",
+      "evidence": [
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "It consists of a sanctuary with its pillared hall, in other words a deul and its jagamohan, the entire length of the two being only 48 feet, while the sikhara of trie former is but 44 feet high."
+        },
+        {
+          "source_id": "brown-1959",
+          "fetched_url": "https://ia802906.us.archive.org/fulltext/inside.php?item_id=dli.csl.8666&doc=8666&path=/9/items/dli.csl.8666&q=Parasrameswar",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 213)",
+          "quote": "The shape ot the tower of the Parasrameswar is definitely rudimentary, as it is thick-set and \"heavy-shouldered\", with an immensely wide fluted amala-sila or coping stone."
+        },
+        {
+          "source_id": "bose-1932",
+          "fetched_url": "https://ia601508.us.archive.org/fulltext/inside.php?item_id=in.ernet.dli.2015.100340&doc=2015.100340.Canons-Of-Orissan-Architecture&path=/13/items/in.ernet.dli.2015.100340&q=consisting",
+          "access": "full-text",
+          "locator": "unverified (archive.org OCR leaf 17, list of illustrations; plate caption)",
+          "quote": "Pabhdga, consisting of three mouldings, ParaSurameSwar"
+        }
+      ],
+      "conflicts": "",
+      "notes": "Mapping, not verbatim: Brown's 'sikhara'/'tower' = gandi; his 'amala-sila' is part of the mastaka; Bose's pabhaga (foot mouldings) is the lowest part of the bada. No source uses the words 'gandi', 'mastaka' or 'bada' for this temple, so the checker may keep only 'jagamohana' as direct. Pista: no source mentions a platform for this temple; left out. The Bose plate is on an illustrations-list line; the caption continues 'Temple, Bhubaneswar' on the next line (leaf 17, fetched at q=Bhubaneswar)."
+    }
+  ],
+  "location": {
+    "note_on_placement": "Location is a plain block, not a claim. Both OpenStreetMap Nominatim searches returned no result, so lat/lng are left null.",
+    "value": { "place": "Bhubaneswar", "district": "Khordha", "lat": null, "lng": null, "coord_source": null },
+    "evidence": [],
+    "notes": "Place 'Bhubaneswar' is supported by every source above. District 'Khordha' is taken from the Lingaraj ledger's OSM result for the same city, not from a fetch for this temple; the checker should confirm it. Wikipedia shows 20°14′35.27″N 85°50′20.57″E, but Wikipedia is not a coord_source. A human or next wave should find the OSM node or way (try the name 'Parsurameswara' or browse the map near that point) and fill lat/lng from its OSM URL."
+  },
+  "sketchfab": {
+    "value": null,
+    "searched": ["https://api.sketchfab.com/v3/search?type=models&q=parasurameswara"],
+    "notes": "Three models found, all by user 'pattaprateek': 'Kartikeya parswadebata from Parasurameswara' (uid 7a168e8609364dbeab7bfa79eda4f73b), 'Saptamatruka Panel from Parasurameswara' (uid 6f64ba7f020a41c88d5970807893946b), 'Kartikeya frieze from Parasurameswara Temple' (uid 5458ee48eda04eef91aed0c84563858b). The search API showed no licence and not downloadable for all three. No Creative-Commons model, so sketchfab = null. They are sculpture models, not the whole temple. The owner could be asked about a CC licence later."
+  },
+  "new_sources": [],
+  "gaps": [
+    {
+      "field": "facts.dynasty (patron)",
+      "searched": ["panigrahi-1961 search-inside q=builder (leaf 258)", "brown-1959 q=Parasrameswar", "fergusson-1876 q=Bhuvaneswar", "mitra-r-1880 q=Parasuramesvara"],
+      "why_blank": "No source names a patron. Panigrahi says it is not known whether any Shailodbhava ruler built any temple here."
+    },
+    {
+      "field": "facts.temple_type ('rekha', 'trianga bada')",
+      "searched": ["bose-1932 q=Parasuramesvara, Parasuram, Parasuramesvar, ParaSurameSwar, Bhubaneswar, consisting", "panigrahi-1961 q=ratha", "brown-1959 q=Parasrameswar"],
+      "why_blank": "No fetched passage calls this temple 'rekha' or says it has a 'trianga' (three-part) bada. Bose names it only in a plate caption for a three-moulding pabhaga, which is not the same as a trianga bada. Only 'tri-ratha' was found, indirectly (parasuramesvara-005)."
+    },
+    {
+      "field": "facts.height (second figure; Mitra 1880; ASI)",
+      "searched": ["mitra-r-1880 q=Parasuramesvara, Parasura, Parasuramelvara, sculptured, elaborately, feet, height, 'small temple', 'Temple—'", "mitra-r-1880 djvu.txt stream (truncated before this chapter)", "panigrahi-1961 q=height", "fergusson-1876 q='ft square'"],
+      "why_blank": "Mitra's entry starts at the end of leaf 191, but the search API never returned that part (results are capped), so any height he gives was not seen. No ASI measurement: mitra-d-1978 is catalogue-only. Wikipedia's 40.25 ft (12.27 m) cites D.P. Ghosh 1950, which I did not open."
+    },
+    {
+      "field": "sections.why_built",
+      "searched": ["panigrahi-1961 q=builder, Parasuramesvara", "brown-1959 q=Parasrameswar", "mitra-r-1880 q=Parasuramesvara"],
+      "why_blank": "No source explains why this temple was built or why here. Mitra reports only an Ekamra Purana tale that Kirti and Vasa first worshipped the god by Shiva's order. That is a late temple tradition; if used, tier uncertain and 'According to a temple text…'. I did not make it a claim."
+    },
+    {
+      "field": "sections.construction (stone type)",
+      "searched": ["mitra-r-1880 leaf 192 ('workmanship and material' like Mukteshvara and Rajarani, stone not named)", "brown-1959 leaf 213", "panigrahi-1961 leaves 66-67"],
+      "why_blank": "No fetched passage names the stone of this temple (sandstone, khondalite or laterite). Do not fill it from the general Bhubaneswar statement in the research report."
+    },
+    {
+      "field": "facts.deity (linga in worship today)",
+      "searched": ["panigrahi-1961 q=Ketu, Kailasa", "mitra-r-1880 q=Parasuramesvara"],
+      "why_blank": "No fetched sentence directly states that a Shiva linga is enshrined or worshipped here now."
+    },
+    {
+      "field": "D.P. Ghosh 1950 (possible new source)",
+      "searched": ["Wikipedia Parashurameshvara_Temple citations"],
+      "why_blank": "Wikipedia cites 'Ghosh, D.P. (1950)' pp. 21-22 and 72 for sanctum and jagamohana sizes. I did not identify or open the work, so it is not added to new_sources. Worth a lead for the next wave."
+    },
+    {
+      "field": "kramrisch-1946",
+      "searched": [],
+      "why_blank": "Not searched; fetch budget spent on the four core sources."
+    },
+    {
+      "field": "location.lat/lng",
+      "searched": ["https://nominatim.openstreetmap.org/search?q=Parashurameswara+Temple+Bhubaneswar&format=json", "https://nominatim.openstreetmap.org/search?q=Parasurameswar+Bhubaneswar&format=json"],
+      "why_blank": "Both searches returned an empty list."
+    },
+    {
+      "field": "glossary",
+      "searched": [],
+      "why_blank": "Terms used here need glossary entries or confirmation: jagamohana, deul, gandi, mastaka, bada, pabhaga, amla (amala-sila), tri-ratha, pancha-ratha, clerestory, corbelled arch, sikhara, Ketu, Lakulisa."
+    },
+    {
+      "field": "catalogue-only registry sources",
+      "searched": ["mitra-d-1978", "donaldson-1985", "behera-1993"],
+      "why_blank": "Not readable online, so not used. No claim rests on them."
+    }
+  ]
+}
