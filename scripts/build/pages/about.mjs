@@ -49,7 +49,7 @@ function policySection(ctx) {
         )}</span></li>`,
     )
     .join("\n");
-  return `<section class="section" id="content-policy" aria-labelledby="content-policy-heading">
+  return `<section class="section section--warm" id="content-policy" aria-labelledby="content-policy-heading">
   <h2 id="content-policy-heading">Content policy</h2>
   <h3>Accepted sources</h3>
   <ul class="policy-list">${accepted}</ul>
@@ -83,21 +83,24 @@ function methodologySection(ctx) {
 function creditsSection(ctx) {
   const assets = (ctx.data.media.assets || []).filter((m) => ["approved", "delivered"].includes(m.status));
   const body = assets.length
-    ? `<ul class="credits-list">${assets
-        .map((m) => {
-          const c = m.credit || {};
-          let line;
-          if (c.type === "ai-generated") line = `AI-generated with ${escapeHtml(c.tool || "an AI image tool")}.`;
-          else if (c.type === "cc" || c.type === "public-domain")
-            line = `${escapeHtml(c.author || "Unknown author")} — ${escapeHtml(c.license || "")}${
-              c.source_url ? ` (<a href="${escapeHtml(c.source_url)}" rel="noopener noreferrer" target="_blank">source</a>)` : ""
-            }`;
-          else line = "Original code asset (SVG/CSS).";
-          return `<li><span class="credits-list__id">${escapeHtml(m.id)}</span> — ${line}</li>`;
-        })
-        .join("\n")}</ul>`
+    ? `<details class="credits-list-wrap">
+        <summary>Show all ${assets.length} image credits</summary>
+        <ul class="credits-list">${assets
+          .map((m) => {
+            const c = m.credit || {};
+            let line;
+            if (c.type === "ai-generated") line = `AI-generated with ${escapeHtml(c.tool || "an AI image tool")}.`;
+            else if (c.type === "cc" || c.type === "public-domain")
+              line = `${escapeHtml(c.author || "Unknown author")} — ${escapeHtml(c.license || "")}${
+                c.source_url ? ` (<a href="${escapeHtml(c.source_url)}" rel="noopener noreferrer" target="_blank">source</a>)` : ""
+              }`;
+            else line = "Original code asset (SVG/CSS).";
+            return `<li><span class="credits-list__id">${escapeHtml(m.id)}</span> — ${line}</li>`;
+          })
+          .join("\n")}</ul>
+      </details>`
     : `<p>Illustrations for this site are still being created and reviewed. Credits will appear here once images are approved.</p>`;
-  return `<section class="section" id="credits" aria-labelledby="credits-heading">
+  return `<section class="section section--warm" id="credits" aria-labelledby="credits-heading">
   <h2 id="credits-heading">Image credits</h2>
   ${body}
   <p class="credits-disclosure">${escapeHtml(ctx.config.aiDisclosure)}</p>

@@ -13,16 +13,17 @@ const MAX_BAR_PX = 220;
 const BAR_WIDTH_PX = 64;
 const GAP_PX = 40;
 const MARGIN_PX = 24;
+const LABEL_PX = 22; // room under the baseline for each figure's short in-drawing label
 
-// items: [{ heightM: number|null, silhouetteAssetId: string|null }]
+// items: [{ heightM: number|null, silhouetteAssetId: string|null, label: string }]
 export function scaleDrawing(items, ctx) {
   const knownHeights = items.map((i) => i.heightM).filter((h) => typeof h === "number" && h > 0);
   if (!knownHeights.length) return null;
   const maxM = Math.max(...knownHeights);
   const pxPerM = MAX_BAR_PX / maxM;
-  const svgHeight = MAX_BAR_PX + MARGIN_PX * 2;
+  const svgHeight = MARGIN_PX + MAX_BAR_PX + LABEL_PX + MARGIN_PX;
   const svgWidth = items.length * BAR_WIDTH_PX + (items.length - 1) * GAP_PX + MARGIN_PX * 2;
-  const baselineY = svgHeight - MARGIN_PX;
+  const baselineY = MARGIN_PX + MAX_BAR_PX;
 
   let x = MARGIN_PX;
   const shapes = items
@@ -30,7 +31,7 @@ export function scaleDrawing(items, ctx) {
       const hasHeight = typeof item.heightM === "number" && item.heightM > 0;
       let shape;
       if (!hasHeight) {
-        // Unknown height: a short dashed tick at the baseline instead of a bar — never a guessed height.
+        // Unknown height: a short tick at the baseline instead of a bar — never a guessed height.
         shape = `<rect x="${x}" y="${baselineY - 6}" width="${BAR_WIDTH_PX}" height="6" rx="2" class="scale-drawing__unknown" />`;
       } else {
         const barH = Math.max(item.heightM * pxPerM, 6);
@@ -44,11 +45,15 @@ export function scaleDrawing(items, ctx) {
             `<svg x="${x}" y="${y}" width="${BAR_WIDTH_PX}" height="${barH}" preserveAspectRatio="xMidYMax meet"`,
           );
         } else {
-          shape = `<rect x="${x}" y="${y}" width="${BAR_WIDTH_PX}" height="${barH}" rx="4" class="scale-drawing__fallback" />`;
+          // A soft tinted placeholder shape (never a stock image), not a dashed "under construction" box.
+          shape = `<rect x="${x}" y="${y}" width="${BAR_WIDTH_PX}" height="${barH}" rx="6" class="scale-drawing__fallback" />`;
         }
       }
+      const label = `<text x="${x + BAR_WIDTH_PX / 2}" y="${baselineY + LABEL_PX - 6}" text-anchor="middle" class="scale-drawing__label">${escapeHtml(
+        item.label || "",
+      )}</text>`;
       x += BAR_WIDTH_PX + GAP_PX;
-      return shape;
+      return `${shape}\n${label}`;
     })
     .join("\n");
 
@@ -58,15 +63,16 @@ export function scaleDrawing(items, ctx) {
   </svg>`;
 }
 
-// The visible, redundant text list beneath the drawing — same labels the SVG cannot read out.
+// A short detail line under the drawing for each figure. The label itself is already drawn inside
+// the SVG under each shape for sighted readers, so it isn't repeated visibly here — but the SVG is
+// aria-hidden (purely decorative), so a screen-reader-only label keeps this list the fully
+// readable, accessible version, the same "visual + redundant text" pattern used for hotspots.
 export function scaleDrawingCaptions(items) {
   return `<ul class="scale-drawing__captions">
     ${items
       .map(
         (item) =>
-          `<li><span class="scale-drawing__caption-label">${escapeHtml(item.label)}</span>${
-            item.detail ? ` — ${escapeHtml(item.detail)}` : ""
-          }</li>`,
+          `<li><span class="sr-only">${escapeHtml(item.label)}: </span>${item.detail ? escapeHtml(item.detail) : ""}</li>`,
       )
       .join("\n")}
   </ul>`;

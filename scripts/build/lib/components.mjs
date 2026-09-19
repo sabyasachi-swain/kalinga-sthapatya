@@ -7,10 +7,23 @@ import { escapeHtml, classNames, uid } from "./html.mjs";
 
 // ---------------------------------------------------------------------------- evidence badge
 
-export function badge(tier, ctx) {
+// `opts.dot`: the quiet, inline form used on every claim (a small coloured dot right before its
+// citation) instead of the big "Scholarly view"/"Debated" pill — the pill stays for the tier
+// legend (Sources section, About) where readers need the full explanation once, not on every
+// sentence. Colour is never the only signal even in dot mode: the icon/label are still read by
+// screen readers, and the tooltip always gives the tier name in words.
+export function badge(tier, ctx, opts = {}) {
   const def = ctx.config.evidenceTiers[tier];
   if (!def) return "";
   const tipId = uid("tt");
+  if (opts.dot) {
+    return `<span class="badge badge--dot ${def.className}">
+    <button type="button" class="badge__trigger badge__trigger--dot" aria-expanded="false" aria-describedby="${tipId}">
+      <span class="badge__icon" aria-hidden="true">${def.icon}</span><span class="sr-only">${escapeHtml(def.label)}</span>
+    </button>
+    <span class="badge__tooltip" role="tooltip" id="${tipId}">${escapeHtml(def.description)}</span>
+  </span>`;
+  }
   return `<span class="badge ${def.className}">
     <button type="button" class="badge__trigger" aria-expanded="false" aria-describedby="${tipId}">
       <span class="badge__icon" aria-hidden="true">${def.icon}</span><span class="badge__label">${escapeHtml(def.label)}</span>
@@ -51,7 +64,7 @@ function citeNumbers(claim, ctx) {
 // to `text` when no `value` is present, so nothing is ever blanked out.
 export function claim(c, ctx, opts = {}) {
   if (!isClaim(c)) return "";
-  const nums = citeNumbers(c, ctx);
+  const nums = [...citeNumbers(c, ctx)].sort((a, b) => a - b);
   const citeHtml = nums.length
     ? ` <sup class="citation">[${nums.map((n) => `<a href="#source-${n}">${n}</a>`).join(",")}]</sup>`
     : "";
@@ -59,13 +72,16 @@ export function claim(c, ctx, opts = {}) {
     (c.access === "catalogue-only" || c.access === "snippet") && c.human_approved
       ? ` <span class="claim__access-note" title="Nobody has read the full source online; a human editor signed this off.">(source not viewable online)</span>`
       : "";
+  // Notes often carry fact-checker/reviewer working language ("Never use for size comparisons.").
+  // We can't rewrite the text here (it's data), so it's hidden behind a closed disclosure by
+  // default — a reader who wants the "why" can open it; nobody is shown reviewer language first.
   const noteHtml = c.note
-    ? `<p class="claim__note"><span class="claim__note-label">Note:</span> ${escapeHtml(c.note)}</p>`
+    ? `<details class="claim__note"><summary>For curious grown-ups</summary><p>${escapeHtml(c.note)}</p></details>`
     : "";
   const tag = opts.tag || "p";
   const displayText = opts.useValue && c.value ? c.value : c.text;
   return `<${tag} class="${classNames("claim", opts.className)}">
-    <span class="claim__text">${escapeHtml(displayText)}</span> ${badge(c.tier, ctx)}${citeHtml}${accessNote}
+    <span class="claim__text">${escapeHtml(displayText)}</span><span class="claim__meta">${badge(c.tier, ctx, { dot: true })}${citeHtml}</span>${accessNote}
   </${tag}>${noteHtml}`;
 }
 
@@ -100,6 +116,20 @@ export function section({ id, className, heading, level = 2, headingId, body, fo
   <h${level} id="${hId}">${escapeHtml(heading)}</h${level}>
   ${body}
 </section>`;
+}
+
+// Native <details>/<summary> accordion for a group of claims (design-system "Accordion"
+// component). Keeps a real heading (nested inside <summary>, which is valid flow content) so the
+// page outline and find-in-page both still work; `open` renders the first section expanded.
+// Hides itself when there is no approved content, same rule as section().
+export function accordionSection({ id, className, heading, subtitle, level = 2, headingId, body, open = false, force = false }) {
+  if (!force && (!body || !body.trim())) return "";
+  const hId = headingId || `${id}-heading`;
+  const subtitleHtml = subtitle ? `<span class="accordion-section__subtitle">${escapeHtml(subtitle)}</span>` : "";
+  return `<details class="${classNames("accordion-section", className)}" id="${id}"${open ? " open" : ""}>
+  <summary><span class="accordion-section__heading-group"><h${level} id="${hId}">${escapeHtml(heading)}</h${level}>${subtitleHtml}</span></summary>
+  <div class="accordion-section__body">${body}</div>
+</details>`;
 }
 
 // ---------------------------------------------------------------------------- sources list
@@ -137,7 +167,7 @@ export function sourcesList(ctx, opts = {}) {
       )}</a>${kindNote}</li>`;
     })
     .join("\n");
-  return `<section class="section sources" id="sources" aria-labelledby="sources-heading">
+  return `<section class="section section--warm sources" id="sources" aria-labelledby="sources-heading">
   <h2 id="sources-heading">Sources &amp; evidence</h2>
   ${legendHtml}
   <ol class="sources-list">
@@ -262,10 +292,13 @@ function logoMark(ctx) {
 }
 
 export function nav(ctx) {
+  const glossaryEmpty = !(ctx.data.glossary.terms || []).length;
   const items = ctx.config.nav
     .map((item) => {
       const current = ctx.outPath === item.href || (ctx.outPath === "index.html" && item.href === "index.html");
-      return `<li><a href="${ctx.rel}${item.href}"${current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}</a></li>`;
+      const isSoon = item.soon || (item.href === "glossary.html" && glossaryEmpty);
+      const soonTag = isSoon ? ` <span class="nav__soon">Soon</span>` : "";
+      return `<li><a href="${ctx.rel}${item.href}"${current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}${soonTag}</a></li>`;
     })
     .join("\n");
   return `<header class="site-header">

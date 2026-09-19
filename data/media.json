@@ -970,6 +970,106 @@
         "brief": "V-84"
       },
       "hotspots": []
+    },
+    {
+      "status": "approved",
+      "decorative": false,
+      "caption": "AI-generated illustration",
+      "shows_real_temple": true,
+      "disclosure_visible": true,
+      "hotspots": [],
+      "temple_id": "parasuramesvara",
+      "interim": true,
+      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "id": "V-64A",
+      "kind": "raster",
+      "path": "img/temples/v-64a-parasuramesvara-assembled.jpg",
+      "role": "build-sequence",
+      "order": 1,
+      "label": "Assembled",
+      "width": 1200,
+      "height": 896,
+      "alt": "Illustration of the Parasuramesvara Temple as a whole: a rectangular hall joined to a tall curved tower.",
+      "credit": {
+        "type": "ai-generated",
+        "tool": "Google Gemini",
+        "brief": "V-64A"
+      }
+    },
+    {
+      "status": "approved",
+      "decorative": false,
+      "caption": "AI-generated illustration",
+      "shows_real_temple": true,
+      "disclosure_visible": true,
+      "hotspots": [],
+      "temple_id": "parasuramesvara",
+      "interim": true,
+      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "id": "V-64B",
+      "kind": "raster",
+      "path": "img/temples/v-64b-parasuramesvara-separated.jpg",
+      "role": "build-sequence",
+      "order": 2,
+      "label": "Separated",
+      "width": 1200,
+      "height": 896,
+      "alt": "The same illustration with the hall and the tower pulled apart so each can be seen on its own.",
+      "credit": {
+        "type": "ai-generated",
+        "tool": "Google Gemini",
+        "brief": "V-64B"
+      }
+    },
+    {
+      "status": "approved",
+      "decorative": false,
+      "caption": "AI-generated illustration",
+      "shows_real_temple": true,
+      "disclosure_visible": true,
+      "hotspots": [],
+      "temple_id": "parasuramesvara",
+      "interim": true,
+      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "id": "V-64C",
+      "kind": "raster",
+      "path": "img/temples/v-64c-parasuramesvara-exploded.jpg",
+      "role": "build-sequence",
+      "order": 3,
+      "label": "Exploded",
+      "width": 1200,
+      "height": 896,
+      "alt": "Exploded illustration of the hall and the tower, with their stone layers lifted apart from the base up to the top.",
+      "credit": {
+        "type": "ai-generated",
+        "tool": "Google Gemini",
+        "brief": "V-64C"
+      }
+    },
+    {
+      "status": "approved",
+      "decorative": false,
+      "caption": "AI-generated illustration",
+      "shows_real_temple": true,
+      "disclosure_visible": true,
+      "hotspots": [],
+      "temple_id": "parasuramesvara",
+      "interim": true,
+      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "id": "V-64V",
+      "kind": "video",
+      "path": "img/temples/v-64v-parasuramesvara-build.mp4",
+      "role": "build-video",
+      "poster": "V-64A",
+      "width": 1280,
+      "height": 720,
+      "duration_s": 10,
+      "alt": "Ten-second animation of the Parasuramesvara Temple coming apart into its parts.",
+      "credit": {
+        "type": "ai-generated",
+        "tool": "Google Gemini",
+        "brief": "V-64V"
+      }
     }
   ]
 }

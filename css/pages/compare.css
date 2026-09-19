@@ -34,9 +34,14 @@
   justify-content: center;
   border-bottom: 2px solid var(--border-strong);
 }
-.compare-bars__fill { width: 80px; display: flex; align-items: flex-end; }
+/* The fill's `height` (set inline, a % of the 220px track computed from the cited height_m) is
+   what must drive the art's size — not its width. The global `svg{height:auto}` rule (style.css)
+   would otherwise let the silhouette's own width (from .compare-bars__fill) dictate its height via
+   its intrinsic aspect ratio, decoupling the drawing from the computed percentage entirely (B1). */
+.compare-bars__fill { width: auto; max-width: 100%; height: 0; display: flex; align-items: flex-end; justify-content: center; }
+.compare-bars__fill svg { width: auto; max-width: 100%; height: 100%; }
 .compare-bars__fallback {
-  width: 100%;
+  width: 64px;
   height: 100%;
   background: var(--bg-warm);
   border: 2px dashed var(--border);
@@ -73,10 +78,23 @@
 .compare-panel__fact dt {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
 .compare-panel__fact dd { margin: 0; }
 .compare-panel__special h3 { font-size: 1rem; margin-bottom: var(--space-2); }
+
+/* Panels still stack below 800px (there's no room for two columns) — compact each fact to one row
+   so the two panels are closer together and read more like a comparison than two long lists. */
+@media (max-width: 799px) {
+  .compare-panel__fact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-2) var(--space-4);
+  }
+  .compare-panel__fact dt { margin: 0; flex-shrink: 0; }
+}

@@ -3,7 +3,10 @@
 .timeline { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
 .timeline-empty { padding: var(--space-6) 0; max-width: var(--prose-max); }
 
-.timeline-nav { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); }
+/* The Prev/Next buttons scroll a horizontal track that only exists at >=1024px — below that the
+   track is a plain vertical stack, so the buttons would do nothing useful there. */
+.timeline-nav { display: none; gap: var(--space-3); margin-bottom: var(--space-4); }
+@media (min-width: 1024px) { .timeline-nav { display: flex; } }
 
 .timeline-track {
   list-style: none;
@@ -22,7 +25,17 @@
   box-shadow: var(--shadow-card);
   padding: var(--space-5);
 }
-.era-card__figure { max-width: 320px; }
+.era-card__figure {
+  /* Only the drawing itself is capped to 160px (below); the figure's own box is left auto-height
+     so its figcaption always has room and never overlaps the heading that follows it. */
+  max-width: 320px;
+  margin: 0 auto var(--space-3);
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-3);
+}
+.era-card__figure svg { height: 160px; width: auto; margin: 0 auto; display: block; }
+.era-card__figure img { max-height: 160px; width: auto; margin: 0 auto; display: block; }
 .era-card__period { color: var(--text-secondary); font-size: 0.9rem; }
 .era-card__headline { font-weight: 600; font-size: 1.1rem; }
 .era-card__temples { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
@@ -31,13 +44,20 @@
   border-radius: var(--radius-pill);
   padding: var(--space-1) var(--space-3);
 }
+.era-card__temples li a { text-decoration: none; font-weight: 600; }
+.era-card__temples li a:hover { text-decoration: underline; }
 
 @media (min-width: 1024px) {
+  .timeline { position: relative; }
   .timeline-track {
     flex-direction: row;
+    align-items: flex-start;
     overflow-x: auto;
     scroll-snap-type: x proximity;
     padding-bottom: var(--space-5);
+    /* Fade the track's edges so a cut-off card reads as "more to scroll", not a hard clip. */
+    mask-image: linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%);
   }
   .era-card { flex: 0 0 320px; scroll-snap-align: start; }
 }

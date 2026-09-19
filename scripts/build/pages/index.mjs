@@ -43,6 +43,7 @@ function templeTypesSection(ctx) {
     .join("\n");
   return section({
     id: "temple-types",
+    className: "section--warm",
     heading: "What is Kalinga Architecture?",
     body: `<div class="card-grid">${cards}</div>
     <p class="section__cta"><a href="${ctx.rel}academy.html">Visit the Academy →</a></p>`,
@@ -53,11 +54,13 @@ function templeTypesSection(ctx) {
 function evolutionSection(ctx) {
   const eras = [...(ctx.data.timeline.eras || [])].sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   if (!eras.length) return "";
+  // Headline first (it's what a reader scans for), a short period value under it, and no claim
+  // notes here — this is a taster grid, not the place to read "why debated"; that's on Timeline.
   const items = eras
     .map(
       (e) => `<li class="mini-timeline__item">
-        <div class="mini-timeline__period">${factOrUnverified(e.period, ctx, { tag: "span" })}</div>
         <h3 class="mini-timeline__headline">${escapeHtml(e.headline || e.label)}</h3>
+        <div class="mini-timeline__period">${factOrUnverified(e.period, ctx, { tag: "span", useValue: true })}</div>
       </li>`,
     )
     .join("\n");
@@ -73,13 +76,23 @@ function evolutionSection(ctx) {
 function exploreOdishaSection(ctx) {
   const temples = ctx.data.temples.temples || [];
   if (!temples.length) return "";
-  const items = temples
-    .map((t) => `<li><a href="${ctx.rel}${escapeHtml(t.page)}">${escapeHtml(t.name)}</a> — ${escapeHtml(t.location?.place || "")}</li>`)
+  const cards = temples
+    .map((t) => {
+      const media = figure(t.media?.hero, ctx, { aspect: "3 / 2", figClassName: "card__figure" });
+      return `<article class="card">
+        ${media}
+        <h3 class="card__title">
+          <a class="card__link" href="${ctx.rel}${escapeHtml(t.page)}">${escapeHtml(t.name)}</a>
+          <span class="card__subtitle">${escapeHtml(t.location?.place || "")}</span>
+        </h3>
+      </article>`;
+    })
     .join("\n");
   return section({
     id: "explore-odisha",
+    className: "section--warm",
     heading: "Explore Odisha",
-    body: `<ul class="temple-list">${items}</ul>
+    body: `<div class="card-grid">${cards}</div>
     <p class="section__cta"><a href="${ctx.rel}map.html">Open the full map →</a></p>`,
     force: true,
   });
@@ -107,14 +120,19 @@ function featuredTempleSection(ctx) {
 
 export function renderIndex(ctx) {
   const bodyHtml = `
-<section class="hero">
-  ${heroVisual(ctx)}
-  <div class="hero__content">
-    <h1 class="hero__title">${escapeHtml(ctx.config.siteName)}<span class="hero__title-odia" lang="or">${escapeHtml(ctx.config.siteNameOdia)}</span></h1>
-    <p class="hero__tagline">${escapeHtml(ctx.config.tagline)}</p>
-    <a class="button button--primary" href="${ctx.rel}academy.html">Start Exploring</a>
-  </div>
-</section>
+<div class="hero-band">
+  <section class="hero">
+    ${heroVisual(ctx)}
+    <div class="hero__content">
+      <h1 class="hero__title">${escapeHtml(ctx.config.siteName)}<span class="hero__title-odia" lang="or">${escapeHtml(ctx.config.siteNameOdia)}</span></h1>
+      <p class="hero__tagline">${escapeHtml(ctx.config.tagline)}</p>
+      <div class="hero__actions">
+        <a class="button button--primary" href="${ctx.rel}academy.html">Start Exploring</a>
+        <a class="button button--secondary" href="${ctx.rel}timeline.html">See the Timeline</a>
+      </div>
+    </div>
+  </section>
+</div>
 ${templeTypesSection(ctx)}
 ${evolutionSection(ctx)}
 ${exploreOdishaSection(ctx)}

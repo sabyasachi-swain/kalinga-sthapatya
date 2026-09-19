@@ -60,7 +60,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-img, svg { max-width: 100%; height: auto; display: block; }
+img, svg, video { max-width: 100%; height: auto; display: block; box-sizing: border-box; }
 a { color: var(--accent); }
 a:hover { color: var(--accent-hover); }
 h1, h2, h3, h4 {
@@ -99,13 +99,23 @@ code, cite { font-style: normal; }
 }
 
 /* ---------------------------------------------------------------------- layout */
-main#main-content { display: block; }
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main#main-content { display: block; flex: 1 0 auto; }
+/* Full-bleed section bands: the background spans the viewport, the content still lines up to
+   --content-max — done with padding math alone so every page.mjs section() call keeps working
+   unchanged (no extra wrapper element needed). Warm/white is an explicit modifier (not
+   nth-of-type), set deliberately per section instead of by sibling position. */
 .section {
-  max-width: var(--content-max);
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding: var(--space-7) var(--space-5);
+  padding-top: var(--space-7);
+  padding-bottom: var(--space-7);
+  padding-left: max(var(--space-5), calc((100% - var(--content-max)) / 2 + var(--space-5)));
+  padding-right: max(var(--space-5), calc((100% - var(--content-max)) / 2 + var(--space-5)));
 }
-.section:nth-of-type(even) { background: var(--bg-warm); }
+.section--warm { background: var(--bg-warm); }
 .page-intro { padding-top: var(--space-8); }
 .section h2 { margin-bottom: var(--space-5); }
 .section__cta { margin-top: var(--space-4); font-weight: 600; }
@@ -189,13 +199,28 @@ main#main-content { display: block; }
   color: var(--text-primary);
   font-weight: 600;
   font-size: 0.95rem;
-  padding: var(--space-2) 0;
+  padding: var(--space-3) 0;
   border-bottom: 2px solid transparent;
+  display: inline-flex;
+  align-items: center;
 }
 .nav__menu a:hover { color: var(--accent); }
 .nav__menu a[aria-current="page"] {
   border-bottom-color: var(--gold);
   color: var(--accent);
+}
+.nav__soon {
+  display: inline-block;
+  margin-left: var(--space-2);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 2px 7px;
 }
 
 @media (max-width: 767px) {
@@ -211,11 +236,14 @@ main#main-content { display: block; }
     border-bottom: 1px solid var(--border);
     max-height: 0;
     overflow: hidden;
-    transition: max-height var(--transition-medium);
+    visibility: hidden;
+    transition: max-height var(--transition-medium), visibility var(--transition-medium);
   }
-  .nav__menu.is-open { max-height: 400px; }
+  /* Closed menu links must not be keyboard-focusable — max-height:0 alone still leaves them in
+     the tab order, so a hidden (delayed) visibility keeps focus from landing on invisible links. */
+  .nav__menu.is-open { max-height: 400px; visibility: visible; transition: max-height var(--transition-medium); }
   .nav__menu li { border-top: 1px solid var(--border); }
-  .nav__menu a { display: block; padding: var(--space-4) var(--space-5); }
+  .nav__menu a { display: flex; padding: var(--space-4) var(--space-5); }
 }
 
 /* ---------------------------------------------------------------------- footer */
@@ -251,6 +279,7 @@ main#main-content { display: block; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: var(--space-2);
   min-height: 44px;
   min-width: 44px;
   padding: var(--space-3) var(--space-5);
@@ -302,8 +331,8 @@ main#main-content { display: block; }
 .card__subtitle {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
@@ -321,7 +350,7 @@ main#main-content { display: block; }
   font: inherit;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   letter-spacing: 0.02em;
   cursor: pointer;
   min-height: 28px;
@@ -330,6 +359,23 @@ main#main-content { display: block; }
 .badge--scholarly .badge__trigger { color: var(--evidence-amber); border-color: var(--gold); background: color-mix(in srgb, var(--gold) 15%, transparent); }
 .badge--uncertain .badge__trigger { color: var(--evidence-red); border-color: var(--evidence-red); }
 .badge__icon { font-size: 0.85em; }
+@media (pointer: coarse) {
+  .badge__trigger { min-height: 44px; padding: var(--space-2) var(--space-4); }
+}
+/* Quiet dot form (claim() on every temple page) — the emoji icon alone (already a coloured
+   circle), no pill/border/background, sits right before the citation number. The tier legend in
+   Sources keeps the full labelled pill above. */
+.badge__trigger--dot {
+  min-height: 22px;
+  min-width: 22px;
+  padding: 0 2px;
+  border: none;
+  background: none !important;
+  border-radius: 50%;
+  gap: 0;
+}
+.badge__trigger--dot:hover, .badge__trigger--dot:focus-visible { background: var(--bg-warm) !important; }
+@media (pointer: coarse) { .badge__trigger--dot { min-height: 44px; min-width: 44px; padding: 0; } }
 .badge__tooltip {
   position: absolute;
   top: calc(100% + 6px);
@@ -361,16 +407,49 @@ main#main-content { display: block; }
 
 /* ---------------------------------------------------------------------- claims + citations */
 .claim { margin-bottom: var(--space-3); }
+/* Keep the evidence badge and its citation number glued together on one line — only the sentence
+   itself should ever wrap. */
+.claim__meta { display: inline-flex; align-items: center; gap: 2px; white-space: nowrap; }
+/* Claim notes often carry fact-checker working language ("Never use for size comparisons.") — a
+   closed-by-default disclosure keeps that out of the first read while still being fully readable
+   and findable (native <details>, works with JS off). Deliberately much quieter than the page
+   accordions: no border/background/card padding. */
 .claim__note {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0 0 var(--space-4);
+}
+.claim__note > summary {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: 24px;
+}
+.claim__note > summary::-webkit-details-marker { display: none; }
+.claim__note > summary::after { content: "+"; font-size: 1rem; color: var(--accent); margin-left: 2px; }
+.claim__note[open] > summary::after { content: "\2212"; }
+.claim__note > p {
   color: var(--text-secondary);
   font-size: 0.92rem;
-  margin-top: 0;
-  margin-bottom: var(--space-4);
+  margin: var(--space-2) 0 0;
 }
-.claim__note-label { font-weight: 600; }
-.claim__access-note { color: var(--text-secondary); font-size: 0.8rem; }
+.claim__access-note { color: var(--text-secondary); font-size: 0.85rem; }
 .citation { margin-left: 2px; }
-.citation a { text-decoration: none; }
+.citation a {
+  text-decoration: none;
+  display: inline-block;
+  min-height: 22px;
+  line-height: 18px;
+  padding: 2px 1px;
+  text-align: center;
+}
 .unverified {
   color: var(--text-secondary);
   font-style: italic;
@@ -380,7 +459,8 @@ main#main-content { display: block; }
 .sources-list { padding-left: 1.5em; }
 .sources-list li { margin-bottom: var(--space-3); overflow-wrap: anywhere; }
 .sources-legend { list-style: none; padding: 0; margin: 0 0 var(--space-5); display: grid; gap: var(--space-3); }
-.sources-legend li { display: flex; align-items: flex-start; gap: var(--space-3); }
+.sources-legend li { display: flex; align-items: flex-start; gap: var(--space-3); flex-wrap: wrap; }
+.sources-legend li .badge__trigger { flex-shrink: 0; white-space: nowrap; }
 .sources-legend__desc { color: var(--text-secondary); font-size: 0.92rem; }
 
 /* ---------------------------------------------------------------------- policy / methodology lists (about.html) */
@@ -423,6 +503,32 @@ details > summary::after {
 details[open] > summary::after { content: "\2212"; }
 details > summary:focus-visible { outline-offset: 4px; }
 details > *:not(summary) { margin-top: var(--space-4); }
+
+/* Temple-page section accordions: heading lives inside <summary> (valid — <summary> accepts flow
+   content), so the document outline and find-in-page both still work. Wider desktop layout gives
+   the body room for a two-column figure/prose split (see .temple-parts__layout). */
+.accordion-section summary h2 { margin: 0; font-size: 1.2rem; }
+.accordion-section > summary { align-items: center; }
+.accordion-section__heading-group { display: flex; flex-direction: column; gap: 2px; }
+.accordion-section__subtitle { font-weight: 400; font-size: 0.9rem; color: var(--text-secondary); font-family: var(--font-body); }
+.accordion-section__body { max-width: none; }
+.accordion-section__body .claim { max-width: 65ch; margin-bottom: var(--space-5); }
+
+.credits-list-wrap { border: none; background: none; padding: 0; margin: 0; }
+.credits-list-wrap > summary {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--accent);
+  list-style: none;
+  cursor: pointer;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.credits-list-wrap > summary::-webkit-details-marker { display: none; }
+.credits-list-wrap > summary::after { content: "+"; font-size: 1.2rem; margin-left: var(--space-2); }
+.credits-list-wrap[open] > summary::after { content: "\2212"; }
 
 /* ---------------------------------------------------------------------- info panel (dialog aside) */
 .info-panel {
@@ -499,7 +605,7 @@ details > *:not(summary) { margin-top: var(--space-4); }
   display: block;
 }
 .figure figcaption {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   margin-top: var(--space-2);
 }
@@ -516,12 +622,16 @@ details > *:not(summary) { margin-top: var(--space-4); }
   text-align: center;
   padding: var(--space-4);
   width: 100%;
+  max-width: 420px;
+  max-height: 240px;
+  margin: 0 auto;
 }
-.placeholder__icon { font-size: 2rem; opacity: 0.6; }
-.placeholder__text { font-size: 0.85rem; max-width: 40ch; }
+.placeholder__icon { font-size: 1.6rem; opacity: 0.6; }
+.placeholder__text { font-size: 0.875rem; max-width: 40ch; }
 .preview-figure { max-width: 360px; }
 
 /* ---------------------------------------------------------------------- hero */
+.hero-band { background: var(--bg-warm); width: 100%; }
 .hero {
   position: relative;
   display: grid;
@@ -534,14 +644,19 @@ details > *:not(summary) { margin-top: var(--space-4); }
   overflow: hidden;
 }
 @media (min-width: 900px) {
-  .hero { grid-template-columns: 1fr 1fr; padding-top: var(--space-9); padding-bottom: var(--space-9); }
+  .hero { grid-template-columns: 5fr 7fr; padding-top: var(--space-9); padding-bottom: var(--space-9); gap: var(--space-8); }
   .hero__content { order: 1; }
   .hero-visual { order: 2; }
+}
+@media (max-width: 899px) {
+  /* Lead with the title on mobile, image after — not the illustration and its caption first. */
+  .hero__content { order: -1; }
 }
 .hero__content { max-width: 46ch; }
 .hero__title { display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-4); }
 .hero__title-odia { font-size: 1.1rem; color: var(--text-secondary); font-weight: 400; }
 .hero__tagline { font-size: 1.25rem; color: var(--text-secondary); margin-bottom: var(--space-5); }
+.hero__actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
 .hero-visual { position: relative; aspect-ratio: 16 / 9; }
 .hero-visual .figure, .hero-visual .placeholder { height: 100%; }
 
@@ -568,15 +683,19 @@ details > *:not(summary) { margin-top: var(--space-4); }
 }
 
 /* ---------------------------------------------------------------------- mini timeline (home) */
-.mini-timeline { list-style: none; padding: 0; margin: var(--space-5) 0 0; display: grid; gap: var(--space-4); }
-@media (min-width: 900px) { .mini-timeline { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); } }
+.mini-timeline {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-5) 0 0;
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) { .mini-timeline { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .mini-timeline { grid-template-columns: repeat(3, 1fr); } }
 .mini-timeline__item { border-left: 3px solid var(--gold); padding-left: var(--space-4); }
-.mini-timeline__period { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: var(--space-1); }
-.mini-timeline__headline { margin: 0; font-size: 1.1rem; }
-
-/* ---------------------------------------------------------------------- temple list (home) */
-.temple-list { list-style: none; padding: 0; margin-top: var(--space-4); }
-.temple-list li { padding: var(--space-2) 0; border-bottom: 1px solid var(--border); }
+.mini-timeline__headline { margin: 0 0 var(--space-1); font-size: 1.1rem; }
+.mini-timeline__period { color: var(--text-secondary); font-size: 0.9rem; }
 
 /* ---------------------------------------------------------------------- featured temple */
 .featured-temple { display: grid; gap: var(--space-5); }

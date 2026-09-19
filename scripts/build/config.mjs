@@ -22,8 +22,8 @@ export const siteConfig = {
   nav: [
     { label: "Home", href: "index.html" },
     { label: "Timeline", href: "timeline.html" },
-    { label: "Academy", href: "academy.html" },
-    { label: "Map", href: "map.html" },
+    { label: "Academy", href: "academy.html", soon: true },
+    { label: "Map", href: "map.html", soon: true },
     { label: "Compare", href: "compare.html" },
     { label: "Glossary", href: "glossary.html" },
     { label: "About", href: "about.html" },
@@ -31,7 +31,7 @@ export const siteConfig = {
   footerLinks: [
     { label: "About", href: "about.html" },
     { label: "Content Policy", href: "about.html#content-policy" },
-    { label: "Sources", href: "about.html#methodology" },
+    { label: "Methodology", href: "about.html#methodology" },
   ],
   evidenceTiers: {
     established: {
