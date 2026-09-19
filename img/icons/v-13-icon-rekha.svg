@@ -1,0 +1,10 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <g id="icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="38" width="20" height="6"/>
+    <path d="M16 38 C16 38, 15 20, 18 14 C21 8, 24 6, 24 6 C24 6, 27 8, 30 14 C33 20, 32 38, 32 38 Z"/>
+    <path d="M20 38 C20 38, 19.5 22, 21.5 16"/>
+    <path d="M28 38 C28 38, 28.5 22, 26.5 16"/>
+    <ellipse cx="24" cy="5" rx="5" ry="1.5"/>
+    <path d="M24 3.5 L24 2"/>
+  </g>
+</svg>

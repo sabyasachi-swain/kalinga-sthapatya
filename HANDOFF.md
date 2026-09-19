@@ -38,6 +38,18 @@ Every fact cited (academic/ASI/UNESCO only), unverifiable → blank; facts only 
 | Images | ⏳ integrator was finalising batch-1 approved ids (V-01,03,10,11,13–15,20–24,30,31,34,36,38,40,41,50–52 → `img/`, status approved) + checking V-60–63 (Parasuramesvara) and the Jagannath folder `visual-briefs/inbox/puri-jagannath-temple/` (pick V-75 hero / V-78). Verify with `node scripts/validate-content.mjs` and `git status img/` |
 | Git | `main` ahead of origin (unpushed); last commits = fact-checks + pitfalls fixes |
 
+## 3b. Session ended ~11:25 IST — agents were STOPPED mid-task (commit "WIP checkpoint")
+
+- **Jagannath fact-check:** stopped just before writing output → NO verdict/staged file. Re-run it (it had found:
+  Mitra 1880 also gives 192 ft for Puri, leaves 226 and 229).
+- **Phase 3A builder:** page modules temple/timeline/glossary/compare + css/pages/*.css written; real build runs
+  (8 pages). It was midway rewriting `dev/fixtures/*.json` (some new fixture SVGs added). NOT visually verified —
+  resume by: fixing fixtures, `node scripts/build.mjs --data dev/fixtures --out dev/preview`, `--check`, one screenshot each.
+- **Integrator:** copied 26 approved files into `img/` (batch-1 approved set + V-60–V-63, which it judged clean PASS),
+  but did **not** update `data/media.json` (all still `placeholder`). Next: one small Sonnet integrator run (or the
+  orchestrator) sets status "approved", width/height, alt, `.jpg` paths for exactly the files present in `img/`;
+  then decide V-75/V-78 from `visual-briefs/inbox/puri-jagannath-temple/`.
+
 ## 4. Next actions (in order, lean)
 
 1. **Verify what the 3 running agents left** (row "⏳" above). Re-run only what's missing.

@@ -1,0 +1,82 @@
+/* Compare page — select pair, scaled bars, side-by-side panels. */
+
+.compare { max-width: var(--content-max); margin: 0 auto; }
+
+.compare-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+.compare-form__field label { display: block; font-weight: 600; margin-bottom: var(--space-2); }
+.compare-form__field select {
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  border: 2px solid var(--border-strong);
+  border-radius: var(--radius-card);
+  font: inherit;
+  background: var(--bg-primary);
+}
+
+.compare-bars {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-8);
+  margin: 0 auto var(--space-3);
+}
+.compare-bars__col { display: flex; flex-direction: column; align-items: center; width: 140px; }
+.compare-bars__track {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 2px solid var(--border-strong);
+}
+.compare-bars__fill { width: 80px; display: flex; align-items: flex-end; }
+.compare-bars__fallback {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-warm);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-card);
+}
+.compare-bars__label { margin-top: var(--space-2); font-weight: 600; text-align: center; }
+
+.compare-sentence { text-align: center; font-weight: 600; max-width: none; margin: 0 auto var(--space-6); }
+
+.compare-panels {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+@media (min-width: 800px) {
+  .compare-panels { grid-template-columns: 1fr 1fr; }
+}
+.compare-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-5);
+}
+.compare-panel__link {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: var(--space-3);
+  text-decoration: none;
+}
+.compare-panel__facts { margin: 0 0 var(--space-4); display: grid; gap: var(--space-3); }
+.compare-panel__fact dt {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.compare-panel__fact dd { margin: 0; }
+.compare-panel__special h3 { font-size: 1rem; margin-bottom: var(--space-2); }

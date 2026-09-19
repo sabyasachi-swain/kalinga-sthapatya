@@ -1,0 +1,10 @@
+<svg viewBox="0 0 32 40" xmlns="http://www.w3.org/2000/svg">
+  <g id="pin" fill="currentColor">
+    <path d="M16 40 C16 40, 3 24, 3 15 C3 7.82, 8.82 2, 16 2 C23.18 2, 29 7.82, 29 15 C29 24, 16 40, 16 40 Z"/>
+  </g>
+  <g id="glyph" fill="#FFFFFF">
+    <path d="M12 21 L20 21 L20 19 L12 19 Z"/>
+    <path d="M13 19 C13 19, 12 12, 14 9 C16 6, 16 6, 16 6 C16 6, 16 6, 18 9 C20 12, 19 19, 19 19 Z"/>
+    <ellipse cx="16" cy="5.5" rx="3" ry="1"/>
+  </g>
+</svg>

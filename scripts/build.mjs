@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 import { loadData } from "./build/lib/data.mjs";
 import { createContext } from "./build/lib/context.mjs";
 import { siteConfig } from "./build/config.mjs";
-import { pages } from "./build/registry.mjs";
+import { getPages } from "./build/registry.mjs";
 import { renderComponentsPreview } from "./build/pages/componentsPreview.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -47,8 +47,9 @@ function isUnderDev(relPath) {
 
 function buildPages(dataDir, outDir) {
   const data = loadData(dataDir);
+  const pageList = getPages(data);
   const built = new Map(); // outPath -> html
-  for (const p of pages) {
+  for (const p of pageList) {
     const ctx = createContext({
       data,
       outPath: p.outPath,
@@ -62,11 +63,11 @@ function buildPages(dataDir, outDir) {
     });
     built.set(p.outPath, p.render(ctx));
   }
-  return { data, built };
+  return { data, built, pageList };
 }
 
-function buildSitemap() {
-  const urls = pages
+function buildSitemap(pageList) {
+  const urls = pageList
     .filter((p) => p.sitemap)
     .map((p) => {
       const loc = new URL(p.outPath, siteConfig.siteUrl).toString();
@@ -90,8 +91,8 @@ function writeOut(outDir, outPath, content) {
 function runCheck(args) {
   // --check always validates against the real, committed data/ and the real page locations,
   // regardless of any --out override (there is nothing else sensible to "check").
-  const { built } = buildPages(resolve(ROOT, args.data), ROOT);
-  const sitemap = buildSitemap();
+  const { built, pageList } = buildPages(resolve(ROOT, args.data), ROOT);
+  const sitemap = buildSitemap(pageList);
   const robots = buildRobots();
   const stale = [];
 
@@ -126,10 +127,10 @@ function runBuild(args) {
 
   const dataDir = resolve(ROOT, args.data);
   const outDir = resolve(ROOT, args.out);
-  const { data, built } = buildPages(dataDir, outDir);
+  const { data, built, pageList } = buildPages(dataDir, outDir);
 
   for (const [outPath, html] of built) writeOut(outDir, outPath, html);
-  writeOut(outDir, "sitemap.xml", buildSitemap());
+  writeOut(outDir, "sitemap.xml", buildSitemap(pageList));
   writeOut(outDir, "robots.txt", buildRobots());
 
   // The component QA gallery only ever builds into a dev/ output directory, never into production.

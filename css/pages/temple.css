@@ -1,0 +1,108 @@
+/* Temple page — hero, quick facts strip, 3D/isometric block, accordions, scale drawing. */
+
+.temple-hero {
+  display: grid;
+  gap: var(--space-5);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5) var(--space-5);
+}
+@media (min-width: 900px) {
+  .temple-hero { grid-template-columns: 3fr 2fr; align-items: center; }
+}
+.temple-hero__figure { margin: 0; }
+.temple-hero__body h1 { margin-bottom: var(--space-3); }
+.temple-hero__period {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--gold) 18%, transparent);
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) var(--space-4);
+  margin: 0 0 var(--space-4);
+}
+.temple-hero__hook { font-size: 1.1rem; color: var(--text-secondary); }
+
+.temple-page-body { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
+
+/* ---------------------------------------------------------------------- quick facts */
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-4);
+  margin: 0 0 var(--space-6);
+  padding: var(--space-5);
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.quick-facts__item dt {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-1);
+}
+.quick-facts__item dd { margin: 0; }
+.quick-facts .claim { margin-bottom: 0; }
+
+/* ---------------------------------------------------------------------- 3D / isometric */
+.sketchfab-embed, .temple-isometric { margin: 0 0 var(--space-6); }
+.sketchfab-embed details {
+  background: var(--bg-warm);
+}
+.sketchfab-embed iframe {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  border-radius: var(--radius-card);
+  margin-top: var(--space-4);
+}
+.sketchfab-embed__credit { color: var(--text-secondary); font-size: 0.85rem; margin-top: var(--space-3); }
+.temple-isometric__figure { max-width: 480px; }
+
+/* ---------------------------------------------------------------------- accordions */
+.temple-accordions .section { max-width: none; padding: 0; margin: 0 0 var(--space-3); background: none; }
+.temple-accordions details { padding: var(--space-5); }
+
+/* ---------------------------------------------------------------------- parts */
+.temple-parts__figure { max-width: 420px; }
+.temple-parts__list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.temple-parts__list li a {
+  display: inline-block;
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: var(--space-2) var(--space-4);
+  text-decoration: none;
+  font-weight: 600;
+}
+.temple-parts__list li a:hover { border-color: var(--accent); }
+
+/* ---------------------------------------------------------------------- size / scale drawing */
+.scale-drawing__wrap { max-width: 480px; margin: 0 auto var(--space-4); }
+.scale-drawing { width: 100%; height: auto; }
+.scale-drawing__baseline { stroke: var(--border-strong); stroke-width: 2; }
+.scale-drawing__fallback { fill: var(--bg-warm); stroke: var(--border-strong); stroke-width: 2; stroke-dasharray: 6 4; }
+.scale-drawing__unknown { fill: var(--border); }
+.scale-drawing__captions {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2) var(--space-5);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0 0 var(--space-4);
+}
+.scale-drawing__caption-label { font-weight: 600; color: var(--text-primary); display: block; }
+.scale-drawing__sentence { font-weight: 600; text-align: center; }
+.temple-size__note { max-width: var(--prose-max); margin-left: auto; margin-right: auto; }

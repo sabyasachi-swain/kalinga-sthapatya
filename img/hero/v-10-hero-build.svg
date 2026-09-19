@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Layer 1: Ground -->
+  <g id="layer-ground">
+    <path d="M500 720 L1180 720" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M520 720 L525 712 L530 720" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M545 720 L548 714 L551 720" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M1150 720 L1155 713 L1160 720" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+  </g>
+
+  <!-- Layer 2: Platform (Pista) -->
+  <g id="layer-pista">
+    <!-- Main platform -->
+    <path d="M560 720 L560 700 L565 700 L565 695 L570 695 L570 690 L1140 690 L1140 695 L1145 695 L1145 700 L1150 700 L1150 720" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Horizontal moulding -->
+    <path d="M570 705 L1140 705" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Steps at left end -->
+    <path d="M560 720 L580 720 L580 712 L595 712 L595 704 L610 704 L610 690" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+  </g>
+
+  <!-- Layer 3: Wall section (Bada) -->
+  <g id="layer-bada">
+    <!-- Outer wall -->
+    <path d="M845 690 L845 560 L1015 560 L1015 690" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Vertical band projections (ratha) -->
+    <path d="M870 690 L870 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M895 690 L895 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M930 690 L930 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M965 690 L965 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M990 690 L990 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- 5 horizontal moulding lines -->
+    <path d="M845 680 L1015 680" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M845 655 L1015 655" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M845 625 L1015 625" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M845 595 L1015 595" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M845 570 L1015 570" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+  </g>
+
+  <!-- Layer 4: Tower (Gandi) - sugar-loaf curve -->
+  <g id="layer-gandi">
+    <!-- Main curved tower profile -->
+    <path d="M845 560 C845 540, 843 480, 843 440 C843 400, 845 360, 850 320 C855 280, 862 250, 870 225 C878 200, 890 185, 900 178 C905 174, 910 172, 915 170 L930 170 C935 172, 940 174, 945 178 C955 185, 967 200, 975 225 C983 250, 990 280, 995 320 C1000 360, 1002 400, 1002 440 C1002 480, 1000 540, 1015 560" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Vertical rib lines following the curve -->
+    <path d="M870 555 C871 500, 875 420, 885 340 C893 280, 905 220, 915 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M895 555 C895 500, 897 420, 903 340 C907 280, 913 225, 920 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M960 555 C960 500, 958 420, 952 340 C948 280, 942 225, 935 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M985 555 C984 500, 980 420, 970 340 C962 280, 950 220, 940 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Horizontal storey lines -->
+    <path d="M845 530 L1015 530" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M847 490 L1010 490" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M850 450 L1005 450" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M855 410 L1000 410" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M862 370 L993 370" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M870 330 L985 330" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M878 290 L977 290" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M888 250 L967 250" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M898 215 L957 215" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Small disc shapes at corners of every second storey -->
+    <circle cx="847" cy="490" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="1010" cy="490" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="855" cy="410" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="1000" cy="410" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="870" cy="330" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="985" cy="330" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="888" cy="250" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+    <circle cx="967" cy="250" r="3" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+  </g>
+
+  <!-- Layer 5: Crown (Mastaka) -->
+  <g id="layer-mastaka">
+    <!-- Recessed neck -->
+    <path d="M910 170 L910 160 L945 160 L945 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Large flattened ribbed disc (amalaka) -->
+    <path d="M872 160 C872 152, 885 144, 927.5 144 C970 144, 983 152, 983 160 C983 168, 970 176, 927.5 176 C885 176, 872 168, 872 160 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Vertical ribs on disc -->
+    <path d="M885 148 L885 172" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M895 146 L895 174" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M905 145 L905 175" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M915 144.5 L915 175.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M927.5 144 L927.5 176" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M940 144.5 L940 175.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M950 145 L950 175" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M960 146 L960 174" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M970 148 L970 172" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <!-- Dome cap -->
+    <path d="M912 144 C912 136, 918 126, 927.5 124 C937 126, 943 136, 943 144" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Pot finial (kalasa) -->
+    <path d="M921 124 C921 118, 924 112, 927.5 110 C931 112, 934 118, 934 124" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Staff and pennant -->
+    <path d="M927.5 110 L927.5 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Small plain triangular pennant -->
+    <path d="M927.5 75 L942 82 L927.5 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+  </g>
+
+  <!-- Layer 6: Assembly hall (Jagamohana) -->
+  <g id="layer-jagamohana">
+    <!-- Hall walls -->
+    <path d="M620 690 L620 600 L830 600 L830 690" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Wall details -->
+    <path d="M620 680 L830 680" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M620 650 L830 650" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <path d="M620 620 L830 620" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+    <!-- Doorway -->
+    <path d="M705 690 L705 640 L745 640 L745 690" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Stepped pyramid roof - 6 tiers -->
+    <path d="M615 600 L835 600 L835 590 L615 590 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M625 590 L825 590 L825 575 L625 575 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M640 575 L810 575 L810 558 L640 558 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M658 558 L792 558 L792 540 L658 540 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M678 540 L772 540 L772 520 L678 520 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <path d="M698 520 L752 520 L752 500 L698 500 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Bell shape on top -->
+    <path d="M715 500 C715 490, 720 476, 725 472 C730 476, 735 490, 735 500" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Small ribbed disc -->
+    <path d="M712 472 C712 468, 718 464, 725 464 C732 464, 738 468, 738 472 C738 476, 732 480, 725 480 C718 480, 712 476, 712 472 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Small pot finial -->
+    <path d="M721 464 C721 460, 723 456, 725 454 C727 456, 729 460, 729 464" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    <!-- Tiny staff -->
+    <path d="M725 454 L725 420" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" pathLength="1"/>
+  </g>
+</svg>

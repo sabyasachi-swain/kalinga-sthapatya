@@ -68,10 +68,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- Research wave 1: konark ✅ (11/18/0/0) · lingaraj ✅ (5 approved, 17 revised, 2 rejected, 0 needs-human; height null) · history ✅ (6 approved, 27 revised, 1 rejected, 3 needs-human — all framework).
-- Research wave 2: parasuramesvara ✅ ledger (17) → fact-check running · mukteshwar ✅ ledger (24) → fact-check running · jagannath-puri ✅ ledger (29) → fact-check running · architecture researcher resumed after 3rd usage-limit stop (05:40→10:37). Academy topic next.
-- Phase 3 part A (temple template, timeline, glossary, compare) — frontend-builder running against fixtures.
-- Phase 4 batch 1: review done → visual-briefs/BATCH-1-REVIEW.md. 12 ready, 3 ready-with-notes, 6 good-but-low-res, 10 to regenerate (V-33 text+trident; V-43–45 domes). Waiting on the human.
+(none — session wrapped up 2026-09-19 ~11:25; see HANDOFF.md §3b)
 
 ## Blocked
 

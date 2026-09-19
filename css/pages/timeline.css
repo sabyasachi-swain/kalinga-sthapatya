@@ -1,0 +1,47 @@
+/* Timeline page — vertical stack below 1024px, horizontal scroll-snap at/above it. */
+
+.timeline { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
+.timeline-empty { padding: var(--space-6) 0; max-width: var(--prose-max); }
+
+.timeline-nav { display: flex; gap: var(--space-3); margin-bottom: var(--space-4); }
+
+.timeline-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+.timeline-track:focus-visible { outline: 3px solid var(--border-strong); outline-offset: 4px; }
+
+.era-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-5);
+}
+.era-card__figure { max-width: 320px; }
+.era-card__period { color: var(--text-secondary); font-size: 0.9rem; }
+.era-card__headline { font-weight: 600; font-size: 1.1rem; }
+.era-card__temples { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
+.era-card__temples li {
+  background: var(--bg-warm);
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) var(--space-3);
+}
+
+@media (min-width: 1024px) {
+  .timeline-track {
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    padding-bottom: var(--space-5);
+  }
+  .era-card { flex: 0 0 320px; scroll-snap-align: start; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline-track { scroll-behavior: auto; }
+}
