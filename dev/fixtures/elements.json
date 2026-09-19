@@ -16,7 +16,7 @@
         "checked_on": "2026-09-18"
       },
       "why": null,
-      "temple_ids": ["fixture-temple-a"]
+      "temple_ids": ["fixture-temple-a", "fixture-temple-b"]
     },
     {
       "id": "fixture-element-2",
@@ -27,6 +27,37 @@
       "what": null,
       "why": null,
       "temple_ids": []
+    },
+    {
+      "id": "fixture-element-3",
+      "name": "FIXTURE Roof Part",
+      "plain_name": "Lorem ipsum roof part",
+      "group": "mastaka-part",
+      "parent": null,
+      "what": {
+        "text": "FIXTURE: a made-up crowning part used only to test the parts accordion.",
+        "tier": "established",
+        "sources": [
+          { "id": "fixture-source-1", "locator": "p. 30" },
+          { "id": "fixture-source-2", "locator": "unverified" }
+        ],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "why": null,
+      "temple_ids": ["fixture-temple-b", "fixture-temple-c"]
+    },
+    {
+      "id": "fixture-element-4",
+      "name": "FIXTURE Doorway Part",
+      "plain_name": "Lorem ipsum doorway part",
+      "group": "bada-part",
+      "parent": null,
+      "what": null,
+      "why": null,
+      "temple_ids": ["fixture-temple-c"]
     }
   ]
 }

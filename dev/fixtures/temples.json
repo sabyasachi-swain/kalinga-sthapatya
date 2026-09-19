@@ -1,6 +1,324 @@
 {
   "temples": [
     {
+      "id": "fixture-temple-b",
+      "name": "FIXTURE Temple B",
+      "name_odia": "ଫିକ୍ସଚର ମନ୍ଦିର ବି",
+      "page": "temples/fixture-temple-b.html",
+      "temple_type": "rekha",
+      "era_id": "fixture-era-2",
+      "sort_year": 200,
+      "location": {
+        "place": "FIXTURE Village",
+        "district": "FIXTURE District",
+        "lat": 20.25,
+        "lng": 85.83,
+        "coord_source": "https://example.org/fixture-coords-b"
+      },
+      "one_liner": {
+        "text": "FIXTURE: a fully-verified fake temple used to test the established, well-sourced state.",
+        "tier": "established",
+        "sources": [
+          { "id": "fixture-source-1", "locator": "p. 2" },
+          { "id": "fixture-source-2", "locator": "p. 4" }
+        ],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "facts": {
+        "date": {
+          "text": "FIXTURE: built around 650 FIXTURE-CE, according to a fake inscription.",
+          "value": "c. 650 FIXTURE-CE",
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 10" },
+            { "id": "fixture-source-2", "locator": "p. 6" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "dynasty": {
+          "text": "FIXTURE: attributed to the made-up Ipsum dynasty by most fixture scholars.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 15" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "height": {
+          "text": "FIXTURE: about 32.4 m (106 ft) tall, per a fake ASI-style survey.",
+          "value": "about 32.4 m (106 ft)",
+          "value_m": 32.4,
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 18" },
+            { "id": "fixture-source-2", "locator": "p. 9" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "deity": {
+          "text": "FIXTURE: dedicated to a made-up deity; most fixture sources agree.",
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 20" },
+            { "id": "fixture-source-2", "locator": "p. 11" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "temple_type": {
+          "text": "FIXTURE: classified as a made-up rekha-style tower.",
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 22" },
+            { "id": "fixture-source-2", "locator": "p. 12" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["fixture-element-1", "fixture-element-3"],
+          "intro": [
+            {
+              "text": "FIXTURE: this fake temple has a fake tower and a fake crowning part, shown for layout testing.",
+              "tier": "scholarly",
+              "sources": [{ "id": "fixture-source-1", "locator": "p. 25" }],
+              "note": null,
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-18"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "FIXTURE: a fake king built this temple to mark a fake military victory.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 27" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          },
+          {
+            "text": "FIXTURE: according to tradition, it also marks a fake pilgrimage site.",
+            "tier": "uncertain",
+            "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+            "note": "FIXTURE note: only one made-up chronicle repeats this tradition.",
+            "access": "snippet",
+            "human_approved": "2026-09-18",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "construction": [
+          {
+            "text": "FIXTURE: built from fake sandstone blocks fitted without mortar, held by fake iron cramps.",
+            "tier": "established",
+            "sources": [
+              { "id": "fixture-source-1", "locator": "p. 30" },
+              { "id": "fixture-source-2", "locator": "p. 14" }
+            ],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "special": [
+          {
+            "text": "FIXTURE: has an unusually tall fake tower for its made-up era.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 32" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          },
+          {
+            "text": "FIXTURE: carries fake carvings said to be unusually detailed.",
+            "tier": "uncertain",
+            "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+            "note": "FIXTURE note: made-up scholars disagree on how unusual this really is.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          },
+          {
+            "text": "FIXTURE: one of the earliest fake temples of its made-up type.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-4", "locator": "unverified" }],
+            "note": null,
+            "access": "catalogue-only",
+            "human_approved": "2026-09-18",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          },
+          {
+            "text": "FIXTURE: a fourth special claim to confirm the compare panel caps the list at three.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 33" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "size": {
+          "height_m": 32.4,
+          "note": {
+            "text": "FIXTURE: height measured from the fake ground level to the top of the fake finial.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 18" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        },
+        "influences": [
+          {
+            "text": "FIXTURE: fake carving style echoes an earlier made-up temple group nearby.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 35" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ]
+      },
+      "media": { "hero": "V-FIX-HERO-B", "silhouette": "V-FIX-SIL-B", "parts_diagram": "V-FIX-PARTS-B" },
+      "sketchfab": {
+        "embed_url": "https://sketchfab.com/models/fixture-model-id/embed",
+        "model_url": "https://sketchfab.com/3d-models/fixture-model-id",
+        "title": "FIXTURE Temple B — 3D scan (test data)",
+        "author": "FIXTURE Scanner",
+        "author_url": "https://sketchfab.com/fixture-scanner",
+        "license": "CC Attribution",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "id": "fixture-temple-c",
+      "name": "FIXTURE Temple C",
+      "name_odia": null,
+      "page": "temples/fixture-temple-c.html",
+      "temple_type": "khakhara",
+      "era_id": "fixture-era-2",
+      "sort_year": 500,
+      "location": {
+        "place": "FIXTURE Hamlet",
+        "district": "FIXTURE District",
+        "lat": 19.8,
+        "lng": 85.05,
+        "coord_source": "https://example.org/fixture-coords-c"
+      },
+      "one_liner": {
+        "text": "FIXTURE: according to tradition, a fake queen built this small temple; scholars are unsure.",
+        "tier": "uncertain",
+        "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+        "note": "FIXTURE note: no made-up primary source confirms the patron.",
+        "access": "snippet",
+        "human_approved": "2026-09-18",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "facts": {
+        "date": {
+          "text": "FIXTURE: built sometime in the 5th–6th century of make-believe; dates are disputed.",
+          "value": "c. 5th–6th century FIXTURE",
+          "tier": "uncertain",
+          "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+          "note": "FIXTURE note: Fixture Scholar Two prefers 5th century; Fixture Scholar Three prefers 6th.",
+          "access": "snippet",
+          "human_approved": "2026-09-18",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "dynasty": {
+          "text": "FIXTURE: probably built under the made-up Dolor dynasty.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 45" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "height": {
+          "text": "FIXTURE: about 15 m (49 ft) tall, matching the fake five-storey comparison exactly.",
+          "value": "about 15 m (49 ft)",
+          "value_m": 15,
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 48" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        "deity": null,
+        "temple_type": null
+      },
+      "sections": {
+        "parts": {
+          "element_ids": ["fixture-element-3", "fixture-element-4"],
+          "intro": [
+            {
+              "text": "FIXTURE: this fake temple has a fake crowning part and a fake doorway, shown for layout testing.",
+              "tier": "scholarly",
+              "sources": [{ "id": "fixture-source-1", "locator": "p. 50" }],
+              "note": null,
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-18"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "FIXTURE: according to tradition, built to fulfil a fake vow; no fixture source confirms this.",
+            "tier": "uncertain",
+            "sources": [{ "id": "fixture-source-3", "locator": "unverified" }],
+            "note": "FIXTURE note: tradition only, repeated in one made-up chronicle.",
+            "access": "snippet",
+            "human_approved": "2026-09-18",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "construction": [],
+        "special": [
+          {
+            "text": "FIXTURE: has a fake curved roof shape rarely seen elsewhere.",
+            "tier": "scholarly",
+            "sources": [{ "id": "fixture-source-1", "locator": "p. 52" }],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-18"
+          }
+        ],
+        "size": { "height_m": 15, "note": null },
+        "influences": []
+      },
+      "media": { "hero": "V-FIX-HERO-C", "silhouette": "V-FIX-SIL-C", "parts_diagram": "V-FIX-MISSING-C", "isometric": "V-FIX-ISO-C" },
+      "sketchfab": null
+    },
+    {
       "id": "fixture-temple-a",
       "name": "FIXTURE Temple A",
       "name_odia": null,

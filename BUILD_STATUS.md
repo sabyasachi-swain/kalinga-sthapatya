@@ -2,7 +2,7 @@
 
 Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
-**Current phase:** 1.1 — research wave 1 (konark · lingaraj · history) · **Next gate:** G2 — research review
+**Current phase:** launch — data merged, pages built, awaiting push + GitHub Pages · **Next:** push (human approval), then architecture fact-check / academy / Phase 3B / QA
 
 ## Gates
 
@@ -30,11 +30,11 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 - [x] Phase 0 — G0, git init, skeleton (2026-09-18)
 - [x] Phase 1.0 — source registry (23 sources merged 2026-09-18) → G1 open
 - [ ] Phase 1.1–1.3 — research + fact-check (parasuramesvara · mukteshwar · lingaraj · jagannath-puri · konark · architecture · history)
-- [ ] Phase 1.4–1.5 — REVIEW.md → G2 → merge
+- [x] Phase 1.4–1.5 — merged 2026-09-19 (5 temples incl. Jagannath, 6 eras, 11 element names); architecture + academy still open
 - [ ] Phase 1V — briefs (global now, temples after 1.5) → G3
 - [x] Phase 2 — frontend foundation (2026-09-18, commit 2339a57; verified in headless Chrome 1440px + true 375px)
-- [ ] Phase 3 — data-driven pages
-- [ ] Phase 4 — visual integration (G4 per asset)
+- [~] Phase 3 — 3A done 2026-09-19 (temple, timeline, glossary, compare; checked 1440 px + 375 px, no horizontal overflow). 3B (map, academy, home sections) open
+- [~] Phase 4 — 35 images approved in media.json (batch 1, V-60–63, V-12, V-65–68, V-70, V-75, V-78, V-80); V-71–73, V-76, V-77, V-81, V-82 rejected (see BATCH-3-REVIEW.md)
 - [ ] Phase 5 — QA, strict validation → G5 → deploy
 
 ## G1 open items (human)

@@ -27,8 +27,61 @@
         }
       ],
       "dynasty": null,
-      "temples": [{ "temple_id": "fixture-temple-a" }, { "name": "FIXTURE Temple B", "temple_id": null }],
-      "media": "V-FIX3"
+      "temples": [{ "temple_id": "fixture-temple-a" }, { "name": "FIXTURE Temple Without a Page", "temple_id": null }],
+      "media": null
+    },
+    {
+      "id": "fixture-era-2",
+      "order": 2,
+      "label": "FIXTURE Era: Ipsum Dolor Expansion",
+      "period": {
+        "text": "FIXTURE: about the 3rd–5th century of make-believe.",
+        "value": "c. 3rd–5th century FIXTURE",
+        "tier": "established",
+        "sources": [
+          { "id": "fixture-source-1", "locator": "p. 5" },
+          { "id": "fixture-source-2", "locator": "p. 2" }
+        ],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "headline": "FIXTURE headline: temples grew fake towers and fake crowning parts",
+      "design_change": [
+        {
+          "text": "FIXTURE: towers became taller and gained a fake crowning part.",
+          "tier": "established",
+          "sources": [
+            { "id": "fixture-source-1", "locator": "p. 6" },
+            { "id": "fixture-source-2", "locator": "p. 3" }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "text": "FIXTURE: some fake temples adopted a curved khakhara roof.",
+          "tier": "scholarly",
+          "sources": [{ "id": "fixture-source-1", "locator": "p. 7" }],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "dynasty": {
+        "text": "FIXTURE: associated with the made-up Ipsum dynasty.",
+        "tier": "scholarly",
+        "sources": [{ "id": "fixture-source-1", "locator": "p. 8" }],
+        "note": null,
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-18"
+      },
+      "temples": [{ "temple_id": "fixture-temple-b" }, { "temple_id": "fixture-temple-c" }],
+      "media": "V-FIX-ERA2"
     }
   ]
 }

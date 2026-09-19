@@ -3,7 +3,7 @@
     {
       "id": "fixture-term-1",
       "term": "Fixturagandi",
-      "odia": null,
+      "odia": "ଫିକ୍ସଚର",
       "short": {
         "text": "FIXTURE: a made-up word meaning \"lorem ipsum tower\" for testing only.",
         "tier": "scholarly",
@@ -25,8 +25,8 @@
         }
       ],
       "element_id": "fixture-element-1",
-      "temple_ids": ["fixture-temple-a"],
-      "see_also": []
+      "temple_ids": ["fixture-temple-a", "fixture-temple-b"],
+      "see_also": ["fixture-term-2"]
     },
     {
       "id": "fixture-term-2",
@@ -34,9 +34,9 @@
       "odia": null,
       "short": null,
       "long": [],
-      "element_id": null,
-      "temple_ids": [],
-      "see_also": []
+      "element_id": "fixture-element-2",
+      "temple_ids": ["fixture-temple-b"],
+      "see_also": ["fixture-term-1"]
     }
   ]
 }

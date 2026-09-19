@@ -25,4 +25,29 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/konark.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/lingaraj.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/mukteshwar.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/parasuramesvara.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/jagannath-puri.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
