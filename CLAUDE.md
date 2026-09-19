@@ -3,6 +3,7 @@
 Static educational website about Odisha temple architecture for families and kids.
 Vanilla HTML/CSS/JS + JSON, hosted on GitHub Pages.
 
+- **New session? Start with `HANDOFF.md`.**
 - What to build: `implementation_plan.md` · How it is built: `EXECUTION_PLAN.md` · Progress: `BUILD_STATUS.md`
 - Research leads: `Odisha Temple Archtecture research.md` — leads only, **never a citation**.
 - Drive the build with `/kalinga-orchestrator <phase>`; work is delegated to the `kalinga-*` agents.
