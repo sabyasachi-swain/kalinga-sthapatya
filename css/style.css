@@ -460,7 +460,10 @@ main#main-content { display: block; flex: 1 0 auto; }
 .sources-list li { margin-bottom: var(--space-3); overflow-wrap: anywhere; }
 .sources-legend { list-style: none; padding: 0; margin: 0 0 var(--space-5); display: grid; gap: var(--space-3); }
 .sources-legend li { display: flex; align-items: flex-start; gap: var(--space-3); flex-wrap: wrap; }
-.sources-legend li .badge__trigger { flex-shrink: 0; white-space: nowrap; }
+.sources-legend li { flex-wrap: nowrap; align-items: center; min-width: 0; }
+.sources-legend li .badge__trigger { flex-shrink: 0; white-space: nowrap; min-height: 32px; padding: 2px var(--space-3); line-height: 1.2; }
+.sources-legend li .badge__tooltip { display: none !important; } /* the description sits beside it */
+.sources-legend__desc { min-width: 0; overflow-wrap: anywhere; }
 .sources-legend__desc { color: var(--text-secondary); font-size: 0.92rem; }
 
 /* ---------------------------------------------------------------------- policy / methodology lists (about.html) */
@@ -708,3 +711,6 @@ details > *:not(summary) { margin-top: var(--space-4); }
 
 /* ---------------------------------------------------------------------- badge list (about/components) */
 .badge-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-4); }
+
+/* Anchored headings clear the sticky nav */
+[id] { scroll-margin-top: 80px; }

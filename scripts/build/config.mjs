@@ -39,21 +39,21 @@ export const siteConfig = {
       icon: "🟢",
       className: "badge--established",
       description:
-        "Established: an inscription, excavation, ASI/UNESCO record or primary text states this, and scholars agree.",
+        "Established: old records (inscriptions, digs, ASI/UNESCO) say so, and experts agree.",
     },
     scholarly: {
       label: "Scholarly view",
       icon: "🟡",
       className: "badge--scholarly",
       description:
-        "Scholarly view: the consensus of scholars from stylistic or indirect evidence, or a single accepted source.",
+        "Scholarly view: experts' best reading of the clues.",
     },
     uncertain: {
       label: "Debated",
       icon: "🔴",
       className: "badge--uncertain",
       description:
-        "Debated: sources disagree, or this rests on tradition or an estimate. See the note for the competing views.",
+        "Debated: sources disagree, or it rests on tradition.",
     },
   },
 };
