@@ -68,7 +68,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-(none — session wrapped up 2026-09-19 ~11:25; see HANDOFF.md §3b)
+- 2026-09-19 evening: researcher on Parasuramesvara leads → research/ledgers/parasuramesvara-2.json (see HANDOFF.md §4). Next: fact-check → merge → update annotated prompts → journey page (qa/TEMPLE-JOURNEY-SPEC.md).
 
 ## Blocked
 
