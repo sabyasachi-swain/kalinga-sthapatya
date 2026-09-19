@@ -28,13 +28,13 @@ what to do. The research report is a lead list, not a citation: open the named w
 | "Temples face east" as a rule | **Decided:** question dropped. Orientation is covered by "Why is Konark shaped like a chariot?" (Surya, chariot of the Sun — research §3, §8). Do not state a general east-facing rule without a source. | fact-check |
 | "Carvings increase outward: outer = material world, inner = formless divine" | **Decided:** question dropped; replaced by "Why do the parts have body names?" (bada/gandi/mastaka as the Cosmic Being/Purusha — research §2). | — |
 | Tower curve = Mount Meru | Kept as an **attributed interpretation**: 🟡 at most, "Scholars such as … explain…". | fact-check |
-| Timeline era boundaries | **Decided:** six eras built on the scholarly Formative / Transitional / Mature phases (Behera, Parida, Mohapatra; Sahoo 2012 summary) plus rock-cut roots, Konark finale, late Kalinga. Each era's `period` is a cited claim. | fact-check |
+| Timeline era boundaries | **Decided at G2 (2026-09-19):** six eras with descriptive, non-scholarly labels (Rock-cut roots · First temples · Experiment & refinement · Monumental scale · Grand finale · Late Kalinga); each era's `period` is a cited claim (mostly Brown 1959). Never call them "Formative/Transitional/Mature". | fact-check |
 
 ## Firm anchors (still cite the originals)
 
 - Brahmesvara: inscription (now lost, recorded) — 18th regnal year of Udyotakesari = 1058 CE (some sources 1060); built by his mother Kolavati Devi.
 - Ananta Vasudeva: inscription in the British Museum — Saka 1200 = 1278 CE; Queen Chandrika.
-- Puri Jagannath: Chodaganga (r. 1078–1150); 1134–35 CE donative inscription; completed under Anangabhima III (r. c. 1211–1238).
+- Puri Jagannath: Chodaganga (r. 1078–1150). **Not found in any accessible source (2026-09-19):** the 1112 CE start and "completed under Anangabhima III" — Panigrahi says "Chodaganga and his successor Anangabhima in the twelfth century"; Brown c. 1100, consecrated 1118.
 - Konark: UNESCO inscription 1984, ref. 246, criteria (i)(iii)(vi); Narasimhadeva I (r. 1238–1264).
 - Jagamohana sand-fill 1901–1904; 1996–97 subsidence; ICOMOS mission Feb 2000; ASI/IIT-Madras sand removal (track via ASI releases only — no news sites).
 - Materials: khondalite (body, sculpture; weathers), laterite (foundations, cores), chlorite (door frames, icons; most durable); Athgarh sandstone around Bhubaneswar.

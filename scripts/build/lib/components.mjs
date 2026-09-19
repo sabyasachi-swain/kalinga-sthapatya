@@ -27,7 +27,7 @@ export function unverified(ctx, label = "Not yet verified") {
 
 // ---------------------------------------------------------------------------- claims + citations
 
-function isClaim(c) {
+export function isClaim(c) {
   return !!c && typeof c === "object" && typeof c.text === "string";
 }
 
@@ -46,7 +46,9 @@ function citeNumbers(claim, ctx) {
 }
 
 // Renders one claim as a sentence + badge + citation. Returns "" for null/empty (caller decides
-// whether to fall back to unverified()).
+// whether to fall back to unverified()). `opts.useValue`: prefer the claim's short `value` display
+// string (e.g. "c. 1250 CE") over its full `text` sentence — for compact strips/cards; falls back
+// to `text` when no `value` is present, so nothing is ever blanked out.
 export function claim(c, ctx, opts = {}) {
   if (!isClaim(c)) return "";
   const nums = citeNumbers(c, ctx);
@@ -61,8 +63,9 @@ export function claim(c, ctx, opts = {}) {
     ? `<p class="claim__note"><span class="claim__note-label">Note:</span> ${escapeHtml(c.note)}</p>`
     : "";
   const tag = opts.tag || "p";
+  const displayText = opts.useValue && c.value ? c.value : c.text;
   return `<${tag} class="${classNames("claim", opts.className)}">
-    <span class="claim__text">${escapeHtml(c.text)}</span> ${badge(c.tier, ctx)}${citeHtml}${accessNote}
+    <span class="claim__text">${escapeHtml(displayText)}</span> ${badge(c.tier, ctx)}${citeHtml}${accessNote}
   </${tag}>${noteHtml}`;
 }
 
@@ -101,8 +104,20 @@ export function section({ id, className, heading, level = 2, headingId, body, fo
 
 // ---------------------------------------------------------------------------- sources list
 
-export function sourcesList(ctx) {
+// `opts.legend`: prepend a short legend explaining the three evidence-tier badges, for pages
+// (temple, timeline, glossary, compare) where readers meet badges before visiting About.
+export function sourcesList(ctx, opts = {}) {
   if (!ctx.citationOrder.length) return "";
+  const legendHtml = opts.legend
+    ? `<ul class="sources-legend">
+      ${Object.keys(ctx.config.evidenceTiers)
+        .map(
+          (tier) =>
+            `<li>${badge(tier, ctx)} <span class="sources-legend__desc">${escapeHtml(ctx.config.evidenceTiers[tier].description)}</span></li>`,
+        )
+        .join("\n")}
+    </ul>`
+    : "";
   const items = ctx.citationOrder
     .map((id, i) => {
       const n = i + 1;
@@ -124,6 +139,7 @@ export function sourcesList(ctx) {
     .join("\n");
   return `<section class="section sources" id="sources" aria-labelledby="sources-heading">
   <h2 id="sources-heading">Sources &amp; evidence</h2>
+  ${legendHtml}
   <ol class="sources-list">
     ${items}
   </ol>

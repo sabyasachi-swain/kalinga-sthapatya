@@ -16,7 +16,7 @@ function canonicalUrl(ctx) {
   }
 }
 
-export function page(ctx, { title, description, bodyHtml, headExtra = "", bodyClassName = "", schema = null }) {
+export function page(ctx, { title, description, bodyHtml, headExtra = "", bodyClassName = "", schema = null, scripts = [] }) {
   const fullTitle = title ? `${title} · ${ctx.config.siteName}` : ctx.config.siteName;
   const desc = description || ctx.config.description;
   const canonical = canonicalUrl(ctx);
@@ -37,6 +37,11 @@ export function page(ctx, { title, description, bodyHtml, headExtra = "", bodyCl
   const faviconTag = existsSync(join(ctx.projectRoot, faviconPath))
     ? `<link rel="icon" href="${ctx.assetRel}${faviconPath}" type="image/svg+xml">`
     : "";
+  // Page-specific enhancement modules (timeline.js, glossary.js, compare.js) — additive, after
+  // main.js, so a page without JS-only widgets never pays for them.
+  const extraScriptTags = scripts
+    .map((src) => `<script type="module" src="${ctx.assetRel}${escapeHtml(src)}"></script>`)
+    .join("\n");
 
   return `${GENERATED_COMMENT}
 <!DOCTYPE html>
@@ -63,6 +68,7 @@ ${bodyHtml}
 </main>
 ${footer(ctx)}
 <script type="module" src="${ctx.assetRel}js/main.js"></script>
+${extraScriptTags}
 </body>
 </html>
 `;
