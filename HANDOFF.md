@@ -72,6 +72,7 @@ Every fact cited (academic/ASI/UNESCO only), unverifiable → blank; facts only 
 
 ## 6. Key knowledge (don't re-learn)
 
+- Coding task prompts for outside models (Objective/Steps/Guardrails/Output per task, shared Block C): `CODING-PROMPTS.md`. Review every result before committing.
 - Research prompts for ALL topics (guardrails + per-topic prompts, usable in outside tools or as researcher briefs): `research/RESEARCH-PROMPTS.md`. Outside-tool output = leads only → `research/leads/`.
 - Pitfalls/corrections: `.claude/skills/kalinga-content-policy/pitfalls.md`. Heights: Konark 39 m 🔴 · Lingaraja null ·
   Mukteshvara ~10.5 m 🟡 · Parasuramesvara ~13 m 🔴 · Jagannath 65.4 m 🔴 (Ganguly 1912 survey).
