@@ -2,7 +2,7 @@
 // today every data file is still empty, so the page is hero + nav + footer only, which is correct.
 
 import { escapeHtml } from "../lib/html.mjs";
-import { section, figure, inlineSvgAsset, claim, factOrUnverified, sourcesList } from "../lib/components.mjs";
+import { section, figure, inlineSvgAsset, claim, factOrUnverified, sourcesList, isClaim } from "../lib/components.mjs";
 import { page } from "../lib/layout.mjs";
 
 function heroVisual(ctx) {
@@ -57,12 +57,13 @@ function evolutionSection(ctx) {
   // Headline first (it's what a reader scans for), a short period value under it, and no claim
   // notes here — this is a taster grid, not the place to read "why debated"; that's on Timeline.
   const items = eras
-    .map(
-      (e) => `<li class="mini-timeline__item">
+    .map((e) => {
+      const periodClaim = isClaim(e.period) ? { ...e.period, note: null } : e.period;
+      return `<li class="mini-timeline__item">
         <h3 class="mini-timeline__headline">${escapeHtml(e.headline || e.label)}</h3>
-        <div class="mini-timeline__period">${factOrUnverified(e.period, ctx, { tag: "span", useValue: true })}</div>
-      </li>`,
-    )
+        <div class="mini-timeline__period">${factOrUnverified(periodClaim, ctx, { tag: "span", useValue: true })}</div>
+      </li>`;
+    })
     .join("\n");
   return section({
     id: "evolution-story",
@@ -76,15 +77,20 @@ function evolutionSection(ctx) {
 function exploreOdishaSection(ctx) {
   const temples = ctx.data.temples.temples || [];
   if (!temples.length) return "";
+  const erasById = new Map((ctx.data.timeline.eras || []).map((e) => [e.id, e]));
   const cards = temples
     .map((t) => {
       const media = figure(t.media?.hero, ctx, { aspect: "3 / 2", figClassName: "card__figure" });
+      const era = erasById.get(t.era_id);
+      const eraLabel = era?.label || "";
+      const hookClaim = t.one_liner ? { ...t.one_liner, note: null } : null;
       return `<article class="card">
         ${media}
         <h3 class="card__title">
           <a class="card__link" href="${ctx.rel}${escapeHtml(t.page)}">${escapeHtml(t.name)}</a>
-          <span class="card__subtitle">${escapeHtml(t.location?.place || "")}</span>
+          ${eraLabel ? `<span class="card__subtitle">${escapeHtml(eraLabel)}</span>` : ""}
         </h3>
+        ${claim(hookClaim, ctx, { tag: "p", className: "card__hook" })}
       </article>`;
     })
     .join("\n");
@@ -109,9 +115,11 @@ function featuredTempleSection(ctx) {
     body: `<div class="featured-temple">
       ${media}
       <div class="featured-temple__body">
-        <h3>${escapeHtml(temple.name)}</h3>
+        <h3 class="featured-temple__title">${escapeHtml(temple.name)}</h3>
         ${hook}
-        <p class="section__cta"><a href="${ctx.rel}${escapeHtml(temple.page)}">Explore this temple →</a></p>
+        <div class="featured-temple__action">
+          <a class="button button--primary" href="${ctx.rel}${escapeHtml(temple.page)}">Explore this temple →</a>
+        </div>
       </div>
     </div>`,
     force: true,
@@ -122,7 +130,6 @@ export function renderIndex(ctx) {
   const bodyHtml = `
 <div class="hero-band">
   <section class="hero">
-    ${heroVisual(ctx)}
     <div class="hero__content">
       <h1 class="hero__title">${escapeHtml(ctx.config.siteName)}<span class="hero__title-odia" lang="or">${escapeHtml(ctx.config.siteNameOdia)}</span></h1>
       <p class="hero__tagline">${escapeHtml(ctx.config.tagline)}</p>
@@ -131,6 +138,7 @@ export function renderIndex(ctx) {
         <a class="button button--secondary" href="${ctx.rel}timeline.html">See the Timeline</a>
       </div>
     </div>
+    ${heroVisual(ctx)}
   </section>
 </div>
 ${templeTypesSection(ctx)}

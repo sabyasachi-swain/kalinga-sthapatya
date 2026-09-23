@@ -3,6 +3,13 @@ import { page } from '../lib/layout.mjs';
 import { claim, unverified, figure, section, sourcesList } from '../lib/components.mjs';
 import { escapeHtml } from '../lib/html.mjs';
 
+// Several elements carry a plain_name identical to their name (e.g. "Bada"/"Bada"), which rendered
+// as "Bada (Bada)". Only show the gloss when it actually tells the reader something new.
+function glossDiffers(name, plainName) {
+  if (!plainName) return false;
+  return String(plainName).trim().toLowerCase() !== String(name || '').trim().toLowerCase();
+}
+
 export function renderAcademy(ctx) {
   // Each data file is an object with its own collection key: elements.json is { elements: [] },
   // temples.json is { temples: [] }, and so on.
@@ -35,7 +42,7 @@ export function renderAcademy(ctx) {
           ${t.media ? figure(t.media, ctx, { className: 'academy-type-fig' }) : ''}
           <div class="academy-type-content">
             <h3>${escapeHtml(t.name)}</h3>
-            ${t.plain_name ? `<p class="academy-type-plain">(${escapeHtml(t.plain_name)})</p>` : ''}
+            ${glossDiffers(t.name, t.plain_name) ? `<p class="academy-type-plain">(${escapeHtml(t.plain_name)})</p>` : ''}
             <div class="academy-claims">
               <div class="claim-row"><span class="claim-label">Roof:</span> ${t.roof ? claim(t.roof, ctx, {}) : unverified(ctx)}</div>
               <div class="claim-row"><span class="claim-label">Use:</span> ${t.use ? claim(t.use, ctx, {}) : unverified(ctx)}</div>
@@ -60,7 +67,7 @@ export function renderAcademy(ctx) {
         
         return `
           <li class="anatomy-list-item" id="el-${escapeHtml(el.id)}">
-            <h3>${escapeHtml(el.name)} ${el.plain_name ? `<span class="plain-name">(${escapeHtml(el.plain_name)})</span>` : ''}</h3>
+            <h3>${escapeHtml(el.name)}${glossDiffers(el.name, el.plain_name) ? ` <span class="plain-name">(${escapeHtml(el.plain_name)})</span>` : ''}</h3>
             <div class="anatomy-claims">
               <div class="claim-row"><span class="claim-label">What:</span> ${el.what ? claim(el.what, ctx, {}) : unverified(ctx)}</div>
               <div class="claim-row"><span class="claim-label">Why:</span> ${el.why ? claim(el.why, ctx, {}) : unverified(ctx)}</div>
@@ -184,6 +191,11 @@ export function renderAcademy(ctx) {
     </nav>
   `;
 
+  // While the academy data is still being written there is only one content section, so a
+  // table-of-contents rail would be a single link sitting beside an empty 250px column. Drop the
+  // rail (and its grid track) until there is something to navigate between.
+  const showInPageNav = navLinks.length > 1;
+
   let bodyHtml = `
     <main class="academy-page">
       <header class="academy-header">
@@ -191,11 +203,11 @@ export function renderAcademy(ctx) {
         <p>Learn the vocabulary of Kalinga architecture, the structural logic behind its forms, and the methods used by ancient builders.</p>
       </header>
       
-      <div class="academy-layout">
-        <aside class="academy-sidebar">
+      <div class="academy-layout${showInPageNav ? '' : ' academy-layout--single'}">
+        ${showInPageNav ? `<aside class="academy-sidebar">
           ${inPageNavHtml}
-        </aside>
-        
+        </aside>` : ''}
+
         <div class="academy-content js-sections-container">
           ${hasTempleTypes ? section({ id: 'temple-types', className: 'academy-section', heading: 'The three temple types', body: sectionA }) : ''}
           ${section({ id: 'anatomy', className: 'academy-section', heading: 'Anatomy of a temple', body: sectionB })}

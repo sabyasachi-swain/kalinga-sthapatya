@@ -227,12 +227,59 @@ export function namespaceSvgIds(svg, prefix) {
   return svg;
 }
 
+// ============================================================================
+// Future Responsive Image Breakpoints (srcset documentation)
+// When build tooling (e.g. sharp, squoosh, or an npm pipeline) is introduced,
+// generate the following srcset variants for approved raster assets:
+//
+// 1. Hero illustrations & full-bleed headers (source width ~1376px, e.g. V-11, V-40..V-80):
+//    - 400w  : mobile 1x (375px viewport with padding)
+//    - 750w  : mobile 2x / tablet 1x portrait
+//    - 1050w : desktop 1x / tablet 2x
+//    - 1376w : desktop 2x high-DPI (native source width)
+//
+// 2. Journey frames & architectural construction sequences (source width ~1200px, e.g. V-64A..C):
+//    - 360w  : mobile 1x
+//    - 700w  : desktop two-column 1x (~7/12 of 1200px container) / mobile 2x
+//    - 1050w : desktop two-column 1.5x
+//    - 1200w : desktop two-column 2x (native source width)
+//
+// 3. Isometric architectural diagrams (source width ~1024px, e.g. V-63, V-68, V-78):
+//    - 380w  : mobile 1x / compact card
+//    - 760w  : mobile 2x / desktop 1x
+//    - 1024w : high-DPI desktop (native source width)
+//
+// 4. Temple cards, era cards, type cards (rendered at 260px - 380px desktop, full-width mobile):
+//    - 320w  : mobile 1x
+//    - 640w  : mobile 2x / desktop 1x
+//    - 960w  : desktop 2x
+// ============================================================================
+
+// Computes layout-appropriate sizes attribute based on CSS placement.
+// Matches CSS grid/flex widths across breakpoints so browsers allocate exact decoding buffers.
+export function defaultSizes(opts = {}) {
+  const fig = opts.figClassName || "";
+  const cls = opts.className || "";
+  if (fig.includes("temple-hero__figure")) {
+    return "100vw";
+  }
+  if (fig.includes("card__figure") || fig.includes("era-card__figure") || cls.includes("card")) {
+    return "(min-width: 1200px) 380px, (min-width: 640px) 50vw, calc(100vw - 32px)";
+  }
+  if (fig.includes("featured-temple__figure")) {
+    return "(min-width: 1200px) 560px, (min-width: 800px) 50vw, calc(100vw - 32px)";
+  }
+  // Two-column journey stops, hero image in grid, and general figures default to two-column desktop / full mobile:
+  return "(min-width: 1200px) 700px, (min-width: 900px) 58vw, calc(100vw - 32px)";
+}
+
 // Renders a media asset by id from data/media.json.
 //   status "approved" -> real <img> (raster) or inlined <svg> (vector), with caption.
 //   any other status, or the id missing entirely -> a labelled placeholder box (never crashes).
 export function figure(id, ctx, opts = {}) {
-  const { aspect = "4 / 3", className = "", decorative = false, figClassName = "" } = opts;
+  const { aspect = "4 / 3", className = "", decorative = false, figClassName = "", zoom = false } = opts;
   const asset = id ? ctx.data.mediaById.get(id) : null;
+  const shouldZoom = zoom || (asset && asset.interim === true);
 
   if (!asset) {
     return `<figure class="figure ${figClassName}">${placeholderBox({ id: id || "unknown", alt: opts.fallbackAlt, aspect, className })}</figure>`;
@@ -247,13 +294,15 @@ export function figure(id, ctx, opts = {}) {
     })}</figure>`;
   }
 
+  const zoomAttr = shouldZoom ? ' data-zoom="true"' : '';
+
   // A decorative image is hidden from assistive tech as well as given an empty alt, so screen
   // readers skip it instead of announcing an unnamed image.
   const altAttr =
     asset.decorative || decorative ? `alt="" aria-hidden="true"` : `alt="${escapeHtml(asset.alt || "")}"`;
   const captionParts = [];
   if (asset.caption) captionParts.push(escapeHtml(asset.caption));
-  // Captions in media.json usually already carry the disclosure ("AI-generated illustration/diagram …"); don't repeat it.
+  // Captions in media.json usually already carry the disclosure ("AI-generated illustration/diagram —"); don't repeat it.
   if (asset.disclosure_visible && !/AI-generated/i.test(asset.caption || "")) captionParts.push("AI-generated illustration");
   const captionHtml = captionParts.length
     ? `<figcaption>${captionParts.join(" — ")}</figcaption>`
@@ -271,13 +320,17 @@ export function figure(id, ctx, opts = {}) {
     if (!/height=/.test(svg) && asset.height) svg = svg.replace("<svg", `<svg height="${asset.height}"`);
     if (asset.decorative || decorative) svg = svg.replace("<svg", `<svg aria-hidden="true"`);
     else svg = svg.replace("<svg", `<svg role="img" aria-label="${escapeHtml(asset.alt || "")}"`);
-    return `<figure class="figure ${figClassName} ${className}">${svg}${captionHtml}</figure>`;
+    return `<figure class="figure ${figClassName} ${className}"${zoomAttr}>${svg}${captionHtml}</figure>`;
   }
 
-  return `<figure class="figure ${figClassName} ${className}">
-  <img src="${ctx.assetRel}${escapeHtml(asset.path)}" width="${asset.width || ""}" height="${asset.height || ""}" loading="${
-    opts.eager ? "eager" : "lazy"
-  }" ${altAttr}>
+  const sizesVal = opts.sizes || defaultSizes(opts);
+  const sizesAttr = sizesVal ? ` sizes="${escapeHtml(sizesVal)}"` : "";
+  const loadingAttr = opts.eager
+    ? 'loading="eager" fetchpriority="high"'
+    : 'loading="lazy" decoding="async"';
+
+  return `<figure class="figure ${figClassName} ${className}"${zoomAttr}>
+  <img src="${ctx.assetRel}${escapeHtml(asset.path)}" width="${asset.width || ""}" height="${asset.height || ""}" ${loadingAttr}${sizesAttr} ${altAttr}>
   ${captionHtml}
 </figure>`;
 }

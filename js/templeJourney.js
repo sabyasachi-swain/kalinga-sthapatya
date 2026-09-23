@@ -1,23 +1,149 @@
-// d:\Personal\AI_Experiment\kalinga-sthapatya\js\templeJourney.js
+// js/templeJourney.js
 (function () {
   const stops = Array.from(document.querySelectorAll('.journey-stop'));
   const railLinks = Array.from(document.querySelectorAll('.journey-rail__link'));
   
   const steps = Array.from(document.querySelectorAll('.tour-step'));
   const stage = document.querySelector('.parts-tour__stage');
+  const partsTour = document.querySelector('.parts-tour');
 
   const facades = Array.from(document.querySelectorAll('.video-facade'));
 
   let stopObserver = null;
   let tourObserver = null;
 
+  // Parts tour progressive enhancement
+  if (partsTour && steps.length > 0) {
+    partsTour.classList.add('is-enhanced');
+
+    const prevBtn = partsTour.querySelector('.parts-tour__btn--prev');
+    const nextBtn = partsTour.querySelector('.parts-tour__btn--next');
+    const counter = partsTour.querySelector('.parts-tour__counter');
+    const status = partsTour.querySelector('.parts-tour__status');
+
+    let currentStepIndex = 0;
+    let isProgrammaticScroll = false;
+    let programmaticTimeout = null;
+
+    function clearProgrammaticScroll() {
+      isProgrammaticScroll = false;
+      if (programmaticTimeout) {
+        clearTimeout(programmaticTimeout);
+        programmaticTimeout = null;
+      }
+    }
+
+    function updateTourState(index, shouldScroll) {
+      if (index < 0 || index >= steps.length) return;
+      currentStepIndex = index;
+      const targetStep = steps[index];
+      const highlight = targetStep.getAttribute('data-highlight') || '';
+      const totalSteps = steps.length;
+      const stepNum = index + 1;
+
+      if (stage) {
+        stage.setAttribute('data-focus', highlight);
+      }
+
+      for (let i = 0; i < steps.length; i++) {
+        if (i === index) {
+          steps[i].classList.add('is-current');
+        } else {
+          steps[i].classList.remove('is-current');
+        }
+      }
+
+      const kicker = 'Part ' + stepNum + ' of ' + totalSteps;
+      if (counter) {
+        counter.textContent = kicker;
+      }
+      if (status) {
+        const headingEl = targetStep.querySelector('.tour-step__heading');
+        const headingText = headingEl ? headingEl.textContent.trim() : '';
+        status.textContent = kicker + ': ' + headingText;
+      }
+
+      if (prevBtn) {
+        prevBtn.disabled = (index === 0);
+        prevBtn.setAttribute('aria-controls', targetStep.id);
+      }
+      if (nextBtn) {
+        nextBtn.disabled = (index === totalSteps - 1);
+        nextBtn.setAttribute('aria-controls', targetStep.id);
+      }
+
+      if (shouldScroll) {
+        const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        targetStep.scrollIntoView({
+          behavior: prefersReducedMotion ? 'auto' : 'smooth',
+          block: 'start'
+        });
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function () {
+        if (currentStepIndex > 0) {
+          isProgrammaticScroll = true;
+          updateTourState(currentStepIndex - 1, true);
+          if (programmaticTimeout) clearTimeout(programmaticTimeout);
+          programmaticTimeout = setTimeout(clearProgrammaticScroll, 800);
+        }
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function () {
+        if (currentStepIndex < steps.length - 1) {
+          isProgrammaticScroll = true;
+          updateTourState(currentStepIndex + 1, true);
+          if (programmaticTimeout) clearTimeout(programmaticTimeout);
+          programmaticTimeout = setTimeout(clearProgrammaticScroll, 800);
+        }
+      });
+    }
+
+    if ('onscrollend' in window) {
+      window.addEventListener('scrollend', clearProgrammaticScroll, { passive: true });
+    }
+
+    if (window.location.hash) {
+      const hashId = window.location.hash.slice(1);
+      for (let i = 0; i < steps.length; i++) {
+        if (steps[i].id === hashId) {
+          updateTourState(i, false);
+          break;
+        }
+      }
+    }
+
+    if ('IntersectionObserver' in window && stage) {
+      tourObserver = new IntersectionObserver(function (entries) {
+        if (isProgrammaticScroll) return;
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            const idx = steps.indexOf(entry.target);
+            if (idx !== -1 && idx !== currentStepIndex) {
+              updateTourState(idx, false);
+            }
+          }
+        });
+      }, { rootMargin: '-40% 0px -40% 0px' });
+
+      steps.forEach(function (step) {
+        tourObserver.observe(step);
+      });
+    }
+  }
+
+  // Journey rail scrollspy
   if ('IntersectionObserver' in window) {
     if (stops.length > 0 && railLinks.length > 0) {
-      stopObserver = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
+      stopObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
           if (entry.isIntersecting) {
             const id = entry.target.id;
-            railLinks.forEach((link) => {
+            railLinks.forEach(function (link) {
               if (link.getAttribute('data-stop') === id) {
                 link.setAttribute('aria-current', 'step');
               } else {
@@ -28,41 +154,23 @@
         });
       }, { rootMargin: '-45% 0px -50% 0px' });
 
-      stops.forEach((stop) => stopObserver.observe(stop));
+      stops.forEach(function (stop) {
+        stopObserver.observe(stop);
+      });
     }
 
-    if (steps.length > 0 && stage) {
-      tourObserver = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const highlight = entry.target.getAttribute('data-highlight') || '';
-            stage.setAttribute('data-focus', highlight);
-            
-            steps.forEach((step) => {
-              if (step === entry.target) {
-                step.classList.add('is-current');
-              } else {
-                step.classList.remove('is-current');
-              }
-            });
-          }
-        });
-      }, { rootMargin: '-45% 0px -50% 0px' });
-
-      steps.forEach((step) => tourObserver.observe(step));
-    }
-
-    window.addEventListener('pagehide', () => {
+    window.addEventListener('pagehide', function () {
       if (stopObserver) stopObserver.disconnect();
       if (tourObserver) tourObserver.disconnect();
     });
   }
 
-  facades.forEach((facade) => {
+  // Video facade click-to-play
+  facades.forEach(function (facade) {
     const playBtn = facade.querySelector('.video-facade__play');
     if (!playBtn) return;
 
-    playBtn.addEventListener('click', () => {
+    playBtn.addEventListener('click', function () {
       const src = facade.getAttribute('data-video');
       const w = facade.getAttribute('data-w');
       const h = facade.getAttribute('data-h');
@@ -88,4 +196,3 @@
     });
   });
 })();
-

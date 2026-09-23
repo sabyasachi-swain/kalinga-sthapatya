@@ -95,25 +95,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // The map must not initialise until leaflet.css has actually applied, not merely until leaflet.js
+  // has run. Without the stylesheet, .leaflet-control-container is statically positioned, so the
+  // zoom buttons and attribution drop out of the map box and paint on top of the temple list.
+  // Both files are requested in parallel, but the promise settles only once both are ready; if
+  // either fails, initMap()'s catch leaves the page in its list-only fallback instead of showing a
+  // broken map.
   function loadLeaflet() {
-    return new Promise((resolve, reject) => {
-      if (window.L) return resolve(window.L);
-      
+    if (window.L) return Promise.resolve(window.L);
+
+    const cssReady = new Promise((resolve, reject) => {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
       link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
       link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
       link.crossOrigin = 'anonymous';
+      link.onload = resolve;
+      link.onerror = () => reject(new Error('leaflet.css failed to load'));
       document.head.appendChild(link);
-      
+    });
+
+    const jsReady = new Promise((resolve, reject) => {
       const script = document.createElement('script');
       script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
       script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
       script.crossOrigin = 'anonymous';
-      script.onload = () => resolve(window.L);
-      script.onerror = reject;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error('leaflet.js failed to load'));
       document.head.appendChild(script);
     });
+
+    return Promise.all([cssReady, jsReady]).then(() => window.L);
   }
 
   async function initMap() {

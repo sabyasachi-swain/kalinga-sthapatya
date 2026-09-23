@@ -1,22 +1,44 @@
-/* Timeline page — vertical stack below 1024px, horizontal scroll-snap at/above it. */
+/* d:\Personal\AI_Experiment\kalinga-sthapatya\css\pages\timeline.css */
+/* Timeline page — vertical sequence below 1024px with connecting line, horizontal scroll gallery at/above 1024px. */
 
-.timeline { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
-.timeline-empty { padding: var(--space-6) 0; max-width: var(--prose-max); }
+.timeline {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--space-5) var(--space-8);
+}
 
-/* The Prev/Next buttons scroll a horizontal track that only exists at >=1024px — below that the
-   track is a plain vertical stack, so the buttons would do nothing useful there. */
-.timeline-nav { display: none; gap: var(--space-3); margin-bottom: var(--space-4); }
-@media (min-width: 1024px) { .timeline-nav { display: flex; } }
+.timeline-empty {
+  padding: var(--space-6) 0;
+  max-width: var(--prose-max);
+}
 
+/* ---------------------------------------------------------------- Navigation buttons
+   The Prev/Next buttons scroll the horizontal track at >=1024px. Below that the track
+   is a vertical sequence, so the buttons are hidden. */
+.timeline-nav {
+  display: none;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  justify-content: flex-end;
+}
+
+@media (min-width: 1024px) {
+  .timeline-nav {
+    display: flex;
+  }
+}
+
+/* ---------------------------------------------------------------- Track & cards common */
 .timeline-track {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-5);
 }
-.timeline-track:focus-visible { outline: 3px solid var(--border-strong); outline-offset: 4px; }
+
+.timeline-track:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
 
 .era-card {
   background: var(--bg-card);
@@ -25,43 +47,297 @@
   box-shadow: var(--shadow-card);
   padding: var(--space-5);
 }
-.era-card__figure {
-  /* Only the drawing itself is capped to 160px (below); the figure's own box is left auto-height
-     so its figcaption always has room and never overlaps the heading that follows it. */
-  max-width: 320px;
-  margin: 0 auto var(--space-3);
-  color: var(--accent);
-  border-bottom: 1px solid var(--border);
-  padding-bottom: var(--space-3);
-}
-.era-card__figure svg { height: 160px; width: auto; margin: 0 auto; display: block; }
-.era-card__figure img { max-height: 160px; width: auto; margin: 0 auto; display: block; }
-.era-card__period { color: var(--text-secondary); font-size: 0.9rem; }
-.era-card__headline { font-weight: 600; font-size: 1.1rem; }
-.era-card__temples { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
-.era-card__temples li {
-  background: var(--bg-warm);
-  border-radius: var(--radius-pill);
-  padding: var(--space-1) var(--space-3);
-}
-.era-card__temples li a { text-decoration: none; font-weight: 600; }
-.era-card__temples li a:hover { text-decoration: underline; }
 
-@media (min-width: 1024px) {
-  .timeline { position: relative; }
+.era-card__header {
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+
+.era-card__kicker {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-2);
+}
+
+.era-card__heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  line-height: 1.25;
+  margin: 0 0 var(--space-2);
+  color: var(--text-primary);
+}
+
+.era-card__period {
+  font-size: var(--text-sm);
+  margin: 0 0 var(--space-2);
+}
+
+.era-card__dynasty {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------- Era figure / tinted art */
+.era-card__figure {
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  background-color: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.era-card__figure svg {
+  max-height: 130px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  color: var(--accent);
+  fill: color-mix(in srgb, var(--gold) 40%, var(--accent));
+}
+
+.era-card__figure img {
+  max-height: 130px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* ---------------------------------------------------------------- Era body & claims */
+.era-card__headline {
+  font-weight: 600;
+  font-size: var(--text-md);
+  margin: 0 0 var(--space-2);
+  color: var(--text-primary);
+}
+
+.era-card__body .claims-list {
+  margin: 0 0 var(--space-4);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------- Temples list */
+/* Pinned to the bottom of the card so this footer starts on the same line in every era, instead of
+   floating wherever that era's story happens to end. */
+.era-card__temples-wrap {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--border);
+}
+
+.era-card__temples-heading {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-2);
+}
+
+.era-card__temples {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  /* Chips whose name wraps to two lines are 63px tall next to 44px neighbours; stretching makes
+     every chip on a line match the tallest one so the row reads as a set. */
+  align-items: stretch;
+}
+
+.era-card__temples li {
+  display: flex;
+}
+
+.era-card__temples a,
+.era-card__temple-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.era-card__temples a:hover {
+  background: var(--bg-card);
+  border-color: var(--gold);
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.era-card__temples a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* A temple with no page of its own keeps the same pill as its linked siblings — only the colour
+   differs, so the group reads as one component while still showing what is clickable. Matching the
+   weight stops the two looking like unrelated controls. */
+.era-card__temple-item {
+  color: var(--text-secondary);
+}
+
+/* ---------------------------------------------------------------- Below 1024px: Vertical sequence */
+@media (max-width: 1023px) {
+  .timeline {
+    padding: 0 var(--space-4) var(--space-8);
+  }
+
   .timeline-track {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+    border-left: 3px solid var(--gold);
+    padding: var(--space-4) 0 var(--space-8) var(--space-5);
+    margin-left: var(--space-3);
+  }
+
+  .era-card {
+    position: relative;
+    width: 100%;
+  }
+
+  /* Connecting line milestone node marker */
+  .era-card::before {
+    content: "";
+    position: absolute;
+    top: var(--space-5);
+    left: calc(-1 * var(--space-5) - 10px);
+    width: 14px;
+    height: 14px;
+    border-radius: var(--radius-pill);
+    background: var(--gold);
+    border: 2px solid var(--bg-primary);
+    box-shadow: 0 0 0 2px var(--gold);
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline {
+    padding: 0 var(--space-3) var(--space-7);
+  }
+
+  .timeline-track {
+    padding-left: var(--space-4);
+    margin-left: var(--space-2);
+    gap: var(--space-6);
+  }
+
+  .era-card {
+    padding: var(--space-4);
+  }
+
+  .era-card::before {
+    left: calc(-1 * var(--space-4) - 10px);
+  }
+}
+
+/* ---------------------------------------------------------------- At >=1024px: Horizontal track */
+@media (min-width: 1024px) {
+  .timeline {
+    position: relative;
+  }
+
+  .timeline-track {
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    /* Every era card must be the same height: with flex-start each card sized to its own text and
+       the row ran 874px to 1253px, so the eras read as unrelated boxes rather than one comparable
+       series. */
+    align-items: stretch;
     overflow-x: auto;
     scroll-snap-type: x proximity;
-    padding-bottom: var(--space-5);
+    scroll-padding: var(--space-4);
+    gap: var(--space-6);
+    padding: var(--space-2) var(--space-4) var(--space-6);
     /* Fade the track's edges so a cut-off card reads as "more to scroll", not a hard clip. */
-    mask-image: linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0, black 24px, black calc(100% - 24px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, black 32px, black calc(100% - 32px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 32px, black calc(100% - 32px), transparent 100%);
   }
-  .era-card { flex: 0 0 320px; scroll-snap-align: start; }
+
+  .era-card {
+    flex: 0 0 340px;
+    width: 340px;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The card's content is nested li > article > .era-card__body, so the column has to stay a flex
+     chain the whole way down for the temples footer's `margin-top: auto` to reach the card's
+     bottom edge. */
+  .era-card > article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .era-card__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+  }
+
+  /* Line the three bands (header / illustration / story) up across every card, so the eras can
+     actually be read against each other. Header text varies a lot in length, which otherwise left
+     the illustrations at wildly different heights (268px to 476px down the card). Subgrid makes
+     each band take the tallest card's height. Browsers without subgrid keep the flex column above,
+     which still gives equal-height cards — just not aligned bands. */
+  @supports (grid-template-rows: subgrid) {
+    .timeline-track {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 340px;
+      grid-template-rows: auto auto 1fr;
+      align-items: initial;
+    }
+
+    .era-card {
+      grid-row: 1 / -1;
+      display: grid;
+      grid-template-rows: subgrid;
+    }
+
+    .era-card > article {
+      grid-row: 1 / -1;
+      display: grid;
+      grid-template-rows: subgrid;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .timeline-track {
+    scroll-behavior: smooth;
+  }
+  .era-card__temples a {
+    transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .timeline-track { scroll-behavior: auto; }
+  .timeline-track {
+    scroll-behavior: auto;
+  }
 }

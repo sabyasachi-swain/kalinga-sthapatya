@@ -208,7 +208,7 @@ export function renderTemple(temple) {
     const nextSilhouette = inlineSvgAsset(nextTemple?.media?.silhouette, ctx);
     const nextHtml = nextTemple ? `<div class="next-temple-card">
       <h3>Visit another temple</h3>
-      <a href="${ctx.rel}${nextTemple.page}">${escapeHtml(nextTemple.name)}</a>
+      <a class="next-temple-card__link" href="${ctx.rel}${nextTemple.page}">${escapeHtml(nextTemple.name)}</a>
       ${nextSilhouette ? namespaceSvgIds(nextSilhouette.svg, "next-temple") : ""}
     </div>` : "";
     
@@ -247,7 +247,7 @@ export function renderTemple(temple) {
     ${placeHtml}
     <h1>${escapeHtml(temple.name)}</h1>
     ${oneLinerHtml}
-    ${firstStopId ? `<a href="#${escapeHtml(firstStopId)}">Start the tour ↓</a>` : ""}
+    ${firstStopId ? `<a class="temple-hero__cta" href="#${escapeHtml(firstStopId)}">Start the tour ↓</a>` : ""}
   </div>
 </section>`;
 

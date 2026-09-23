@@ -1,8 +1,10 @@
 /* css/pages/map.css */
+/* Side padding matches `.section` (--space-5) so content lines up with the other pages at 137px on
+   desktop and clears the 16px minimum mobile gutter — --space-3 (12px) did neither. */
 .map-page {
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: var(--space-4) var(--space-3);
+  padding: var(--space-4) var(--space-5);
 }
 
 .map-header {
@@ -51,9 +53,9 @@
 }
 
 .filter-group label {
-  font-weight: bold;
+  font-weight: 600;
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--text-xs);
 }
 
 .filter-group select,
@@ -70,6 +72,9 @@
   padding: 0;
   border: none;
   background: transparent;
+  /* Without this the Time Machine track renders in the browser's default blue — the only
+     off-palette colour on the site. */
+  accent-color: var(--accent);
 }
 
 .range-control {
@@ -79,7 +84,7 @@
 }
 
 .range-control output {
-  font-size: 0.9rem;
+  font-size: var(--text-xs);
   color: var(--text-secondary);
   text-align: right;
 }
@@ -113,12 +118,17 @@
 
 .map-list-item h3 {
   margin: 0 0 var(--space-1) 0;
-  font-size: 1.1rem;
+  font-size: var(--text-md);
 }
 
 .map-list-item h3 a {
   color: var(--accent);
   text-decoration: none;
+  /* A standalone navigation link, not a citation inside a sentence, so it takes the 44px target.
+     Padding on an inline-block grows the <h3> with it; an inline-flex min-height box overflowed
+     the heading and collided with the next list item. */
+  display: inline-block;
+  padding: 11px 0;
 }
 
 .map-list-item h3 a:hover {
@@ -127,7 +137,7 @@
 
 .map-list-meta {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: var(--text-xs);
   color: var(--text-secondary);
 }
 
@@ -186,7 +196,7 @@
 .leaflet-popup-close-button {
   width: 44px !important;
   height: 44px !important;
-  font-size: 24px !important;
+  font-size: var(--text-2xl) !important;
   line-height: 44px !important;
   display: flex !important;
   align-items: center;
@@ -208,13 +218,13 @@
 .temple-popup h4 {
   margin: 0 0 var(--space-1) 0;
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   color: var(--text-primary);
 }
 
 .temple-popup p {
   margin: 0 0 var(--space-2) 0;
-  font-size: 0.9rem;
+  font-size: var(--text-xs);
   color: var(--text-secondary);
 }
 
@@ -238,10 +248,17 @@
   color: #fff;
   text-decoration: none;
   border-radius: var(--radius-pill);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .temple-popup a:focus-visible {
   outline: 2px solid var(--text-primary);
   outline-offset: 2px;
+}
+
+/* Leaflet's own chrome ships at 12px, below the project's 14px floor. */
+.leaflet-control-attribution,
+.leaflet-control-attribution a,
+.leaflet-control-attribution span {
+  font-size: var(--text-xs);
 }

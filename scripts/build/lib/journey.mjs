@@ -89,9 +89,12 @@ export function partsTour({ stageAssetId, steps }, ctx) {
   }
 
   const firstHighlight = steps[0].highlight ? steps[0].highlight.join(" ") : "";
+  const totalSteps = steps.length;
+  const firstStepId = `part-${escapeHtml(String(steps[0].elementId))}`;
+  const initialHeading = escapeHtml(steps[0].heading);
   
   const stepsHtml = steps.map((step, i) => {
-    const kicker = `Part ${i + 1} of ${steps.length}`;
+    const kicker = `Part ${i + 1} of ${totalSteps}`;
     const highlightStr = step.highlight ? step.highlight.join(" ") : "";
     
     const defHtml = isClaim(step.definitionClaim) 
@@ -105,18 +108,40 @@ export function partsTour({ stageAssetId, steps }, ctx) {
       ? `<div class="tour-step__thumb" data-focus="${escapeHtml(highlightStr)}" aria-hidden="true">${namespacedSvg(stageDrawingSvg, `thumb${i + 1}`)}</div>`
       : "";
 
-    return `<li class="tour-step" id="part-${escapeHtml(String(step.elementId))}" data-highlight="${escapeHtml(highlightStr)}">
+    const prevStep = i > 0 ? steps[i - 1] : null;
+    const nextStep = i < totalSteps - 1 ? steps[i + 1] : null;
+    const noJsNav = `
+  <noscript>
+    <nav class="tour-step__no-js-nav" aria-label="Step navigation">
+      ${prevStep ? `<a href="#part-${escapeHtml(String(prevStep.elementId))}">← Previous part (${escapeHtml(prevStep.heading)})</a>` : ""}
+      ${nextStep ? `<a href="#part-${escapeHtml(String(nextStep.elementId))}">Next part (${escapeHtml(nextStep.heading)}) →</a>` : ""}
+    </nav>
+  </noscript>`;
+
+    return `<li class="tour-step${i === 0 ? " is-current" : ""}" id="part-${escapeHtml(String(step.elementId))}" data-highlight="${escapeHtml(highlightStr)}">
   <p class="tour-step__kicker">${escapeHtml(kicker)}</p>
   <h3 class="tour-step__heading">${escapeHtml(step.heading)}</h3>
   ${thumbSvg}
   <div class="tour-step__what">${defHtml}</div>
-  ${claimsHtml}
+  ${claimsHtml}${noJsNav}
 </li>`;
   }).join("");
   
   return `<div class="parts-tour">
   <div class="parts-tour__stage" data-focus="${escapeHtml(firstHighlight)}">
     <div class="parts-drawing">${namespacedSvg(stageDrawingSvg, "stage")}</div>
+    <div class="parts-tour__controls" aria-label="Tour controls">
+      <p class="parts-tour__progress"><span class="parts-tour__counter">Part 1 of ${totalSteps}</span></p>
+      <div class="parts-tour__buttons">
+        <button type="button" class="parts-tour__btn parts-tour__btn--prev" aria-label="Previous part" aria-controls="${firstStepId}" disabled>
+          <span aria-hidden="true">←</span> Previous
+        </button>
+        <button type="button" class="parts-tour__btn parts-tour__btn--next" aria-label="Next part" aria-controls="${firstStepId}"${totalSteps <= 1 ? " disabled" : ""}>
+          Next <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+    <div class="parts-tour__status sr-only" role="status" aria-live="polite">Part 1 of ${totalSteps}: ${initialHeading}</div>
   </div>
   <ol class="parts-tour__steps">
     ${stepsHtml}
@@ -133,10 +158,11 @@ export function videoFacade(videoAsset, posterAsset, ctx) {
   let posterHtml = "";
   if (posterAsset) {
     const pSrc = `${ctx.assetRel}${posterAsset.path}`;
-    const pAlt = posterAsset.decorative ? "" : escapeHtml(posterAsset.alt || "");
+    const pAlt = posterAsset.decorative ? `alt="" aria-hidden="true"` : `alt="${escapeHtml(posterAsset.alt || "")}"`;
     const pW = posterAsset.width || "";
     const pH = posterAsset.height || "";
-    posterHtml = `<img src="${escapeHtml(pSrc)}" width="${escapeHtml(String(pW))}" height="${escapeHtml(String(pH))}" alt="${pAlt}">`;
+    const pSizes = "(min-width: 1200px) 700px, (min-width: 900px) 58vw, calc(100vw - 32px)";
+    posterHtml = `<img src="${escapeHtml(pSrc)}" width="${escapeHtml(String(pW))}" height="${escapeHtml(String(pH))}" ${pAlt} loading="lazy" decoding="async" sizes="${pSizes}">`;
   }
   
   return `<div class="video-facade" data-video="${escapeHtml(src)}" data-w="${escapeHtml(String(w))}" data-h="${escapeHtml(String(h))}">
@@ -184,4 +210,3 @@ export function createRenderLedger() {
     }
   };
 }
-

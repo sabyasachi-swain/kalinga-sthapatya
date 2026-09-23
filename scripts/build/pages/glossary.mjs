@@ -1,6 +1,6 @@
-// Glossary page: searchable, alphabetised list of architectural terms (glossary.json). The search
-// input and A–Z buttons are progressive enhancement (js/glossary.js) — with JS off, the page is
-// simply the full list of native <details> accordions, fully readable and find-in-page-able.
+// Glossary page: searchable, alphabetised list of architectural terms (glossary.json).
+// With JS off, the page is simply the full accessible definition list.
+// With zero terms (today), it renders an honest "being written" state without empty search UI.
 
 import { escapeHtml } from "../lib/html.mjs";
 import { claim, claimsList, unverified, sourcesList, isClaim } from "../lib/components.mjs";
@@ -14,7 +14,15 @@ function firstLetter(term) {
 }
 
 function searchText(term) {
-  return [term.term, term.odia, term.short?.text].filter(Boolean).join(" ").toLowerCase();
+  const parts = [
+    term.term,
+    term.plain_name,
+    term.odia,
+    term.short?.text,
+    term.what?.text,
+    ...(Array.isArray(term.long) ? term.long.map((c) => c?.text) : []),
+  ];
+  return parts.filter(Boolean).join(" ").toLowerCase();
 }
 
 function templesListHtml(term, ctx) {
@@ -32,7 +40,8 @@ function seeAlsoHtml(term, ctx, byId) {
   const items = (term.see_also || [])
     .map((id) => {
       const other = byId.get(id);
-      return other ? `<li><a href="${ctx.rel}glossary.html#term-${escapeHtml(other.id)}">${escapeHtml(other.term)}</a></li>` : "";
+      const label = other ? other.term : id;
+      return `<li><a href="#term-${escapeHtml(id)}">${escapeHtml(label)}</a></li>`;
     })
     .filter(Boolean)
     .join("\n");
@@ -40,31 +49,57 @@ function seeAlsoHtml(term, ctx, byId) {
 }
 
 function termCard(term, ctx, byId) {
-  const shortHtml = isClaim(term.short)
-    ? claim(term.short, ctx, { tag: "p", className: "term-card__short" })
-    : `<p class="term-card__short">${unverified(ctx)}</p>`;
-  const longHtml = claimsList(term.long, ctx);
-  const odiaHtml = term.odia ? ` <span lang="or" class="term-card__odia">${escapeHtml(term.odia)}</span>` : "";
-  const elementLink = term.element_id
-    ? `<p class="term-card__element"><a href="${ctx.rel}academy.html#${escapeHtml(term.element_id)}">See this part in the Academy →</a></p>`
+  const shortClaim = isClaim(term.short) ? term.short : null;
+  const whatClaim = isClaim(term.what) ? term.what : null;
+
+  const shortHtml = shortClaim
+    ? claim(shortClaim, ctx, { tag: "p", className: "term-card__short" })
+    : "";
+  const whatHtml = whatClaim
+    ? claim(whatClaim, ctx, { tag: "p", className: "term-card__what" })
+    : "";
+  const longHtml = term.long ? claimsList(term.long, ctx, { className: "term-card__long" }) : "";
+  const fallbackHtml = !shortHtml && !whatHtml && !longHtml
+    ? `<p class="term-card__unverified">${unverified(ctx)}</p>`
     : "";
 
-  return `<li class="term-card" data-search="${escapeHtml(searchText(term))}" data-letter="${escapeHtml(firstLetter(term.term))}">
-    <details id="term-${escapeHtml(term.id)}">
-      <summary>${escapeHtml(term.term)}${odiaHtml}</summary>
+  const plainNameHtml = term.plain_name
+    ? ` <span class="term-card__plain">(${escapeHtml(term.plain_name)})</span>`
+    : "";
+  const odiaHtml = term.odia
+    ? ` <span lang="or" class="term-card__odia">${escapeHtml(term.odia)}</span>`
+    : "";
+
+  let elementLink = "";
+  if (term.element_id) {
+    const el =
+      ctx.data.elementsById?.get(term.element_id) ||
+      (ctx.data.elements?.elements || []).find((e) => e.id === term.element_id);
+    const elName = el?.name || term.element_id;
+    elementLink = `<p class="term-card__element"><a href="${ctx.rel}academy.html#${escapeHtml(term.element_id)}">See ${escapeHtml(elName)} in the Academy →</a></p>`;
+  }
+
+  return `<div class="term-card" id="term-${escapeHtml(term.id)}" data-search="${escapeHtml(searchText(term))}" data-letter="${escapeHtml(firstLetter(term.term))}">
+    <dt class="term-card__term">
+      <dfn class="term-card__name">${escapeHtml(term.term)}</dfn>${plainNameHtml}${odiaHtml}
+    </dt>
+    <dd class="term-card__def">
       ${shortHtml}
+      ${whatHtml}
       ${longHtml}
+      ${fallbackHtml}
       ${templesListHtml(term, ctx)}
       ${seeAlsoHtml(term, ctx, byId)}
       ${elementLink}
-    </details>
-  </li>`;
+    </dd>
+  </div>`;
 }
 
 function emptyState(ctx) {
   return `<div class="glossary-empty">
-    <p>We don't have enough checked terms yet. Our researchers are still working through the
-    accepted sources — see our <a href="${ctx.rel}about.html#methodology">methodology</a>.</p>
+    <p class="lead">We are currently compiling and verifying architectural terms for Kalinga temple architecture.</p>
+    <p>A searchable A–Z glossary of Odia and Sanskrit terms — describing the parts, shapes, and features of Odisha's temples — will appear here once each definition is verified against published academic sources.</p>
+    <p>In the meantime, you can explore the <a href="${ctx.rel}timeline.html">Timeline</a> or visit the <a href="${ctx.rel}academy.html">Academy</a> to see temple structures in detail. Read about our research and fact-checking standards in our <a href="${ctx.rel}about.html#methodology">methodology</a>.</p>
   </div>`;
 }
 
@@ -88,19 +123,23 @@ export function renderGlossary(ctx) {
               }>${l}</button>`,
           ).join("\n")}
         </div>
-        <p class="glossary-count" id="glossary-count" aria-live="polite">${terms.length} term${terms.length === 1 ? "" : "s"} shown</p>
+        <p class="glossary-count" id="glossary-count" aria-live="polite" aria-atomic="true">${terms.length} term${terms.length === 1 ? "" : "s"} shown</p>
+        <div class="glossary-no-results" id="glossary-no-results" hidden>
+          <p>No matching terms found. Try clearing your search or picking another letter.</p>
+          <button type="button" class="button button--secondary" id="glossary-reset-btn">Clear search</button>
+        </div>
       </div>
-      <ul class="glossary-list" id="glossary-list">
+      <dl class="glossary-list" id="glossary-list">
         ${terms.map((t) => termCard(t, ctx, byId)).join("\n")}
-      </ul>`
+      </dl>`
     : emptyState(ctx);
 
   const bodyHtml = `
 <section class="section page-intro">
   <h1>Glossary</h1>
-  <p>The Odia and Sanskrit words used for the parts of a Kalinga temple, in plain English.</p>
+  <p class="lead">The Odia and Sanskrit words used for the parts of a Kalinga temple, in plain English.</p>
 </section>
-<section class="glossary" aria-label="Architectural terms">
+<section class="section glossary" aria-label="Architectural terms">
   ${controlsHtml}
 </section>
 ${sourcesList(ctx, { legend: true })}

@@ -1,3 +1,4 @@
+// scripts/build/pages/timeline.mjs
 // Timeline page: how temple design changed, era by era (timeline.json, ordered by `order`).
 // Horizontal scroll-snap on wide screens, a plain vertical stack below and with JS off — CSS does
 // the layout switch, js/timeline.js only adds button/arrow-key navigation, never hijacks scroll.
@@ -11,34 +12,47 @@ function templesListHtml(era, ctx) {
     .map((t) => {
       if (t.temple_id) {
         const temple = ctx.data.templesById.get(t.temple_id);
-        if (temple) return `<li><a href="${ctx.rel}${escapeHtml(temple.page)}">${escapeHtml(temple.name)}</a></li>`;
+        if (temple) {
+          return `<li><a href="${ctx.rel}${escapeHtml(temple.page)}">${escapeHtml(temple.name)}</a></li>`;
+        }
       }
-      return t.name ? `<li>${escapeHtml(t.name)}</li>` : "";
+      return t.name ? `<li><span class="era-card__temple-item">${escapeHtml(t.name)}</span></li>` : "";
     })
     .filter(Boolean)
     .join("\n");
-  return items ? `<ul class="era-card__temples">${items}</ul>` : "";
+  return items
+    ? `<div class="era-card__temples-wrap"><h3 class="era-card__temples-heading">Temples from this era</h3><ul class="era-card__temples">${items}</ul></div>`
+    : "";
 }
 
-function eraCard(era, ctx) {
+function eraCard(era, ctx, index, total) {
   const headingId = `era-${escapeHtml(era.id)}-heading`;
   const figureHtml = figure(era.media, ctx, { aspect: "4 / 3", figClassName: "era-card__figure" });
   const periodHtml = isClaim(era.period)
     ? claim(era.period, ctx, { tag: "p", className: "era-card__period" })
     : `<p class="era-card__period">${unverified(ctx)}</p>`;
+  const dynastyHtml = isClaim(era.dynasty)
+    ? claim(era.dynasty, ctx, { tag: "p", className: "era-card__dynasty" })
+    : `<p class="era-card__dynasty">${unverified(ctx)}</p>`;
+  const headlineHtml = era.headline ? `<p class="era-card__headline">${escapeHtml(era.headline)}</p>` : "";
   const designHtml = claimsList(era.design_change, ctx);
-  const dynastyHtml = isClaim(era.dynasty) ? claim(era.dynasty, ctx, { tag: "p", className: "era-card__dynasty" }) : "";
   const temples = templesListHtml(era, ctx);
+  const kicker = `Era ${index + 1} of ${total}`;
 
   return `<li class="era-card" id="era-${escapeHtml(era.id)}">
     <article aria-labelledby="${headingId}">
+      <header class="era-card__header">
+        <p class="era-card__kicker">${escapeHtml(kicker)}</p>
+        <h2 class="era-card__heading" id="${headingId}">${escapeHtml(era.label)}</h2>
+        ${periodHtml}
+        ${dynastyHtml}
+      </header>
       ${figureHtml}
-      <h3 id="${headingId}">${escapeHtml(era.label)}</h3>
-      ${periodHtml}
-      ${era.headline ? `<p class="era-card__headline">${escapeHtml(era.headline)}</p>` : ""}
-      ${designHtml}
-      ${dynastyHtml}
-      ${temples}
+      <div class="era-card__body">
+        ${headlineHtml}
+        ${designHtml}
+        ${temples}
+      </div>
     </article>
   </li>`;
 }
@@ -63,7 +77,7 @@ export function renderTimeline(ctx) {
         </button>
       </div>
       <ol class="timeline-track" id="timeline-track" tabindex="0" aria-label="Temple design eras, oldest to newest">
-        ${eras.map((e) => eraCard(e, ctx)).join("\n")}
+        ${eras.map((e, i) => eraCard(e, ctx, i, eras.length)).join("\n")}
       </ol>`
     : emptyState(ctx);
 

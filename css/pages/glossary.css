@@ -1,48 +1,249 @@
-/* Glossary page — search box, A–Z filter, term accordions. */
+/* Glossary page — search box, A–Z filter, accessible definition list. */
 
-.glossary { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
-.glossary-empty { padding: var(--space-6) 0; max-width: var(--prose-max); }
+/* No max-width/margin: this element also carries `.section`, whose padding already centres content
+   on --content-max. Setting both applied the centring offset twice and pushed the empty state to
+   249px while the h1 sat at 137px. See the note in compare.css. */
+.glossary {
+  padding-bottom: var(--space-8);
+}
+/* Framed so the "still being written" notice reads as a deliberate state rather than a lone
+   paragraph adrift in a tall empty page. */
+.glossary-empty {
+  padding: var(--space-5);
+  max-width: var(--prose-max);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.glossary-empty > :last-child { margin-bottom: 0; }
+.glossary-empty p {
+  margin-bottom: var(--space-4);
+}
+.glossary-empty a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
 
-.glossary-controls { margin-bottom: var(--space-5); }
-.glossary-search { margin-bottom: var(--space-4); }
-.glossary-search label { display: block; font-weight: 600; margin-bottom: var(--space-2); }
+.glossary-controls {
+  margin-bottom: var(--space-6);
+}
+.glossary-search {
+  margin-bottom: var(--space-4);
+}
+.glossary-search label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
 .glossary-search input {
   width: 100%;
-  max-width: 420px;
+  max-width: 440px;
   min-height: 44px;
   padding: var(--space-3) var(--space-4);
   border: 2px solid var(--border-strong);
   border-radius: var(--radius-card);
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-family: inherit;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+.glossary-search input:focus-visible {
+  outline: 3px solid var(--border-strong);
+  outline-offset: 2px;
 }
 
-.glossary-alphabet { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-3); }
+.glossary-alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  align-items: center;
+}
 .glossary-alphabet__btn {
-  min-width: 36px;
-  min-height: 36px;
-  padding: var(--space-1) var(--space-2);
+  min-width: 44px;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-card);
   background: var(--bg-primary);
+  color: var(--text-primary);
   font-weight: 600;
+  font-size: var(--text-sm);
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
 }
-.glossary-alphabet__btn:disabled { opacity: 0.35; cursor: not-allowed; border-color: var(--border); }
-.glossary-alphabet__btn[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
-
-.glossary-count { color: var(--text-secondary); font-size: 0.9rem; }
-
-.glossary-list { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--space-3); }
-.term-card[hidden] { display: none; }
-.term-card__odia { color: var(--text-secondary); font-weight: 400; font-size: 0.9em; }
-.term-card__temples ul, .term-card__see-also ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
-.term-card__temples li a, .term-card__see-also li a {
-  display: inline-block;
+.glossary-alphabet__btn:hover:not(:disabled) {
+  border-color: var(--accent);
   background: var(--bg-warm);
+}
+.glossary-alphabet__btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  border-color: var(--border);
+}
+.glossary-alphabet__btn[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.glossary-count {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+
+.glossary-no-results {
+  background: var(--bg-warm);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--space-6);
+  text-align: center;
+  margin: var(--space-5) 0;
+  max-width: var(--prose-max);
+}
+.glossary-no-results p {
+  color: var(--text-secondary);
+  font-size: var(--text-base);
+  margin-bottom: var(--space-4);
+}
+.glossary-no-results[hidden] {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------- definition list */
+.glossary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-5);
+}
+
+.term-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-fast);
+}
+.term-card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+.term-card:target {
+  border-color: var(--gold);
+  outline: 2px solid var(--gold);
+}
+.term-card[hidden] {
+  display: none;
+}
+
+.term-card__term {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border);
+}
+.term-card__name {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--text-primary);
+}
+.term-card__plain {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+.term-card__odia {
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: var(--text-md);
+}
+
+.term-card__def {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.term-card__short {
+  font-size: var(--text-md);
+  line-height: 1.6;
+  margin: 0;
+}
+.term-card__what {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+.term-card__unverified {
+  margin: 0;
+}
+
+.term-card__temples,
+.term-card__see-also {
+  margin-top: var(--space-2);
+}
+.term-card__temples h4,
+.term-card__see-also h4 {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-2);
+}
+.term-card__temples ul,
+.term-card__see-also ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.term-card__temples li a,
+.term-card__see-also li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   padding: var(--space-1) var(--space-3);
   text-decoration: none;
   font-weight: 600;
+  font-size: var(--text-xs);
+  color: var(--text-primary);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
 }
-.term-card__element { margin-top: var(--space-3); }
+.term-card__temples li a:hover,
+.term-card__see-also li a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.term-card__element {
+  margin-top: var(--space-2);
+  margin-bottom: 0;
+}
+.term-card__element a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+  font-size: var(--text-sm);
+}

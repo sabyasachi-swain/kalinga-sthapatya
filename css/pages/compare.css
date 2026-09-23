@@ -1,6 +1,9 @@
 /* Compare page — select pair, scaled bars, side-by-side panels. */
 
-.compare { max-width: var(--content-max); margin: 0 auto; }
+/* `.compare` intentionally has no max-width/margin: the element also carries `.section`, whose
+   padding already centres content on --content-max. Setting both applied the centring offset twice
+   (auto margin + the offset baked into that padding) and pushed this page's content to 249px while
+   its own h1 sat at 137px. `.timeline` is the pattern to follow — it omits `.section`. */
 
 .compare-form {
   display: grid;
@@ -22,10 +25,12 @@
 .compare-bars {
   display: flex;
   justify-content: center;
-  gap: var(--space-8);
+  /* A fixed --space-8 (64px) gap made the two 140px columns total 344px inside a 312px container at
+     375px, pushing them out past the page gutter. Scale the gap with the viewport instead. */
+  gap: clamp(var(--space-4), 6vw, var(--space-8));
   margin: 0 auto var(--space-3);
 }
-.compare-bars__col { display: flex; flex-direction: column; align-items: center; width: 140px; }
+.compare-bars__col { display: flex; flex-direction: column; align-items: center; width: 140px; min-width: 0; }
 .compare-bars__track {
   height: 220px;
   width: 100%;
@@ -39,6 +44,9 @@
    would otherwise let the silhouette's own width (from .compare-bars__fill) dictate its height via
    its intrinsic aspect ratio, decoupling the drawing from the computed percentage entirely (B1). */
 .compare-bars__fill { width: auto; max-width: 100%; height: 0; display: flex; align-items: flex-end; justify-content: center; }
+/* The silhouettes are fill="currentColor", so without a colour here they inherit --text-primary and
+   read as flat near-black against the warm palette. */
+.compare-bars__fill { color: var(--accent); }
 .compare-bars__fill svg { width: auto; max-width: 100%; height: 100%; }
 .compare-bars__fallback {
   width: 64px;
@@ -47,7 +55,15 @@
   border: 2px dashed var(--border);
   border-radius: var(--radius-card);
 }
-.compare-bars__label { margin-top: var(--space-2); font-weight: 600; text-align: center; }
+/* Without max-width the label sizes to its longest word ("Parasuramesvara", 152px) and spills past
+   both sides of its 140px column. */
+.compare-bars__label {
+  margin-top: var(--space-2);
+  font-weight: 600;
+  text-align: center;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
 
 .compare-sentence { text-align: center; font-weight: 600; max-width: none; margin: 0 auto var(--space-6); }
 
@@ -70,7 +86,7 @@
   display: inline-block;
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   margin-bottom: var(--space-3);
   text-decoration: none;
 }
@@ -78,13 +94,13 @@
 .compare-panel__fact dt {
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: var(--text-xs);
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
 .compare-panel__fact dd { margin: 0; }
-.compare-panel__special h3 { font-size: 1rem; margin-bottom: var(--space-2); }
+.compare-panel__special h3 { font-size: var(--text-base); margin-bottom: var(--space-2); }
 
 /* Panels still stack below 800px (there's no room for two columns) — compact each fact to one row
    so the two panels are closer together and read more like a comparison than two long lists. */

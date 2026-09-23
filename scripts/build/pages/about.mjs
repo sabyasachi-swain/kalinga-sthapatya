@@ -111,7 +111,7 @@ function contactSection(ctx) {
   const parts = [];
   if (ctx.config.repoUrl) {
     parts.push(
-      `<p><a href="${escapeHtml(ctx.config.repoUrl)}/issues" rel="noopener noreferrer" target="_blank">Report an error or suggest a temple →</a></p>`,
+      `<p><a class="standalone-link" href="${escapeHtml(ctx.config.repoUrl)}/issues" rel="noopener noreferrer" target="_blank">Report an error or suggest a temple →</a></p>`,
     );
   }
   if (ctx.config.contactEmail) {
