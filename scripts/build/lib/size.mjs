@@ -7,7 +7,7 @@
 // it, the same "visual + redundant text list" pattern already used for hotspots.
 
 import { escapeHtml } from "./html.mjs";
-import { inlineSvgAsset } from "./components.mjs";
+import { inlineSvgAsset, namespaceSvgIds } from "./components.mjs";
 
 const MAX_BAR_PX = 220;
 const BAR_WIDTH_PX = 64;
@@ -27,7 +27,7 @@ export function scaleDrawing(items, ctx) {
 
   let x = MARGIN_PX;
   const shapes = items
-    .map((item) => {
+    .map((item, i) => {
       const hasHeight = typeof item.heightM === "number" && item.heightM > 0;
       let shape;
       if (!hasHeight) {
@@ -40,7 +40,7 @@ export function scaleDrawing(items, ctx) {
         if (inline) {
           // Nested <svg>: a valid way to position/scale one whole SVG document inside another
           // while keeping its own internal viewBox for the artwork.
-          shape = inline.svg.replace(
+          shape = namespaceSvgIds(inline.svg, `scale-${i}`).replace(
             "<svg",
             `<svg x="${x}" y="${y}" width="${BAR_WIDTH_PX}" height="${barH}" preserveAspectRatio="xMidYMax meet"`,
           );
@@ -49,7 +49,13 @@ export function scaleDrawing(items, ctx) {
           shape = `<rect x="${x}" y="${y}" width="${BAR_WIDTH_PX}" height="${barH}" rx="6" class="scale-drawing__fallback" />`;
         }
       }
-      const label = `<text x="${x + BAR_WIDTH_PX / 2}" y="${baselineY + LABEL_PX - 6}" text-anchor="middle" class="scale-drawing__label">${escapeHtml(
+      // A label centred under the first or last bar runs past the edge of the viewBox and gets
+      // clipped, so the outer ones are anchored to the drawing's edges instead.
+      const isFirst = i === 0;
+      const isLast = i === items.length - 1;
+      const anchor = isFirst ? "start" : isLast ? "end" : "middle";
+      const labelX = isFirst ? 0 : isLast ? svgWidth : x + BAR_WIDTH_PX / 2;
+      const label = `<text x="${labelX}" y="${baselineY + LABEL_PX - 6}" text-anchor="${anchor}" class="scale-drawing__label">${escapeHtml(
         item.label || "",
       )}</text>`;
       x += BAR_WIDTH_PX + GAP_PX;

@@ -4,7 +4,7 @@
 // or re-derived client-side) — see design-system skill "Compare" + implementation notes §A7.
 
 import { escapeHtml } from "../lib/html.mjs";
-import { claim, claimsList, unverified, sourcesList, inlineSvgAsset, isClaim } from "../lib/components.mjs";
+import { claim, claimsList, unverified, sourcesList, inlineSvgAsset, isClaim, namespaceSvgIds } from "../lib/components.mjs";
 import { page } from "../lib/layout.mjs";
 import { heightDifferenceSentence } from "../lib/size.mjs";
 
@@ -16,7 +16,7 @@ function silhouetteMarkup(temple, ctx) {
   const id = temple.media?.silhouette;
   const inline = id ? inlineSvgAsset(id, ctx) : null;
   if (!inline) return null;
-  return inline.svg.replace("<svg", `<svg width="100%" height="100%" preserveAspectRatio="xMidYMax meet"`);
+  return namespaceSvgIds(inline.svg, `sil-${temple.id}`).replace("<svg", `<svg width="100%" height="100%" preserveAspectRatio="xMidYMax meet"`);
 }
 
 function factRow(label, c, ctx) {

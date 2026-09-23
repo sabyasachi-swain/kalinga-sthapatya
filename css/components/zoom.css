@@ -1,0 +1,189 @@
+/* css/components/zoom.css */
+figure[data-zoom="true"] {
+  position: relative;
+}
+
+.zoom-activator {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  width: 44px;
+  height: 44px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  color: var(--text-primary);
+  opacity: 0.9;
+}
+
+.zoom-activator:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .zoom-activator {
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+  }
+  .zoom-activator:hover {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.zoom-activator svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.zoom-dialog {
+  border: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+.zoom-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.zoom-dialog:not(dialog) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.zoom-dialog:not(dialog)[hidden] {
+  display: none;
+}
+
+.zoom-dialog::backdrop {
+  background-color: transparent;
+}
+
+.zoom-dialog-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--space-3);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.zoom-dialog-header > * {
+  pointer-events: auto;
+}
+
+.zoom-controls {
+  display: flex;
+  gap: var(--space-2);
+  background-color: var(--bg-card);
+  padding: var(--space-1);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-panel);
+}
+
+.zoom-btn {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.zoom-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.zoom-btn:hover {
+  background-color: var(--bg-warm);
+}
+
+.zoom-dialog-close {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: var(--space-3);
+  box-shadow: var(--shadow-panel);
+}
+
+.zoom-dialog-close:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.zoom-dialog-close svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.zoom-scroll-area {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  cursor: grab;
+  scrollbar-width: none;
+}
+
+.zoom-scroll-area::-webkit-scrollbar {
+  display: none;
+}
+
+.zoom-image {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.zoom-dialog-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: #fff;
+  padding: var(--space-4) var(--space-3) var(--space-3);
+  text-align: center;
+  font-family: var(--font-body);
+  pointer-events: none;
+  z-index: 10;
+}
+
+body.zoom-open {
+  overflow: hidden;
+}

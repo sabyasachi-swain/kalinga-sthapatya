@@ -213,7 +213,7 @@ function readSvgInline(absPath) {
 // card) is inlined more than once on a page, its internal ids would collide. Namespace them.
 // Not used for the hero build-up or nav logo mark: those are guaranteed single-instance per page
 // and the hero's CSS animation depends on its exact, stable group ids (layer-ground, etc).
-function namespaceSvgIds(svg, prefix) {
+export function namespaceSvgIds(svg, prefix) {
   const idMap = new Map();
   svg = svg.replace(/\sid="([^"]+)"/g, (_m, id) => {
     const next = `${prefix}-${id}`;
@@ -247,7 +247,10 @@ export function figure(id, ctx, opts = {}) {
     })}</figure>`;
   }
 
-  const altAttr = asset.decorative || decorative ? `alt=""` : `alt="${escapeHtml(asset.alt || "")}"`;
+  // A decorative image is hidden from assistive tech as well as given an empty alt, so screen
+  // readers skip it instead of announcing an unnamed image.
+  const altAttr =
+    asset.decorative || decorative ? `alt="" aria-hidden="true"` : `alt="${escapeHtml(asset.alt || "")}"`;
   const captionParts = [];
   if (asset.caption) captionParts.push(escapeHtml(asset.caption));
   // Captions in media.json usually already carry the disclosure ("AI-generated illustration/diagram …"); don't repeat it.

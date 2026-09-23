@@ -2,7 +2,7 @@
 // today every data file is still empty, so the page is hero + nav + footer only, which is correct.
 
 import { escapeHtml } from "../lib/html.mjs";
-import { section, figure, inlineSvgAsset, claim, factOrUnverified } from "../lib/components.mjs";
+import { section, figure, inlineSvgAsset, claim, factOrUnverified, sourcesList } from "../lib/components.mjs";
 import { page } from "../lib/layout.mjs";
 
 function heroVisual(ctx) {
@@ -137,6 +137,7 @@ ${templeTypesSection(ctx)}
 ${evolutionSection(ctx)}
 ${exploreOdishaSection(ctx)}
 ${featuredTempleSection(ctx)}
+${sourcesList(ctx, { legend: true })}
 `;
 
   return page(ctx, {

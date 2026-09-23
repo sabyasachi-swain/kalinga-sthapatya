@@ -1,211 +1,654 @@
-/* Temple page — hero, quick facts strip, 3D/isometric block, accordions, scale drawing. */
+/* d:\Personal\AI_Experiment\kalinga-sthapatya\css\pages\temple.css */
 
+/* 1. Hero */
 .temple-hero {
-  display: grid;
-  gap: var(--space-5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.temple-hero__figure {
+  margin: 0;
+  width: 100%;
+}
+
+.temple-hero__figure img,
+.temple-hero__figure svg {
+  width: 100%;
+  max-width: 100%;
+  height: clamp(360px, 70vh, 680px);
+  object-fit: cover;
+  display: block;
+}
+
+.temple-hero__card {
+  background-color: var(--bg-card);
+  padding: var(--space-6) var(--space-4);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-panel);
+}
+
+@media (max-width: 767px) {
+  .temple-hero__figure img,
+  .temple-hero__figure svg {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+  .temple-hero__card {
+    margin: -32px var(--space-3) var(--space-6);
+    position: relative;
+    z-index: 1;
+  }
+}
+@media (min-width: 768px) {
+  .temple-hero {
+    display: block;
+  }
+  .temple-hero__card {
+    position: absolute;
+    bottom: var(--space-6);
+    left: var(--space-6);
+    max-width: 480px;
+    z-index: 1;
+  }
+}
+
+/* 2. Journey rail */
+.journey-rail {
+  position: sticky;
+  top: var(--nav-height);
+  height: 52px;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journey-rail__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.journey-rail__item {
+  height: 100%;
+}
+
+.journey-rail__link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 var(--space-3);
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+}
+
+.journey-rail__link:hover,
+.journey-rail__link:focus-visible {
+  color: var(--text-primary);
+}
+
+.journey-rail__link[aria-current="step"] {
+  border-bottom-color: var(--gold);
+  color: var(--text-primary);
+}
+
+.journey-rail__num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-pill);
+  background-color: var(--bg-warm);
+  margin-right: var(--space-2);
+  font-size: 0.875rem;
+}
+
+.journey-rail__link[aria-current="step"] .journey-rail__num {
+  background-color: var(--gold);
+  color: var(--bg-primary);
+}
+
+@media (max-width: 767px) {
+  .journey-rail {
+    justify-content: flex-start;
+  }
+  .journey-rail__list {
+    flex-wrap: nowrap;
+    overflow: hidden; 
+    padding: 0 var(--space-2);
+  }
+  .journey-rail__link {
+    padding: 0 var(--space-1);
+    border-bottom: none;
+  }
+  .journey-rail__num {
+    width: 44px;
+    height: 44px;
+    margin-right: 0;
+    flex-shrink: 0;
+  }
+  .journey-rail__title {
+    display: none;
+  }
+  .journey-rail__link[aria-current="step"] .journey-rail__title {
+    display: block;
+    margin-left: var(--space-2);
+    white-space: nowrap;
+  }
+}
+
+/* 3. Stops */
+.journey-stop {
+  padding: var(--space-8) 0;
+}
+
+.journey-stop--warm {
+  background-color: var(--bg-warm);
+}
+
+.journey-stop__inner {
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: var(--space-6) var(--space-5) var(--space-5);
+  padding: 0 var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  align-items: flex-start;
 }
-@media (min-width: 900px) {
-  .temple-hero { grid-template-columns: 3fr 2fr; align-items: center; }
-}
-.temple-hero__figure { margin: 0; }
-.temple-hero__body h1 { margin-bottom: var(--space-3); }
-.temple-hero__period {
-  display: inline-block;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.9rem;
-  letter-spacing: 0.02em;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--gold) 18%, transparent);
-  border-radius: var(--radius-pill);
-  padding: var(--space-1) var(--space-4);
-  margin: 0 0 var(--space-4);
-}
-.temple-hero__hook { font-size: 1.3rem; line-height: 1.7; color: var(--text-primary); max-width: 65ch; font-family: var(--font-heading); font-weight: 600; }
 
-.temple-page-body { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--space-5) var(--space-8); }
+.journey-stop__kicker {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: 0;
+}
 
-/* ---------------------------------------------------------------------- quick facts */
-.quick-facts {
+.journey-stop__heading {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.journey-stop__narration {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: var(--prose-max);
+  margin: 0;
+}
+
+/* 4. Stop body */
+.journey-stop__body {
+  width: 100%;
   display: grid;
-  /* min(150px, 100%) keeps auto-fit from ever demanding a track wider than the viewport itself
-     (plain minmax(150px, 1fr) can force a track that doesn't fit a narrow phone, causing
-     horizontal overflow). */
-  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
-  gap: var(--space-4);
-  margin: 0 0 var(--space-6);
-  padding: var(--space-5);
-  background: var(--bg-warm);
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+  .journey-stop__body {
+    grid-template-columns: 7fr 5fr;
+  }
+}
+
+/* 5. journey-frame and figures */
+.journey-frame,
+.journey-stop__body .figure,
+.journey-stop__body figure {
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
+  background-color: var(--bg-warm);
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
 }
-.quick-facts__item dt {
-  font-family: var(--font-body);
-  font-weight: 600;
+
+.journey-frame img,
+.journey-frame svg,
+.journey-stop__body figure img,
+.journey-stop__body figure svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.journey-frame figcaption,
+.journey-stop__body figure figcaption {
   font-size: 0.875rem;
-  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--text-secondary);
+  padding: var(--space-3);
+  margin: 0;
+}
+
+/* 6. story-card */
+.story-card {
+  border-left: 3px solid var(--gold);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+  background-color: var(--bg-card);
+  border-radius: 0 var(--radius-card) var(--radius-card) 0;
+  box-shadow: var(--shadow-card);
+}
+
+.story-card:last-child {
+  margin-bottom: 0;
+}
+
+.story-card__marker {
+  font-size: 0.75rem;
   text-transform: uppercase;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.story-card__body p {
+  margin: 0;
+}
+
+/* 7. passport */
+.passport {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin: 0;
+  width: 100%;
+}
+
+.passport__row {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.passport__label {
+  font-weight: 600;
   color: var(--text-secondary);
   margin-bottom: var(--space-1);
 }
-.quick-facts__item dd { margin: 0; }
-.quick-facts .claim { margin-bottom: 0; }
 
-/* ---------------------------------------------------------------------- 3D / isometric */
-.sketchfab-embed, .temple-isometric { margin: 0 0 var(--space-6); }
-.sketchfab-embed details {
-  background: var(--bg-warm);
+.passport__value {
+  margin: 0;
 }
-.sketchfab-embed iframe {
+
+@media (min-width: 768px) {
+  .passport__row {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .passport__label {
+    flex: 0 0 35%;
+    margin-bottom: 0;
+    padding-right: var(--space-4);
+  }
+}
+
+.passport__how summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--accent);
+  margin-top: var(--space-2);
+}
+
+.passport__how summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.passport__how p {
+  margin: var(--space-2) 0 0 0;
+  font-size: 0.875rem;
+}
+
+/* 8. Parts tour */
+.parts-tour {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-5);
   width: 100%;
-  aspect-ratio: 4 / 3;
-  border: 0;
-  border-radius: var(--radius-card);
-  margin-top: var(--space-4);
 }
-.sketchfab-embed__credit { color: var(--text-secondary); font-size: 0.85rem; margin-top: var(--space-3); }
-.temple-isometric__figure { max-width: 480px; margin-left: auto; margin-right: auto; }
 
-/* ---------------------------------------------------------------------- accordions */
-.temple-accordions details { padding: var(--space-5); }
-.temple-accordions .accordion-section { margin-bottom: var(--space-4); }
-.temple-accordions .accordion-section__body { padding-top: var(--space-2); }
-
-/* ---------------------------------------------------------------------- parts */
-/* Two columns on desktop — prose/parts list on the left, the diagram on the right — instead of a
-   left-aligned figure leaving the right 40% of the card empty. */
-.temple-parts__layout { display: block; }
-@media (min-width: 820px) {
-  .temple-parts__layout { display: grid; grid-template-columns: 1fr 280px; gap: var(--space-6); align-items: start; }
+.parts-tour__stage {
+  display: none;
 }
-.temple-parts__figure { max-width: 320px; margin: 0 auto; }
-.temple-parts__list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-3); }
-.temple-parts__chip {
-  display: inline-block;
-  background: var(--bg-warm);
+
+.parts-tour__steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+.tour-step {
+  margin: 0;
+}
+
+.tour-step__kicker {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  margin: 0 0 var(--space-2) 0;
+}
+
+.tour-step__heading {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin: 0 0 var(--space-3) 0;
+}
+
+.tour-step__what {
+  font-size: 1.125rem;
+  margin: 0 0 var(--space-4) 0;
+}
+
+.tour-step__thumb {
+  float: right;
+  width: 112px;
+  margin: 0 0 var(--space-3) var(--space-3);
   border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background-color: var(--bg-warm);
+}
+
+.tour-step__thumb svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .parts-tour {
+    grid-template-columns: 5fr 7fr;
+    gap: var(--space-8);
+  }
+  .parts-tour__stage {
+    display: block;
+    position: sticky;
+    top: 140px;
+    height: max-content;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+    background-color: var(--bg-warm);
+    padding: var(--space-4);
+  }
+  .parts-tour__stage .parts-drawing,
+  .parts-tour__stage svg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .tour-step {
+    min-height: 70vh;
+  }
+  .tour-step__thumb {
+    display: none;
+  }
+}
+
+/* 9. Highlight rules */
+.parts-tour__stage[data-focus] .parts-drawing :is([id$="-pista"], [id$="-pabhaga"], [id$="-bada"], [id$="-jangha"], [id$="-gandi"], [id$="-mastaka"], [id$="-jagamohana"], [id$="-vimana-base"], [id$="-wheel"]),
+.tour-step__thumb[data-focus] svg :is([id$="-pista"], [id$="-pabhaga"], [id$="-bada"], [id$="-jangha"], [id$="-gandi"], [id$="-mastaka"], [id$="-jagamohana"], [id$="-vimana-base"], [id$="-wheel"]) {
+  opacity: 0.35;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .parts-tour__stage[data-focus] .parts-drawing :is([id$="-pista"], [id$="-pabhaga"], [id$="-bada"], [id$="-jangha"], [id$="-gandi"], [id$="-mastaka"], [id$="-jagamohana"], [id$="-vimana-base"], [id$="-wheel"]),
+  .tour-step__thumb[data-focus] svg :is([id$="-pista"], [id$="-pabhaga"], [id$="-bada"], [id$="-jangha"], [id$="-gandi"], [id$="-mastaka"], [id$="-jagamohana"], [id$="-vimana-base"], [id$="-wheel"]) {
+    transition: opacity var(--transition-medium), fill var(--transition-medium), stroke var(--transition-medium);
+  }
+}
+
+.parts-tour__stage[data-focus~="pista"] .parts-drawing [id$="-pista"],
+.tour-step__thumb[data-focus~="pista"] svg [id$="-pista"],
+.parts-tour__stage[data-focus~="pabhaga"] .parts-drawing [id$="-pabhaga"],
+.tour-step__thumb[data-focus~="pabhaga"] svg [id$="-pabhaga"],
+.parts-tour__stage[data-focus~="bada"] .parts-drawing [id$="-bada"],
+.tour-step__thumb[data-focus~="bada"] svg [id$="-bada"],
+.parts-tour__stage[data-focus~="jangha"] .parts-drawing [id$="-jangha"],
+.tour-step__thumb[data-focus~="jangha"] svg [id$="-jangha"],
+.parts-tour__stage[data-focus~="gandi"] .parts-drawing [id$="-gandi"],
+.tour-step__thumb[data-focus~="gandi"] svg [id$="-gandi"],
+.parts-tour__stage[data-focus~="mastaka"] .parts-drawing [id$="-mastaka"],
+.tour-step__thumb[data-focus~="mastaka"] svg [id$="-mastaka"],
+.parts-tour__stage[data-focus~="jagamohana"] .parts-drawing [id$="-jagamohana"],
+.tour-step__thumb[data-focus~="jagamohana"] svg [id$="-jagamohana"],
+.parts-tour__stage[data-focus~="vimana-base"] .parts-drawing [id$="-vimana-base"],
+.tour-step__thumb[data-focus~="vimana-base"] svg [id$="-vimana-base"],
+.parts-tour__stage[data-focus~="wheel"] .parts-drawing [id$="-wheel"],
+.tour-step__thumb[data-focus~="wheel"] svg [id$="-wheel"] {
+  opacity: 1;
+  fill: color-mix(in srgb, var(--gold) 35%, transparent);
+  stroke: var(--accent);
+  stroke-width: 5px;
+}
+
+/* 10. journey-next */
+.journey-next {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 var(--space-5);
+  background-color: var(--bg-card);
+  color: var(--accent);
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius-pill);
-  padding: var(--space-2) var(--space-4);
+  text-decoration: none;
   font-weight: 600;
+  position: relative;
+  margin: var(--space-4) 0 0 0;
+}
+
+.journey-next:hover,
+.journey-next:focus-visible {
+  background-color: var(--bg-warm);
+  border-color: var(--accent);
+}
+
+.journey-next::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 48px;
+  border-left: 2px dotted var(--gold);
+  transform: translateX(-50%);
+}
+
+/* 11. video-facade */
+.video-facade {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--border-strong);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-facade img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-facade__play {
+  position: relative;
+  z-index: 1;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid var(--bg-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-primary);
+}
+
+.video-facade__play::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 16px;
+  border-color: transparent transparent transparent var(--bg-primary);
+  margin-left: 4px;
+}
+
+.video-facade__play:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
+}
+
+.video-facade__play:focus-visible {
+  outline: 4px solid var(--accent);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .video-facade__play {
+    transition: background-color var(--transition-fast), transform var(--transition-fast);
+  }
+}
+
+/* ---------------------------------------------------------------- journey additions
+   Blocks that must span the whole stop (they carry their own inner grid), the text
+   column, and the two blocks the page module emits that had no styling yet. */
+.journey-stop__full {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-width: 0;
+}
+.journey-stop__text { min-width: 0; }
+.journey-stop__body > * { min-width: 0; }
+
+.temple-hero__kicker {
+  margin: 0 0 var(--space-2);
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--text-secondary);
 }
-.temple-parts__chip--link {
-  text-decoration: none;
-  color: var(--text-primary);
-  cursor: pointer;
-}
-.temple-parts__chip--link:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ---------------------------------------------------------------------- size / scale drawing */
+.more-to-spot { margin-top: var(--space-7); }
+.more-to-spot > h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin: 0 0 var(--space-4);
+}
+.more-to-spot > details > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+}
+.more-to-spot > details[open] > summary { margin-bottom: var(--space-4); }
+
+.journey-family {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .journey-family { grid-template-columns: repeat(3, 1fr); align-items: start; }
+  .journey-family .next-temple-card { grid-column: 1 / -1; }
+}
+.next-temple-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--bg-card);
+}
+.next-temple-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  margin: 0;
+  flex: 1 1 100%;
+}
+.next-temple-card svg { width: 72px; height: auto; order: -1; }
+.next-temple-card a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+}
+
+/* The size drawing needs room: it is laid out across the full stop width. */
+.journey-stop__full .temple-size { max-width: 760px; margin-inline: auto; }
+.journey-stop__full .scale-drawing { width: 100%; }
+
+/* Mobile rail: four number targets plus the current title must fit 375px exactly. */
+@media (max-width: 767px) {
+  .journey-rail__list { width: 100%; padding: 0; gap: 0; }
+  .journey-rail__item { flex: 0 0 auto; }
+  .journey-rail__link { padding: 0; }
+  .journey-rail__num { width: 40px; height: 40px; }
+  .journey-rail__link[aria-current="step"] { flex: 1 1 auto; min-width: 0; }
+  .journey-rail__link[aria-current="step"] .journey-rail__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Size drawing — these rules were lost in the journey rewrite; without them the SVG stretches
+   and its labels scale up until they overlap each other. */
 .scale-drawing__wrap { max-width: 480px; margin: 0 auto var(--space-4); }
 .scale-drawing { width: 100%; height: auto; }
 .scale-drawing__baseline { stroke: var(--border-strong); stroke-width: 2; }
-/* A soft tinted shape (not a dashed "coming soon" box) for a figure with a known height but no
-   approved silhouette yet. */
 .scale-drawing__fallback { fill: color-mix(in srgb, var(--accent) 12%, var(--bg-warm)); stroke: var(--border-strong); stroke-width: 1.5; }
 .scale-drawing__unknown { fill: var(--border); }
 .scale-drawing__label { font: 600 11px var(--font-body); fill: var(--text-secondary); }
 .scale-drawing__captions {
   list-style: none;
   padding: 0;
+  margin: 0 0 var(--space-3);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--space-2) var(--space-5);
-  text-align: center;
   color: var(--text-secondary);
-  font-size: 0.9rem;
-  margin: 0 0 var(--space-4);
+  font-size: 0.9375rem;
 }
 .scale-drawing__sentence { font-weight: 600; text-align: center; }
 .temple-size__note { max-width: var(--prose-max); margin: 0 auto; text-align: center; }
 .temple-size__note .claim__note { text-align: left; display: inline-block; }
 
-/* ---------------------------------------------------------------------- see how it's built */
-.build-sequence__card {
-  background: var(--bg-warm);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  padding: var(--space-6) var(--space-5);
-  max-width: 640px;
-  margin: 0 auto;
+/* The hero card must never cover the figure's "AI-generated illustration" caption: that visible
+   disclosure is required on every AI image of a real temple. On phones the card sits below it. */
+@media (max-width: 767px) {
+  .temple-hero__card { margin-top: var(--space-3); }
 }
-.build-sequence__switcher {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-bottom: var(--space-5);
-}
-.build-sequence__tab {
-  min-height: 44px;
-  padding: var(--space-2) var(--space-5);
-  border-radius: var(--radius-pill);
-  border: 2px solid var(--border-strong);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
-}
-@media (max-width: 479px) {
-  .build-sequence__switcher { flex-wrap: nowrap; gap: var(--space-1, 4px); }
-  .build-sequence__tab { flex: 1 1 0; padding: var(--space-2) var(--space-2); font-size: 0.875rem; }
-}
-.build-sequence__tab[aria-pressed="true"] {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-.build-sequence__tab:hover:not([aria-pressed="true"]) { border-color: var(--accent); color: var(--accent); }
-
-.build-sequence__frame { margin: 0 0 var(--space-5); }
-.build-sequence__frame:last-child { margin-bottom: 0; }
-.build-sequence__frame img { width: 100%; height: auto; border-radius: var(--radius-card); display: block; }
-.build-sequence__frame figcaption { font-size: 0.875rem; color: var(--text-secondary); margin-top: var(--space-2); text-align: center; }
-
-/* Enhanced (JS) mode: frames overlap and crossfade inside a fixed-ratio box instead of stacking.
-   The box's height comes from the inline aspect-ratio (temple.mjs, from the first frame's own
-   width/height) — every child is then absolutely positioned inset:0 against that defined box, so
-   nothing depends on flex/intrinsic sizing that could push an image past its frame. */
-.build-sequence__frames.is-enhanced {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-card);
-}
-.build-sequence__frames.is-enhanced .build-sequence__frame {
-  position: absolute;
-  inset: 0;
-  margin: 0;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity var(--transition-medium);
-}
-.build-sequence__frames.is-enhanced .build-sequence__frame.is-active { opacity: 1; pointer-events: auto; }
-.build-sequence__frames.is-enhanced .build-sequence__frame img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 0;
-}
-.build-sequence__frames.is-enhanced .build-sequence__frame figcaption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  padding: var(--space-2) var(--space-3);
-  background: linear-gradient(to top, rgba(26, 20, 14, 0.65), transparent);
-  color: #fff;
-  text-align: center;
-}
-
-.build-sequence__video { max-width: 640px; margin: var(--space-6) auto 0; text-align: center; }
-.build-sequence__video video { width: 100%; height: auto; border-radius: var(--radius-card); background: #000; }
-.build-sequence__video-caption { font-size: 0.875rem; color: var(--text-secondary); margin: var(--space-2) 0 0; }
