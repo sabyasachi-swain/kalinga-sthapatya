@@ -7,17 +7,12 @@
 import { renderIndex } from "./pages/index.mjs";
 import { renderAbout } from "./pages/about.mjs";
 import { renderNotFound } from "./pages/notfound.mjs";
-import { comingSoon } from "./pages/comingSoon.mjs";
 import { renderTemple } from "./pages/temple.mjs";
 import { renderTimeline } from "./pages/timeline.mjs";
 import { renderGlossary } from "./pages/glossary.mjs";
 import { renderCompare } from "./pages/compare.mjs";
-
-// Placeholders until Phase 3 (part B) builds the real pages — kept out of the sitemap.
-const STUBS = [
-  { outPath: "map.html", title: "Temple Map", promise: "Find the temples on a map of Odisha and travel through time with the slider." },
-  { outPath: "academy.html", title: "Architecture Academy", promise: "Learn the three temple types, take a temple apart piece by piece, and see how one was built." },
-];
+import { renderMap } from "./pages/map.mjs";
+import { renderAcademy } from "./pages/academy.mjs";
 
 export function getPages(data) {
   const templePages = (data.temples.temples || []).map((t) => ({
@@ -26,16 +21,15 @@ export function getPages(data) {
     sitemap: { priority: "0.8", changefreq: "monthly" },
   }));
 
-  const stubs = STUBS.map((s) => ({ outPath: s.outPath, render: comingSoon(s), sitemap: null }));
-
   return [
     { outPath: "index.html", render: renderIndex, sitemap: { priority: "1.0", changefreq: "weekly" } },
     { outPath: "about.html", render: renderAbout, sitemap: { priority: "0.5", changefreq: "monthly" } },
     { outPath: "timeline.html", render: renderTimeline, sitemap: { priority: "0.7", changefreq: "monthly" } },
     { outPath: "glossary.html", render: renderGlossary, sitemap: { priority: "0.6", changefreq: "monthly" } },
     { outPath: "compare.html", render: renderCompare, sitemap: { priority: "0.6", changefreq: "monthly" } },
+    { outPath: "map.html", render: renderMap, sitemap: { priority: "0.7", changefreq: "monthly" } },
+    { outPath: "academy.html", render: renderAcademy, sitemap: { priority: "0.8", changefreq: "monthly" } },
     ...templePages,
-    ...stubs,
     // 404.html is not a real route: GitHub Pages serves it for any unmatched path *at any depth*
     // (e.g. /kalinga-sthapatya/temples/typo.html), so it cannot use page-relative URLs like every
     // other page — `absolute: true` makes every href/src on it a full https URL. Excluded from the sitemap.

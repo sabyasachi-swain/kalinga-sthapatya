@@ -4,22 +4,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Temple Map · Kalinga Sthapatya</title>
-<meta name="description" content="Temple Map — coming soon on Kalinga Sthapatya.">
+<title>Map of the Temples - Kalinga Sthapatya · Kalinga Sthapatya</title>
+<meta name="description" content="Explore the temple architecture of Odisha on an interactive map.">
 <link rel="canonical" href="https://sabyasachi-swain.github.io/kalinga-sthapatya/map.html">
-<meta property="og:title" content="Temple Map · Kalinga Sthapatya">
-  <meta property="og:description" content="Temple Map — coming soon on Kalinga Sthapatya.">
+<meta property="og:title" content="Map of the Temples - Kalinga Sthapatya · Kalinga Sthapatya">
+  <meta property="og:description" content="Explore the temple architecture of Odisha on an interactive map.">
   <meta property="og:url" content="https://sabyasachi-swain.github.io/kalinga-sthapatya/map.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Temple Map · Kalinga Sthapatya">
-  <meta name="twitter:description" content="Temple Map — coming soon on Kalinga Sthapatya.">
+  <meta name="twitter:title" content="Map of the Temples - Kalinga Sthapatya · Kalinga Sthapatya">
+  <meta name="twitter:description" content="Explore the temple architecture of Odisha on an interactive map.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/pages/map.css">
 
 </head>
 <body class="">
@@ -60,8 +60,8 @@
     <ul class="nav__menu" id="primary-menu">
       <li><a href="index.html">Home</a></li>
 <li><a href="timeline.html">Timeline</a></li>
-<li><a href="academy.html">Academy <span class="nav__soon">Soon</span></a></li>
-<li><a href="map.html" aria-current="page">Map <span class="nav__soon">Soon</span></a></li>
+<li><a href="academy.html">Academy</a></li>
+<li><a href="map.html" aria-current="page">Map</a></li>
 <li><a href="compare.html">Compare</a></li>
 <li><a href="glossary.html">Glossary <span class="nav__soon">Soon</span></a></li>
 <li><a href="about.html">About</a></li>
@@ -70,14 +70,89 @@
 </header>
 <main id="main-content">
 
-<section class="section page-intro coming-soon">
-  <h1>Temple Map</h1>
-  <p>Find the temples on a map of Odisha and travel through time with the slider.</p>
-  <p>This page is being built. Every fact on it will be checked against published sources before it appears.</p>
-  <p><a class="button button--primary" href="index.html">Back to the homepage</a>
-     <a class="button" href="about.html#methodology">How we check facts</a></p>
-</section>
-
+    <main class="map-page">
+      <header class="map-header">
+        <h1>Map of the Temples</h1>
+        <p>Explore the architectural heritage of Odisha by location, era, and style. Use the filters to discover how temple building spread and evolved over the centuries.</p>
+      </header>
+      
+      <div class="map-layout">
+        <aside class="map-sidebar">
+          <form class="map-filters" id="mapFilters" aria-label="Filter temples">
+            <div class="filter-group">
+              <label for="filterType">Temple Style</label>
+              <select id="filterType" name="type">
+                <option value="">All Styles</option>
+                <option value="rekha">rekha</option>
+              </select>
+            </div>
+            
+            <div class="filter-group">
+              <label for="filterEra">Era</label>
+              <select id="filterEra" name="era">
+                <option value="">All Eras</option>
+                <option value="rock-cut-roots">Rock-cut roots</option><option value="formative">First temples</option><option value="transitional">Experiment &amp; refinement</option><option value="mature">Monumental scale</option><option value="grand-finale">Grand finale</option><option value="late-kalinga">Late Kalinga</option>
+              </select>
+            </div>
+            
+            <div class="filter-group">
+              <label for="filterYear">Time Machine (built before)</label>
+              <div class="range-control">
+                <input type="range" id="filterYear" name="year" min="700" max="1250" value="1250" aria-valuetext="c. 1250 CE">
+                <output id="yearOutput" for="filterYear">c. 1250 CE</output>
+              </div>
+            </div>
+          </form>
+          
+          <div class="map-list-container" role="region" aria-label="List of temples" tabindex="0">
+            <ul class="map-list" id="mapList">
+              
+                <li class="map-list-item" data-id="konark">
+                  <h3><a href="temples/konark.html">Konark Sun Temple</a></h3>
+                  <p class="map-list-meta">Konark, Puri &bull; Grand finale</p>
+                  <button type="button" class="map-list-btn js-only" data-show="konark">Show on map</button>
+                </li>
+              
+                <li class="map-list-item" data-id="lingaraj">
+                  <h3><a href="temples/lingaraj.html">Lingaraja Temple</a></h3>
+                  <p class="map-list-meta">Bhubaneswar, Khordha &bull; Monumental scale</p>
+                  <button type="button" class="map-list-btn js-only" data-show="lingaraj">Show on map</button>
+                </li>
+              
+                <li class="map-list-item" data-id="mukteshwar">
+                  <h3><a href="temples/mukteshwar.html">Mukteshvara Temple</a></h3>
+                  <p class="map-list-meta">Bhubaneswar, Khordha &bull; Experiment &amp; refinement</p>
+                  <button type="button" class="map-list-btn js-only" data-show="mukteshwar">Show on map</button>
+                </li>
+              
+                <li class="map-list-item" data-id="parasuramesvara">
+                  <h3><a href="temples/parasuramesvara.html">Parasuramesvara Temple</a></h3>
+                  <p class="map-list-meta">Bhubaneswar, Khordha &bull; First temples</p>
+                  <button type="button" class="map-list-btn js-only" data-show="parasuramesvara">Show on map</button>
+                </li>
+              
+                <li class="map-list-item" data-id="jagannath-puri">
+                  <h3><a href="temples/jagannath-puri.html">Jagannath Temple, Puri</a></h3>
+                  <p class="map-list-meta">Puri, Puri &bull; Monumental scale</p>
+                  <button type="button" class="map-list-btn js-only" data-show="jagannath-puri">Show on map</button>
+                </li>
+              
+            </ul>
+          </div>
+        </aside>
+        
+        <section class="map-view" aria-label="Interactive map">
+          <div id="mapContainer" class="map-container">
+            <p class="map-noscript">The interactive map requires JavaScript. Please use the list to browse the temples.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+    <script type="application/json" id="mapData">
+      [{"id":"konark","name":"Konark Sun Temple","type":"rekha","eraId":"grand-finale","eraLabel":"Grand finale","year":1250,"lat":19.8875639,"lng":86.0944895,"place":"Konark","district":"Puri","url":"temples/konark.html","silhouette":"img/temples/v-81-konark-silhouette.svg"},{"id":"lingaraj","name":"Lingaraja Temple","type":"rekha","eraId":"mature","eraLabel":"Monumental scale","year":1050,"lat":20.238369,"lng":85.833719,"place":"Bhubaneswar","district":"Khordha","url":"temples/lingaraj.html","silhouette":"img/temples/v-71-lingaraja-silhouette.svg"},{"id":"mukteshwar","name":"Mukteshvara Temple","type":"rekha","eraId":"transitional","eraLabel":"Experiment & refinement","year":970,"lat":20.2426872,"lng":85.8405031,"place":"Bhubaneswar","district":"Khordha","url":"temples/mukteshwar.html","silhouette":"img/temples/v-66-mukteshvara-silhouette.svg"},{"id":"parasuramesvara","name":"Parasuramesvara Temple","type":"rekha","eraId":"formative","eraLabel":"First temples","year":700,"lat":20.2431506,"lng":85.8390991,"place":"Bhubaneswar","district":"Khordha","url":"temples/parasuramesvara.html","silhouette":"img/temples/v-61-parasuramesvara-silhouette.svg"},{"id":"jagannath-puri","name":"Jagannath Temple, Puri","type":"rekha","eraId":"mature","eraLabel":"Monumental scale","year":1100,"lat":19.8047726,"lng":85.8180811,"place":"Puri","district":"Puri","url":"temples/jagannath-puri.html","silhouette":"img/temples/v-76-jagannath-puri-silhouette.svg"}]
+    </script>
+  
 </main>
 <footer class="site-footer">
   <div class="site-footer__inner">
@@ -94,6 +169,6 @@
   </div>
 </footer>
 <script type="module" src="js/main.js"></script>
-
+<script type="module" src="js/map.js"></script>
 </body>
 </html>

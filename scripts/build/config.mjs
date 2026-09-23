@@ -22,10 +22,10 @@ export const siteConfig = {
   nav: [
     { label: "Home", href: "index.html" },
     { label: "Timeline", href: "timeline.html" },
-    { label: "Academy", href: "academy.html", soon: true },
-    { label: "Map", href: "map.html", soon: true },
+    { label: "Academy", href: "academy.html" },
+    { label: "Map", href: "map.html" },
     { label: "Compare", href: "compare.html" },
-    { label: "Glossary", href: "glossary.html" },
+    { label: "Glossary", href: "glossary.html", soon: true },
     { label: "About", href: "about.html" },
   ],
   footerLinks: [

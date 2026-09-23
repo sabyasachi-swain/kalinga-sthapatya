@@ -26,6 +26,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/map.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/academy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sabyasachi-swain.github.io/kalinga-sthapatya/temples/konark.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

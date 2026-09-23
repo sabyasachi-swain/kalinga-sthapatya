@@ -4,7 +4,11 @@ import { claim, unverified, figure, section, sourcesList } from '../lib/componen
 import { escapeHtml } from '../lib/html.mjs';
 
 export function renderAcademy(ctx) {
-  const { academy, elements, media, temples } = ctx.data;
+  // Each data file is an object with its own collection key: elements.json is { elements: [] },
+  // temples.json is { temples: [] }, and so on.
+  const { academy, media } = ctx.data;
+  const elements = ctx.data.elements.elements || [];
+  const temples = ctx.data.temples.temples || [];
   
   // Section A: The three temple types
   const hasTempleTypes = academy.temple_types && academy.temple_types.length > 0;
@@ -16,7 +20,7 @@ export function renderAcademy(ctx) {
       let examplesHtml = '';
       if (t.examples && t.examples.length > 0) {
         const exampleLinks = t.examples.map(exId => {
-          const temple = temples.temples.find(x => x.id === exId);
+          const temple = temples.find(x => x.id === exId);
           if (!temple) return '';
           return `<a href="${escapeHtml(ctx.rel + temple.page)}">${escapeHtml(temple.name)}</a>`;
         }).filter(Boolean);
@@ -50,7 +54,7 @@ export function renderAcademy(ctx) {
     <ul class="anatomy-list">
       ${(elements || []).map(el => {
         const templeLinks = (el.temple_ids || []).map(tId => {
-          const temple = temples.temples.find(x => x.id === tId);
+          const temple = temples.find(x => x.id === tId);
           return temple ? `<a href="${escapeHtml(ctx.rel + temple.page)}">${escapeHtml(temple.name)}</a>` : '';
         }).filter(Boolean);
         
@@ -69,10 +73,10 @@ export function renderAcademy(ctx) {
   `;
 
   // Find the anatomy diagram dynamically by locating the first media asset carrying hotspots
+  // media.json is { assets: [] }; an asset carries hotspots as percentages of the image.
   let anatomyAsset = null;
-  if (media && Array.isArray(media)) {
-    anatomyAsset = media.find(m => m.hotspots && m.hotspots.length > 0);
-  }
+  const mediaAssets = (media && media.assets) || [];
+  anatomyAsset = mediaAssets.find(m => m.status === 'approved' && m.hotspots && m.hotspots.length > 0) || null;
 
   let explodedViewHtml = '';
   if (anatomyAsset && anatomyAsset.hotspots && anatomyAsset.hotspots.length > 0) {
@@ -87,7 +91,7 @@ export function renderAcademy(ctx) {
     explodedViewHtml = `
       <div class="anatomy-diagram-container">
         ${figure(anatomyAsset.id, ctx, { className: 'anatomy-diagram-fig' })}
-        <div class="anatomy-hotspots" aria-hidden="true">
+        <div class="anatomy-hotspots">
           ${hotspotsHtml}
         </div>
         <aside class="anatomy-panel js-anatomy-panel" role="dialog" aria-modal="false" hidden>
@@ -208,8 +212,6 @@ export function renderAcademy(ctx) {
     description: 'Learn the vocabulary, forms, and construction methods of Kalinga temple architecture.',
     headExtra: `<link rel="stylesheet" href="${ctx.assetRel}css/pages/academy.css">`,
     bodyHtml,
-    scripts: [
-      `<script type="module" src="${ctx.assetRel}js/academy.js"></script>`
-    ]
+    scripts: ["js/academy.js"]
   });
 }

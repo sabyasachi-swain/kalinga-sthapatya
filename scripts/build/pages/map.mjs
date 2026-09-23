@@ -106,8 +106,6 @@ export function renderMap(ctx) {
     description: 'Explore the temple architecture of Odisha on an interactive map.',
     headExtra,
     bodyHtml: html,
-    scripts: [
-      `<script type="module" src="${ctx.assetRel}js/map.js"></script>`
-    ]
+    scripts: ["js/map.js"]
   });
 }

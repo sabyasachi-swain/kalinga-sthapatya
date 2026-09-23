@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:0;overflow:hidden;">
+  <iframe src="/academy.html" width="1440" height="1024" id="frame" style="border:none;"></iframe>
+  <pre id="probe-result" style="display:none;"></pre>
+  <script>
+    const frame = document.getElementById('frame');
+    frame.onload = () => {
+      try {
+        
+  const doc = frame.contentDocument;
+  const win = frame.contentWindow;
+  const results = { a: [], b: [], c: [], d: [], e: [], f: [], g: [] };
+
+  function getPath(el) {
+    if (!el || !el.tagName) return '';
+    let p = el.tagName.toLowerCase();
+    if (el.id) p += '#' + el.id;
+    if (el.className && typeof el.className === 'string') p += '.' + el.className.trim().split(/\s+/).join('.');
+    return p;
+  }
+
+  // a. Horizontal overflow
+  if (doc.documentElement.scrollWidth > doc.documentElement.clientWidth) {
+    const all = doc.querySelectorAll('*');
+    for (const el of all) {
+      if (el.scrollWidth > doc.documentElement.clientWidth) {
+        results.a.push(getPath(el));
+      }
+    }
+  }
+
+  // b. Media extending beyond container
+  const mediaEls = doc.querySelectorAll('img, svg, video, figure');
+  for (const el of mediaEls) {
+    const container = el.closest('figure, .card, section, main');
+    if (container && container !== el) {
+      const eR = el.getBoundingClientRect();
+      const cR = container.getBoundingClientRect();
+      // A hidden element has a 0x0 rect at the origin, which would otherwise look like it sits
+      // far outside its container. Only measure what is actually rendered.
+      if (eR.width === 0 || eR.height === 0) continue;
+      const st = win.getComputedStyle(el);
+      if (st.display === 'none' || st.visibility === 'hidden') continue;
+      // Anything inside a clipping ancestor (a map's tile pane, a carousel track) is cut off by
+      // that box, so it cannot visually escape its container.
+      let clipped = false;
+      for (let a = el.parentElement; a && a !== container; a = a.parentElement) {
+        const ov = win.getComputedStyle(a);
+        if (ov.overflow !== 'visible' || ov.overflowX !== 'visible' || ov.overflowY !== 'visible') { clipped = true; break; }
+      }
+      if (clipped) continue;
+      if (eR.left < cR.left - 1 || eR.right > cR.right + 1 || eR.top < cR.top - 1 || eR.bottom > cR.bottom + 1) {
+        results.b.push(getPath(el) + ' out of ' + getPath(container));
+      }
+    }
+  }
+
+  // c. Intersecting text elements
+  const textEls = Array.from(doc.querySelectorAll('p, h1, h2, h3, h4, li, dt, dd, figcaption, .badge, .citation, a, summary'));
+  const visible = textEls.filter(el => {
+    const r = el.getBoundingClientRect();
+    if (r.width === 0 || r.height === 0) return false;
+    const style = win.getComputedStyle(el);
+    if (style.visibility === 'hidden' || style.opacity === '0' || style.display === 'none') return false;
+    // A sticky or fixed bar is meant to pass over other content; so is anything inside one.
+    if (el.closest('.journey-rail, .site-nav, nav[class*="rail"], header')) return false;
+    for (let a = el; a; a = a.parentElement) {
+      const p = win.getComputedStyle(a).position;
+      if (p === 'sticky' || p === 'fixed') return false;
+    }
+    return true;
+  });
+
+  // Touching edges (a list of adjacent items) is not an overlap: require a real 2px overlap area.
+  const OVL = 2;
+  function int(r1, r2) { return !(r2.left > r1.right - OVL || r2.right < r1.left + OVL || r2.top > r1.bottom - OVL || r2.bottom < r1.top + OVL); }
+  function cont(r1, r2) { return r1.left <= r2.left && r1.right >= r2.right && r1.top <= r2.top && r1.bottom >= r2.bottom; }
+
+  for (let i = 0; i < visible.length; i++) {
+    for (let j = i + 1; j < visible.length; j++) {
+      const el1 = visible[i];
+      const el2 = visible[j];
+      if (el1.contains(el2) || el2.contains(el1)) continue;
+      
+      const d1 = el1.closest('details');
+      const d2 = el2.closest('details');
+      if (d1 && !d1.open && el1.tagName.toLowerCase() !== 'summary') continue;
+      if (d2 && !d2.open && el2.tagName.toLowerCase() !== 'summary') continue;
+
+      const r1 = el1.getBoundingClientRect();
+      const r2 = el2.getBoundingClientRect();
+      if (int(r1, r2) && !cont(r1, r2) && !cont(r2, r1)) {
+        results.c.push(getPath(el1) + ' intersects ' + getPath(el2));
+      }
+    }
+  }
+
+  // d. Text < 14px, f. Text nodes with undefined/null/NaN
+  const allText = [];
+  const walk = doc.createTreeWalker(doc.body, 4, null, false);
+  let n;
+  while (n = walk.nextNode()) {
+    // Script and style contents are code, not reader-visible text: JSON legitimately contains
+    // null, and CSS/JS is never rendered.
+    if (n.parentElement && n.parentElement.closest('script, style, template')) continue;
+    if (n.nodeValue.trim()) allText.push(n);
+  }
+  
+  const smallText = new Set();
+  for (const node of allText) {
+    const el = node.parentElement;
+    if (el) {
+      const style = win.getComputedStyle(el);
+      const size = parseFloat(style.fontSize);
+      if (size < 14) smallText.add(getPath(el) + ' (' + size + 'px)');
+    }
+    const val = node.nodeValue;
+    if (/\b(undefined|null|NaN)\b/.test(val)) {
+      results.f.push(getPath(node.parentElement) + ' contains "' + val.trim().substring(0,20) + '"');
+    }
+  }
+  results.d = Array.from(smallText);
+
+  // e. Interactive targets < 44x44px
+  const interact = doc.querySelectorAll('a, button, input, select, textarea, details summary');
+  for (const el of interact) {
+    const r = el.getBoundingClientRect();
+    if (r.width === 0 || r.height === 0) continue;
+    const style = win.getComputedStyle(el);
+    if (style.visibility === 'hidden' || style.display === 'none') continue;
+    if (r.width < 43.5 || r.height < 43.5) {
+      results.e.push(getPath(el) + ' (' + r.width.toFixed(1) + 'x' + r.height.toFixed(1) + ')');
+    }
+  }
+
+  // g. Images failed to load
+  const imgs = doc.querySelectorAll('img');
+  for (const img of imgs) {
+    if (img.complete && img.naturalWidth === 0) {
+      results.g.push(img.src);
+    }
+  }
+
+        const jsonStr = JSON.stringify(results);
+        const textEncoder = new TextEncoder();
+        const bytes = textEncoder.encode(jsonStr);
+        let binary = '';
+        for (let i = 0; i < bytes.byteLength; i++) {
+          binary += String.fromCharCode(bytes[i]);
+        }
+        document.getElementById('probe-result').textContent = btoa(binary);
+      } catch(e) {
+        document.getElementById('probe-result').textContent = "ERROR:" + e.message;
+      }
+    };
+  </script>
+</body>
+</html>

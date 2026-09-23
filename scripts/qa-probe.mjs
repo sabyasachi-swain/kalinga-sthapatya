@@ -169,6 +169,14 @@ const measurementsScript = `
       if (eR.width === 0 || eR.height === 0) continue;
       const st = win.getComputedStyle(el);
       if (st.display === 'none' || st.visibility === 'hidden') continue;
+      // Anything inside a clipping ancestor (a map's tile pane, a carousel track) is cut off by
+      // that box, so it cannot visually escape its container.
+      let clipped = false;
+      for (let a = el.parentElement; a && a !== container; a = a.parentElement) {
+        const ov = win.getComputedStyle(a);
+        if (ov.overflow !== 'visible' || ov.overflowX !== 'visible' || ov.overflowY !== 'visible') { clipped = true; break; }
+      }
+      if (clipped) continue;
       if (eR.left < cR.left - 1 || eR.right > cR.right + 1 || eR.top < cR.top - 1 || eR.bottom > cR.bottom + 1) {
         results.b.push(getPath(el) + ' out of ' + getPath(container));
       }
