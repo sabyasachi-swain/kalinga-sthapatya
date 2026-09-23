@@ -2,7 +2,7 @@
 
 Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
-**Current phase:** launch — data merged, pages built, awaiting push + GitHub Pages · **Next:** push (human approval), then architecture fact-check / academy / Phase 3B / QA
+**Current phase:** Parasuramesvara journey page live; map + academy pages live; QA tooling in place · **Next:** fact-check parasuramesvara-2 → finalise annotated image briefs → coding tasks C11-C18 → story rewrite of the other 4 temples
 
 ## Gates
 
@@ -68,7 +68,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- 2026-09-19 evening: researcher on Parasuramesvara leads → research/ledgers/parasuramesvara-2.json (see HANDOFF.md §4). Next: fact-check → merge → update annotated prompts → journey page (qa/TEMPLE-JOURNEY-SPEC.md).
+- (none — session ended 2026-09-23; see HANDOFF.md §4 for the ordered next steps)
 
 ## Blocked
 
