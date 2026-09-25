@@ -1,0 +1,386 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "lingaraj",
+      "name": "Lingaraja Temple",
+      "name_odia": null,
+      "page": "temples/lingaraj.html",
+      "temple_type": "rekha",
+      "era_id": "mature",
+      "sort_year": 1050,
+      "location": {
+        "place": "Bhubaneswar",
+        "district": "Khordha",
+        "lat": 20.238369,
+        "lng": 85.833719,
+        "coord_source": "https://www.openstreetmap.org/way/225868292"
+      },
+      "one_liner": {
+        "text": "The great Shiva temple of Bhubaneswar. Scholars call it the most notable temple in all of Odisha.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan leaves 120 and 290 (printed pages unverified)"
+          },
+          {
+            "id": "brown-1959",
+            "locator": "scan leaf 214 (printed page unverified)"
+          }
+        ],
+        "note": "Panigrahi: 'by far the most notable temple not only of Bhubaneswar, but also of Orissa'. Brown: 'the finest living example of the Orissan group'.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "Scholars think this great temple was built in the 11th century CE. That makes it roughly 1,000 years old.",
+          "value": "11th century CE",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaves 30 and 191 (printed pages unverified)"
+            },
+            {
+              "id": "brown-1959",
+              "locator": "scan leaves 182 and 214 (printed pages unverified)"
+            }
+          ],
+          "note": "Brown: c. 1000 CE. Panigrahi: 11th century, most probably begun c. 1020–1040 CE and completed c. 1040–1065 CE. No foundation inscription is known; the dating is stylistic and indirect.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "The main temple was built long ago, in the days when the Somavamshi (also called Kesari) kings ruled this land.",
+          "value": "Somavamshi (Kesari)",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaves 187 and 194 (printed pages unverified)"
+            }
+          ],
+          "note": "Panigrahi treats 'Kesari' and 'Somavamshi' as the same kings. He says the side halls were later additions, possibly of the Ganga period.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": null,
+        "deity": {
+          "text": "The temple is dedicated to Shiva. Hindus worship him here as Tribhuvanesvara, also known as Krittivasa and Lingaraja.",
+          "value": "Shiva as Tribhuvanesvara (Lingaraja)",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaves 214, 277 and 290 (printed pages unverified)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "temple_type": {
+          "text": "The main shrine is a pancharatha deul.",
+          "value": "pancharatha deul",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaves 120 and 198 (printed pages unverified)"
+            }
+          ],
+          "note": "According to historian K.C. Panigrahi (1961), the shrine is 'a pancha-ratha deul' (leaf 120); elsewhere he contrasts it with the sapta-ratha Parvati temple (leaf 198).",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": [
+            "gandi",
+            "jagamohana",
+            "natamandira",
+            "bhogamandapa"
+          ],
+          "intro": [
+            {
+              "text": "At first, the temple had only two parts: the tower shrine and its porch in front. The dance hall and the offering hall came later.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "fergusson-1876",
+                  "locator": "scan leaf 432 (printed page unverified)"
+                },
+                {
+                  "id": "panigrahi-1961",
+                  "locator": "scan leaves 194 and 198 (printed pages unverified)"
+                }
+              ],
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            },
+            {
+              "text": "In time, people came to think of the god as living like a king. So the god needed an audience hall, a dance hall, and a dining hall too.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "panigrahi-1961",
+                  "locator": "scan leaf 285 (printed page unverified)"
+                }
+              ],
+              "note": "This idea comes from historian K.C. Panigrahi (1961): 'A presiding deity was to live in state as much as a king would do. He was to have an audience hall (jagamohana), dancing hall (natamandira) and dining hall (bhogamandapa)' (leaf 285).",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            },
+            {
+              "text": "An old temple chronicle says a queen once had the eastern part of the temple rebuilt. She may have been Queen Kolavati, the mother of King Uddyota Kesari, and she most likely built the porch hall.",
+              "tier": "uncertain",
+              "sources": [
+                {
+                  "id": "panigrahi-1961",
+                  "locator": "scan leaf 277 (printed page unverified)"
+                }
+              ],
+              "note": "The chronicle (Madala Panji, as quoted by Panigrahi) names her Tulavati Rani, wife of Vasukalpa Kesari. Panigrahi calls it 'most probable' that she was Kolavati, the builder of the Brahmesvara temple, and says she was the queen of Yayati II. Both steps are his inferences.",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            },
+            {
+              "text": "The main temple rises straight from the ground, with no high plinth (raised base) underneath. Nearby, the Parvati temple stands on a high plinth instead.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "panigrahi-1961",
+                  "locator": "scan leaf 198 (printed page unverified)"
+                }
+              ],
+              "note": "Historian K.C. Panigrahi (1961) made this comparison: the Parvati temple 'stands on a high plinth', while the Lingaraja temple 'rises abruptly from the ground level' (leaf 198).",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "The temple stands in a very holy area. The many other temples in and around Bhubaneswar show just how sacred this place was.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 214 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) made this observation: the temples 'plainly indicat[e]... that this neighbourhood was a place of great veneration' (leaf 214).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "No inscription tells us who built the temple. Most likely, King Yayati II began it, and his son, King Uddyota Kesari, finished it.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 191, 277 and 282 (printed pages unverified)"
+              }
+            ],
+            "note": "This is one scholar's inference, not proven. Panigrahi (1961) dates Yayati II c. 1020–1040 CE and Uddyota Kesari c. 1040–1065 CE, and calls the attribution 'most probable'. He credits Yayati I with the Mukteshvara temple, not with Lingaraja. Some popular accounts name Yayati I instead; no accepted source for that has been checked.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "This temple may have replaced an older temple that once stood on the same spot. Some early sculptures in the courtyard may have come from that older temple.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 47 (printed page unverified)"
+              }
+            ],
+            "note": "Historian K.C. Panigrahi (1961) suggested this: some sculptures 'might have originally belonged to the earlier temple that has been replaced by the present one' (leaf 47).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "According to tradition, King Sasanka built an earlier temple at this shrine in the 7th century CE. It is not clear which temple that was.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 30 and 46 (printed pages unverified)"
+              }
+            ],
+            "note": "Four Sanskrit texts credit Sasanka with a temple in this shrine. Panigrahi accepts that a stone temple stood here in the early 7th century CE. He dates the present temple to the 11th century and says the earlier temple cannot be identified.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "construction": [
+          {
+            "text": "The tower is built wholly of stone, from its base to its very top. Every single stone in it has a carved pattern.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "fergusson-1876",
+                "locator": "scan leaf 433 (printed page unverified)"
+              }
+            ],
+            "note": "James Fergusson (1876) wrote that the tower is 'wholly in stone from the base to the apex', and that 'every individual stone in the tower has a pattern carved upon it' (leaf 433).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The tower is hollow inside. It holds rooms stacked one above another, reached by a stairway built inside its thick wall.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 120 (printed page unverified)"
+              }
+            ],
+            "note": "R.D. Banerji observed this, as reported by historian K.C. Panigrahi (1961): the sanctuary is 'a hollow pyramid composed of several superimposed chambers', reached by 'a staircase built through the thickness of the wall' (leaf 120).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The temple stands inside a big walled courtyard, about 158 m by 142 m (520 by 465 ft). Its thick outer wall is built of laterite blocks.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "mitra-r-1880",
+                "locator": "scan leaves 153–154, 1963 reprint (printed pages unverified)"
+              },
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 120 (printed page unverified)"
+              },
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 214 (printed page unverified)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "special": [
+          {
+            "text": "Today, Lingaraja has grown to include all four buildings of a fully developed Odisha temple: the tower shrine, the porch hall, the dance hall, and the offering hall.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 214 (printed page unverified)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Many smaller shrines crowd the courtyard around the main temple, a little like Buddhist shrines gathered around a great stupa.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 214 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) made this comparison: it 'cannot fail to recall the practice of the Buddhists in congregating their votive chaityas around the large central stupa' (leaf 214).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The great tower dominates the landscape for miles around. One historian called it the purest example of the Kalinga style of building.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 120 (printed page unverified)"
+              }
+            ],
+            "note": "Historian K.C. Panigrahi (1961) wrote that the temple 'dominat[es]... the entire landscape within an area of about ten miles' and represents 'the quintessence of the Kalinga type of architecture' (leaf 120).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "When Ganga kings later remodelled the temple, they added some features linked to the god Vishnu. Features like these are not found in other Shiva shrines.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 290 (printed page unverified)"
+              }
+            ],
+            "note": "Historian K.C. Panigrahi (1961) observed this: the Ganga kings 'introduced some Vaishnavite features which are not to be found in any Saiva shrine' (leaf 290).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "size": {
+          "height_m": null,
+          "note": null
+        },
+        "influences": [
+          {
+            "text": "The main shrine is closely related in design to the Brahmesvara temple.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 120 (printed page unverified)"
+              }
+            ],
+            "note": "Historian K.C. Panigrahi (1961) found 'close architectural affinities with the Brahmesvara temple' (leaf 120).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Later Ganga kings tried to match or outdo the builders of Lingaraja. They built even grander temples at Puri and Konark. The temple at Puri follows the same four-building plan, all in one line.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 285 (printed page unverified)"
+              },
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 215 (printed page unverified)"
+              }
+            ],
+            "note": "Historian K.C. Panigrahi (1961) wrote that later Ganga kings, 'trying to emulate or even to outstrip' the builders of Lingaraja, 'built the more stupendous temples' at Puri and Konark (leaf 285). Percy Brown (1959) noted that the Puri temple was 'built on the same principle... consisting of four edifices in one alignment' (leaf 215).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": {
+        "hero": "V-70",
+        "silhouette": "V-71",
+        "parts_diagram": "V-72"
+      },
+      "sketchfab": null
+    }
+  ]
+}

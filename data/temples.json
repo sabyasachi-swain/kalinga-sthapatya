@@ -175,7 +175,7 @@
               "checked_on": "2026-09-19"
             },
             {
-              "text": "The temple had a sanctum with a tall tower and a porch (jagamohana). Both stand on one high platform carved with wheels. A separate pillared hall stands in front, in the same line. ASI calls it the nata-mandira (dance hall), but some scholars think it was a bhoga-mandapa (hall of offerings).",
+              "text": "The temple had a sanctum with a tall tower and a porch (jagamohana). Both stand on one high platform carved with wheels. A separate pillared hall stands in front, in the same line. ASI calls it the nata-mandira (dance hall); others call it the bhoga-mandapa (hall of offerings).",
               "tier": "uncertain",
               "sources": [
                 {
@@ -204,7 +204,7 @@
         },
         "why_built": [
           {
-            "text": "King Narasimhadeva I built the temple to worship Surya, the Sun god. Historian K.S. Behera says its devotional purpose is clear.",
+            "text": "King Narasimhadeva I built the temple to worship Surya, the Sun god. Its purpose as an act of devotion is clear.",
             "tier": "scholarly",
             "sources": [
               {
@@ -216,12 +216,13 @@
                 "locator": "archive.org scan n17 (printed page not checked)"
               }
             ],
+            "note": "Historian K.S. Behera: 'The deep devotional motive, in the construction of the Sun temple, cannot be doubted.'",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "K.S. Behera suggests other reasons too. He thinks building probably began after the king's victory over the rulers of Bengal around 1245 CE. The king may also have wanted a temple grander than the Jagannatha temple at Puri.",
+            "text": "There may be other reasons too. Building probably began after the king's victory over the rulers of Bengal, around 1245 CE. The king may also have wanted a temple grander than the Jagannatha temple at Puri.",
             "tier": "uncertain",
             "sources": [
               {
@@ -237,7 +238,7 @@
         ],
         "construction": [
           {
-            "text": "Builders used three kinds of stone. Most of the temple is khondalite, which ASI's Debala Mitra calls poor-quality stone. Laterite formed the hidden core of the platform and the foundations. Chlorite was used only for door frames and a few sculptures.",
+            "text": "Builders used three kinds of stone. Most of the temple is khondalite, a stone the ASI calls poor-quality. Laterite formed the hidden core of the platform and the foundations. Chlorite was used only for door frames and a few sculptures.",
             "tier": "scholarly",
             "sources": [
               {
@@ -249,12 +250,13 @@
                 "locator": "unverified"
               }
             ],
+            "note": "Debala Mitra, in the ASI monograph, calls the khondalite used here 'poor-quality'.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "The stones were probably carried long distances on rafts along rivers. Historians think simple pulleys, wooden wheels or rollers lifted them into place.",
+            "text": "The stones were probably carried long distances on rafts along rivers. Simple pulleys, wooden wheels or rollers may have lifted them into place.",
             "tier": "scholarly",
             "sources": [
               {
@@ -292,7 +294,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "According to a 2025 study that draws on earlier scholars, building took about 12 years and 10 months. The study dates the temple's consecration to 1258 CE. Historian K.S. Behera says the old written accounts of the building still need careful checking.",
+            "text": "According to a 2025 study that draws on earlier research, building took about 12 years and 10 months. The study dates the temple's consecration to 1258 CE. But the old written accounts of the building still need careful checking.",
             "tier": "uncertain",
             "sources": [
               {
@@ -377,7 +379,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Nobody knows for sure why the main tower fell. Ideas include a sinking foundation, an earthquake or lightning, or slow decay after invaders damaged the temple. Some scholars even doubt it was ever finished.",
+            "text": "Nobody knows for sure why the main tower fell. Ideas include a sinking foundation, an earthquake or lightning, or slow decay after invaders damaged the temple. Some experts even doubt it was ever finished.",
             "tier": "uncertain",
             "sources": [
               {
@@ -395,7 +397,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Part of the tower still stood when James Fergusson drew it in 1837 CE. Historian K.S. Behera writes that a storm brought the last piece down in October 1848 CE. By 1868 CE only a huge heap of stones remained.",
+            "text": "Part of the tower still stood in 1837 CE, when a visitor drew a picture of it. A storm brought the last piece down in October 1848 CE. By 1868 CE, only a huge heap of stones remained.",
             "tier": "uncertain",
             "sources": [
               {
@@ -413,7 +415,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "According to a local tradition, Kalapahar, a general from Bengal, damaged the temple. He did attack Odisha in 1568 CE. But historian K.S. Behera finds no reliable evidence that he ruined Konark.",
+            "text": "According to a local tradition, Kalapahar, a general from Bengal, damaged the temple. He did attack Odisha in 1568 CE. But there is no reliable evidence that he ruined Konark.",
             "tier": "uncertain",
             "sources": [
               {
@@ -523,7 +525,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Art historian J.C. Harle calls Konark the last of the great Odishan temples. He adds that, as first planned, it was the largest.",
+            "text": "Konark is the last of the great Odisha temples. As first planned, it was the largest of them all.",
             "tier": "scholarly",
             "sources": [
               {
@@ -531,6 +533,7 @@
                 "locator": "archive.org scan n248 (printed page not checked)"
               }
             ],
+            "note": "Art historian J.C. Harle: 'the last of the great Orissan shrines and, as originally planned, the largest, was built by King Narasimhadeva I (1238-64).' One scholar's assessment; no other source seen takes a position on this ranking.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -560,7 +563,7 @@
                 "locator": "unverified"
               }
             ],
-            "note": "Estimates only. Mitra (ASI): archaeologists conjecture 'in the range of 61 metres'. ASI web page: 'presumably over 68 m'. Harle: 'some 225 ft (70 m.)'. Bahinipati et al. 2025: 227 ft 8 in (about 69.4 m). Never use for size comparisons.",
+            "note": "Estimates only. Mitra (ASI): archaeologists conjecture 'in the range of 61 metres'. ASI web page: 'presumably over 68 m'. Harle: 'some 225 ft (70 m.)'. Bahinipati et al. 2025: 227 ft 8 in (about 69.4 m).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -618,7 +621,7 @@
         "coord_source": "https://www.openstreetmap.org/way/225868292"
       },
       "one_liner": {
-        "text": "The great Shiva temple of Bhubaneswar, which scholars call the most notable temple in Odisha.",
+        "text": "The great Shiva temple of Bhubaneswar. Scholars call it the most notable temple in all of Odisha.",
         "tier": "scholarly",
         "sources": [
           {
@@ -637,7 +640,7 @@
       },
       "facts": {
         "date": {
-          "text": "Scholars date the main temple to the 11th century CE.",
+          "text": "Scholars think this great temple was built in the 11th century CE. That makes it roughly 1,000 years old.",
           "value": "11th century CE",
           "tier": "scholarly",
           "sources": [
@@ -656,7 +659,7 @@
           "checked_on": "2026-09-19"
         },
         "dynasty": {
-          "text": "The main temple was built in the time of the Somavamshi (Kesari) kings.",
+          "text": "The main temple was built long ago, in the days when the Somavamshi (also called Kesari) kings ruled this land.",
           "value": "Somavamshi (Kesari)",
           "tier": "scholarly",
           "sources": [
@@ -686,7 +689,7 @@
           "checked_on": "2026-09-19"
         },
         "temple_type": {
-          "text": "According to K.C. Panigrahi, the main shrine is a pancharatha deul.",
+          "text": "The main shrine is a pancharatha deul.",
           "value": "pancharatha deul",
           "tier": "scholarly",
           "sources": [
@@ -695,6 +698,7 @@
               "locator": "scan leaves 120 and 198 (printed pages unverified)"
             }
           ],
+          "note": "According to historian K.C. Panigrahi (1961), the shrine is 'a pancha-ratha deul' (leaf 120); elsewhere he contrasts it with the sapta-ratha Parvati temple (leaf 198).",
           "access": "full-text",
           "status": "approved",
           "checked_on": "2026-09-19"
@@ -710,7 +714,7 @@
           ],
           "intro": [
             {
-              "text": "At first the temple had only the tower shrine and its porch. The dance hall and the offering hall were added later.",
+              "text": "At first, the temple had only two parts: the tower shrine and its porch in front. The dance hall and the offering hall came later.",
               "tier": "scholarly",
               "sources": [
                 {
@@ -727,7 +731,7 @@
               "checked_on": "2026-09-19"
             },
             {
-              "text": "Panigrahi explained that a temple's chief god came to be seen as living like a king. So the god needed an audience hall, a dance hall and a dining hall.",
+              "text": "In time, people came to think of the god as living like a king. So the god needed an audience hall, a dance hall, and a dining hall too.",
               "tier": "scholarly",
               "sources": [
                 {
@@ -735,12 +739,13 @@
                   "locator": "scan leaf 285 (printed page unverified)"
                 }
               ],
+              "note": "This idea comes from historian K.C. Panigrahi (1961): 'A presiding deity was to live in state as much as a king would do. He was to have an audience hall (jagamohana), dancing hall (natamandira) and dining hall (bhogamandapa)' (leaf 285).",
               "access": "full-text",
               "status": "approved",
               "checked_on": "2026-09-19"
             },
             {
-              "text": "According to a temple chronicle, a queen had the eastern part of the temple rebuilt. Panigrahi thought she was Queen Kolavati, mother of Uddyota Kesari, and that she most likely built the porch hall.",
+              "text": "An old temple chronicle says a queen once had the eastern part of the temple rebuilt. She may have been Queen Kolavati, the mother of King Uddyota Kesari, and she most likely built the porch hall.",
               "tier": "uncertain",
               "sources": [
                 {
@@ -754,7 +759,7 @@
               "checked_on": "2026-09-19"
             },
             {
-              "text": "The main temple rises straight from the ground, with no high plinth (raised base) under it. Panigrahi contrasted this with the Parvati temple, which stands on a high plinth.",
+              "text": "The main temple rises straight from the ground, with no high plinth (raised base) underneath. Nearby, the Parvati temple stands on a high plinth instead.",
               "tier": "scholarly",
               "sources": [
                 {
@@ -762,6 +767,7 @@
                   "locator": "scan leaf 198 (printed page unverified)"
                 }
               ],
+              "note": "Historian K.C. Panigrahi (1961) made this comparison: the Parvati temple 'stands on a high plinth', while the Lingaraja temple 'rises abruptly from the ground level' (leaf 198).",
               "access": "full-text",
               "status": "approved",
               "checked_on": "2026-09-19"
@@ -770,7 +776,7 @@
         },
         "why_built": [
           {
-            "text": "The temple stands in a very holy area. Percy Brown noted that the many temples in and around Bhubaneswar show how sacred this place was.",
+            "text": "The temple stands in a very holy area. The many other temples in and around Bhubaneswar show just how sacred this place was.",
             "tier": "scholarly",
             "sources": [
               {
@@ -778,12 +784,13 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Percy Brown (1959) made this observation: the temples 'plainly indicat[e]... that this neighbourhood was a place of great veneration' (leaf 214).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "No known inscription names the builder. Historian K.C. Panigrahi thought it most likely that King Yayati II began it and his son Uddyota Kesari finished it.",
+            "text": "No inscription tells us who built the temple. Most likely, King Yayati II began it, and his son, King Uddyota Kesari, finished it.",
             "tier": "uncertain",
             "sources": [
               {
@@ -797,7 +804,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Historian K.C. Panigrahi thought this temple replaced an older temple on the same spot. Some early sculptures in the courtyard may have come from that older temple.",
+            "text": "This temple may have replaced an older temple that once stood on the same spot. Some early sculptures in the courtyard may have come from that older temple.",
             "tier": "scholarly",
             "sources": [
               {
@@ -805,12 +812,13 @@
                 "locator": "scan leaf 47 (printed page unverified)"
               }
             ],
+            "note": "Historian K.C. Panigrahi (1961) suggested this: some sculptures 'might have originally belonged to the earlier temple that has been replaced by the present one' (leaf 47).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "According to tradition, King Sasanka built an earlier temple at this shrine in the 7th century CE. Panigrahi could not identify which temple that was.",
+            "text": "According to tradition, King Sasanka built an earlier temple at this shrine in the 7th century CE. It is not clear which temple that was.",
             "tier": "uncertain",
             "sources": [
               {
@@ -826,7 +834,7 @@
         ],
         "construction": [
           {
-            "text": "James Fergusson noted that the tower is built wholly of stone, from base to top. He also wrote that every stone in it has a carved pattern.",
+            "text": "The tower is built wholly of stone, from its base to its very top. Every single stone in it has a carved pattern.",
             "tier": "scholarly",
             "sources": [
               {
@@ -834,12 +842,13 @@
                 "locator": "scan leaf 433 (printed page unverified)"
               }
             ],
+            "note": "James Fergusson (1876) wrote that the tower is 'wholly in stone from the base to the apex', and that 'every individual stone in the tower has a pattern carved upon it' (leaf 433).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "The tower is hollow inside. R.D. Banerji saw rooms stacked one above another, reached by a stair built inside the thick wall.",
+            "text": "The tower is hollow inside. It holds rooms stacked one above another, reached by a stairway built inside its thick wall.",
             "tier": "scholarly",
             "sources": [
               {
@@ -847,12 +856,13 @@
                 "locator": "scan leaf 120 (printed page unverified)"
               }
             ],
+            "note": "R.D. Banerji observed this, as reported by historian K.C. Panigrahi (1961): the sanctuary is 'a hollow pyramid composed of several superimposed chambers', reached by 'a staircase built through the thickness of the wall' (leaf 120).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "The temple stands in a walled courtyard about 158 m by 142 m (520 by 465 ft). The thick outer wall is made of laterite blocks.",
+            "text": "The temple stands inside a big walled courtyard, about 158 m by 142 m (520 by 465 ft). Its thick outer wall is built of laterite blocks.",
             "tier": "scholarly",
             "sources": [
               {
@@ -875,7 +885,7 @@
         ],
         "special": [
           {
-            "text": "Today Lingaraja has all four buildings of a fully developed Odisha temple: the tower shrine, the porch hall, the dance hall and the offering hall.",
+            "text": "Today, Lingaraja has grown to include all four buildings of a fully developed Odisha temple: the tower shrine, the porch hall, the dance hall, and the offering hall.",
             "tier": "scholarly",
             "sources": [
               {
@@ -888,7 +898,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Many smaller shrines crowd the courtyard around the main temple. Percy Brown compared this to Buddhist shrines grouped around a great stupa.",
+            "text": "Many smaller shrines crowd the courtyard around the main temple, a little like Buddhist shrines gathered around a great stupa.",
             "tier": "scholarly",
             "sources": [
               {
@@ -896,12 +906,13 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Percy Brown (1959) made this comparison: it 'cannot fail to recall the practice of the Buddhists in congregating their votive chaityas around the large central stupa' (leaf 214).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Panigrahi wrote that the temple dominates the landscape for miles around. He called it the purest example of the Kalinga style of building.",
+            "text": "The great tower dominates the landscape for miles around. One historian called it the purest example of the Kalinga style of building.",
             "tier": "scholarly",
             "sources": [
               {
@@ -909,12 +920,13 @@
                 "locator": "scan leaf 120 (printed page unverified)"
               }
             ],
+            "note": "Historian K.C. Panigrahi (1961) wrote that the temple 'dominat[es]... the entire landscape within an area of about ten miles' and represents 'the quintessence of the Kalinga type of architecture' (leaf 120).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "When Ganga kings later remodelled the temple, they added some features linked to Vishnu. Panigrahi noted these are not found in other Shiva shrines.",
+            "text": "When Ganga kings later remodelled the temple, they added some features linked to the god Vishnu. Features like these are not found in other Shiva shrines.",
             "tier": "scholarly",
             "sources": [
               {
@@ -922,6 +934,7 @@
                 "locator": "scan leaf 290 (printed page unverified)"
               }
             ],
+            "note": "Historian K.C. Panigrahi (1961) observed this: the Ganga kings 'introduced some Vaishnavite features which are not to be found in any Saiva shrine' (leaf 290).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -933,7 +946,7 @@
         },
         "influences": [
           {
-            "text": "Panigrahi found the main shrine closely related in design to the Brahmesvara temple.",
+            "text": "The main shrine is closely related in design to the Brahmesvara temple.",
             "tier": "scholarly",
             "sources": [
               {
@@ -941,12 +954,13 @@
                 "locator": "scan leaf 120 (printed page unverified)"
               }
             ],
+            "note": "Historian K.C. Panigrahi (1961) found 'close architectural affinities with the Brahmesvara temple' (leaf 120).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Panigrahi wrote that later Ganga kings tried to match or outdo the builders of Lingaraja. They built even grander temples at Puri and Konark. Percy Brown noted that Puri follows the same four-building plan, in one line.",
+            "text": "Later Ganga kings tried to match or outdo the builders of Lingaraja. They built even grander temples at Puri and Konark. The temple at Puri follows the same four-building plan, all in one line.",
             "tier": "scholarly",
             "sources": [
               {
@@ -958,6 +972,7 @@
                 "locator": "scan leaf 215 (printed page unverified)"
               }
             ],
+            "note": "Historian K.C. Panigrahi (1961) wrote that later Ganga kings, 'trying to emulate or even to outstrip' the builders of Lingaraja, 'built the more stupendous temples' at Puri and Konark (leaf 285). Percy Brown (1959) noted that the Puri temple was 'built on the same principle... consisting of four edifices in one alignment' (leaf 215).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -987,7 +1002,7 @@
         "coord_source": "https://www.openstreetmap.org/way/1337725739"
       },
       "one_liner": {
-        "text": "A small, richly carved temple in Bhubaneswar, known for the carved arched gateway in front of it.",
+        "text": "It is small, but richly carved. In front stands a carved arched gateway, called a torana.",
         "tier": "scholarly",
         "sources": [
           {
@@ -1005,7 +1020,7 @@
       },
       "facts": {
         "date": {
-          "text": "Scholars date it to the late 10th century CE, but they differ on the exact year.",
+          "text": "No stone tells us the exact year it was built. Experts study its carvings and style for clues. They think it was built in the late 10th century CE, though they don't agree on the exact year.",
           "value": "c. 966–975 CE",
           "tier": "uncertain",
           "sources": [
@@ -1024,7 +1039,7 @@
           "checked_on": "2026-09-19"
         },
         "dynasty": {
-          "text": "Historian K.C. Panigrahi placed it early in the rule of the Somavamshi (Kesari) kings.",
+          "text": "It was probably built early in the days of the Somavamshi (Kesari) kings.",
           "value": "Somavamshi (Kesari)",
           "tier": "uncertain",
           "sources": [
@@ -1033,13 +1048,13 @@
               "locator": "scan leaves 186, 187 and 277 (printed pages unverified)"
             }
           ],
-          "note": "This is one scholar's view. Panigrahi bases it on the temple's style and on a local tradition that a king called Yayati Kesari built it, whom he identifies as the Somavamshi ruler Yayati I. Percy Brown (1959) dates the temple but names no dynasty in the passage checked. No inscription links the temple to a dynasty.",
+          "note": "This is one scholar's view. K.C. Panigrahi (1961) bases it on the temple's style and on a local tradition that a king called Yayati Kesari built it, whom he identifies as the Somavamshi ruler Yayati I. Percy Brown (1959) dates the temple but names no dynasty in the passage checked. No inscription links the temple to a dynasty.",
           "access": "full-text",
           "status": "approved",
           "checked_on": "2026-09-19"
         },
         "height": {
-          "text": "The temple is small. Its tower rises only about 10.5 m (35 ft).",
+          "text": "This is a small temple. Its tower rises only about 10.5 m (35 ft) high.",
           "value": "about 10.5 m (35 ft)",
           "value_m": 10.5,
           "tier": "scholarly",
@@ -1053,14 +1068,14 @@
               "locator": "scan leaf 107 (printed page unverified)"
             }
           ],
-          "note": "Brown: the tower is 'hardly 35 feet high'. Panigrahi: 'a height of only 34' feet, with an unclear fraction in the scan text. Rajendralala Mitra (1880) gives 'barely 3S feet' (scan text unclear: 35 or 38). None of these is an ASI measurement.",
+          "note": "Percy Brown (1959): the tower is 'hardly 35 feet high'. K.C. Panigrahi (1961): 'a height of only 34' feet, with an unclear fraction in the scan text. Rajendralala Mitra (1880) gives 'barely 3S feet' (scan text unclear: 35 or 38). None of these is an ASI measurement.",
           "access": "full-text",
           "status": "approved",
           "checked_on": "2026-09-19"
         },
         "deity": null,
         "temple_type": {
-          "text": "According to K.C. Panigrahi, the main shrine has a pancharatha plan, and its jagamohana (porch hall) is of the pidha type.",
+          "text": "The main shrine has a pancharatha plan, and its jagamohana (porch hall) is of the pidha type.",
           "value": "pancharatha shrine with pidha jagamohana",
           "tier": "scholarly",
           "sources": [
@@ -1069,6 +1084,7 @@
               "locator": "scan leaves 107 and 184 (printed pages unverified)"
             }
           ],
+          "note": "This description follows K.C. Panigrahi's 1961 study of the temple.",
           "access": "full-text",
           "status": "approved",
           "checked_on": "2026-09-19"
@@ -1083,7 +1099,7 @@
           ],
           "intro": [
             {
-              "text": "The temple has a tower shrine and a jagamohana (porch hall). A carved arched gateway, the torana, stands in front.",
+              "text": "Walk up to the temple and you will see two parts: a tower shrine and a jagamohana (porch hall). Right in front stands a carved gateway, the torana.",
               "tier": "scholarly",
               "sources": [
                 {
@@ -1103,7 +1119,7 @@
         },
         "why_built": [
           {
-            "text": "Rajendralala Mitra wrote that the temple stands where a mango grove once grew. Hermits had lived there, so it was called Siddharanya, 'the grove of the perfect beings'. It also had natural springs, so many temples were built there.",
+            "text": "The temple stands where a mango grove once grew. Hermits had lived there, so people called it Siddharanya, 'the grove of the perfect beings'. It also had natural springs, so many temples were built there.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1111,12 +1127,13 @@
                 "locator": "scan leaves 187–188, 1963 reprint (printed pages unverified)"
               }
             ],
+            "note": "According to Rajendralala Mitra (1880).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "No known inscription names the builder. According to local tradition, a king called Yayati Kesari built it. Historian K.C. Panigrahi identified him as King Yayati I.",
+            "text": "No known writing names the builder. According to local tradition, a king called Yayati Kesari built it. Some believe this was King Yayati I.",
             "tier": "uncertain",
             "sources": [
               {
@@ -1124,7 +1141,7 @@
                 "locator": "scan leaves 187, 272, 277 and 282 (printed pages unverified)"
               }
             ],
-            "note": "This is one scholar's inference, not proven. Panigrahi (1961) says Yayati I 'most likely' built the temple, in 966 CE, which falls in the reign he gives for Yayati I (c. 950–975 CE). He also notes that inscriptions crediting kings with building temples are absent at Bhubaneswar. Percy Brown (1959) names no builder. Panigrahi credits the Lingaraja temple to Yayati II, not Yayati I.",
+            "note": "This is one scholar's inference, not proven. K.C. Panigrahi (1961) says Yayati I 'most likely' built the temple, in 966 CE, which falls in the reign he gives for Yayati I (c. 950–975 CE). He also notes that inscriptions crediting kings with building temples are absent at Bhubaneswar. Percy Brown (1959) names no builder. Panigrahi credits the Lingaraja temple to Yayati II, not Yayati I.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -1132,7 +1149,7 @@
         ],
         "construction": [
           {
-            "text": "The temple is small. Percy Brown gave it as about 14 m (45 ft) long and about 7.6 m (25 ft) across at its widest point.",
+            "text": "The temple is small. It is about 14 m (45 ft) long and about 7.6 m (25 ft) across at its widest point.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1140,12 +1157,13 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Figures from Percy Brown (1959); no other accepted source measured these dimensions.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "A low, eight-sided wall surrounds the temple. K.C. Panigrahi thought it was modelled on the wall of an older temple next door, where the Siddhesvara temple now stands. He found no other eight-sided temple wall in Bhubaneswar.",
+            "text": "A low, eight-sided wall surrounds the temple. It may copy the wall of an older temple that once stood next door, where the Siddhesvara temple now stands. No other eight-sided temple wall has been found in Bhubaneswar.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1153,12 +1171,13 @@
                 "locator": "scan leaves 104, 106 and 107 (printed pages unverified)"
               }
             ],
+            "note": "K.C. Panigrahi (1961) proposed this link and found no other octagonal temple wall in Bhubaneswar.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "James Fergusson noted that the porch has no pillars inside. Percy Brown noted that it is one of the few Odisha temples with carvings inside as well as outside.",
+            "text": "The porch has no pillars inside it. This temple is also one of the few in Odisha with carvings inside as well as outside.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1170,6 +1189,7 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Reported by James Fergusson (1876, no pillars inside the porch) and Percy Brown (1959, interior carvings).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -1177,7 +1197,7 @@
         ],
         "special": [
           {
-            "text": "In front stands a free-standing gateway called a torana (arched gateway). Two carved pillars hold up a round arch.",
+            "text": "Stand in front of the temple and you will see a free-standing gateway called a torana (arched gateway). Two carved pillars hold up a round arch above it.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1198,7 +1218,7 @@
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Percy Brown called the arch one of the most original ideas in the whole Odisha style. In 1961, K.C. Panigrahi noted that no other surviving temple in Bhubaneswar has such an arch.",
+            "text": "This arch is one of the most original ideas in the whole Odisha style. No other surviving temple in Bhubaneswar has one quite like it.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1210,12 +1230,13 @@
                 "locator": "scan leaf 106 (printed page unverified)"
               }
             ],
+            "note": "Percy Brown (1959) called it 'one of the most original conceptions throughout the entire style'. K.C. Panigrahi (1961) noted that no other surviving temple in Bhubaneswar has such an arch.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Scholars have praised its beauty. Percy Brown called it 'a miniature gem of architecture'. James Fergusson wrote that, in its class, it was 'the gem of Orissan architecture'.",
+            "text": "People have long admired its beauty. Some old writers called it a gem of Odisha architecture.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1227,12 +1248,13 @@
                 "locator": "scan leaf 431 (printed page unverified)"
               }
             ],
+            "note": "Percy Brown (1959) called it 'a miniature gem of architecture'. James Fergusson (1876) wrote that, in its class, it was 'the gem of Orissan architecture'.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "The temple is small, but its parts fit together very well. Rajendralala Mitra wrote that the eye does not notice how small it is. Percy Brown also praised its fine proportions.",
+            "text": "The temple is small, but all its parts fit together so well that it does not look tiny.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1244,12 +1266,13 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Rajendralala Mitra (1880) wrote that the eye does not notice how small it is. Percy Brown (1959) also praised its fine proportions.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Its carvings show many lively scenes. Rajendralala Mitra listed a hermit teaching a pupil, a reader with a palm-leaf book, and a lady holding a pet parrot.",
+            "text": "Its carvings show many lively scenes: a hermit teaching a pupil, someone reading a palm-leaf book, and a lady holding a pet parrot.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1257,12 +1280,13 @@
                 "locator": "scan leaf 188, 1963 reprint (printed page unverified)"
               }
             ],
+            "note": "Listed by Rajendralala Mitra (1880).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "According to local tradition recorded by Rajendralala Mitra in 1880, the arch was not built just for decoration. At the swing festival, a chair was hung from two iron rings on the arch. A festival image of the god was placed in it and swung.",
+            "text": "According to local tradition, the arch was not built just for looks. At a swing festival, people hung a chair from two iron rings on the arch, placed a festival image of the god in it, and swung it.",
             "tier": "uncertain",
             "sources": [
               {
@@ -1270,7 +1294,7 @@
                 "locator": "scan leaf 189, 1963 reprint (printed page unverified)"
               }
             ],
-            "note": "Mitra reports what 'the people say' and does not endorse it. Percy Brown and K.C. Panigrahi describe the torana only as a gateway. Whether the custom continues today was not checked.",
+            "note": "Recorded by Rajendralala Mitra in 1880, who reports what 'the people say' and does not endorse it. Percy Brown and K.C. Panigrahi describe the torana only as a gateway. Whether the custom continues today was not checked.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
@@ -1282,7 +1306,7 @@
         },
         "influences": [
           {
-            "text": "Percy Brown wrote that it is believed to be the first temple of the 'Middle Period' of Odisha temple building. He dated that period to about 900–1100 CE.",
+            "text": "This is believed to be the first temple built in a new style that lasted from about 900 to 1100 CE.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1290,12 +1314,13 @@
                 "locator": "scan leaf 214 (printed page unverified)"
               }
             ],
+            "note": "Percy Brown (1959) called this the first example of what he named the 'Middle Period' of Odisha temple building, dated about 900–1100 CE.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "K.C. Panigrahi wrote that its builder brought in a new culture, with new designs, carvings and images of gods. He said this temple divides Bhubaneswar's temples into an early group and a late group.",
+            "text": "Its builder brought in new ideas: new designs, new carvings and new ways of showing the gods. This temple is seen as the dividing line between Bhubaneswar's early temples and its later ones.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1303,12 +1328,13 @@
                 "locator": "scan leaf 106 (printed page unverified)"
               }
             ],
+            "note": "K.C. Panigrahi (1961) called the builder 'the harbinger of a new culture' and said the Mukteshvara divides Bhubaneswar's temples into an early group and a late group.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "K.C. Panigrahi wrote that many of its features became the standard for the important temples built after it. Its porch marks the beginning of the pidha type of temple.",
+            "text": "Many of its features became the standard for the important temples built after it. Its porch marks the beginning of the pidha style of temple.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1316,12 +1342,13 @@
                 "locator": "scan leaves 104 and 184 (printed pages unverified)"
               }
             ],
+            "note": "K.C. Panigrahi (1961).",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "Panigrahi saw it as a link between old and new. Its tower shape and plan resemble older temples such as the Sisiresvara. Its porch, rounded edges and some carvings point ahead to the later Brahmesvara temple.",
+            "text": "It is a link between old and new. Its tower shape and plan look like older temples, such as the Sisiresvara. But its porch, rounded edges and some carvings point ahead to the later Brahmesvara temple.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1329,12 +1356,13 @@
                 "locator": "scan leaves 106 and 184 (printed pages unverified)"
               }
             ],
+            "note": "K.C. Panigrahi (1961) drew this comparison; he called the resemblance to the Brahmesvara 'not close but distant'.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "K.C. Panigrahi thought its arch was probably modelled on an older gateway. Parts of that older arch were dug out of a mound called Dola-mandapa, between the old temple town and the Brahmesvara temple. In 1961 they were in the Orissa State Museum.",
+            "text": "Its arch was probably modelled on an older gateway. Parts of that older arch were dug up from a mound called Dola-mandapa, between the old temple town and the Brahmesvara temple. In 1961 those pieces were kept in the Orissa State Museum.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1342,12 +1370,13 @@
                 "locator": "scan leaves 106 and 107 (printed pages unverified)"
               }
             ],
+            "note": "K.C. Panigrahi (1961) proposed this, using the hedge 'in all likelihood'.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"
           },
           {
-            "text": "In 1876, James Fergusson saw two 'sister styles' among Odisha's older temples. He thought about half of them follow the Mukteshvara type.",
+            "text": "In the 1870s, one writer noticed two 'sister styles' among Odisha's older temples, and thought about half of them followed the Mukteshvara type.",
             "tier": "scholarly",
             "sources": [
               {
@@ -1355,6 +1384,7 @@
                 "locator": "scan leaf 437 (printed page unverified)"
               }
             ],
+            "note": "James Fergusson (1876) used the term 'sister styles' and made this estimate, well before later scholars' work on the temple's date.",
             "access": "full-text",
             "status": "approved",
             "checked_on": "2026-09-19"

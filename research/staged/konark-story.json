@@ -1,0 +1,610 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "konark",
+      "name": "Konark Sun Temple",
+      "name_odia": null,
+      "page": "temples/konark.html",
+      "temple_type": "rekha",
+      "era_id": "grand-finale",
+      "sort_year": 1250,
+      "location": {
+        "place": "Konark",
+        "district": "Puri",
+        "lat": 19.8875639,
+        "lng": 86.0944895,
+        "coord_source": "https://www.openstreetmap.org/way/168244384"
+      },
+      "one_liner": {
+        "text": "A 13th-century CE temple to Surya, the Sun god, built in stone as a giant chariot with 24 wheels and seven horses.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "asi-konarak-whs",
+            "locator": "Sun Temple description paragraph"
+          },
+          {
+            "id": "mitra-d-2003",
+            "locator": "archive.org scan n24 (printed page not checked)"
+          }
+        ],
+        "note": "ASI and Mitra (ASI) say seven horses; UNESCO's short summary page says six.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "Built in the mid-13th century CE, while King Narasimhadeva I ruled (1238–1264 CE). No exact start or finish date is known.",
+          "value": "c. 1238–1264 CE",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "asi-konarak-whs",
+              "locator": "Sun Temple description paragraph"
+            },
+            {
+              "id": "unesco-konarak-summary",
+              "locator": "page text"
+            },
+            {
+              "id": "mitra-d-2003",
+              "locator": "archive.org scan n16 (printed page not checked)"
+            },
+            {
+              "id": "behera-2005",
+              "locator": "archive.org scan n41 (printed page not checked)"
+            }
+          ],
+          "note": "Dated by the builder's reign, not by a foundation inscription. ASI and UNESCO: 13th century. Behera: no exact date for start or finish. Madala Panji versions (begun 2nd or 3rd regnal year, consecrated 22nd) lack corroboration (Behera). Bahinipati et al. 2025, citing Dey 2016 and Donaldson 1985, give consecration in 1258 CE.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "Built by King Narasimhadeva I of the Ganga dynasty.",
+          "value": "Ganga dynasty (Narasimhadeva I)",
+          "tier": "established",
+          "sources": [
+            {
+              "id": "mitra-d-2003",
+              "locator": "archive.org scan n16–n17 (printed page not checked)"
+            },
+            {
+              "id": "behera-2005",
+              "locator": "archive.org scan n41 (printed page not checked)"
+            },
+            {
+              "id": "harle-1986",
+              "locator": "archive.org scan n248 (printed page not checked)"
+            }
+          ],
+          "note": "Mitra (ASI) reports that Ganga copper-plates name Narasimhadeva as builder of a great shrine of Surya; the plates were not opened directly. Behera and Harle agree.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": {
+          "text": "The surviving porch (jagamohana) is about 39 m (128 ft) high from base to top. One ASI web page gives 30 m instead. The main tower has fallen.",
+          "value": "about 39 m (128 ft), surviving porch",
+          "value_m": 39,
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "mitra-d-2003",
+              "locator": "archive.org scan n44 (printed page not checked)"
+            },
+            {
+              "id": "bahinipati-2025",
+              "locator": "unverified"
+            },
+            {
+              "id": "asi-konarak-whs",
+              "locator": "Sun Temple description paragraph"
+            }
+          ],
+          "note": "Mitra (ASI monograph): about 39 m from base to top. Bahinipati et al. 2025: 125 ft 8 in (about 38.3 m) above ground. ASI World Heritage web page: '30. m. square and 30. m. high'. The two ASI figures disagree. This is the surviving porch, not the fallen main tower.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "deity": {
+          "text": "The temple is dedicated to Surya, the Sun god.",
+          "value": "Surya (the Sun god)",
+          "tier": "established",
+          "sources": [
+            {
+              "id": "unesco-konarak-summary",
+              "locator": "page text"
+            },
+            {
+              "id": "asi-konarak-whs",
+              "locator": "Sun Temple description paragraph"
+            },
+            {
+              "id": "mitra-d-2003",
+              "locator": "archive.org scan n17 (printed page not checked)"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "temple_type": {
+          "text": "The main temple, or vimana, was a rekha deula (a temple with a tall, curved tower). That tower has since fallen.",
+          "value": "Rekha deula (main tower, now fallen)",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "behera-2005",
+              "locator": "archive.org scan n50, n63 (printed page not checked)"
+            },
+            {
+              "id": "asi-konarak-whs",
+              "locator": "Sun Temple description paragraph"
+            }
+          ],
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": [
+            "pista",
+            "bada",
+            "jagamohana",
+            "natamandira",
+            "wheel",
+            "horses",
+            "vimana-base"
+          ],
+          "intro": [
+            {
+              "text": "The surviving porch, the jagamohana (the hall in front of the sanctum), has a pidha roof (a roof of stacked stone layers). It looks like a stepped pyramid and rises in three tiers.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "mitra-d-2003",
+                  "locator": "archive.org scan n27, n100 (printed page not checked)"
+                }
+              ],
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            },
+            {
+              "text": "The temple had a sanctum with a tall tower and a porch (jagamohana). Both stand on one high platform carved with wheels. A separate pillared hall stands in front, in the same line. ASI calls it the nata-mandira (dance hall); others call it the bhoga-mandapa (hall of offerings).",
+              "tier": "uncertain",
+              "sources": [
+                {
+                  "id": "asi-konarak-whs",
+                  "locator": "Sun Temple description paragraph"
+                },
+                {
+                  "id": "mitra-d-2003",
+                  "locator": "archive.org scan n2, n44, n70 (printed page not checked)"
+                },
+                {
+                  "id": "behera-2005",
+                  "locator": "archive.org scan n94 (printed page not checked)"
+                },
+                {
+                  "id": "harle-1986",
+                  "locator": "archive.org scan n248 (printed page not checked)"
+                }
+              ],
+              "note": "One detached hall, two names. ASI web page: 'nata-mandira (hall of dance)'. Behera: natamandira, adding that some scholars think it was a bhogamandapa or refectory. Mitra calls it the bhoga-mandapa but says it is 'generally believed to be a nata-mandapa (festive hall)'. Harle: the deul and jagamohana stood on a high terrace with stone wheels.",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-19"
+            }
+          ]
+        },
+        "why_built": [
+          {
+            "text": "King Narasimhadeva I built the temple to worship Surya, the Sun god. Its purpose as an act of devotion is clear.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n46 (printed page not checked)"
+              },
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n17 (printed page not checked)"
+              }
+            ],
+            "note": "Historian K.S. Behera: 'The deep devotional motive, in the construction of the Sun temple, cannot be doubted.'",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "There may be other reasons too. Building probably began after the king's victory over the rulers of Bengal, around 1245 CE. The king may also have wanted a temple grander than the Jagannatha temple at Puri.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n42, n48 (printed page not checked)"
+              }
+            ],
+            "note": "One scholar's hedged view: Behera writes 'It is likely' (start after the 1245 victory) and 'possibly' (to surpass the Jagannatha temple). No other source seen takes a position.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "construction": [
+          {
+            "text": "Builders used three kinds of stone. Most of the temple is khondalite, a stone the ASI calls poor-quality. Laterite formed the hidden core of the platform and the foundations. Chlorite was used only for door frames and a few sculptures.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n29 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "note": "Debala Mitra, in the ASI monograph, calls the khondalite used here 'poor-quality'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The stones were probably carried long distances on rafts along rivers. Simple pulleys, wooden wheels or rollers may have lifted them into place.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n29 (printed page not checked)"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n55 (printed page not checked)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Iron was used too. Iron beams supported a false ceiling and the stone beams above doorways. Iron cramps and dowels held stones together.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n57, n110 (printed page not checked)"
+              },
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n20 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "According to a 2025 study that draws on earlier research, building took about 12 years and 10 months. The study dates the temple's consecration to 1258 CE. But the old written accounts of the building still need careful checking.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n42 (printed page not checked)"
+              }
+            ],
+            "note": "Bahinipati et al. 2025 (citing Dey 2016 and Donaldson 1985): about 12 years, 10 months and 14 days; consecrated 27 January 1258 CE. Behera 2005: the Baya chakada building accounts are 'set aside until a systematic study of the original text is undertaken'; Madala Panji versions (begun in the 2nd or 3rd regnal year) have no corroboration. No opened source gives 1246 CE as the start year.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "According to tradition, 1,200 craftsmen built the temple under the master craftsman Visu Maharana. Retellings disagree on how long they worked: 12 years or 16 years. In a popular legend, his 12-year-old son Dharmapada fixed the crowning pot (kalasa) on top.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n43–n44 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "note": "Tradition. Behera 2005 retells the legend with 'sixteen years'; Bahinipati et al. 2025 give 'twelve years'. Behera spells the name Visu or Vishu Maharana and says the name Dharmapada was first coined by Gopabandhu Das. Bahinipati et al. treat Dharmapada as a real person; that view is not adopted here.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "special": [
+          {
+            "text": "The whole temple was designed as a huge stone chariot for the Sun god. It has 24 carved wheels (12 pairs) and seven stone horses to pull it.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "asi-konarak-whs",
+                "locator": "Sun Temple description paragraph"
+              },
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n24 (printed page not checked)"
+              },
+              {
+                "id": "unesco-konarak-summary",
+                "locator": "page text"
+              },
+              {
+                "id": "harle-1986",
+                "locator": "archive.org scan n248 (printed page not checked)"
+              }
+            ],
+            "note": "Wheels: ASI, Mitra and UNESCO agree on 24 (12 pairs). Horses: ASI and Mitra say seven; UNESCO's short summary says six.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The main tower has collapsed. Only its base, parts of its walls and niches survive, beside the standing porch.",
+            "tier": "established",
+            "sources": [
+              {
+                "id": "asi-konarak-whs",
+                "locator": "Sun Temple description paragraph"
+              },
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n18, n29 (printed page not checked)"
+              },
+              {
+                "id": "harle-1986",
+                "locator": "archive.org scan n248 (printed page not checked)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Nobody knows for sure why the main tower fell. Ideas include a sinking foundation, an earthquake or lightning, or slow decay after invaders damaged the temple. Some experts even doubt it was ever finished.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n18 (printed page not checked)"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n136, n154 (printed page not checked)"
+              }
+            ],
+            "note": "Mitra (ASI): some blame subsidence of the foundation, others earthquake or lightning, others doubt it was completed; the 'general consensus' is gradual crumbling, begun by desecration by invaders. Behera: some scholars favour earthquake or lightning, but tradition is silent about a major earthquake; some thought it was never completed.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Part of the tower still stood in 1837 CE, when a visitor drew a picture of it. A storm brought the last piece down in October 1848 CE. By 1868 CE, only a huge heap of stones remained.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n19–n20 (printed page not checked)"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n7, n153–n154 (printed page not checked)"
+              }
+            ],
+            "note": "Mitra (ASI): Fergusson in 1837 estimated the standing remnant at 42.67–45.72 m; Kittoe a year later saw one corner 'to the height of 80 ft or 100 ft'; at Rajendralala Mitra's 1868 visit it was 'an enormous mass of stones'. Behera: the last fragment fell in a gale in October 1848; the temple was deserted by 1626 but still stood to a great height then. Mitra gives no single date for the final fall.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "According to a local tradition, Kalapahar, a general from Bengal, damaged the temple. He did attack Odisha in 1568 CE. But there is no reliable evidence that he ruined Konark.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n155 (printed page not checked)"
+              }
+            ],
+            "note": "Bishan Swarup, M.M. Ganguly and Krupasindhu Mishra held that Kalapahar's removal of the top slab began the ruin (as reported by Behera). Behera: Kalapahar attacked Orissa in 1568 and desecrated the Jagannath temple, as the Madala Panji and other texts say, but these texts are silent about Konark.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "UNESCO made the Sun Temple, Konarak a World Heritage Site in 1984.",
+            "tier": "established",
+            "sources": [
+              {
+                "id": "unesco-konarak-summary",
+                "locator": "Year of Inscription"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n7 (printed page not checked)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "In the early 1900s CE, the porch (jagamohana) was filled with sand to stop it from falling down.",
+            "tier": "established",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n39 (printed page not checked)"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n7 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Repair work began around 1901 CE. Sources give 1903 CE for the sand-filling and 1904 or 1905 CE for its completion.",
+            "value": "c. 1901–1905 CE",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n7, n162–n163 (printed page not checked)"
+              },
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n40 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "note": "Behera: new phase of conservation from 1901; filled with sand in 1903 by order of J.A. Baurdillon; work completed in 1904. Mitra (ASI): conservation of the porch completed in 1905. Bahinipati et al.: filled in 1903 on the directive of Sir John Woodburn; completed early in 1905.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "In 1998, the World Heritage Fund gave emergency money to the Archaeological Survey of India for a structural study. In February 2000, an ICOMOS expert found no immediate danger of collapse. UNESCO then asked its staff to help India seek support for a plan to remove the sand.",
+            "tier": "established",
+            "sources": [
+              {
+                "id": "unesco-whc-2000",
+                "locator": "Decision 24 BUR IV.B.65"
+              },
+              {
+                "id": "icomos-2000",
+                "locator": "document record description"
+              }
+            ],
+            "note": "UNESCO and ICOMOS records of their own acts. The Bureau 'requested the Secretariat to assist the authorities in formulating a technical co-operation request' toward a sand-removal strategy.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Early European sailors called the temple the 'Black Pagoda'. They used it, and the Jagannatha temple at Puri, as landmarks on the coast.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n14 (printed page not checked)"
+              },
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n7 (printed page not checked)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Konark is the last of the great Odisha temples. As first planned, it was the largest of them all.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "harle-1986",
+                "locator": "archive.org scan n248 (printed page not checked)"
+              }
+            ],
+            "note": "Art historian J.C. Harle: 'the last of the great Orissan shrines and, as originally planned, the largest, was built by King Narasimhadeva I (1238-64).' One scholar's assessment; no other source seen takes a position on this ranking.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ],
+        "size": {
+          "height_m": 39,
+          "note": {
+            "text": "The main tower has fallen. Experts can only estimate how tall it was. Their estimates range from about 61 m to about 70 m (200–230 ft).",
+            "value": "estimated c. 61–70 m (200–230 ft), original main tower",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "mitra-d-2003",
+                "locator": "archive.org scan n44 (printed page not checked)"
+              },
+              {
+                "id": "asi-konarak-whs",
+                "locator": "Sun Temple description paragraph"
+              },
+              {
+                "id": "harle-1986",
+                "locator": "archive.org scan n248 (printed page not checked)"
+              },
+              {
+                "id": "bahinipati-2025",
+                "locator": "unverified"
+              }
+            ],
+            "note": "Estimates only. Mitra (ASI): archaeologists conjecture 'in the range of 61 metres'. ASI web page: 'presumably over 68 m'. Harle: 'some 225 ft (70 m.)'. Bahinipati et al. 2025: 227 ft 8 in (about 69.4 m).",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        },
+        "influences": [
+          {
+            "text": "Konark is one of many Sun temples built in India. Others were built at Modhera in Gujarat and Martand in Kashmir.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "behera-2005",
+                "locator": "archive.org scan n12 (printed page not checked)"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "UNESCO calls the Sun Temple 'a magnificent testament to Kalinga architecture'.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "unesco-konarak-summary",
+                "locator": "page text"
+              }
+            ],
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": {
+        "hero": "V-80",
+        "silhouette": "V-81",
+        "parts_diagram": "V-82"
+      },
+      "sketchfab": null
+    }
+  ]
+}
