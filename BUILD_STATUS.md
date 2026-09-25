@@ -2,7 +2,7 @@
 
 Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
-**Current phase:** Parasuramesvara journey page live; map + academy pages live; QA tooling in place · **Next:** fact-check parasuramesvara-2 → finalise annotated image briefs → coding tasks C11-C18 → story rewrite of the other 4 temples
+**Current phase:** site live on GitHub Pages; coding round 2 (C10–C18) delivered and fixed · **Now:** fact-check parasuramesvara-2 + anatomy-terms research running · **Next:** merge → finalise V-64 briefs → fact-check anatomy-terms → story rewrite of 4 temples + eras
 
 ## Gates
 
@@ -35,7 +35,7 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 - [x] Phase 2 — frontend foundation (2026-09-18, commit 2339a57; verified in headless Chrome 1440px + true 375px)
 - [~] Phase 3 — 3A done 2026-09-19 (temple, timeline, glossary, compare; checked 1440 px + 375 px, no horizontal overflow). 3B (map, academy, home sections) open
 - [~] Phase 4 — 35 images approved in media.json (batch 1, V-60–63, V-12, V-65–68, V-70, V-75, V-78, V-80); V-71–73, V-76, V-77, V-81, V-82 rejected (see BATCH-3-REVIEW.md)
-- [ ] Phase 5 — QA, strict validation → G5 → deploy
+- [~] Phase 5 — deployed (Pages live, origin/main 7db2229, 2026-09-23); UI/a11y audit at 4 widths fixed; strict validation still open
 
 ## G1 open items (human)
 
@@ -68,9 +68,12 @@ Maintained by the orchestrator (main session). Subagents cannot edit this file.
 
 ## Running
 
-- (none — session ended 2026-09-23; see HANDOFF.md §4 for the ordered next steps)
+- 2026-09-25 · `kalinga-fact-checker` (Opus) — parasuramesvara-2 ledger (35 claims)
+- 2026-09-25 · `kalinga-researcher` (Opus) — anatomy-terms (A1 + A2: parts vocabulary and temple types)
 
 ## Blocked
+
+- Registering IGNCA / *Odisha Review* as sources — awaiting the human (see HANDOFF §5).
 
 Missing image conversion tools (sharp, Pillow, magick, cwebp) needed to finalise Phase 4 assets into WebP format.
 
