@@ -1,0 +1,80 @@
+{
+  "target": "timeline",
+  "items": [
+    {
+      "id": "late-kalinga",
+      "order": 6,
+      "label": "Late Kalinga",
+      "headline": "Later temples",
+      "period": {
+        "text": "The Suryavamshi (Gajapati) kings ruled Odisha from the 15th century CE. Their power was already fading by the early 16th century CE, under King Prataparudra.",
+        "value": "15th–16th century CE",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan pp. 26, 200 (printed pages not seen)"
+          }
+        ],
+        "note": "Panigrahi gives Kapilendra's accession as 1435 CE on one page and his reign as 1433–1467 CE on another.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "design_change": [
+        {
+          "text": "The great age of temple building ended with the Gangas, though some notable temples were still built. The architectural style changed little, but sculpture declined.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan p. 200 (printed page not seen)"
+            }
+          ],
+          "note": "K. C. Panigrahi: 'After the Gangas, the glorious period of temple-building activities in Orissa was over, but the spirit lingered on ... which also witnessed the erection of some notable temples'; 'the dynastic change did not result in any great change in architectural style, but in sculpture a definite set-back is to be perceived.'",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        {
+          "text": "The Kapilesvara temple in Bhubaneswar may belong to this period, but no one is sure. Like the great Ganga temples, it has three halls in front of its shrine.",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan p. 200 (printed page not seen)"
+            }
+          ],
+          "note": "Panigrahi dates it by style only. He says it 'seems to have belonged to this period' and 'appears to be the last notable monument' at Bhubaneswar. He says it stands on the site of an earlier temple.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        }
+      ],
+      "dynasty": {
+        "text": "The Suryavamshi (Gajapati) dynasty was founded by Kapilendra, once a Ganga officer. It produced two more able rulers, Purushottama and Prataparudra.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan p. 26 (printed page not seen)"
+          }
+        ],
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "temples": [
+        {
+          "name": "Kapilesvara Temple, Bhubaneswar",
+          "temple_id": null
+        },
+        {
+          "name": "Papanasini temple porch (half-ruined), Bhubaneswar",
+          "temple_id": null
+        }
+      ],
+      "media": "V-25"
+    }
+  ]
+}
