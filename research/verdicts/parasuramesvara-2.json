@@ -1,0 +1,252 @@
+{
+  "topic": "parasuramesvara-2",
+  "checked_on": "2026-09-25",
+  "method": "Every archive.org search-inside URL in the ledger was re-queried (same item/doc/path, sometimes a narrower q= term to get the full snippet). The IGNCA PDF (https://ignca.gov.in/asi_reports/Orkhurda145.pdf) could NOT be fetched: three attempts (https, http, www) all returned 'connect ECONNREFUSED 164.100.219.172:443'. Every IGNCA quote is therefore 'not-fetchable' and was not relied on. IGNCA is not in data/sources.json and is not added to any fragment. Locators stay 'scan leaf N (printed page unverified)'.",
+  "verdicts": [
+    {
+      "cid": "parasuramesvara2-001", "field": "sections.construction", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=Chara / q=cranes / q=prevented: leaf 79 full passage found, incl. 'Almost all the temples of Bhubaneswar excepting the miniature ones, seem to have been built by this method' and 'the remains of the inclined plane made for the great Lingaraja temple can now be studied'"],
+      "reason": "Both quotes found (OCR). The passage is Panigrahi's GENERAL account for Bhubaneswar; it does not name the Parasuramesvara, and the only ramp he identifies on the ground is Lingaraja's. Text rewritten to keep it general ('Most temples in Bhubaneswar seem to have been built this way'), scholar name moved to note, note states it is not temple-specific and that Panigrahi says earth, not sand.",
+      "revised_text": "Old Bhubaneswar had no cranes. So how did builders lift heavy stones? They piled earth around the walls as they grew. Then they dragged the heavy stones up a long earth ramp. Most temples in Bhubaneswar seem to have been built this way.",
+      "placement": "sections.construction[2]"
+    },
+    {
+      "cid": "parasuramesvara2-002", "field": "sections.construction", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=prevented: leaf 79 'prevented the bmlders front construction of both the'", "q=\"after its completion\": leaf 78 'main temple first and then add a porch after its completion'", "q=discrepancies: leaf 78 'some discrepancies at these points of juncture'"],
+      "reason": "Quotes found. General Bhubaneswar rule, not said of this temple. Kept general in text; name and scope in note. Not linked in text to this temple's untidy join (Brown, claim 003), which stays a separate claim.",
+      "revised_text": "Burying the walls caused a problem. Builders could not raise a tower and its hall at the same time. So in Bhubaneswar the tower usually came first, and the hall was added later. Where the two met, the stones did not always line up exactly.",
+      "placement": "sections.construction[3]"
+    },
+    {
+      "cid": "parasuramesvara2-003", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=haphazard, q=jagamohan: leaf 213 'the joining of the two structures is a haphazard piece of work, as the end of the pillared hall covers up some of the carving on the face of the sanctuary'"],
+      "reason": "Quote found. Voice rewrite only.",
+      "revised_text": "Look where the hall meets the tower. The join is untidy! The end of the hall covers up some of the carvings on the tower's front.",
+      "placement": "sections.special[6]"
+    },
+    {
+      "cid": "parasuramesvara2-004", "field": "sections.special", "verdict": "revised", "tier": "uncertain", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=\"fallen into decay\": leaf 213 found", "brown-1959 q=jagamohan: leaf 213 'the jagamohan itself may have been the subsequent addition, although on grounds of style this does not appear likely' found", "panigrahi-1961 leaf 78 found (general rule)"],
+      "reason": "Quotes found. Debate moved to note, names removed from text. Mitra 1978 view not claimed (catalogue-only).",
+      "revised_text": "Which part is older, the tower or the hall? Experts are not sure. The tower may have replaced an older one that fell apart. Or the hall may have been added later.",
+      "placement": "sections.special[7]"
+    },
+    {
+      "cid": "parasuramesvara2-005", "field": "elements.bada.parts (no such slot)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=shin / q=foot / q=crowning: leaf 133 'the pabhaga or the division corresponding to the foot (i. e. the base), the Jangfia or the shin and the baranda' + 'a set of mouldings crowning the bara' found", "mitra-d-2003 q=gandi: leaf 100 gandi entry found; leaf 26 'the bada or vertical wall' found"],
+      "reason": "The outside lead that these sub-part definitions are not in accepted sources is wrong: Bose 1932 states them verbatim at leaf 133. Mapped onto the real slot elements.bada.what. Jangha/baranda kept out of text (note only). Tier stays scholarly: the three-part division rests on Bose alone.",
+      "revised_text": "The bada is the upright wall of a temple, below the tower. At the bottom is its foot, the pabhaga. Above that rises a tall middle part, and a band of shaped stone rims crowns the top. Some walls have five parts instead, but the oldest temples use three.",
+      "placement": "elements.bada.what (elements fragment)"
+    },
+    {
+      "cid": "parasuramesvara2-006", "field": "glossary.trianga-bada.short (no slot)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=elements: leaf 143 'all the temples which can definitely be assigned to a comparatively earlier epoch have a ham composed of three elements, vix. pabhaga, jangha and baranda' found; leaf 15 'classification according to the nature of the bare, as consisting of 5 or 3 elements, fri-enga and panchanga types' found", "ignca-orkhurda145: NOT FETCHABLE (ECONNREFUSED)"],
+      "reason": "Bose part verified; IGNCA part not re-verifiable and not used. No glossary slot in this run: the fact is folded into elements.bada.what (last sentence) with 'tri-anga' in the note only. Glossary term 'trianga bada' left for the separate glossary run. Bose leaf 143 does not say later temples have five, only that walls are of 5 or 3 elements, so text says 'Some walls have five parts instead'.",
+      "revised_text": "(folded into elements.bada.what)",
+      "placement": "elements.bada.what (partial); glossary: no slot"
+    },
+    {
+      "cid": "parasuramesvara2-007", "field": "sections.parts (this temple: bada)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=\"five elements\": leaf 359 'The Bdda does not show the usual five elements ; only the Jangha and Bar¶ndi have been used' found; leaf 357 running header 'The Temple of Parasuramesvara, Bhubanesvara' confirms the section", "ignca-orkhurda145 'trianga bada': NOT FETCHABLE"],
+      "reason": "Without IGNCA, no fetched source calls THIS temple's wall 'trianga'. Ganguly counts two of his five elements; Bose's scheme would count three. So the text gives no number: only that the wall is simpler than the usual five-part wall. Added as a second parts.intro claim; 'bada' added to parts.element_ids (element exists).",
+      "revised_text": "Its wall (bada) is simpler, too. Many temple walls are built in five stacked parts, but this one has fewer.",
+      "placement": "sections.parts.intro[1]; parts.element_ids += bada"
+    },
+    {
+      "cid": "parasuramesvara2-008", "field": "elements.pabhaga.what", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=foot: leaf 290 'Division corresponding to the foot ; set of three, four or five mouldings at the base' found", "bose-1932 q=ratio: leaf 163 'The ratio of the different mouldings of the pabhaja, viz. the khura, kumhija, pata, kani and basanta' found"],
+      "reason": "Verified, contrary to the outside lead. The five moulding names moved to the note (Sanskrit terms out of text). The '(above pista or pedestal)' part of the glossary entry was not seen in the returned snippet, so not used. The kalasa/kumbha variant (leaf 264) was not re-checked and is omitted.",
+      "revised_text": "The pabhaga is the foot of a temple wall. It is a stack of three, four or five shaped bands of stone, called mouldings, at the very bottom of the wall.",
+      "placement": "elements.pabhaga.what (elements fragment)"
+    },
+    {
+      "cid": "parasuramesvara2-009", "field": "sections.parts (this temple: pabhaga)", "verdict": "approved", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=\"three mouldings\": leaf 17 'Pabhdga, consisting of three mouldings, ParaSurameSwar' found", "ganguly-1912 q=Basanta: leaf 359 'it consists of the following three, boldly executed, viz., Prtda, Kiimuda, and Basanta' found; leaf 158 'in the temple of ParaSuramesvara, Pata and Kani are altogether wanting; the Jangha consists of 3 elements only' found"],
+      "reason": "Count 'three' supported by two sources. Names disagree (Ganguly gives different names at leaves 158 and 359; leads doc's khura/kumbha/pata is in no source). The count is already published in parts.intro[0]; this run adds ganguly-1912 as a second source and a note on the naming dispute. No names in text.",
+      "revised_text": null,
+      "placement": "sections.parts.intro[0] (source + note added, text unchanged)"
+    },
+    {
+      "cid": "parasuramesvara2-010", "field": "elements.jangha.what (no slot)", "verdict": "approved", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=shin: leaf 287 'Jangha, JangA& Shin ; recessed vertical portion of wall' found"],
+      "reason": "Quote found. There is no 'jangha' element id, so NOT STAGED as its own field. Bose's 'shin' gloss appears in the elements.bada.what note. Hand to the glossary/new-terms run.",
+      "revised_text": null,
+      "placement": "no slot (not staged)"
+    },
+    {
+      "cid": "parasuramesvara2-011", "field": "elements.mastaka.parts (no slot)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["bose-1932 q=throat / q=skull: leaf 107 'Just above the gandi is the beki or the throat; then comes the amid or dmalaka, a flattened spheroid' and 'Above the amid comes the khapuri or skull, and on it is placed the kalasa or water-pot and dyudha or the weapon of the deity' found; leaf 134 same list", "mitra-d-2003 q=gandi: leaf 101 'mastaka head; crowning elements above the gandi of a temple' found"],
+      "reason": "Quotes found. Tier lowered established -> scholarly: the five-part list is Bose alone; Mitra only defines 'mastaka'. No 'mastaka' element id, so NOT STAGED as a definition. Bose leaf 107 is cited in construction claim 031 to explain the crown parts in plain words.",
+      "revised_text": null,
+      "placement": "no slot (supporting source for construction claim 031)"
+    },
+    {
+      "cid": "parasuramesvara2-012", "field": "elements.raha.kanika (no slot)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["mitra-d-2003 q=ratha / q=nava-ratha: leaf 101 both quotes found"],
+      "reason": "Quotes found. Single ASI source cannot be 'established' (validator needs 2+); lowered to scholarly. No raha/kanika element id. Used only as the supporting definition in facts.temple_type (this temple's three-strip plan).",
+      "revised_text": null,
+      "placement": "supporting source in facts.temple_type; otherwise no slot"
+    },
+    {
+      "cid": "parasuramesvara2-013", "field": "facts.temple_type", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=Triratha: leaf 359 'The Vimmia is a Triratha dewl.' found; leaf 149 'Triratha :—The Vimana of the temple of Parayiiramejvara.' found; leaf 146 definition 'Triratha having one central pilaster or Rahapaga, and two Konaka pagas, or end pilasters' found", "ignca-orkhurda145 (rekha order; niches 'herald the pancharatha type'): NOT FETCHABLE"],
+      "reason": "Triratha now quoted for THIS temple twice (Ganguly), which resolves the earlier rejection of parasuramesvara-005. 'Rekha' and the pancharatha 'hint' rested only on IGNCA, so both dropped. No source seen calls the gandi pancharatha. Value 'triratha (three-strip plan)'; the top-level filter enum 'rekha' is unchanged.",
+      "revised_text": "Look at one side of the main shrine. Its wall steps out in three upright strips. The middle strip juts forward, between two corner strips.",
+      "placement": "facts.temple_type"
+    },
+    {
+      "cid": "parasuramesvara2-014", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=Sisiresvara: leaf 71 'The Chahya arches, hsi^-Smalakas, shallow niches and medallions that decorate the {ikhara of theParaSuramesvara are to be found in the similar positions of the SisireSvara also' found", "ignca-orkhurda145: NOT FETCHABLE"],
+      "reason": "Panigrahi part found; IGNCA part dropped. 'Chaitya arches' rendered 'arch-shaped window designs'; 'small' dropped from 'ribbed discs' (OCR-damaged word).",
+      "revised_text": "The tower is covered with carvings. You can spot arch-shaped window designs, ribbed stone discs, shallow niches and round medallions.",
+      "placement": "sections.special[2]"
+    },
+    {
+      "cid": "parasuramesvara2-015", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"with his four disciples\": leaf 253 full text found: 'the image of Lakulisa has found a place of honour in the front facade of that monument and that Lakuliia appears in the sculptures with his four disciples mentioned in the Puranas and inscriptions'; same leaf: 'the Pasupata sect which Lakulisa founded'"],
+      "reason": "Both quotes found (the second was fully confirmed this time). Voice rewrite; 'Pasupata' kept in note. Position on the facade not claimed.",
+      "revised_text": "Find the carving of Lakulisa, the teacher who founded a group of Shiva's followers. He has a place of honour on the temple's front. His four pupils appear with him in the carvings.",
+      "placement": "sections.special[5]"
+    },
+    {
+      "cid": "parasuramesvara2-016", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=\"free sides\": leaf 213 'a doorway in each of its three free sides and four perforated stone windows' found (the 'low rectangular structure ... double roof' sentence is in the same passage per ledger; 'low rectangular' corroborated by Ganguly)", "ganguly-1912 q=skylight: leaf 356 'The BaflTa of the porch 7ft. in height is a low rectangular parallelepiped' found", "ignca-orkhurda145 (roof 'slopping in two stages'): NOT FETCHABLE"],
+      "reason": "IGNCA part dropped, so 'slopes down in two levels' removed. Merged with 018 into one hall claim; added Ganguly's 7 ft porch-wall height (about 2 m).",
+      "revised_text": "The porch hall is low and box-shaped. Its walls are only about 2 m (7 ft) high. Inside, six pillars stand in two rows of three. Before the repairs, each pillar was one single block of stone.",
+      "placement": "sections.special[9] (merged with 018)"
+    },
+    {
+      "cid": "parasuramesvara2-017", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=skylight: leaf 356 'a sort of clere-story, or skylight of six windows in front, i.e., on the west, and twelve windows on the sides, i.e., south and north' found; q=\"blocked up\": leaf 356 'windows of the clere-story referred to have been blocked up' found; q=restoration: leaf 356 'to admit more light and air, but now after the restoration' found", "brown-1959 q=clerestory: leaf 213 'an embryo clerestory' found"],
+      "reason": "Quotes found. 'Blocked up' is Ganguly's 1912 observation; text says 'After the big repairs' with no claim about today. Window counts kept in note.",
+      "revised_text": "The raised middle of the hall roof has rows of small windows. They let in more light and air. After the big repairs, these little windows were blocked up.",
+      "placement": "sections.special[10]"
+    },
+    {
+      "cid": "parasuramesvara2-018", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=monoliths: leaf 213 'these pillars were originally monoliths having plain square shafts, no bases, but with voluted bracket capitals' found; q=jagamohan: 'two rows of pillars, three in each row' found", "ganguly-1912 q=\"rectangular pillars\": leaf 356 'rows of three rectangular pillars ... pillars which were monolithic before the present restoration was effected' found"],
+      "reason": "Found. Merged into the 016 hall claim. Text says only what Ganguly says ('before the repairs, each pillar was one single block'), not that they were 'replaced'.",
+      "revised_text": "(merged into 016)",
+      "placement": "sections.special[9] (merged with 016)"
+    },
+    {
+      "cid": "parasuramesvara2-019", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 leaf 356 'a door opening both on the south and west' found", "brown-1959 leaf 213 'a doorway in each of its three free sides' and 'the west doorway' found", "panigrahi-1961 leaf 253 'an inscription appearing on the southern door of its Jagamohana' and leaf 84 'On the lintel of the southern door occurs an image of Ganesa' found"],
+      "reason": "Voice rule: no debate in text. Text states only the two doors all sources agree on (west and south) and no count; the three-door view goes in the note. With the disputed part moved to the note, tier lowered from the ledger's 'uncertain' framing to a scholarly claim of the agreed facts. Carries claim 027's orientation fact ('front of the hall faces west').",
+      "revised_text": "The front of the hall faces west. There is a door on its west side and another on its south side.",
+      "placement": "sections.special[11] (merged with 027)"
+    },
+    {
+      "cid": "parasuramesvara2-020", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=grilles: leaf 213 'namely the two stone grilles, one on each side of the west doorway' found; q=dancers: leaf 213 'figures of young dancers and musicians with trumpet and with shawm, lute and cymbal, so grouped as to form perforated stone windows' found"],
+      "reason": "Found. 'Trumpets' widened to 'wind instruments' (trumpet + shawm). Merged with 021.",
+      "revised_text": "Beside the west door are two stone window screens. Carvings of young dancers and musicians form their holes. The musicians play wind instruments, lutes and cymbals. One art expert said they were even livelier than the work of a famous Italian sculptor.",
+      "placement": "sections.special[12] (merged with 021)"
+    },
+    {
+      "cid": "parasuramesvara2-021", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["brown-1959 q=Florentine: leaf 213 'These panels might be reproductions in stone of one of Della Robbia's glazed terracotta reliefs, excelling even the work of that famous Florentine in their vigour and rhythm' found (q=\"Della Robbia\" returned no hit, OCR tokenisation)"],
+      "reason": "Found. Attributed opinion; Brown and Della Robbia named only in the note. Merged into 020's claim.",
+      "revised_text": "(merged into 020)",
+      "placement": "sections.special[12] (merged with 020)"
+    },
+    {
+      "cid": "parasuramesvara2-022", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"north-west corner of the northern wall\": leaf 82 found", "q=\"no mouse\": leaf 82 'The first one is a Ganesa with the usual attributes ... It has no mouse as its mount' found", "q=Virabhadra: leaf 85 'Last in the series ... The figure is to be identified with Virabhadra who is enjoined to be represented in association with the Matrikas' found (not truncated)", "q=Matrikas: leaf 162 'one on the Jagamohana of the Parasuramesvara' found"],
+      "reason": "All four found; order Ganesha first, Virabhadra last confirmed (leads doc reversed it). 'Saptamatrikas' in note only. No 'first/earliest'. Merged with 023.",
+      "revised_text": "On the hall's north wall, nine gods sit in a row. Seven of them are the Seven Mothers, a group of goddesses. Ganesha starts the row and Virabhadra ends it. Here the mothers hold no babies; that idea came in later temples, such as Mukteshvara.",
+      "placement": "sections.special[14] (merged with 023)"
+    },
+    {
+      "cid": "parasuramesvara2-023", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"early groups\": leaf 107 full text 'babies carried in the arms of Sapta-matrikas and Ketu among the planets ... these architectural and iconographical features are conspicuous by their absence in the early groups of temples represented by the Parasuramesvara and the Sisiresvara' found"],
+      "reason": "Found. Panigrahi states the absence directly for the group represented by this temple. Merged into 022's claim; name removed from text.",
+      "revised_text": "(merged into 022)",
+      "placement": "sections.special[14] (merged with 022)"
+    },
+    {
+      "cid": "parasuramesvara2-024", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"running frieze\": leaf 170 'So far as extant temples go, the eight Dikpalas first apear on the Parasuramclvara temple, though not in their respective posidons. Here on the Jagamokana of the temple, they appear as a running frieze' found; q=Dikpalas: leaf 99 Brahmesvara 'For the first time among the dated temples wc find here the images of dikpalas depicted in their proper positions' found"],
+      "reason": "Found. 'First' is Panigrahi's judgment, so text hedges ('may be the oldest temple still standing'). Wall not claimed.",
+      "revised_text": "Look for the eight guardians of the directions. Here they appear in a long row of carved panels on the hall. This may be the oldest temple still standing that shows all eight. But they are not yet placed on the sides they guard.",
+      "placement": "sections.special[15]"
+    },
+    {
+      "cid": "parasuramesvara2-025", "field": "sections.special", "verdict": "revised", "tier": "uncertain", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"with his four disciples\": leaf 253 'The name Parasuramesvara was certainly not the original name of that temple, as is evident from an inscription appearing on the southern door of its Jagamohana' found", "q=Parasaresvara: leaf 254 'The script used is Nagari and the epigraph on palaeographical grounds can be assigned to the eleventh century' and 'the temple was originally named after the Pasupata teacher Parasara' found", "ignca-orkhurda145 'Past : Parasaresvara Temple': NOT FETCHABLE"],
+      "reason": "Panigrahi quotes found; IGNCA dropped. Naming theory is Panigrahi's inference ('reasons to believe'), so uncertain with the Ghosh/Panigrahi chain in the note. No inscribed spelling in text. The popular Parasurama story is not claimed.",
+      "revised_text": "The temple's name has changed over time. Writing carved on the hall's south door, about 1,000 years old, calls its god by another name. Experts think the temple was first named after Parashara, a teacher of Shiva worship.",
+      "placement": "sections.special[16]"
+    },
+    {
+      "cid": "parasuramesvara2-026", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["panigrahi-1961 q=\"central niches\": leaf 87 'only two, namely Ganesa and Karttikeya, are still to be found in their original places (Figs. 97, 106)' found", "q=Karttikeya: leaf 11 '97. Karttikeya, Parasuramesvara Temple.' found"],
+      "reason": "Found. Voice rewrite; 'missing', not 'looted'. Side note for the next researcher: leaf 68 says 'the images of Ganesa and Karttikeya still to be found in the central niches of the south and the east', but whether leaf 68 describes this temple was not established, so the walls are NOT claimed.",
+      "revised_text": "The big niches in the middle of the shrine's walls once each held a god, carved from its own block of stone. Only two are still in their first places: Ganesha and Kartikeya. The rest are missing.",
+      "placement": "sections.special[4]"
+    },
+    {
+      "cid": "parasuramesvara2-027", "field": "facts.orientation (no slot)", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ignca-orkhurda145 'Facing towards west.': NOT FETCHABLE", "brown-1959 leaf 213 'the west doorway' found", "ganguly-1912 leaf 356 'six windows in front, i.e., on the west' found"],
+      "reason": "IGNCA not usable, but Ganguly puts the hall's front on the west. facts.orientation is not a schema key and no template renders it, so no slot was invented; the fact is carried as the first sentence of special claim 019 ('The front of the hall faces west.'). The leads doc's sunset reason is unsourced and not used.",
+      "revised_text": "(merged into 019)",
+      "placement": "sections.special[11]; facts.orientation not created"
+    },
+    {
+      "cid": "parasuramesvara2-028", "field": "sections.construction", "verdict": "rejected", "tier": null, "quote_check": "not-fetchable",
+      "evidence_checked": ["ignca-orkhurda145 (only source): ECONNREFUSED on 3 attempts"],
+      "reason": "Sole evidence is the IGNCA form, which could not be re-opened and is a supporting-only government-doc not yet registered. Sandstone/laterite stays blank. 'Without mortar' is already published from Brown. Can be re-submitted if the server responds and the human approves registering the source.",
+      "revised_text": null,
+      "placement": "not staged"
+    },
+    {
+      "cid": "parasuramesvara2-029", "field": "sections.special", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=plinth: leaf 356 (reported as 357 in another query, which also shows the running header 'The Temple of Parasuramesvara, Bhubanesvara') 'Another peculiarity which strikes the attention of an observer is the absence of plinth. The level of the floor is that of the adjoining ground.' found"],
+      "reason": "Found. Voice rewrite only.",
+      "revised_text": "Unusually, this temple has no raised platform. Its floor is level with the ground around it.",
+      "placement": "sections.special[3]"
+    },
+    {
+      "cid": "parasuramesvara2-030", "field": "sections.construction", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=restoration: leaf 360 'Credit is due to the P. W. D. for an effective restoration of the temple which cost them Rs. 3,465*' found", "q=settlement: leaf 360 'caused to the temple by unequal settlement ... Jagamohana was most badly damaged' found", "q=Arnott: leaf 360 footnote cites Arnott's report; leaves 345/416 give 'between 1898 and 1903'", "ignca-orkhurda145 (1903): NOT FETCHABLE"],
+      "reason": "Found. Arnott's report covers several temples 1898-1903, so no year is given in this claim; the existing 1903 claim (Panigrahi) stays. Text gives the cause of damage only; PWD, cost and Arnott in note.",
+      "revised_text": "Why did it need repairs? The ground under the temple had sunk unevenly, and this damaged it. The porch hall was hurt the most.",
+      "placement": "sections.construction[5]"
+    },
+    {
+      "cid": "parasuramesvara2-031", "field": "sections.construction", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=\"effectively reconstructed\": leaf 360 'the Beki, Am\\a and Karpuri have been effectively reconstructed, and a new kalasa has been substituted, for, on referring to plate XII made from a photograph before the restoration, we do not notice the kalasa' found", "bose-1932 leaf 107 crown-part names found"],
+      "reason": "Found. Plain-English part names from Bose; Sanskrit names in note. Note flags that the wide ribbed crowning stone seen today is largely repair work.",
+      "revised_text": "The repairers rebuilt the very top of the tower: its narrow throat, its ribbed disc and the cap above it. They also added a new water-pot-shaped top. An old photo taken before the repairs shows no pot there.",
+      "placement": "sections.construction[6]"
+    },
+    {
+      "cid": "parasuramesvara2-032", "field": "sections.construction", "verdict": "revised", "tier": "scholarly", "quote_check": "found",
+      "evidence_checked": ["ganguly-1912 q=lions: leaf 360 'The lions that are found in the recess stated above were placed there at the time of restoring the temple.' found"],
+      "reason": "Found. 'On the upper tower' removed: the location ('the recess stated above') was not seen. No type (dopichha) and no reason given.",
+      "revised_text": "Some lion figures on the temple were only put there during the repairs.",
+      "placement": "sections.construction[7]"
+    },
+    {
+      "cid": "parasuramesvara2-033", "field": "facts.height", "verdict": "rejected", "tier": null, "quote_check": "not-fetchable",
+      "evidence_checked": ["ignca-orkhurda145 '12.80 mtrs': NOT FETCHABLE", "brown-1959 q=\"44 feet\": leaf 213 'the sikhara of trie former is but 44 feet high' found (already published)"],
+      "reason": "The proposed change (value_m 12.8, range 12.8-13.4 m) rests on the IGNCA figure, which could not be re-opened. The existing Brown-based height (value_m 13.4, 'about 13 m (44 ft)', uncertain) is left unchanged, and sections.size.height_m stays 13.4 so the two still match. 'About 13 m' for 13.4 m is acceptable rounding.",
+      "revised_text": null,
+      "placement": "not staged (existing facts.height unchanged)"
+    },
+    {
+      "cid": "parasuramesvara2-034", "field": "sections.size", "verdict": "rejected", "tier": null, "quote_check": "not-fetchable",
+      "evidence_checked": ["ignca-orkhurda145 (only source): NOT FETCHABLE"],
+      "reason": "Sole source not re-verifiable. The researcher also noted that 'Allocation of Spaces' is not clearly the compound size. sections.size has no slot for a compound claim beyond 'note' anyway.",
+      "revised_text": null,
+      "placement": "not staged"
+    },
+    {
+      "cid": "parasuramesvara2-035", "field": "facts.deity", "verdict": "rejected", "tier": null, "quote_check": "not-fetchable",
+      "evidence_checked": ["ignca-orkhurda145 'living temple; ... Sivalinga within a circular yonipitha': NOT FETCHABLE", "panigrahi-1961 q=Parasaresvara: leaf 254 'ParasaSvara is nodoubt the name of the deity inside the temple for whom the donation was made' found"],
+      "reason": "'Living temple' and 'Shiva linga in a round base' rest only on IGNCA. Panigrahi's sentence gives an 11th-century name of the god, not today's object of worship. Existing facts.deity (uncertain, Shiva or Vishnu) unchanged.",
+      "revised_text": null,
+      "placement": "not staged (existing facts.deity unchanged)"
+    }
+  ]
+}

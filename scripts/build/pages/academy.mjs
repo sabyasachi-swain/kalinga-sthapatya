@@ -213,7 +213,7 @@ export function renderAcademy(ctx) {
           ${section({ id: 'anatomy', className: 'academy-section', heading: 'Anatomy of a temple', body: sectionB })}
           ${hasWhy ? section({ id: 'why-shape', className: 'academy-section', heading: 'Why this shape?', body: sectionC }) : ''}
           ${hasSteps ? section({ id: 'how-built', className: 'academy-section', heading: 'How was it built?', body: sectionD }) : ''}
-          ${section({ id: 'sources', className: 'academy-section', heading: 'Sources', body: appendixHtml })}
+          ${appendixHtml /* sourcesList() is already a complete <section id="sources"> with its own heading; wrapping it duplicated both ids */}
         </div>
       </div>
     </main>

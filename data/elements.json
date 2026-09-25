@@ -6,9 +6,28 @@
       "plain_name": "Bada",
       "group": "structure",
       "parent": null,
-      "what": null,
+      "what": {
+        "text": "The bada is the upright wall of a temple, below the tower. At the bottom is its foot, the pabhaga. Above that rises a tall middle part, and a band of shaped stone rims crowns the top. Some walls have five parts instead, but the oldest temples use three.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "bose-1932",
+            "locator": "scan leaves 15, 133 and 143 (printed pages unverified)"
+          },
+          {
+            "id": "mitra-d-2003",
+            "locator": "scan leaves 26 and 100 (printed pages unverified)"
+          }
+        ],
+        "note": "N.K. Bose (1932) names the three main parts of the wall 'the pabhaga or the division corresponding to the foot (i.e. the base), the jangha or the shin and the baranda, which is a set of mouldings crowning the bara'. He found that all temples which can be dated early 'have a bara composed of three elements', and sorts walls into three-part (tri-anga) and five-part (pancha-anga) types. Debala Mitra's ASI guide calls the bada the 'vertical wall', with the gandi (tower) above it.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-25"
+      },
       "why": null,
-      "temple_ids": []
+      "temple_ids": [
+        "parasuramesvara"
+      ]
     },
     {
       "id": "bhogamandapa",
@@ -66,9 +85,24 @@
       "plain_name": "Pabhaga",
       "group": "structure",
       "parent": null,
-      "what": null,
+      "what": {
+        "text": "The pabhaga is the foot of a temple wall. It is a stack of three, four or five shaped bands of stone, called mouldings, at the very bottom of the wall.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "bose-1932",
+            "locator": "scan leaves 133, 163 and 290, glossary (printed pages unverified)"
+          }
+        ],
+        "note": "Bose (1932) defines the pabhaga as the 'division corresponding to the foot; set of three, four or five mouldings at the base' of a temple. For the full five-moulding form he names them khura, kumbha, pata, kani and basanta.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-25"
+      },
       "why": null,
-      "temple_ids": []
+      "temple_ids": [
+        "parasuramesvara"
+      ]
     },
     {
       "id": "pista",

@@ -427,3 +427,10 @@
 .js-enabled .js-only {
   display: flex;
 }
+
+/* "Found at:" temple links are a short list, not running prose, so they take the 44px target
+   (WCAG 2.5.8). Padding on an inline-block grows the line with the link instead of overlapping. */
+.anatomy-examples a {
+  display: inline-block;
+  padding: 14px 0;
+}

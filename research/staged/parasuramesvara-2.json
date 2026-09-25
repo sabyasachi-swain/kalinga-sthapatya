@@ -1,0 +1,650 @@
+{
+  "target": "temples",
+  "items": [
+    {
+      "id": "parasuramesvara",
+      "name": "Parasuramesvara Temple",
+      "name_odia": null,
+      "page": "temples/parasuramesvara.html",
+      "temple_type": "rekha",
+      "era_id": "formative",
+      "sort_year": 700,
+      "location": {
+        "place": "Bhubaneswar",
+        "district": "Khordha",
+        "lat": 20.2431506,
+        "lng": 85.8390991,
+        "coord_source": "https://www.openstreetmap.org/node/7403431290"
+      },
+      "one_liner": {
+        "text": "It is small, but it is richly carved and one of the oldest temples still standing in Bhubaneswar. Every stone has something to teach us.",
+        "tier": "scholarly",
+        "sources": [
+          {
+            "id": "brown-1959",
+            "locator": "scan leaf 213 (printed page unverified)"
+          },
+          {
+            "id": "panigrahi-1961",
+            "locator": "scan leaf 80 (printed page unverified)"
+          },
+          {
+            "id": "fergusson-1876",
+            "locator": "scan leaf 429 (printed page unverified)"
+          }
+        ],
+        "note": "Brown (1959) and Fergusson (1876) each call it the oldest temple in Bhubaneswar; Brown says he judged 'mainly from its appearance'. Panigrahi (1961) dates the ruined Satrughnesvara earlier, so we say 'one of the oldest'.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-19"
+      },
+      "facts": {
+        "date": {
+          "text": "No carved record tells us the year it was built. Experts read the clues in its style and in the shapes of its carved letters. It is more than 1,100 years old, and maybe close to 1,400. Experts still wonder exactly when it was built.",
+          "value": "c. 7th–8th century CE",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaves 38, 41 and 67 (printed pages unverified)"
+            },
+            {
+              "id": "brown-1959",
+              "locator": "scan leaves 11 and 213 (printed pages unverified)"
+            },
+            {
+              "id": "mitra-r-1880",
+              "locator": "scan leaf 192, 1963 reprint (printed page unverified)"
+            },
+            {
+              "id": "fergusson-1876",
+              "locator": "scan leaf 429 (printed page unverified)"
+            }
+          ],
+          "note": "No building inscription is known, so every date comes from style or letter shapes. Panigrahi (1961) said about 650 CE; Brown (1959) towards the end of the 8th century; R.D. Banerji (reported by Panigrahi) not before the 8th century, from the planet labels on the door. Older writers said about 500 CE (Fergusson, 1876) and the 9th century (Mitra, 1880).",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "dynasty": {
+          "text": "It may come from the days when the Shailodbhava kings ruled this area. But no one knows who had it built.",
+          "value": "Shailodbhava period",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaf 258 (printed page unverified)"
+            },
+            {
+              "id": "fergusson-1876",
+              "locator": "scan leaf 429 (printed page unverified)"
+            }
+          ],
+          "note": "Panigrahi (1961) placed it in Shailodbhava times, based on his own date of about 650 CE, but wrote that we do not know whether any Shailodbhava ruler built temples here. Fergusson (1876) thought it 'may belong to the preceding dynasty', before his Kesari kings.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "height": {
+          "text": "Its tower is about 13 m (44 ft) tall. The tower and hall together are only about 15 m (48 ft) long from end to end.",
+          "value": "about 13 m (44 ft)",
+          "value_m": 13.4,
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "brown-1959",
+              "locator": "scan leaf 213 (printed page unverified)"
+            }
+          ],
+          "note": "Only one set of figures was found: Percy Brown (1959) gives 44 ft for the tower and 48 ft for the shrine and hall together. This is not an ASI measurement. Fergusson (1876) gives only the plan, about 20 ft square.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "deity": {
+          "text": "Look closely at its walls. Some carvings tell stories from the life of the god Shiva. Still, experts have not always agreed whether the temple was made for Shiva or for Vishnu.",
+          "value": "Shiva or Vishnu",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaf 107 (printed page unverified)"
+            },
+            {
+              "id": "mitra-r-1880",
+              "locator": "scan leaf 192, 1963 reprint (printed page unverified)"
+            },
+            {
+              "id": "fergusson-1876",
+              "locator": "scan leaf 429 (printed page unverified)"
+            }
+          ],
+          "note": "Panigrahi (1961) notes carvings of scenes from Shiva's life. Mitra (1880) reports that the Ekamra Purana names its god Daityesvara. Fergusson (1876) judged it a Vishnu temple from its name and its wall carvings.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-19"
+        },
+        "temple_type": {
+          "text": "Look at one side of the main shrine. Its wall steps out in three upright strips. The middle strip juts forward, between two corner strips.",
+          "value": "triratha (three-strip plan)",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "ganguly-1912",
+              "locator": "scan leaves 146, 149 and 359 (printed pages unverified)"
+            },
+            {
+              "id": "mitra-d-2003",
+              "locator": "scan leaf 101, glossary (printed page unverified)"
+            }
+          ],
+          "note": "Ganguly (1912) twice calls this temple's main shrine (vimana) a triratha dewl, which he defines as 'having one central pilaster or Rahapaga, and two Konaka pagas, or end pilasters'. Debala Mitra's ASI glossary gives the same meaning: a central projection (raha) divides each wall into three, the two outer ones (kanika) on the same plane. No source checked calls any part of this temple pancharatha (five-strip).",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-25"
+        }
+      },
+      "sections": {
+        "parts": {
+          "element_ids": [
+            "jagamohana",
+            "bada",
+            "pabhaga"
+          ],
+          "intro": [
+            {
+              "text": "Meet the temple! It has just two parts. First comes the holy room, or sanctuary (deul), with its tower. In front of it stands a hall with pillars, the porch hall (jagamohana). Now look at the foot of the wall. Its base (pabhaga) is made of three shaped bands of stone, called mouldings.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "brown-1959",
+                  "locator": "scan leaf 213 (printed page unverified)"
+                },
+                {
+                  "id": "bose-1932",
+                  "locator": "scan leaves 17 and 157, list of illustrations and plate caption (printed pages unverified)"
+                },
+                {
+                  "id": "ganguly-1912",
+                  "locator": "scan leaves 158 and 359 (printed pages unverified)"
+                }
+              ],
+              "note": "Bose (1932) lists this temple's base as 'Pabhaga, consisting of three mouldings'. Ganguly (1912), who calls this base the Jangha, also counts three, but names them differently in two places (Pada, Kumuda and Basanta at one; at another he says Pata and Kani are 'altogether wanting'). Because the names disagree, none are given here.",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-25"
+            },
+            {
+              "text": "Its wall (bada) is simpler, too. Many temple walls are built in five stacked parts, but this one has fewer.",
+              "tier": "scholarly",
+              "sources": [
+                {
+                  "id": "ganguly-1912",
+                  "locator": "scan leaf 359 (printed page unverified)"
+                },
+                {
+                  "id": "bose-1932",
+                  "locator": "scan leaves 15 and 143 (printed pages unverified)"
+                }
+              ],
+              "note": "Ganguly (1912): 'The Bada does not show the usual five elements; only the Jangha and Barandi have been used, and the remaining three elements have been omitted.' Bose (1932) found that temples which can be dated early 'have a bara composed of three elements, viz. pabhaga, jangha and baranda', and sorts walls into three-part (tri-anga) and five-part (pancha-anga) types. The two scholars count the parts differently, so no number is given here.",
+              "access": "full-text",
+              "status": "approved",
+              "checked_on": "2026-09-25"
+            }
+          ]
+        },
+        "why_built": [],
+        "construction": [
+          {
+            "text": "Imagine building a temple from big, heavy stones with no cement at all. That is how this one was made! Each stone stays in place by its own weight and careful balance. Edges that lock into each other help hold them together.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The builders knew a clever trick. Over a doorway, they stepped stones inwards to make a hollow arch. The empty space kept heavy weight off the stone beams above the door. You can see such an arch in the ruins of an old temple built the same way as this one.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 66 and 67 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961) describes this corbelled arch at the ruined Satrughnesvara, which he says was built the same way as Parasuramesvara. He and N.K. Bose both see it as a way to take weight off the door beams, though they differ on exactly which part it protects.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Old Bhubaneswar had no cranes. So how did builders lift heavy stones? They piled earth around the walls as they grew. Then they dragged the heavy stones up a long earth ramp. Most temples in Bhubaneswar seem to have been built this way.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 79 (printed page unverified)"
+              }
+            ],
+            "note": "This is K.C. Panigrahi's (1961) general account of how Bhubaneswar's temples were built: 'Almost all the temples of Bhubaneswar excepting the miniature ones, seem to have been built by this method.' He does not name the Parasuramesvara. The ramp he says can still be traced is the one made for the great Lingaraja temple, on its western side. He speaks of earth and 'inclined planes', not sand.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Burying the walls caused a problem. Builders could not raise a tower and its hall at the same time. So in Bhubaneswar the tower usually came first, and the hall was added later. Where the two met, the stones did not always line up exactly.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 78 and 79 (printed page unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961) states this as a general rule for Bhubaneswar ('The rule was therefore to build the main temple first and then add a porch after its completion'), adding that 'some discrepancies at these points of juncture' are therefore common. He does not say this of the Parasuramesvara in the passages checked.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "In 1903 the temple had a big repair. Sadly, the work disturbed much of the old roof inside the holy room. Even so, some of its first shape still survives.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 67 (printed page unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961) says the Public Works Department repaired it thoroughly in 1903.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Why did it need repairs? The ground under the temple had sunk unevenly, and this damaged it. The porch hall was hurt the most.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 360 (printed page unverified)"
+              }
+            ],
+            "note": "Ganguly (1912): 'much damage was caused to the temple by unequal settlement. Jagamohana was most badly damaged'. He credits the Public Works Department with 'an effective restoration' costing Rs. 3,465, citing M.H. Arnott's report on repairs to several Bhubaneswar temples between 1898 and 1903. Panigrahi (1961) gives the year 1903.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "The repairers rebuilt the very top of the tower: its narrow throat, its ribbed disc and the cap above it. They also added a new water-pot-shaped top. An old photo taken before the repairs shows no pot there.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 360 (printed page unverified)"
+              },
+              {
+                "id": "bose-1932",
+                "locator": "scan leaf 107 (printed page unverified)"
+              }
+            ],
+            "note": "Ganguly (1912): 'the Beki, Amla and Karpuri have been effectively reconstructed, and a new kalasa has been substituted', since his plate XII, made from a photograph taken before the restoration, shows no kalasa. Bose (1932) explains these crown parts: beki (throat), amla (a flattened, ribbed disc), khapuri (skull) and kalasa (water-pot). So much of the crown seen today, including the wide ribbed stone, is repair work.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Some lion figures on the temple were only put there during the repairs.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 360 (printed page unverified)"
+              }
+            ],
+            "note": "Ganguly (1912): 'The lions that are found in the recess stated above were placed there at the time of restoring the temple.' Which recess he means was not seen, and he gives no type or reason for them.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          }
+        ],
+        "special": [
+          {
+            "text": "Look at the doorway of the holy room. A carved stone slab shows the planet gods, each with its name cut into the stone beside it. But one is missing! Ketu, the ninth planet god, is left out. Later temples, such as Mukteshvara, added him.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 38, 80 and 107 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961) notes that Ketu is absent from the planet slabs of all the early temples up to the end of the 9th century.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Now look up at the tower. It is short and sturdy, with heavy shoulders. On top sits a very wide crowning stone with ribs around it. The tower's shape is simple, like a first draft.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) called the tower 'thick-set and heavy-shouldered', with an 'immensely wide' ribbed crowning stone, and its shape 'rudimentary'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The tower is covered with carvings. You can spot arch-shaped window designs, ribbed stone discs, shallow niches and round medallions.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 71 (printed page unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961): 'The Chaitya arches, bhumi-amalakas, shallow niches and medallions that decorate the sikhara of the Parasuramesvara are to be found in the similar positions of the Sisiresvara also.' (The scan's text is damaged at 'bhumi-amalakas'.)",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Unusually, this temple has no raised platform. Its floor is level with the ground around it.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaves 356–357 (printed page unverified)"
+              }
+            ],
+            "note": "Ganguly (1912): 'Another peculiarity which strikes the attention of an observer is the absence of plinth. The level of the floor is that of the adjoining ground.'",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "The big niches in the middle of the shrine's walls once each held a god, carved from its own block of stone. Only two are still in their first places: Ganesha and Kartikeya. The rest are missing.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 11 and 87 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961): 'Of the images carved out of single blocks of stone and enshrined in the central niches, only two, namely Ganesa and Karttikeya, are still to be found in their original places.' Which wall each is on was not confirmed for this temple.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Find the carving of Lakulisa, the teacher who founded a group of Shiva's followers. He has a place of honour on the temple's front. His four pupils appear with him in the carvings.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 253 (printed page unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961): 'the image of Lakulisa has found a place of honour in the front facade of that monument and ... Lakulisa appears in the sculptures with his four disciples'. He calls Lakulisa the founder of the Pasupata sect of Shiva worshippers. The exact spot of the carving on the front was not confirmed.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Look where the hall meets the tower. The join is untidy! The end of the hall covers up some of the carvings on the tower's front.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959): 'the joining of the two structures is a haphazard piece of work, as the end of the pillared hall covers up some of the carving on the face of the sanctuary.' He adds that the carving on the two buildings differs, some on the hall being 'so naive as to be classed as a folk-art'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Which part is older, the tower or the hall? Experts are not sure. The tower may have replaced an older one that fell apart. Or the hall may have been added later.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              },
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 78 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) suggests the sanctuary 'may have been added a generation or so later, to take the place of an earlier edifice which had probably fallen into decay', but also sees 'indications that the jagamohan itself may have been the subsequent addition, although on grounds of style this does not appear likely'. Panigrahi (1961) gives the general Bhubaneswar rule that the porch was added after the main temple, without naming this temple. Debala Mitra's view could not be checked.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Step up to the porch hall. It has lasted well, so it shows us what early porch halls looked like. Its middle roof is raised higher than the rest. Stone windows, carved with holes, let the daylight in.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 67 (printed page unverified)"
+              },
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              },
+              {
+                "id": "mitra-r-1880",
+                "locator": "scan leaf 192, 1963 reprint (printed page unverified)"
+              }
+            ],
+            "note": "The sources give different numbers of doors for the hall (Panigrahi two, Brown three), so no count is given here.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "The porch hall is low and box-shaped. Its walls are only about 2 m (7 ft) high. Inside, six pillars stand in two rows of three. Before the repairs, each pillar was one single block of stone.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              },
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 356 (printed page unverified)"
+              }
+            ],
+            "note": "Brown (1959): 'A low rectangular structure'; the pillars 'were originally monoliths having plain square shafts, no bases, but with voluted bracket capitals'. Ganguly (1912): the porch wall is '7ft. in height', with 'rows of three rectangular pillars' that 'were monolithic before the present restoration was effected'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "The raised middle of the hall roof has rows of small windows. They let in more light and air. After the big repairs, these little windows were blocked up.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 356 (printed page unverified)"
+              },
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": "Ganguly (1912) describes 'a sort of clere-story, or skylight of six windows in front, i.e., on the west, and twelve windows on the sides, i.e., south and north', made 'to admit more light and air, but now after the restoration, the windows of the clere-story referred to have been blocked up'. Brown (1959) calls the raised roof 'an embryo clerestory'. Whether they are still blocked today was not checked.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "The front of the hall faces west. There is a door on its west side and another on its south side.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "ganguly-1912",
+                "locator": "scan leaf 356 (printed page unverified)"
+              },
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              },
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 84 and 253 (printed pages unverified)"
+              }
+            ],
+            "note": "Ganguly (1912): 'a door opening both on the south and west', and six clerestory windows 'in front, i.e., on the west'. Brown (1959) speaks of 'the west doorway' and 'a doorway in each of its three free sides', so he counts a third door. Panigrahi (1961) mentions the hall's southern door, with an inscription and a Ganesha on its lintel. Only the two doors all agree on are named here.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Beside the west door are two stone window screens. Carvings of young dancers and musicians form their holes. The musicians play wind instruments, lutes and cymbals. One art expert said they were even livelier than the work of a famous Italian sculptor.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959): 'the two stone grilles, one on each side of the west doorway', showing 'figures of young dancers and musicians with trumpet and with shawm, lute and cymbal, so grouped as to form perforated stone windows'. He compared them to 'one of Della Robbia's glazed terracotta reliefs, excelling even the work of that famous Florentine in their vigour and rhythm'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Of all the early temples still in fair shape, this one has the most carvings. High on the porch hall, rows of horses and elephants march along in a parade. Lower down, other panels tell stories of the gods.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 80 and 107 (printed pages unverified)"
+              },
+              {
+                "id": "mitra-r-1880",
+                "locator": "scan leaf 192, 1963 reprint (printed page unverified)"
+              }
+            ],
+            "note": "Mitra (1880) reads the lower porch panels as scenes from Rama's life; Panigrahi (1961) speaks of scenes from Shiva's life. They may be describing different panels.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "On the hall's north wall, nine gods sit in a row. Seven of them are the Seven Mothers, a group of goddesses. Ganesha starts the row and Virabhadra ends it. Here the mothers hold no babies; that idea came in later temples, such as Mukteshvara.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 82, 85, 107 and 162 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961): 'A row of nine deities constituting an early group of Saptamatrikas with their two associates begins from the north-west corner of the northern wall and continues up to the middle.' The first is a Ganesha; the last is identified with Virabhadra. He places this group on the hall (jagamohana), and lists 'babies carried in the arms of Sapta-matrikas' among the Mukteshvara's new features, absent in the early group represented by the Parasuramesvara. He calls it 'an early group', not the first.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "Look for the eight guardians of the directions. Here they appear in a long row of carved panels on the hall. This may be the oldest temple still standing that shows all eight. But they are not yet placed on the sides they guard.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 99 and 170 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961): 'So far as extant temples go, the eight Dikpalas first appear on the Parasuramesvara temple, though not in their respective positions. Here on the Jagamohana of the temple, they appear as a running frieze of sculptures'. Among dated temples, he first finds them in their proper positions at the Brahmesvara. Which wall of the hall carries the frieze was not confirmed.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          },
+          {
+            "text": "The temple's name has changed over time. Writing carved on the hall's south door, about 1,000 years old, calls its god by another name. It may first have been named after Parashara, a teacher of Shiva worship.",
+            "tier": "uncertain",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaves 253 and 254 (printed pages unverified)"
+              }
+            ],
+            "note": "Panigrahi (1961), following A. Ghosh's reading, says the inscription on the southern door of the hall, in Nagari script of about the 11th century, records a gift of rice to 'Parasasvara', which Ghosh took as a corruption of 'Parasaresvara'. Panigrahi has 'reasons to believe' the temple was named after the Pasupata teacher Parasara, and calls the name Parasuramesvara 'a later corruption or invention'. Ghosh's own edition was not opened, and the exact inscribed spelling is uncertain in the scan.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-25"
+          }
+        ],
+        "size": {
+          "height_m": 13.4,
+          "note": null
+        },
+        "influences": [
+          {
+            "text": "This temple and another old one, the Vaital Deul, are like a first lesson book made of stone. They show how the Odisha style of temple began. Later porch halls had only one door and were darker inside.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              },
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 67 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) called the two temples a stone 'primer on the beginnings of the Orissan mode'.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "It has close cousins too. At least two damaged temples in Bhubaneswar closely match it. One, the ruined Bharatesvara, has a similar tower and almost the same carvings on its front.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "panigrahi-1961",
+                "locator": "scan leaf 175 (printed page unverified)"
+              }
+            ],
+            "note": null,
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          },
+          {
+            "text": "Builders may have shared ideas with other parts of India. Its tower and raised hall roof have been compared with slightly older temples at Aihole, in the Deccan. Flat pillars on its walls are topped with a carved pot and leaves, a design linked with the Gupta style of the north.",
+            "tier": "scholarly",
+            "sources": [
+              {
+                "id": "brown-1959",
+                "locator": "scan leaf 213 (printed page unverified)"
+              }
+            ],
+            "note": "Percy Brown (1959) made the Aihole comparison and the Gupta link, suggesting only that ideas may have been shared. Mitra (1880) thought the raised hall roof came instead from Buddhist monastery halls.",
+            "access": "full-text",
+            "status": "approved",
+            "checked_on": "2026-09-19"
+          }
+        ]
+      },
+      "media": {
+        "hero": "V-60",
+        "silhouette": "V-61",
+        "parts_diagram": "V-62"
+      },
+      "sketchfab": null
+    }
+  ],
+  "sources": []
+}
