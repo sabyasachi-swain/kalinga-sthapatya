@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const d = document.createElement('dialog');
   d.className = 'zoom-dialog';
+  d.setAttribute('aria-label', 'Enlarged image');
   d.innerHTML = `
     <div class="zoom-dialog-header">
       <div class="zoom-controls">
@@ -15,11 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </div>
-    <div class="zoom-scroll-area"><img class="zoom-image" alt=""></div>
+    <div class="zoom-scroll-area"></div>
     <div class="zoom-dialog-caption" id="zCap" aria-hidden="true"></div>`;
   document.body.appendChild(d);
 
-  const imgEl = d.querySelector('.zoom-image'), scroll = d.querySelector('.zoom-scroll-area'), cap = d.querySelector('#zCap');
+  // The enlarged <img> is built detached and only put into the dialog on first open: an <img>
+  // sitting in the page with no src reports as a failed load (qa-probe category G).
+  const imgEl = document.createElement('img'); imgEl.className = 'zoom-image'; imgEl.alt = '';
+  const scroll = d.querySelector('.zoom-scroll-area'), cap = d.querySelector('#zCap');
   let curBtn = null, zoom = 1, isDrag = false, hasDrag = false, sX, sY, sSL, sST, lastTap = 0;
 
   function update(cX = null, cY = null) {
@@ -60,11 +64,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setZ(nZ, cX = null, cY = null) { zoom = Math.max(1, Math.min(3, nZ)); update(cX, cY); }
-  function close() {
-    d.close ? d.close() : (d.hidden = true);
+  // Cleanup runs from the dialog's 'close' event, not from close() alone: a native <dialog>
+  // opened with showModal() handles Escape itself and never calls close(), which used to leave
+  // body.zoom-open (overflow: hidden) behind — a page that could no longer scroll — and focus
+  // stranded instead of back on the Enlarge button.
+  function cleanup() {
     document.body.classList.remove('zoom-open');
     curBtn?.focus(); curBtn = null;
   }
+  function close() {
+    if (d.close) d.close(); // fires 'close' -> cleanup()
+    else { d.hidden = true; cleanup(); }
+  }
+  d.addEventListener('close', cleanup);
 
   d.querySelector('#zIn').addEventListener('click', () => setZ(zoom + 1));
   d.querySelector('#zOut').addEventListener('click', () => setZ(zoom - 1));
@@ -115,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zm2.5-4h-2v2H9v-2H7V9h2V7h1v2h2v1z"/></svg>`;
     fig.appendChild(btn);
     btn.addEventListener('click', () => {
-      curBtn = btn; imgEl.src = img.src; imgEl.alt = img.alt;
+      curBtn = btn; imgEl.src = img.src; imgEl.alt = img.alt; if (!imgEl.isConnected) scroll.appendChild(imgEl);
       if (capTxt) { cap.textContent = capTxt; cap.style.display = 'block'; d.setAttribute('aria-describedby', 'zCap'); }
       else { cap.textContent = ''; cap.style.display = 'none'; d.removeAttribute('aria-describedby'); }
       zoom = 1; update();

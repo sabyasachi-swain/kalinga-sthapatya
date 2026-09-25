@@ -283,13 +283,17 @@ ${appendixHtml}
       console.warn(`[${temple.id}] Claim rendered MULTIPLE times: ${entry?.path}`);
     });
 
+    // Tap-to-enlarge ships only with pages that actually have a zoomable figure.
+    const hasZoom = bodyHtml.includes('data-zoom="true"');
     return page(ctx, {
       title: temple.name,
       description: isClaim(temple.one_liner) ? temple.one_liner.text : `${temple.name} — a temple of Odisha.`,
       bodyHtml,
-      headExtra: `<link rel="stylesheet" href="${ctx.assetRel}css/pages/temple.css">`,
+      headExtra: `<link rel="stylesheet" href="${ctx.assetRel}css/pages/temple.css">` +
+        (hasZoom ? `
+<link rel="stylesheet" href="${ctx.assetRel}css/components/zoom.css">` : ""),
       schema: templeSchema(temple, ctx),
-      scripts: ["js/templeJourney.js"],
+      scripts: hasZoom ? ["js/templeJourney.js", "js/imageZoom.js"] : ["js/templeJourney.js"],
       bodyClassName: "page-temple"
     });
   };
