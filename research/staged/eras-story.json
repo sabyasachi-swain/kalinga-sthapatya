@@ -1,5 +1,6 @@
 {
-  "eras": [
+  "target": "timeline",
+  "items": [
     {
       "id": "rock-cut-roots",
       "order": 1,
@@ -423,5 +424,6 @@
       ],
       "media": "V-25"
     }
-  ]
+  ],
+  "sources": []
 }
