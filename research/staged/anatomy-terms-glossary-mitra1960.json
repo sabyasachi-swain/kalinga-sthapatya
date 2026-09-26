@@ -1,0 +1,144 @@
+{
+  "target": "glossary",
+  "items": [
+    {
+      "id": "khakhara-deula",
+      "term": "Khakhara deula",
+      "odia": null,
+      "short": {
+        "text": "A khakhara deula has an oblong (rectangular) plan. Its roof is long and rounded on top, like half a barrel lying on its side.",
+        "tier": "established",
+        "sources": [
+          {
+            "id": "bose-1932",
+            "locator": "scan leaves 100 and 108 (printed pages unverified)"
+          },
+          {
+            "id": "behera-2005",
+            "locator": "scan leaf 55 (printed page unverified)"
+          },
+          {
+            "id": "mitra-d-2003",
+            "locator": "scan leaf 46 (printed page unverified)"
+          }
+        ],
+        "note": "N.K. Bose (1932): the ground plan of the khakhara 'is rectangular'. K.S. Behera: 'oblong bada and semi-cylindrical roof'. Mitra's ASI guide calls the roofs of its carved models 'wagon-vaulted'.",
+        "access": "full-text",
+        "status": "approved",
+        "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Two khakhara temples in Bhubaneswar are the Vaital Deul and the small Gauri temple.",
+          "tier": "established",
+          "sources": [
+            {
+              "id": "bose-1932",
+              "locator": "scan leaf 108 (printed page unverified)"
+            },
+            {
+              "id": "panigrahi-1961",
+              "locator": "scan leaf 188 (printed page unverified)"
+            }
+          ],
+          "note": null,
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-26"
+        },
+        {
+          "text": "The name khakhara comes from the kakharu, a kind of pumpkin-gourd. The temple's long, rounded roof looks a little like it.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "mitra-d-1960",
+              "locator": "scan leaf 9 (printed page unverified)"
+            }
+          ],
+          "note": "Debala Mitra (1960): the name is 'due to the faint resemblance of the barrel-vaulted elongated roof of its temples with a variety of pumpkin-gourd, called kakharu in Oriya'. She links the local name vaitalu for this gourd with the name of the Vaital Deul.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-26"
+        },
+        {
+          "text": "This roof shape may copy very old halls, whose rounded roofs rested on timber or bent bamboo.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "mitra-d-1960",
+              "locator": "scan leaf 9 (printed page unverified)"
+            }
+          ],
+          "note": "Debala Mitra (1960): the roof 'is a modified survival of the primitive halls with a semi-cylindrical roof resting on a framework of timber or bent split bamboos (in the case of a thatched roof)'.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Khakhara temples are often linked with the worship of goddesses. But goddesses are also found in temples of other types, and experts do not all agree about the Vaital Deul.",
+          "tier": "uncertain",
+          "sources": [
+            {
+              "id": "behera-2005",
+              "locator": "scan leaf 55 (printed page unverified)"
+            },
+            {
+              "id": "mitra-d-1960",
+              "locator": "scan leaf 10 (printed page unverified)"
+            },
+            {
+              "id": "brown-1959",
+              "locator": "scan leaf 240 (printed page unverified)"
+            }
+          ],
+          "note": "K.S. Behera (2005): the khakhara temple is 'used for Devi worship'. Debala Mitra (1960): the available evidence 'indicates that temples of this Order in Orissa belonged to the Sakta cult, though the converse is not true', as goddesses also sit in rekha temples such as the Mohini and Chitrakarini. Percy Brown (1959) calls the Vaital Deul 'a Siva temple of the Orissan group'.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Full khakhara temples are rare.",
+          "tier": "scholarly",
+          "sources": [
+            {
+              "id": "bose-1932",
+              "locator": "scan leaf 100 (printed page unverified)"
+            }
+          ],
+          "note": "N.K. Bose (1932): the type 'is limited to six examples in Bhubaneswar', but its miniatures are very common as decoration.",
+          "access": "full-text",
+          "status": "approved",
+          "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null,
+      "temple_ids": [],
+      "see_also": [
+        "khakhara-mundi",
+        "rekha-deula",
+        "pidha-deula"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mitra-d-1960",
+      "type": "journal-article",
+      "authors": [
+        "Debala Mitra"
+      ],
+      "title": "Four Little-Known Khakhara Temples of Orissa",
+      "year": "1960",
+      "publisher": "Journal of the Asiatic Society, Vol. II (Nos. 1-4), Asiatic Society, Calcutta",
+      "url": "https://archive.org/details/dli.bengal.10689.18691",
+      "url_kind": "archive",
+      "identifiers": {
+        "isbn": null,
+        "doi": null
+      },
+      "accessed": "2026-09-26",
+      "domain_reviewed": false,
+      "notes": "Registered with the human's approval on 2026-09-26 (Journal of the Asiatic Society, Calcutta: a scholarly society journal). Full text on archive.org (Digital Library of India). The archive.org record is the whole journal volume: title 'JOURNAL OF THE ASIATIC SOCIETY VOL. 2, NO. 1-4', date 1960, publisher 'ASIATIC SOCIETY, CALCUTTA', creator 'N.A', 310 pp. The article begins at scan leaf 9 with 'By Debala Mitra'. The running head on scan leaf 20 reads '12 DEBALA MITRA [VOL. II,', so scan leaf 9 is printed p. 1. The end page and the journal's series number were not confirmed. No evidence was found for a co-author 'Adris Banerji'. Scan leaves 52-60 repeat leaves 22-30."
+    }
+  ]
+}

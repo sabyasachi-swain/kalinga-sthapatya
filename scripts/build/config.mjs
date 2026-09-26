@@ -25,7 +25,7 @@ export const siteConfig = {
     { label: "Academy", href: "academy.html" },
     { label: "Map", href: "map.html" },
     { label: "Compare", href: "compare.html" },
-    { label: "Glossary", href: "glossary.html", soon: true },
+    { label: "Glossary", href: "glossary.html" }, // "Soon" badge is automatic while data/glossary.json is empty
     { label: "About", href: "about.html" },
   ],
   footerLinks: [

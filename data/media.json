@@ -972,7 +972,7 @@
       "hotspots": []
     },
     {
-      "status": "approved",
+      "status": "delivered",
       "decorative": false,
       "caption": "AI-generated illustration",
       "shows_real_temple": true,
@@ -980,7 +980,7 @@
       "hotspots": [],
       "temple_id": "parasuramesvara",
       "interim": true,
-      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "review_note": "Pulled to placeholder 2026-09-26 (human-approved): baked-in labels use terms not in the verified data (garbhagriha, amalaka, dhwaja, adhisthana, vimana, pidha roof) plus a footer and flag; the video shows the same labels in every frame. Regenerate from visual-briefs/PARASURAMESVARA-ANNOTATED-BRIEFS.md (READY TO GENERATE). Earlier note: Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
       "id": "V-64A",
       "kind": "raster",
       "path": "img/temples/v-64a-parasuramesvara-assembled.jpg",
@@ -997,7 +997,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "delivered",
       "decorative": false,
       "caption": "AI-generated illustration",
       "shows_real_temple": true,
@@ -1005,7 +1005,7 @@
       "hotspots": [],
       "temple_id": "parasuramesvara",
       "interim": true,
-      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "review_note": "Pulled to placeholder 2026-09-26 (human-approved): baked-in labels use terms not in the verified data (garbhagriha, amalaka, dhwaja, adhisthana, vimana, pidha roof) plus a footer and flag; the video shows the same labels in every frame. Regenerate from visual-briefs/PARASURAMESVARA-ANNOTATED-BRIEFS.md (READY TO GENERATE). Earlier note: Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
       "id": "V-64B",
       "kind": "raster",
       "path": "img/temples/v-64b-parasuramesvara-separated.jpg",
@@ -1022,7 +1022,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "delivered",
       "decorative": false,
       "caption": "AI-generated illustration",
       "shows_real_temple": true,
@@ -1030,7 +1030,7 @@
       "hotspots": [],
       "temple_id": "parasuramesvara",
       "interim": true,
-      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "review_note": "Pulled to placeholder 2026-09-26 (human-approved): baked-in labels use terms not in the verified data (garbhagriha, amalaka, dhwaja, adhisthana, vimana, pidha roof) plus a footer and flag; the video shows the same labels in every frame. Regenerate from visual-briefs/PARASURAMESVARA-ANNOTATED-BRIEFS.md (READY TO GENERATE). Earlier note: Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
       "id": "V-64C",
       "kind": "raster",
       "path": "img/temples/v-64c-parasuramesvara-exploded.jpg",
@@ -1047,7 +1047,7 @@
       }
     },
     {
-      "status": "approved",
+      "status": "delivered",
       "decorative": false,
       "caption": "AI-generated illustration",
       "shows_real_temple": true,
@@ -1055,7 +1055,7 @@
       "hotspots": [],
       "temple_id": "parasuramesvara",
       "interim": true,
-      "review_note": "Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
+      "review_note": "Pulled to placeholder 2026-09-26 (human-approved): baked-in labels use terms not in the verified data (garbhagriha, amalaka, dhwaja, adhisthana, vimana, pidha roof) plus a footer and flag; the video shows the same labels in every frame. Regenerate from visual-briefs/PARASURAMESVARA-ANNOTATED-BRIEFS.md (READY TO GENERATE). Earlier note: Interim preview (human, 2026-09-19): image has baked-in labels, footer and Gemini mark; human will regenerate text-free. Do not treat labels as sourced.",
       "id": "V-64V",
       "kind": "video",
       "path": "img/temples/v-64v-parasuramesvara-build.mp4",

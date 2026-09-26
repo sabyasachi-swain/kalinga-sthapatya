@@ -1,5 +1,6 @@
 {
-  "elements": [
+  "target": "elements",
+  "items": [
     {
       "id": "bada",
       "name": "Bada",
@@ -10,18 +11,9 @@
         "text": "The bada is the upright wall of a temple, below the tower. At the bottom is its foot, the pabhaga. Above that rises a tall middle part, and a band of shaped stone rims crowns the top. In many later temples, an extra band splits the middle part in two, making five parts. Early temples mostly have the simpler three-part wall.",
         "tier": "scholarly",
         "sources": [
-          {
-            "id": "bose-1932",
-            "locator": "scan leaves 133, 143 and 144 (printed pages unverified)"
-          },
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 26, 53 and 100 (printed pages unverified)"
-          },
-          {
-            "id": "behera-2005",
-            "locator": "scan leaf 66 (printed page unverified)"
-          }
+          { "id": "bose-1932", "locator": "scan leaves 133, 143 and 144 (printed pages unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaves 26, 53 and 100 (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 66 (printed page unverified)" }
         ],
         "note": "N.K. Bose (1932) names the three main parts of the wall 'the pabhaga or the division corresponding to the foot (i.e. the base), the jangha or the shin and the baranda, which is a set of mouldings crowning the bara'. He found that the Bhubaneswar temples he could date early 'have a bara composed of three elements', and that five parts (pabhaga, lower jangha, bandhana, upper jangha, baranda) appear 'only in the later temples'. K.S. Behera: the 'jangha is divided into lower and upper by a bandhana'. Debala Mitra's ASI guide calls the bada the 'vertical wall'; describing Konark, she says it has five divisions 'as in all Orissa temples', which describes the fully developed temples. The dating rests on style, and counts for single early temples differ between authors.",
         "access": "full-text",
@@ -29,10 +21,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "parasuramesvara",
-        "konark"
-      ]
+      "temple_ids": ["parasuramesvara", "konark"]
     },
     {
       "id": "bhogamandapa",
@@ -44,18 +33,9 @@
         "text": "The bhogamandapa is the hall of offering. It usually stands in front of the dance hall.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaf 100, glossary (printed page unverified)"
-          },
-          {
-            "id": "behera-2005",
-            "locator": "scan leaf 167, glossary (printed page unverified)"
-          },
-          {
-            "id": "brown-1959",
-            "locator": "scan leaves 212 and 384 (printed pages unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 167, glossary (printed page unverified)" },
+          { "id": "brown-1959", "locator": "scan leaves 212 and 384 (printed pages unverified)" }
         ],
         "note": "Percy Brown and K.S. Behera also call it 'the refectory hall of a temple', a dining hall. Brown: 'secondly in front of this [the dancing hall] the Bhog Mandir or Hall of Offerings'. At Lingaraja and at Puri it is the last of four buildings in a line (Mitra, scan leaves 86 and 92).",
         "access": "full-text",
@@ -63,10 +43,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "lingaraj",
-        "jagannath-puri"
-      ]
+      "temple_ids": ["lingaraj", "jagannath-puri"]
     },
     {
       "id": "gandi",
@@ -78,18 +55,9 @@
         "text": "The gandi is the main body of the tower or roof, above the wall. The word means 'trunk', as in the trunk of a body.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaf 100, glossary (printed page unverified)"
-          },
-          {
-            "id": "bose-1932",
-            "locator": "scan leaf 133 (printed page unverified)"
-          },
-          {
-            "id": "behera-2005",
-            "locator": "scan leaf 168, glossary (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 133 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" }
         ],
         "note": "Mitra's ASI glossary: 'literally trunk; curvilinear spire or pyramidal roof above bada and below the mastaka'. N.K. Bose: 'The gandi (lit. the trunk of the body) or the curvilinear tower'. Percy Brown (1959) calls the tall middle part of the tower the 'chhapra' instead.",
         "access": "full-text",
@@ -97,10 +65,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "lingaraj",
-        "mukteshwar"
-      ]
+      "temple_ids": ["lingaraj", "mukteshwar"]
     },
     {
       "id": "horses",
@@ -112,14 +77,8 @@
         "text": "These horses belong to one temple only: Konark. Seven stone horses were carved beside its front steps. They seem to pull the temple, which was designed as the Sun god's chariot.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 24 and 44 (printed pages unverified)"
-          },
-          {
-            "id": "brown-1959",
-            "locator": "scan leaf 217 (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 24 and 44 (printed pages unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 217 (printed page unverified)" }
         ],
         "note": "Debala Mitra's ASI guide: the temple 'was conceived as a colossal chariot with twelve pairs of wheels and drawn by seven richly-caparisoned horses'; 'The rearing horses are sculpted against the sides of this staircase.' Percy Brown: the steps' 'sides supported by seven richly caparisoned steeds'. Mitra adds: 'In Hindu mythology, Surya is believed to course across the sky in a chariot of seven horses.'",
         "access": "full-text",
@@ -127,9 +86,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "konark"
-      ]
+      "temple_ids": ["konark"]
     },
     {
       "id": "jagamohana",
@@ -141,18 +98,9 @@
         "text": "The jagamohana is the hall in front of the main shrine, where worshippers gather. It usually has a pidha (stepped) roof.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 25 and 100, glossary (printed pages unverified)"
-          },
-          {
-            "id": "bose-1932",
-            "locator": "scan leaf 287, glossary (printed page unverified)"
-          },
-          {
-            "id": "behera-2005",
-            "locator": "scan leaf 50 (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 25 and 100, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 287, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" }
         ],
         "note": "Mitra's ASI glossary: 'hall in front of a sanctuary, usually in a pidha temple'. K.S. Behera: in the earliest temples the jagamohana had a flat roof, later changed into a pyramidal one.",
         "access": "full-text",
@@ -160,13 +108,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "konark",
-        "lingaraj",
-        "mukteshwar",
-        "parasuramesvara",
-        "jagannath-puri"
-      ]
+      "temple_ids": ["konark", "lingaraj", "mukteshwar", "parasuramesvara", "jagannath-puri"]
     },
     {
       "id": "natamandira",
@@ -178,18 +120,9 @@
         "text": "The natamandira is the dance hall. In large temples it stands in front of the jagamohana.",
         "tier": "established",
         "sources": [
-          {
-            "id": "brown-1959",
-            "locator": "scan leaf 212 (printed page unverified)"
-          },
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaf 92 (printed page unverified)"
-          },
-          {
-            "id": "behera-2005",
-            "locator": "scan leaf 170, glossary (printed page unverified)"
-          }
+          { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 92 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 170, glossary (printed page unverified)" }
         ],
         "note": "Names vary: Nat Mandir (Brown), nata mandapa (Mitra), Nata-mandira (Behera). Mitra's glossary calls it a 'festive hall'. At Konark the detached hall in front is named both ways: Mitra says it 'is generally believed to be a nata-mandapa' and 'is also known as the bhoga-mandapa'; Brown calls it the nat mandir.",
         "access": "full-text",
@@ -197,36 +130,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "lingaraj",
-        "jagannath-puri",
-        "konark"
-      ]
-    },
-    {
-      "id": "pabhaga",
-      "name": "Pabhaga",
-      "plain_name": "Pabhaga",
-      "group": "structure",
-      "parent": null,
-      "what": {
-        "text": "The pabhaga is the foot of a temple wall. It is a stack of three, four or five shaped bands of stone, called mouldings, at the very bottom of the wall.",
-        "tier": "scholarly",
-        "sources": [
-          {
-            "id": "bose-1932",
-            "locator": "scan leaves 133, 163 and 290, glossary (printed pages unverified)"
-          }
-        ],
-        "note": "Bose (1932) defines the pabhaga as the 'division corresponding to the foot; set of three, four or five mouldings at the base' of a temple. For the full five-moulding form he names them khura, kumbha, pata, kani and basanta.",
-        "access": "full-text",
-        "status": "approved",
-        "checked_on": "2026-09-25"
-      },
-      "why": null,
-      "temple_ids": [
-        "parasuramesvara"
-      ]
+      "temple_ids": ["lingaraj", "jagannath-puri", "konark"]
     },
     {
       "id": "pista",
@@ -238,18 +142,9 @@
         "text": "The pista is the platform or base that a temple stands on. Not every temple has one.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 88 and 101, glossary (printed pages unverified)"
-          },
-          {
-            "id": "bose-1932",
-            "locator": "scan leaves 107 and 291, glossary (printed pages unverified)"
-          },
-          {
-            "id": "brown-1959",
-            "locator": "scan leaf 212 (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 88 and 101, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaves 107 and 291, glossary (printed pages unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" }
         ],
         "note": "N.K. Bose (1932): the pista 'does not form an essential part of the temple proper'; the Lingaraja has none. Spellings: pista (Bose, Brown), pishta (Mitra), pitha (Behera).",
         "access": "full-text",
@@ -257,9 +152,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "konark"
-      ]
+      "temple_ids": ["konark"]
     },
     {
       "id": "torana",
@@ -271,14 +164,8 @@
         "text": "A torana is a gateway with an arch that stands on its own. The Mukteshvara Temple in Bhubaneswar has one in front: a round arch on two pillars.",
         "tier": "scholarly",
         "sources": [
-          {
-            "id": "brown-1959",
-            "locator": "scan leaves 214 and 388, glossary (printed pages unverified)"
-          },
-          {
-            "id": "panigrahi-1961",
-            "locator": "scan leaves 104 and 106 (printed pages unverified)"
-          }
+          { "id": "brown-1959", "locator": "scan leaves 214 and 388, glossary (printed pages unverified)" },
+          { "id": "panigrahi-1961", "locator": "scan leaves 104 and 106 (printed pages unverified)" }
         ],
         "note": "Percy Brown: 'This detached portal consists of two pillars supporting a round arch within a semi-circular shaped pediment'. K.C. Panigrahi: no torana is found at any other existing temple in Bhubaneswar; the remains of an earlier one were dug up at Dola-mandapa.",
         "access": "full-text",
@@ -286,9 +173,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "mukteshwar"
-      ]
+      "temple_ids": ["mukteshwar"]
     },
     {
       "id": "vimana-base",
@@ -300,14 +185,8 @@
         "text": "This base belongs to one temple only: Konark. Its shrine and hall stand on one shared platform. It is richly carved and over 4 m (13 ft) high.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 46 and 107 (printed pages unverified)"
-          },
-          {
-            "id": "brown-1959",
-            "locator": "scan leaf 217 (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 46 and 107 (printed pages unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 217 (printed page unverified)" }
         ],
         "note": "Debala Mitra's ASI guide: 'The deul and jagamohana stand on a magnificent platform, over 4 metres high'. The height is the guide's round figure; feet computed from it. Percy Brown: 'On the high platform thus formed the temple building was raised in two conjoined parts'. The shrine's tower has fallen; the platform remains.",
         "access": "full-text",
@@ -315,9 +194,7 @@
         "checked_on": "2026-09-26"
       },
       "why": null,
-      "temple_ids": [
-        "konark"
-      ]
+      "temple_ids": ["konark"]
     },
     {
       "id": "wheel",
@@ -329,14 +206,8 @@
         "text": "These wheels belong to one temple only: Konark. Twelve pairs of huge stone wheels are carved on the sides of its high platform and front steps. They make the temple look like a chariot.",
         "tier": "established",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 24 and 44 (printed pages unverified)"
-          },
-          {
-            "id": "brown-1959",
-            "locator": "scan leaf 217 (printed page unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 24 and 44 (printed pages unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 217 (printed page unverified)" }
         ],
         "note": "Debala Mitra's ASI guide: 'twelve pairs of wheels', 'carved against the sides of the high platform and also on two sides of the east staircase'. Percy Brown: 'an immense terrace with 12 giant wheels ... fixed on either side'. Elsewhere Mitra calls it a 'twelve-wheeled chariot'.",
         "access": "full-text",
@@ -347,19 +218,15 @@
         "text": "The twelve pairs of wheels are thought to stand for the twelve months of the year.",
         "tier": "scholarly",
         "sources": [
-          {
-            "id": "mitra-d-2003",
-            "locator": "scan leaves 43 and 44 (printed pages unverified)"
-          }
+          { "id": "mitra-d-2003", "locator": "scan leaves 43 and 44 (printed pages unverified)" }
         ],
         "note": "Debala Mitra's ASI guide: 'The twelve pairs of wheels symbolise the twelve months of a year.' A symbolic interpretation, from one source.",
         "access": "full-text",
         "status": "approved",
         "checked_on": "2026-09-26"
       },
-      "temple_ids": [
-        "konark"
-      ]
+      "temple_ids": ["konark"]
     }
-  ]
+  ],
+  "sources": []
 }

@@ -76,7 +76,7 @@ function termCard(term, ctx, byId) {
       ctx.data.elementsById?.get(term.element_id) ||
       (ctx.data.elements?.elements || []).find((e) => e.id === term.element_id);
     const elName = el?.name || term.element_id;
-    elementLink = `<p class="term-card__element"><a href="${ctx.rel}academy.html#${escapeHtml(term.element_id)}">See ${escapeHtml(elName)} in the Academy →</a></p>`;
+    elementLink = `<p class="term-card__element"><a href="${ctx.rel}academy.html#el-${escapeHtml(term.element_id)}">See ${escapeHtml(elName)} in the Academy →</a></p>`;
   }
 
   return `<div class="term-card" id="term-${escapeHtml(term.id)}" data-search="${escapeHtml(searchText(term))}" data-letter="${escapeHtml(firstLetter(term.term))}">

@@ -488,6 +488,25 @@
       "accessed": "2026-09-19",
       "domain_reviewed": false,
       "notes": "DOI resolves to https://f1000research.com/articles/13-1540/v2 (version 2, 15 May 2025; version 1, 20 December 2024). Open post-publication peer review: 2 approved, 1 approved with reservations. Full text also on PubMed Central (PMC12203308), where it was read. CAUTION: the authors treat Dharmapada and the 1,200 workers as historical. Use only for reported measurements and cited dates, never to upgrade a tradition."
+    },
+    {
+      "id": "mitra-d-1960",
+      "type": "journal-article",
+      "authors": [
+        "Debala Mitra"
+      ],
+      "title": "Four Little-Known Khakhara Temples of Orissa",
+      "year": "1960",
+      "publisher": "Journal of the Asiatic Society, Vol. II (Nos. 1-4), Asiatic Society, Calcutta",
+      "url": "https://archive.org/details/dli.bengal.10689.18691",
+      "url_kind": "archive",
+      "identifiers": {
+        "isbn": null,
+        "doi": null
+      },
+      "accessed": "2026-09-26",
+      "domain_reviewed": false,
+      "notes": "Registered with the human's approval on 2026-09-26 (Journal of the Asiatic Society, Calcutta: a scholarly society journal). Full text on archive.org (Digital Library of India). The archive.org record is the whole journal volume: title 'JOURNAL OF THE ASIATIC SOCIETY VOL. 2, NO. 1-4', date 1960, publisher 'ASIATIC SOCIETY, CALCUTTA', creator 'N.A', 310 pp. The article begins at scan leaf 9 with 'By Debala Mitra'. The running head on scan leaf 20 reads '12 DEBALA MITRA [VOL. II,', so scan leaf 9 is printed p. 1. The end page and the journal's series number were not confirmed. No evidence was found for a co-author 'Adris Banerji'. Scan leaves 52-60 repeat leaves 22-30."
     }
   ]
 }

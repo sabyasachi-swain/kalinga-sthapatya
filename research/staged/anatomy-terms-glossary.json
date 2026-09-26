@@ -1,0 +1,995 @@
+{
+  "target": "glossary",
+  "items": [
+    {
+      "id": "deula", "term": "Deula", "odia": null,
+      "short": {
+        "text": "Deula is the local word for a temple. Used alone, it often means just the main shrine with its tower.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "brown-1959", "locator": "scan leaves 212 and 385, glossary (printed pages unverified)" }
+        ],
+        "note": "Debala Mitra's ASI guide: 'general name for a temple as a whole; when used singly, it refers to the sanctuary'. Percy Brown (1959) says the same. Spellings vary: deul (Mitra, Brown), deula (Behera).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Odisha's temples come in three main types: rekha, pidha and khakhara.",
+          "tier": "established",
+          "sources": [
+            { "id": "mitra-d-2003", "locator": "scan leaf 87 (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 55 (printed page unverified)" },
+            { "id": "bose-1932", "locator": "scan leaf 100 (printed page unverified)" }
+          ],
+          "note": "Debala Mitra sorts Bhubaneswar's temples into 'Rekha, Pidha and Khakhara orders'. K.S. Behera says the local silpa texts 'mention three types of structures'. N.K. Bose (1932) counts four types in Orissa, adding the rare Gauriya, and calls the pidha type 'Bhadra'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "A typical Odisha temple joins two types. A rekha tower rises over the shrine, and a pidha hall stands in front of it.",
+          "tier": "established",
+          "sources": [
+            { "id": "mitra-d-2003", "locator": "scan leaf 25 (printed page unverified)" },
+            { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" },
+            { "id": "kramrisch-1946", "locator": "Vol. I, scan leaf 227 (printed page unverified)" }
+          ],
+          "note": "Percy Brown: the deul and the jagamohan 'combined constitute the essentials of the Orissan temple type'. Mitra's example is Konark.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "From bottom to top, a temple has four parts: the pista (platform), bada (wall), gandi (tower or roof) and mastaka (crown).",
+          "tier": "established",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 26 (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 51 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932) names the four parts and says 'mastaka' is a name coined for convenience. K.S. Behera also calls the crown 'shira'. Percy Brown (1959) uses other names for the tower's parts. The platform is spelled pista (Bose, Brown), pishta (Mitra) or pitha (Behera).",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Many part names come from the human body, such as foot, leg, trunk, throat and head. Scholars say the temple was pictured as a body.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 134 (printed page unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 26 (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 51 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932): 'the Rekha temple has been likened to the human body'. Debala Mitra: naming parts after human limbs 'suggests that temples were likened to the human body'. K.S. Behera goes further: the craftsmen 'considered the temple as the body of the Cosmic Being'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["rekha-deula", "pidha-deula", "khakhara-deula", "bada-deula", "vimana"]
+    },
+    {
+      "id": "rekha-deula", "term": "Rekha deula", "odia": null,
+      "short": {
+        "text": "A rekha deula has a tall, curved tower. The tower rises almost straight at first, then curves inward more and more near the top.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 171, glossary (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932) compares the outline to 'a tall bamboo-post which has been slightly bent towards the top by a rope'. Mitra's ASI glossary: 'a curvilinear tower which presents the appearance of a continuous line'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The rekha form is usually used for the main shrine, the sanctuary.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "behera-2005", "locator": "scan leaves 50 and 171 (printed pages unverified)" },
+            { "id": "kramrisch-1946", "locator": "Vol. I, scan leaf 227 (printed page unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 25 (printed page unverified)" }
+          ],
+          "note": "K.S. Behera: 'usually limited to the main temple'. Stella Kramrisch calls the sanctuary the 'Rekha or Bara Deul'. Mitra's example is Konark, whose rekha tower has fallen.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": ["konark", "jagannath-puri", "mukteshwar"],
+      "see_also": ["pidha-deula", "gandi", "deula"]
+    },
+    {
+      "id": "pidha-deula", "term": "Pidha deula", "odia": null,
+      "short": {
+        "text": "A pidha deula has a roof like a stepped pyramid. It is built from flat layers, called pidhas, that get smaller as they rise.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaves 107-108 (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932) calls this type 'Bhadra'. K.S. Behera: the uppermost pidha is generally 'half the size of the lowest one'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The pidha form is mostly used for a temple's halls: the jagamohana, the dance hall and the hall of offerings.",
+          "tier": "established",
+          "sources": [
+            { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaf 69 (printed page unverified)" }
+          ],
+          "note": "Mitra's ASI glossary: 'usually limited to the jagamohana, bhoga-mandapa and nata-mandapa in Orissa'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "The stepped pidha roof came later. In the earliest temples, the hall in front had a lower, flatter roof.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "behera-2005", "locator": "scan leaves 50 and 59 (printed pages unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaf 69 (printed page unverified)" }
+          ],
+          "note": "K.S. Behera: in the earlier phase the jagamohana 'was distinguished by a flat roof'. K.C. Panigrahi: the early porch is 'a low mandapa', and the pidha form first appears as the porch of the Mukteshvara.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "The pidha hall in front of the shrine is also called a bhadra deula, or a mukhasala, which means 'front hall'.",
+          "tier": "established",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 242 (printed page unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 170, glossary (printed page unverified)" }
+          ],
+          "note": "Bose (1932): the Bhadra is also called the Mukhasala, 'the building which is placed towards the face or front of the Rekha'. Mitra glosses bhadra deul as 'auspicious temple'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": ["konark", "mukteshwar"],
+      "see_also": ["pidha", "potala", "jagamohana", "rekha-deula"]
+    },
+    {
+      "id": "khakhara-deula", "term": "Khakhara deula", "odia": null,
+      "short": {
+        "text": "A khakhara deula has an oblong (rectangular) plan. Its roof is long and rounded on top, like half a barrel lying on its side.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 100 and 108 (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 55 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 46 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932): the ground plan of the khakhara 'is rectangular'. K.S. Behera: 'oblong bada and semi-cylindrical roof'. Mitra's ASI guide calls the roofs of its carved models 'wagon-vaulted'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Two khakhara temples in Bhubaneswar are the Vaital Deul and the small Gauri temple.",
+          "tier": "established",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 108 (printed page unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaf 188 (printed page unverified)" }
+          ],
+          "note": null,
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Khakhara temples are often linked with the worship of goddesses. But experts do not all agree about the Vaital Deul.",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "behera-2005", "locator": "scan leaf 55 (printed page unverified)" },
+            { "id": "brown-1959", "locator": "scan leaf 240 (printed page unverified)" }
+          ],
+          "note": "K.S. Behera (2005): the khakhara temple is 'used for Devi worship'. Percy Brown (1959) calls the Vaital Deul 'a Siva temple of the Orissan group'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Full khakhara temples are rare.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 100 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932): the type 'is limited to six examples in Bhubaneswar', but its miniatures are very common as decoration.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["khakhara-mundi", "rekha-deula", "pidha-deula"]
+    },
+    {
+      "id": "khakhara-mundi", "term": "Khakhara-mundi", "odia": null,
+      "short": {
+        "text": "A khakhara-mundi is a small carved model of a khakhara temple. Many temple walls are decorated with them.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 100 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 127 (printed page unverified)" }
+        ],
+        "note": "Mitra's ASI glossary: 'miniature representation of a khakhara temple as an ornamental motif'. Bose (1932): such miniatures 'were very extensively employed as a decorative motif'. Konark's walls have many (Mitra, scan leaves 46 and 53).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": ["konark"],
+      "see_also": ["khakhara-deula"]
+    },
+    {
+      "id": "bada-deula", "term": "Bada deula", "odia": null,
+      "short": {
+        "text": "The main shrine is also called the bada deula, which means 'big temple'. This bada means 'big'. It is a different word from bada, the wall.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" },
+          { "id": "kramrisch-1946", "locator": "Vol. I, scan leaf 227 (printed page unverified)" }
+        ],
+        "note": "Mitra's ASI glossary: 'bada deul literally big temple, meaning the sanctuary'; the same glossary lists 'bada ... wall' as a separate entry. Kramrisch writes 'Bara Deul'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["deula", "bada", "vimana"]
+    },
+    {
+      "id": "vimana", "term": "Vimana", "odia": null,
+      "short": {
+        "text": "The main shrine with its tower is also called the vimana.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 385, glossary (printed page unverified)" }
+        ],
+        "note": "K.S. Behera: 'The main temple or the Vimana (also called deula)'. Percy Brown: deul can mean 'the sanctuary only, such as the cella and its tower, the vimana'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["deula", "bada-deula"]
+    },
+    {
+      "id": "silpa-sastra", "term": "Silpa sastra", "odia": null,
+      "short": {
+        "text": "The silpa sastras are Odisha's traditional building manuals. Temple builders followed them.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "behera-2005", "locator": "scan leaf 55 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 25 (printed page unverified)" }
+        ],
+        "note": "K.S. Behera: 'In the construction of temples, Silpasastra texts are followed.' Debala Mitra calls them 'Orissan Silpa-sastras or architectural canons'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The names rekha, pidha and khakhara are found in these manuals. There, the pidha type is also called bhadra.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 115 and 242 (printed pages unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 55 (printed page unverified)" },
+            { "id": "panigrahi-1961", "locator": "scan leaf 69 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932): 'in the silpasastras, there are specifications of 55 Rekha, 6 Bhadra and 3 Khakhara temples'. K.C. Panigrahi: 'In the canons of Orissan architecture it is known as the Pidha or Bhadra type'. K.S. Behera: the local texts 'mention three types of structures, rekha, pidha and khakara'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["deula", "rekha-deula", "pidha-deula", "khakhara-deula"]
+    },
+    {
+      "id": "jagamohana", "term": "Jagamohana", "odia": null,
+      "short": {
+        "text": "The jagamohana is the hall in front of the main shrine, where worshippers gather. It usually has a pidha (stepped) roof.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 25 and 100, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 287, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" }
+        ],
+        "note": "Mitra's ASI glossary: 'hall in front of a sanctuary, usually in a pidha temple'. The earliest halls did not have a stepped roof yet.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The word jagamohana is explained as 'that which pleases the whole world'.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 287, glossary (printed page unverified)" }
+          ],
+          "note": "N.K. Bose's glossary (1932): 'Jagamohan — That which pleases the whole world; that which is most pleasing'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": "jagamohana", "temple_ids": ["konark", "lingaraj", "mukteshwar", "parasuramesvara", "jagannath-puri"],
+      "see_also": ["pidha-deula", "natamandira", "bhogamandapa"]
+    },
+    {
+      "id": "natamandira", "term": "Natamandira", "odia": null,
+      "short": {
+        "text": "The natamandira is the dance hall. In large temples it stands in front of the jagamohana.",
+        "tier": "established",
+        "sources": [
+          { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 92 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 170, glossary (printed page unverified)" }
+        ],
+        "note": "Names vary: Nat Mandir (Brown), nata mandapa (Mitra), Nata-mandira (Behera). Mitra's glossary calls it a 'festive hall'; her Lingaraja text, Brown and Behera say 'dancing hall'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "In the largest temples, four buildings stand in one straight line: deula, jagamohana, natamandira and bhogamandapa. The two front halls were often added later. The Lingaraja Temple and the Jagannath Temple in Puri both have all four.",
+          "tier": "established",
+          "sources": [
+            { "id": "mitra-d-2003", "locator": "scan leaves 86 and 92 (printed pages unverified)" },
+            { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 59 (printed page unverified)" }
+          ],
+          "note": "Debala Mitra: the Lingaraja 'consists of the customary four structures', 'disposed on the same axis but do not necessarily belong to the same period'; at Puri the nata and bhoga-mandapas are 'later additions'. Percy Brown: the extra halls 'were added to the front of the assembly hall'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": "natamandira", "temple_ids": ["lingaraj", "jagannath-puri", "konark"],
+      "see_also": ["jagamohana", "bhogamandapa"]
+    },
+    {
+      "id": "bhogamandapa", "term": "Bhogamandapa", "odia": null,
+      "short": {
+        "text": "The bhogamandapa is the hall of offering. It usually stands in front of the dance hall.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 167, glossary (printed page unverified)" },
+          { "id": "brown-1959", "locator": "scan leaves 212 and 384 (printed pages unverified)" }
+        ],
+        "note": "Percy Brown and K.S. Behera also call it 'the refectory hall of a temple', a dining hall. At Konark the detached hall in front is named both ways: Mitra says it 'is generally believed to be a nata-mandapa' and 'is also known as the bhoga-mandapa'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": "bhogamandapa", "temple_ids": ["lingaraj", "jagannath-puri"],
+      "see_also": ["natamandira", "jagamohana"]
+    },
+    {
+      "id": "pista", "term": "Pista", "odia": null,
+      "short": {
+        "text": "The pista is the platform or base that a temple stands on. Not every temple has one.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 88 and 101, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaves 107 and 291, glossary (printed pages unverified)" },
+          { "id": "brown-1959", "locator": "scan leaf 212 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932): the pista 'does not form an essential part of the temple proper'; the Lingaraja has none. Spellings: pista (Bose, Brown), pishta (Mitra), pitha (Behera).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": "pista", "temple_ids": ["konark"],
+      "see_also": ["bada", "deula"]
+    },
+    {
+      "id": "bada", "term": "Bada", "odia": null,
+      "short": {
+        "text": "The bada is the upright wall of the temple. It stands between the platform and the tower or roof.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 285, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 166, glossary (printed page unverified)" }
+        ],
+        "note": "N.K. Bose spells it 'bara'. It is not the same word as the 'bada' in bada deula, which means 'big'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Early temples mostly have the three-part wall. The five-part wall is found in later temples.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 143 and 144 (printed pages unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 53 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932) found that the Bhubaneswar temples he could date early 'have a bara composed of three elements', and that five parts appear 'only in the later temples'. Debala Mitra's ASI guide, describing Konark, says the wall has five divisions 'as in all Orissa temples'; that describes the fully developed temples. The dating rests on style.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": "bada", "temple_ids": ["parasuramesvara", "konark"],
+      "see_also": ["pabhaga", "jangha", "baranda", "trianga-bada", "panchanga-bada", "bada-deula"]
+    },
+    {
+      "id": "gandi", "term": "Gandi", "odia": null,
+      "short": {
+        "text": "The gandi is the main body of the tower or roof, above the wall. The word means 'trunk', as in the trunk of a body.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 133 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" }
+        ],
+        "note": "Mitra's ASI glossary: 'literally trunk; curvilinear spire or pyramidal roof above bada and below the mastaka'. Percy Brown (1959) calls the tall middle part of the tower the 'chhapra' instead.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": "gandi", "temple_ids": ["lingaraj", "mukteshwar"],
+      "see_also": ["bada", "mastaka", "bhumi", "pidha"]
+    },
+    {
+      "id": "mastaka", "term": "Mastaka", "odia": null,
+      "short": {
+        "text": "The mastaka is the crown: the stack of round parts on top of the tower. The word means 'head'.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 26 and 101, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" }
+        ],
+        "note": "Mitra's ASI glossary: 'head; crowning elements above the gandi'. Bose (1932): its elements 'are all circular in cross-section'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The name mastaka is modern. It was made up to make the crown easier to talk about.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 134 and 289, glossary (printed pages unverified)" }
+          ],
+          "note": "N.K. Bose (1932): 'The mastaka (a name which has been coined for the sake of convenience)'. Debala Mitra and K.S. Behera use it as the standard term; Behera also gives 'shira'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["beki", "amla", "khapuri", "kalasa", "ayudha", "ghanta", "gandi"]
+    },
+    {
+      "id": "pabhaga", "term": "Pabhaga", "odia": null,
+      "short": {
+        "text": "The pabhaga is the 'foot' of the wall. It is a stack of three to five shaped stone bands, called mouldings, at the very bottom.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 290, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 170, glossary (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 53 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932): 'Division corresponding to the foot; set of three, four or five mouldings at the base of a temple'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Often the foot has five mouldings, named khura, kumbha, pata, kani and basanta. Some temples have only three or four.",
+          "tier": "established",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 163 and 290 (printed pages unverified)" },
+            { "id": "behera-2005", "locator": "scan leaves 52 and 66 (printed pages unverified)" }
+          ],
+          "note": "K.S. Behera: the pabhaga 'is composed of mouldings called khura, kumbha, pata, kani and basanta'. One passage in Bose (1932) puts 'kalasa' in place of kumbha; his glossary says kalasa can '(rarely)' mean the kumbha moulding.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": "pabhaga", "temple_ids": ["parasuramesvara"],
+      "see_also": ["bada", "kumbha", "pata", "kani", "jangha"]
+    },
+    {
+      "id": "kumbha", "term": "Kumbha", "odia": null,
+      "short": {
+        "text": "The kumbha is one of the mouldings in the foot of the wall. It is shaped like a water-pot, and kumbha means 'water-pot'.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 286 and 289, glossary (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 169, glossary (printed page unverified)" }
+        ],
+        "note": "Bose's glossary: 'Kumbha — Water-pot; similar moulding used in pabhaga'. Behera's glossary: 'water pot; pitcher-shaped moulding of the pabhaga'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["pabhaga", "kalasa"]
+    },
+    {
+      "id": "pata", "term": "Pata", "odia": null,
+      "short": {
+        "text": "The pata is a moulding with a square edge. It is used in the foot of the wall and in other bands of mouldings.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 163, 173 and 291, glossary (printed pages unverified)" }
+        ],
+        "note": "N.K. Bose's glossary (1932): 'Pata — Moulding with a square edge.'",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["pabhaga", "kani", "bandhana"]
+    },
+    {
+      "id": "kani", "term": "Kani", "odia": null,
+      "short": {
+        "text": "The kani is a moulding shaped like a letter V lying on its side. It is one of the mouldings in the foot of the wall.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 163 and 288, glossary (printed pages unverified)" }
+        ],
+        "note": "N.K. Bose's glossary (1932): 'Moulding of the shape of a V placed sideways'. The scan reads the headword as 'Kant'; its place between Kalasa and Kanika and the index entry 'kani p.' show it is kani.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["pabhaga", "pata"]
+    },
+    {
+      "id": "jangha", "term": "Jangha", "odia": null,
+      "short": {
+        "text": "The jangha is the tall, upright face of the wall, above the foot mouldings.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 287, glossary (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Jangha is a body word for part of the leg. It has been translated both as 'shin' and as 'thigh'.",
+          "tier": "uncertain",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 133 and 287 (printed pages unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+            { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932) translates jangha as 'shin'. Debala Mitra (ASI) and K.S. Behera translate it as 'thigh'. They agree on which part of the wall it is.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["bada", "tala-jangha", "upara-jangha", "bandhana"]
+    },
+    {
+      "id": "bandhana", "term": "Bandhana", "odia": null,
+      "short": {
+        "text": "The bandhana is a band of mouldings that divides the jangha into a lower and an upper part. Its name means 'that which binds'.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 143 and 285, glossary (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 66 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" }
+        ],
+        "note": "N.K. Bose's glossary (1932): 'That which binds; set of mouldings between janghas'; in his text, 'the bandhana or the bond'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["jangha", "tala-jangha", "upara-jangha", "panchanga-bada"]
+    },
+    {
+      "id": "tala-jangha", "term": "Tala jangha", "odia": null,
+      "short": {
+        "text": "The tala jangha is the lower jangha, between the pabhaga and the bandhana.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 143 (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["jangha", "upara-jangha", "bandhana"]
+    },
+    {
+      "id": "upara-jangha", "term": "Upara jangha", "odia": null,
+      "short": {
+        "text": "The upara jangha is the upper jangha, between the bandhana and the baranda.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 143 (printed page unverified)" }
+        ],
+        "note": "Spellings: upara jangha (Mitra), upar jangha (Bose).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["jangha", "tala-jangha", "baranda"]
+    },
+    {
+      "id": "baranda", "term": "Baranda", "odia": null,
+      "short": {
+        "text": "The baranda is the set of mouldings that crowns the top of the wall, just below the tower or roof.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 133 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 173, glossary (printed page unverified)" }
+        ],
+        "note": "Also spelled varanda (Mitra, Behera).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["bada", "upara-jangha", "gandi"]
+    },
+    {
+      "id": "trianga-bada", "term": "Trianga bada", "odia": null,
+      "short": {
+        "text": "A trianga bada is a wall in three parts: the foot (pabhaga), the tall middle (jangha) and the top band (baranda).",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 143 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose (1932): the early temples 'have a bara composed of three elements, viz. pabhaga, jangha and baranda'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "Trianga means 'three-part'. It is a modern name, not an old builders' word.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaf 143 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932): 'The tri-anga (a name coined to denote a three-segmented) bara'.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        },
+        {
+          "text": "Early temples mostly have the three-part wall. The five-part wall is found in later temples.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "bose-1932", "locator": "scan leaves 143 and 144 (printed pages unverified)" },
+            { "id": "mitra-d-2003", "locator": "scan leaf 53 (printed page unverified)" }
+          ],
+          "note": "N.K. Bose (1932) found that the Bhubaneswar temples he could date early 'have a bara composed of three elements', and that five parts appear 'only in the later temples'. Debala Mitra's ASI guide, describing Konark, says the wall has five divisions 'as in all Orissa temples'; that describes the fully developed temples. The dating rests on style.",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["panchanga-bada", "bada"]
+    },
+    {
+      "id": "panchanga-bada", "term": "Panchanga bada", "odia": null,
+      "short": {
+        "text": "A panchanga bada is a wall in five parts: pabhaga, tala jangha, bandhana, upara jangha and baranda.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 143 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 53 (printed page unverified)" }
+        ],
+        "note": "Bose writes 'pancha-anga'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["trianga-bada", "bada", "bandhana"]
+    },
+    {
+      "id": "beki", "term": "Beki", "odia": null,
+      "short": {
+        "text": "The beki is the narrow round neck just above the tower. The word means 'neck' or 'throat'.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 52 (printed page unverified)" }
+        ],
+        "note": "N.K. Bose calls it 'the throat'; Debala Mitra 'neck'. Behera: it 'separates the square gandi from the circular crowning elements'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "amla", "gandi"]
+    },
+    {
+      "id": "amla", "term": "Amla", "odia": null,
+      "short": {
+        "text": "The amla (also called amalaka) is a big, flattened, ribbed round part near the top of the tower. It looks like a giant amla fruit.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaves 107 and 284, glossary (printed pages unverified)" }
+        ],
+        "note": "Mitra: 'fluted oblate spheroid resembling an amalaka fruit'. Bose: 'a flattened spheroid, ribbed at the sides and resembling an enormous fruit of the amalaki'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "beki", "khapuri", "bhumi"]
+    },
+    {
+      "id": "khapuri", "term": "Khapuri", "odia": null,
+      "short": {
+        "text": "The khapuri is a flattish, bell-shaped cap above the amla. Its name means 'skull'.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 27 (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 169, glossary (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "amla", "kalasa"]
+    },
+    {
+      "id": "kalasa", "term": "Kalasa", "odia": null,
+      "short": {
+        "text": "The kalasa is a part shaped like a water-pot, set on top of the khapuri.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 107 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 168, glossary (printed page unverified)" }
+        ],
+        "note": "K.S. Behera says the kalasa 'was sometimes made of gold'; Mitra records a copper kalasa at Konark.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "khapuri", "ayudha", "kumbha"]
+    },
+    {
+      "id": "ayudha", "term": "Ayudha", "odia": null,
+      "short": {
+        "text": "The ayudha is the weapon or emblem of the temple's god, set at the top of the crown.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 134 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 27 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 52 (printed page unverified)" }
+        ],
+        "note": "Bose: 'the ayudha or weapon of the deity to whom the temple is consecrated'. Mitra: 'sacred weapon or emblem'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [
+        {
+          "text": "The emblem on top shows which god the temple is for. A Vishnu temple has a wheel (chakra); a Shiva temple has a trident or a linga.",
+          "tier": "scholarly",
+          "sources": [
+            { "id": "behera-2005", "locator": "scan leaf 52 (printed page unverified)" }
+          ],
+          "note": "K.S. Behera: 'A Visnu temple is crowned by a chakra, a Siva temple either a Trisula or a Linga. The Sun temple has a lotus finial.'",
+          "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+        }
+      ],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "kalasa", "dhvaja"]
+    },
+    {
+      "id": "dhvaja", "term": "Dhvaja", "odia": null,
+      "short": {
+        "text": "A flag, the dhvaja, is raised at the very top of the temple.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "behera-2005", "locator": "scan leaf 52 (printed page unverified)" }
+        ],
+        "note": "K.S. Behera: 'The dhvaja or banner is placed at the pinnacle of the temple.'",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["ayudha", "mastaka"]
+    },
+    {
+      "id": "ghanta", "term": "Ghanta", "odia": null,
+      "short": {
+        "text": "On a pidha roof, the crown has a big bell-shaped part called the ghanta, also called sri.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 100 and 101, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaves 108 and 287, glossary (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 85 (printed page unverified)" }
+        ],
+        "note": "Bose: 'an enormous ribbed structure shaped like a bell'. Mitra: 'bell-shaped member in the finial of a pidha temple; it is also called sri'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["mastaka", "pidha-deula", "beki"]
+    },
+    {
+      "id": "bhumi", "term": "Bhumi", "odia": null,
+      "short": {
+        "text": "On a rekha tower, the corner strips are divided into storeys called bhumis. A small amla, the bhumi-amla, marks the top of each storey.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 133 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaves 52 and 167, glossary (printed pages unverified)" }
+        ],
+        "note": "Bose calls the bhumis 'planes', Behera 'levels'. Bose: each is 'surmounted by a miniature amla, called the bhumi-amla'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["kanika", "amla", "gandi"]
+    },
+    {
+      "id": "pidha", "term": "Pidha", "odia": null,
+      "short": {
+        "text": "A pidha is one flat, jutting layer of a pidha roof. The word means a flat wooden seat.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 291, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 171, glossary (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["pidha-deula", "potala"]
+    },
+    {
+      "id": "potala", "term": "Potala", "odia": null,
+      "short": {
+        "text": "The pidhas are often grouped into tiers. Each tier is called a potala.",
+        "tier": "established",
+        "sources": [
+          { "id": "behera-2005", "locator": "scan leaf 50 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 108 (printed page unverified)" }
+        ],
+        "note": "K.S. Behera: the gap between two potalas 'is known as kanti'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["pidha", "pidha-deula"]
+    },
+    {
+      "id": "paga", "term": "Paga", "odia": null,
+      "short": {
+        "text": "A paga (also called a ratha) is an upright strip of the outer wall that steps forward. Inside, the walls are usually kept plain.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaves 115 and 201 (printed pages unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaves 25 and 101, glossary (printed pages unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 171, glossary (printed page unverified)" }
+        ],
+        "note": "Mitra: projections 'known in Orissan Silpa-sastras or architectural canons as rathas or pagas'. Bose: the inner walls 'are kept rigorously plain', though Mitra notes mouldings on the inner walls of Konark's porch.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["raha", "kanika", "anuratha", "anuraha", "triratha", "pancharatha"]
+    },
+    {
+      "id": "raha", "term": "Raha", "odia": null,
+      "short": {
+        "text": "The raha is the middle paga on each side of the temple. It sticks out the furthest.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 26 and 101, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 201 (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 171, glossary (printed page unverified)" }
+        ],
+        "note": "Bose records a second name for it: go-ratha or madhya-ratha. Behera: the side-shrine gods (parsvadevatas) sit in its niche.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "anuraha", "kanika"]
+    },
+    {
+      "id": "kanika", "term": "Kanika", "odia": null,
+      "short": {
+        "text": "The kanika is the corner paga, the outermost strip at each corner of the temple.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 288, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 169, glossary (printed page unverified)" }
+        ],
+        "note": "Also called kanika-paga (Mitra, Behera) or kanyasa (Bose).",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "anuratha", "bhumi"]
+    },
+    {
+      "id": "anuratha", "term": "Anuratha", "odia": null,
+      "short": {
+        "text": "On a five-strip (pancharatha) wall, the anuratha is the strip between the middle raha and the corner kanika.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaves 26 and 100, glossary (printed pages unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 284, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 166, glossary (printed page unverified)" }
+        ],
+        "note": "Mitra: 'projection next to the kanika-paga in pancha-ratha, sapta-ratha and nava-ratha temples'. On seven- and nine-strip walls the strip next to the raha is the anuraha, and the anuratha stays next to the kanika.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "raha", "kanika", "anuraha", "pancharatha"]
+    },
+    {
+      "id": "anuraha", "term": "Anuraha", "odia": null,
+      "short": {
+        "text": "On seven- and nine-strip walls, an extra strip called the anuraha sits right next to the middle raha.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 100, glossary (printed page unverified)" },
+          { "id": "behera-2005", "locator": "scan leaf 166, glossary (printed page unverified)" }
+        ],
+        "note": "Mitra: 'projection next to the raha (central projection) in sapta-ratha and nava-ratha temples'.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "raha", "anuratha", "saptaratha", "navaratha"]
+    },
+    {
+      "id": "triratha", "term": "Triratha", "odia": null,
+      "short": {
+        "text": "A triratha temple has three pagas on each side: a raha in the middle and a kanika at each corner.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 115 (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": ["parasuramesvara"],
+      "see_also": ["paga", "pancharatha", "raha", "kanika"]
+    },
+    {
+      "id": "pancharatha", "term": "Pancharatha", "odia": null,
+      "short": {
+        "text": "A pancharatha temple has five pagas on each side. The middle strip is stepped forward a second time.",
+        "tier": "established",
+        "sources": [
+          { "id": "bose-1932", "locator": "scan leaf 115 (printed page unverified)" },
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": ["lingaraj", "mukteshwar", "jagannath-puri"],
+      "see_also": ["paga", "triratha", "saptaratha", "anuratha"]
+    },
+    {
+      "id": "saptaratha", "term": "Saptaratha", "odia": null,
+      "short": {
+        "text": "A saptaratha temple has seven pagas on each side.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 115 (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "pancharatha", "navaratha", "anuraha"]
+    },
+    {
+      "id": "navaratha", "term": "Navaratha", "odia": null,
+      "short": {
+        "text": "A navaratha temple has nine pagas on each side.",
+        "tier": "established",
+        "sources": [
+          { "id": "mitra-d-2003", "locator": "scan leaf 101, glossary (printed page unverified)" },
+          { "id": "bose-1932", "locator": "scan leaf 115 (printed page unverified)" }
+        ],
+        "note": null,
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": null, "temple_ids": [],
+      "see_also": ["paga", "saptaratha", "anuraha"]
+    },
+    {
+      "id": "torana", "term": "Torana", "odia": null,
+      "short": {
+        "text": "A torana is a gateway with an arch that stands on its own. The Mukteshvara Temple in Bhubaneswar has one in front: a round arch on two pillars.",
+        "tier": "scholarly",
+        "sources": [
+          { "id": "brown-1959", "locator": "scan leaves 214 and 388, glossary (printed pages unverified)" },
+          { "id": "panigrahi-1961", "locator": "scan leaves 104 and 106 (printed pages unverified)" }
+        ],
+        "note": "Percy Brown: 'This detached portal consists of two pillars supporting a round arch within a semi-circular shaped pediment'. K.C. Panigrahi: no torana is found at any other existing temple in Bhubaneswar; the remains of an earlier one were dug up at Dola-mandapa.",
+        "access": "full-text", "status": "approved", "checked_on": "2026-09-26"
+      },
+      "long": [],
+      "element_id": "torana", "temple_ids": ["mukteshwar"],
+      "see_also": ["jagamohana"]
+    }
+  ],
+  "sources": []
+}
