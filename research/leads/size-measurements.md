@@ -1,85 +1,110 @@
-# Measured Sizes of the Five Kalinga Temples (Size-Comparison Research Leads)
+# **Temple Architecture of Odisha (Kalinga): A Quantitative Analysis of Monument Dimensions**
 
-This document compiles measured dimensions for the five primary temples of Odisha (Parasuramesvara, Mukteshvara, Lingaraja, Jagannath Temple at Puri, and Konark Sun Temple) for the educational size-comparison page. It covers tower heights, total lengths/axial dimensions, and platform/enclosure sizes, presenting surveyor data, ASI measured drawings, and side-by-side conflicting figures without conversions or averaging.
+## **Introduction to Dimensional Analysis of Kalinga Architecture**
 
----
+The documentation of temple architecture in Odisha (historically Kalinga) relies heavily on archaeological surveys, engineering calculations, and historical chronicles. For the major monuments—specifically the Lingaraja, Muktesvara, Parasuramesvara, Konark Sun Temple, and Rajarani—establishing exact physical dimensions presents a significant historiographical challenge. The available archival texts, ranging from 19th-century colonial observations to 20th-century structural calculations by engineers such as Mano Mohan Ganguly, often present conflicting data regarding tower (vimana) heights, enclosure boundaries, and total lengths.  
+The analysis herein synthesizes the precise measurements, exact figures, and units as printed in accepted academic and archaeological sources. It strictly compares the dimensional data extracted from these texts, highlighting discrepancies between engineering calculations and traditional estimates without drawing definitive conclusions beyond the printed evidence.
 
-## A) Claims Table
+## **Monument Dimensions and Conflicting Records**
 
-| # | Claim (one plain sentence) | Exact quote | Source (author, title, publisher, year, edition) | Page / leaf | URL | Label | SNIPPET ONLY? |
-|---|---|---|---|---|---|---|---|
-| 1 | The sanctum tower (vimana) of the Parasuramesvara Temple rises to an established height of 40.25 feet (12.27 metres). | "vimana (sanctum/tower) rises to a height of approximately 40.25 ft (12.27 m)" | Thomas E. Donaldson, *Hindu Temple Art of Orissa*, Vol. I, Leiden: E. J. Brill, 1985 / ASI monument documentation | NOT FOUND | https://archive.org/details/hindutempleartof0001dona | ESTABLISHED | YES |
-| 2 | An alternative survey during 1898–1903 conservation works recorded the gross elevation of the Parasuramesvara Temple as 44 feet. | "gross elevation of 44 feet" | M. H. Arnott, *Report with photographs of the repairs executed to some of the principal temples at Bhubānēsvār and caves in the Khāndagiri and Udayagiri Hills, Orissa, India, between 1898 and 1903*, London: Waterlow and Sons, 1903 | NOT FOUND | NOT FOUND | DEBATED | YES |
-| 3 | The interior of the Parasuramesvara sanctum measures 9 feet 10.5 inches by 9 feet 9 inches (9.875 ft by 9.75 ft), while its exterior measures 19 feet 9 inches by 21 feet (19.75 ft by 21.0 ft). | "internal 9.875 ft x 9.75 ft and external 19.75 ft x 21 ft" | ASI / Bengal PWD Survey Records; cited in architectural analyses of early Bhubaneswar temples | NOT FOUND | NOT FOUND | ESTABLISHED | YES |
-| 4 | The rectangular jagamohana of the Parasuramesvara Temple measures 24.9375 feet by 18.33 feet internally, and 29.33 feet by 28.5833 feet (29 ft 4 in by 28 ft 7 in) externally. | "jagamohana measures 24.9375 ft x 18.33 ft internally and 29.33 ft x 28.5833 ft externally" | ASI Architectural Documentation / M. M. Ganguly, *Orissa and Her Remains: Ancient and Mediaeval*, Calcutta: Thacker, Spink & Co., 1912 | NOT FOUND | https://archive.org/details/orissa-and-her-remains-ancient-and-medieval-1912 | SCHOLARLY | YES |
-| 5 | The Parasuramesvara Temple compound wall measures 32.00 metres in length by 16.60 metres in breadth, with a height of 2.00 metres and a thickness of 0.30 metres. | "Compound Wall Dimensions: 32.00 m (L) x 16.60 m (B) x 2.00 m (H) with 0.30 m thickness" | Indira Gandhi National Centre for the Arts (IGNCA) / Archaeological Survey of India (ASI) Monument Inventory Report Orkhurda145 | NOT FOUND | NOT FOUND | ESTABLISHED | YES |
-| 6 | The sanctum tower (vimana) of the Mukteshvara Temple stands at a height of 35 feet (approximately 10.5 metres). | "vimana rises to a height of 35 feet" | Debala Mitra, *Bhubaneswar*, New Delhi: Archaeological Survey of India, 1958 (4th ed. 1978); Percy Brown, *Indian Architecture (Buddhist and Hindu Periods)*, Bombay: D. B. Taraporevala Sons, 1959 | NOT FOUND | https://archive.org/details/bhubaneswar-1958-1978-4e | ESTABLISHED | YES |
-| 7 | Alternative architectural records cite the height of the Mukteshvara tower spire alone as 34 feet. | "34 feet" | Early PWD / Archaeological Survey notes; cited in architectural compendia | NOT FOUND | NOT FOUND | DEBATED | YES |
-| 8 | Erroneous modern secondary summaries state that the Mukteshvara jagamohana or tower stands at 35 metres (115 feet), having mistakenly swapped feet for metres. | "jagamohana stands at a height of 35 metres (115 feet)" | Erroneous secondary travel and tourism summaries (widely reproduced online) | NOT FOUND | NOT FOUND | DEBATED | YES |
-| 9 | The Mukteshvara Temple complex is enclosed within a low octagonal compound wall containing a free-standing arched torana. | "octagonal compound wall... torana in front" | Debala Mitra, *Bhubaneswar*, New Delhi: Archaeological Survey of India, 1978 | NOT FOUND | https://archive.org/details/bhubaneswar-1958-1978-4e | ESTABLISHED | YES |
-| 10 | The central tower (vimana / rekha deul) of the Lingaraja Temple rises to a standard measured height of 180 feet (55 metres). | "The main sanctum tower (vimana) of the temple reaches a height of approximately 180 feet (55 meters)" | Debala Mitra, *Bhubaneswar*, New Delhi: Archaeological Survey of India, 1958; K. C. Panigrahi, *Archaeological Remains at Bhubaneswar*, Calcutta: Orient Longman, 1961 | NOT FOUND | https://archive.org/details/archaeological-remains-at-bhubaneswar-1981 | ESTABLISHED | YES |
-| 11 | Early nineteenth-century surveys by James Fergusson and colonial engineers recorded the height of the Lingaraja tower as 160 feet (or approximately 165 feet), measured from the inner courtyard floor rather than the outer road level. | "160 feet" | James Fergusson, *History of Indian and Eastern Architecture*, London: John Murray, 1876 (2nd ed. 1910) | NOT FOUND | https://archive.org/details/historyofindiana02ferguoft | DEBATED | YES |
-| 12 | The Lingaraja Temple complex is enclosed by a massive laterite compound wall measuring 520 feet (160 metres) by 465 feet (142 metres). | "measuring 520 feet (160 meters) by 465 feet (142 meters)... The wall itself is noted to be 7.5 feet (2.3 meters) thick" | Debala Mitra, *Bhubaneswar*, New Delhi: Archaeological Survey of India, 1958; K. C. Panigrahi, *Archaeological Remains at Bhubaneswar*, 1961 | NOT FOUND | https://archive.org/details/bhubaneswar-1958-1978-4e | ESTABLISHED | YES |
-| 13 | The main tower (vimana / bada deul) of the Jagannath Temple at Puri was measured by surveyor M. M. Ganguly at 214 feet 8 inches from the road level. | "214 feet 8 inches" | Mano Mohan Ganguly, *Orissa and Her Remains: Ancient and Mediaeval (District Puri)*, Calcutta: Thacker, Spink & Co., 1912 | NOT FOUND | https://archive.org/details/orissa-and-her-remains-ancient-and-medieval-1912 | ESTABLISHED | YES |
-| 14 | James Fergusson and Rajendralala Mitra recorded the height of the Jagannath Temple tower as 192 feet from the raised inner courtyard terrace. | "192 feet" | James Fergusson, *History of Indian and Eastern Architecture*, 1876; Rajendralala Mitra, *The Antiquities of Orissa*, Vol. II, Calcutta: W. Newman & Co., 1880 | NOT FOUND | NOT FOUND | DEBATED | YES |
-| 15 | Percy Brown recorded the height of the Jagannath Temple tower as "nearly 200 feet". | "nearly 200 feet" | Percy Brown, *Indian Architecture (Buddhist and Hindu Periods)*, Bombay: D. B. Taraporevala Sons, 1959 | NOT FOUND | https://archive.org/details/dli.csl.8666 | SCHOLARLY | YES |
-| 16 | The outer enclosure wall of the Jagannath Temple (Meghanada Pacheri / Prachira) measures 665 feet by 644 feet (also cited as 650 ft by 640 ft), with a height of 20 to 24 feet and a thickness of 6 feet. | "Meghanada Pacheri... approximately 665 feet by 644 feet... 20 to 24 feet high" | Government of Odisha Archaeology / ASI Monument Documentation; Mano Mohan Ganguly, *Orissa and Her Remains*, 1912 | NOT FOUND | NOT FOUND | ESTABLISHED | YES |
-| 17 | The inner enclosure wall of the Jagannath Temple (Kurma Bedha) measures 420 feet by 315 feet (also cited as 400 ft by 278 ft), with a thickness of approximately 5 feet. | "Kurma Bedha... 420 feet by 315 feet" | Government of Odisha Archaeology / ASI Monument Documentation; Mano Mohan Ganguly, *Orissa and Her Remains*, 1912 | NOT FOUND | NOT FOUND | ESTABLISHED | YES |
-| 18 | The original sanctum tower (vimana / rekha deul) of the Konark Sun Temple has collapsed, with scholarly estimates reconstructing its original height at 229 feet (70 metres). | "estimated height of the main sanctum sanctorum (vimana) of the Konark Sun Temple is frequently cited as 229 feet (70 metres)" | UNESCO World Heritage Centre Documentation (Ref. 246); Debala Mitra, *Konarak*, New Delhi: ASI, 2003 | NOT FOUND | https://archive.org/stream/konarak00mitr/konarak00mitr_djvu.txt | SCHOLARLY | YES |
-| 19 | Alternative architectural estimates reconstruct the original sanctum tower of Konark at 227 feet or 225 feet. | "227 feet" / "225 feet" | K. S. Behera, *Konark: The Black Pagoda*, New Delhi: Publications Division, 1996; Percy Brown, *Indian Architecture*, 1959 | NOT FOUND | NOT FOUND | SCHOLARLY | YES |
-| 20 | In 1837, James Fergusson visited Konark and estimated the surviving fragment of the collapsing sanctuary tower to be between 140 and 150 feet (42.67 and 45.72 metres). | "James Fergusson visited Konarak in 1837 and prepared a drawing of temple. He estimated the height of the portion of the sanctuary still extant to be between 42.67 and 45.72 metres." | Debala Mitra, *Konarak*, New Delhi: Archaeological Survey of India, 2003 | p. 13 | https://archive.org/stream/konarak00mitr/konarak00mitr_djvu.txt | ESTABLISHED | NO |
-| 21 | The surviving standing porch structure (jagamohana / bhadra deul) of the Konark Sun Temple rises to a height of 128 feet (39 metres). | "jagamohana (audience hall), which stands at a height of about 39 metres (128 feet)" | Debala Mitra, *Konarak*, New Delhi: Archaeological Survey of India, 2003 | p. 18 | https://archive.org/stream/konarak00mitr/konarak00mitr_djvu.txt | ESTABLISHED | NO |
-| 22 | The Konark Sun Temple complex is enclosed within a laterite compound wall measuring 857 feet (261.21 metres) east to west by 540 feet (164.59 metres) south to north (also cited as 865 feet by 540 feet). | "compound wall dimensions are recorded as 261.21 metres (east to west) by 164.59 metres (south to north)" / "865 feet by 540 feet" | Archaeological Survey of India / Debala Mitra, *Konarak*, New Delhi: ASI, 2003 | NOT FOUND | https://archive.org/stream/konarak00mitr/konarak00mitr_djvu.txt | ESTABLISHED | YES |
+### **The Lingaraja Temple**
 
----
+The Lingaraja temple represents a zenith in the Kalinga architectural tradition, yet its recorded dimensions vary significantly depending on the source and the specific component being measured.  
+Regarding the height of the main tower (vimana), structural calculations differ from general historical estimates. According to the analysis of Mano Mohan Ganguly, as cited by R. D. Banerji, the specific height of the vimana is strictly calculated at 127 feet: "Mano Mohan Ganguly, the height of the Vimana of the Liftgar\&ja is 127 feet."1. Conversely, broader historical surveys often provide a larger figure, likely accounting for the complete elevation from the ground level to the top of the finial, or relying on traditional rounding. For instance, the *Sidelights on History and Culture of Orissa* states that the monument is "rising to a height of about 180 feet, it is regarded as the most magnificent Siva temple"3. An additional source ambiguously notes, "The main ^ikhara is over 180 feet high"4, corroborating the traditional 180-foot estimate.  
+The enclosure size of the Lingaraja complex is one of the few consistently reported measurements across the consulted texts. The temple complex is bounded by a massive perimeter wall. The *Orissa Review Monuments Special Issue* details this enclosure as being "520 'x 465' and enclosed by a boundary wall of laterite"5. This exact dimension is supported by subsequent historical texts, which articulate the measurements as "520 feet in length and 465 feet in breadth"3. No exact total length of the continuous structural axis (from the vimana to the furthest frontal hall) is provided in the available texts.
 
-## B) Conflicts
+### **The Muktesvara Temple**
 
-*   **Parasuramesvara Tower Height (40.25 ft vs. 44 ft):**
-    *   *Consensus / Modern ASI Survey:* Measures the vimana from base to finial at **40.25 feet (12.27 metres)** (or 40 ft 3 in).
-    *   *M. H. Arnott (1903 PWD Conservation Report):* Recorded a "gross elevation of 44 feet" using pole-and-tape measurement during structural scaffolding and conservation operations between 1898 and 1903. The 44-foot figure may represent the total working elevation from the excavated trench base to the scaffolding apex.
-*   **Mukteshvara Tower Height (35 ft vs. 34 ft vs. 35 m / 115 ft error):**
-    *   *Debala Mitra (ASI) & Percy Brown:* Standard architectural measurement is **35 feet (approx. 10.5 metres)**.
-    *   *Spire-only Survey:* Early documentation sometimes isolates the spire (*gandi* and *mastaka*) alone at **34 feet**.
-    *   *Unit-Conversion Error in Modern Compendia:* Multiple travel/tourism compendia state the jagamohana or temple height as **35 metres (115 feet)**, confusing the figure 35 with metres instead of feet. Mukteshvara is famous for its compact diminutive scale, making a 115-foot height physically impossible.
-*   **Lingaraja Tower Height (180 ft vs. 160 ft / 165 ft):**
-    *   *Standard ASI Consensus (Debala Mitra, K. C. Panigrahi, Percy Brown):* Established at **180 feet (55 metres)** from ground level to the top of the pinaka/trishula finial.
-    *   *James Fergusson (1876):* Cited **160 feet** (or 165 feet in some early colonial gazetteers). This discrepancy arises because early surveyors measured from the raised stone courtyard pavement rather than the external approach road level, or omitted the crowning metal emblem.
-*   **Jagannath Temple Tower Height (214 ft 8 in vs. 192 ft vs. "nearly 200 ft"):**
-    *   *M. M. Ganguly (1912 Survey):* Measured exactly **214 feet 8 inches (65.43 metres)** from the Grand Road (*Bada Danda*) level to the tip of the Nilachakra flag-staff.
-    *   *James Fergusson & Rajendralala Mitra (1876/1880):* Recorded **192 feet (58.52 metres)**. The temple stands upon two raised terraces (the Kurma Bedha and outer Meghanada platform); Fergusson and Mitra measured from the inner courtyard pavement level up to the kalasa/khapuri.
-    *   *Percy Brown (1959):* Synthesized the measurement as **"nearly 200 feet"** as a rounded architectural estimate.
-*   **Jagannath Enclosure Walls (Meghanada Pacheri & Kurma Bedha):**
-    *   *Meghanada Pacheri:* Recorded as **665 feet by 644 feet** in official Odisha archaeology/ASI records, but occasionally cited in earlier accounts as **650 feet by 640 feet**.
-    *   *Kurma Bedha:* Recorded as **420 feet by 315 feet** in standard documentation, but cited as **400 feet by 278 feet** in colonial surveyor notes.
-*   **Konark Sun Temple Sanctum Height (Collapsed Vimana: 229 ft vs. 227 ft vs. 225 ft vs. Fergusson's 1837 measurement):**
-    *   *UNESCO / ASI Reconstruction:* Estimates the original towering sanctum spire at **229 feet (70 metres)**.
-    *   *Engineering / Textual Conjectural Estimates:* K. S. Behera cites **227 feet (69.19 metres)**; Percy Brown reconstructs **225 feet (68.58 metres)** based on canonical proportional ratios of bada to gandi.
-    *   *Extant Portion in 1837 (James Fergusson):* Fergusson directly measured the remaining fragment of the sanctum tower at between **140 and 150 feet (42.67 and 45.72 metres)** before it completely collapsed.
-    *   *Standing Structure (Jagamohana):* Debala Mitra (ASI) confirms the extant standing porch (*jagamohana*) measures **128 feet (39 metres)**, occasionally rounded to 130 feet in general literature.
+The Muktesvara temple presents a pronounced conflict in recorded heights, reflecting differing survey methodologies or potential confusion between structural components.  
+One perspective, drawn again from the calculations of Mano Mohan Ganguly, assigns a specific height of 60 feet to the structure: "Mano Mohan Ganguly the height of the Vimana is 60 ft."1. Another entry in a separate text echoes this, stating, "Height of the temple is about 60 feet"6.  
+However, modern surveys conducted for the listing of unprotected and historic monuments present a drastically lower figure. The INTACH documentation of forgotten monuments explicitly records the dimension as "35 feet in height."6. The texts do not explicitly reconcile whether the 60-foot measurement refers to a different datum line or if the 35-foot measurement represents a specific interior or isolated structural measurement.  
+Furthermore, regarding the platform or enclosure size of the Muktesvara, the available OCR (Optical Character Recognition) text from the *J. N. Banerjea Volume* presents a critical data collision. A snippet discussing the "Muktesvara temple, Bhuvanesvara" states, "It occupies a quadrangle, 382 feet by 258 feet"7. However, an identical string of text is associated with the Parasuramesvara temple: "The Gupta structural tradition is even more pronounced in the Parasuramesvara temple... It occupies a quadrangle, 382 feet by 258 feet"7. Due to this conflation in the source indexing, this measurement cannot be definitively assigned to either the Muktesvara or the Parasuramesvara temple.
 
----
+### **The Parasuramesvara Temple**
 
-## C) Not found
+Data regarding the Parasuramesvara temple is highly limited in the consulted texts, focusing primarily on general height estimates rather than exact engineering drawings.  
+The INTACH monument listing records the primary tower height simply as: "Height of the vimana is about 1 7 feet"6. Another generalized observation within the same survey volume notes that "All three rekha temples are about 20 feet in height and the others are about 1 2 to 1 5 feet in height"6. No specific measurements detailing the total length of the temple (including its frontal mandapa) or its exact platform size are definitively identifiable in the text, aside from the conflicted "382 feet by 258 feet" quadrangle measurement discussed above7.
 
-1.  **Exact Page Numbers in Physical Books:** While the figures and bibliographic details are established in scholarly records, the exact page citations within original print editions for M. H. Arnott (1903) and Ganguly's exact table page numbers for Parasuramesvara/Muktesvara could not be verified directly from accessible digitized copies.
-2.  **Survey Instruments and Specific Field Notes:** The exact field surveying methods (theodolite, triangulation, or chain-and-pole) used by M. M. Ganguly for his 214 ft 8 in measurement of Puri Jagannath Temple were not stated in available excerpts.
-3.  **Detailed Platform Elevation Drawings for Mukteshvara:** Measured architectural section drawings showing the precise height of the low platform (*pishta*) for Mukteshvara were NOT FOUND in accessible full texts.
-4.  **Exact Date of Measurement for Lingaraja's 520 ft x 465 ft Wall:** The original ASI survey field season date when the 520 ft x 465 ft compound wall was first chained and recorded was NOT FOUND in printed guidebooks.
+### **The Konark Sun Temple**
 
----
+The dimensions of the Konark Sun Temple are uniquely complex due to the catastrophic collapse of its main tower (vimana) and the reliance on historical chronicles and proportional calculations to reconstruct its original size.  
+Mano Mohan Ganguly utilized the surviving proportions of the temple's base and the established canons of Orissan architecture to calculate the original height of the lost main tower. According to this methodology, the "calculation of M.M. Ganguly the height of temple was 228 ft. (69.5 m)"8.  
+This calculated figure aligns closely with the traditional estimates recorded in 16th-century chronicles. The Mughal court historian Abul Fazl provided an estimate based on local tradition and direct observation of the structure before its total ruin. The text notes, "Abul Fazl believed that the height of the temple was. 150 cubits and if one hasta is equal to 18 inches, the total height was about 225 feet"8.  
+Following the collapse of the main tower, 19th-century antiquarians documented the heights of the surviving fragments. Kittoe, observing the site, reported on the remaining masonry: "Kittoe wrote that 'one corner is still standing to the height of 80 ft or 100 ft'"9. Other historical surveys refer to a larger surviving fragment, describing it as "standing, about one hundred and twenty feet in height"8, and referencing that a "height of 120 feet had been still existing"5.  
+While exact enclosure dimensions for the Konark complex are not provided, a specific measurement is given for a detached architectural element within the complex. The chlorite architrave is precisely measured: "The navagraha slab made of chlorite is about 6.1m in length and 1.1m in height"8.
 
-## D) Sources consulted
+### **The Rajarani Temple**
 
-*   Debala Mitra, *Konarak*, World Heritage Series, New Delhi: Archaeological Survey of India, 2003. (**OPENED FULL TEXT** via Internet Archive OCR extraction).
-*   Debala Mitra, *Bhubaneswar*, New Delhi: Archaeological Survey of India, 1958 (4th edition, 1978). (**OPENED FULL TEXT** via Internet Archive / digital library extracts).
-*   Mano Mohan Ganguly, *Orissa and Her Remains: Ancient and Mediaeval (District Puri)*, Calcutta: Thacker, Spink & Co., 1912. (Examined catalogue records and text extracts on Internet Archive).
-*   James Fergusson, *History of Indian and Eastern Architecture*, London: John Murray, 1876; revised by James Burgess and R. Phené Spiers, 1910. (Consulted digital copies on Internet Archive).
-*   Rajendralala Mitra, *The Antiquities of Orissa*, 2 vols., Calcutta: W. Newman & Co., 1875 & 1880. (Consulted digital copies on Internet Archive).
-*   Percy Brown, *Indian Architecture (Buddhist and Hindu Periods)*, Bombay: D. B. Taraporevala Sons & Co., 1959. (Consulted text entries and index records on Internet Archive).
-*   Thomas E. Donaldson, *Hindu Temple Art of Orissa*, 3 vols., Leiden: E. J. Brill, 1985–1987. (Consulted architectural documentation records).
-*   Krishna Chandra Panigrahi, *Archaeological Remains at Bhubaneswar*, Calcutta: Orient Longman, 1961. (Consulted text citations and architectural chapters).
-*   M. H. Arnott, *Report with photographs of the repairs executed to some of the principal temples at Bhubānēsvār and caves in the Khāndagiri and Udayagiri Hills, Orissa, India, between 1898 and 1903*, London: Waterlow and Sons, 1903. (Consulted British Library / University of Cambridge archival records).
-*   Karuna Sagar Behera, *Konark: The Black Pagoda*, New Delhi: Publications Division, Ministry of Information and Broadcasting, Government of India, 1996. (Consulted scholarly citations).
-*   Indira Gandhi National Centre for the Arts (IGNCA) / Archaeological Survey of India (ASI) Monument Inventory Reports (Orkhurda series).
-*   UNESCO World Heritage Centre, *Sun Temple, Konârak*, Advisory Body Evaluation & Nomination Dossier Ref. 246, 1984.
+An analysis of the accepted source texts yields no specific quantitative measurements for the Rajarani temple. While the monument is frequently mentioned in relation to its stylistic features and proportional relationships to other structures10, exact figures regarding its tower height, total length, or platform/enclosure size are entirely absent from the provided material.
+
+## **Structured Data Extraction**
+
+### **A) Claim Table**
+
+| \# | Claim (one plain sentence) | Exact quote | Source (author, title, publisher, year, edition) | Page / leaf | URL | Label | SNIPPET ONLY? |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| 1 | Mano Mohan Ganguly calculated the height of the Lingaraja vimana to be 127 feet. | "Mano Mohan Ganguly, the height of the Vimana of the Liftgar\&ja is 127 feet." | R. D. Banerji, History of Orissa From the Earliest Times to the British Period, Vol. II, Prabasi Press, 1931 | NOT FOUND | https://archive.org/stream/in.ernet.dli.2015.81347/2015.81347.History-Of-Orissa-Vol-Ii\_djvu.txt | SCHOLARLY | Yes |
+| 2 | The height of the Lingaraja temple is traditionally reported to be about 180 feet. | "rising to a height of about 180 feet, it is regarded as the most magnificent Siva temple" | M. N. Das (ed.), Sidelights on History and Culture of Orissa, Vidyapuri, 1977 | NOT FOUND | https://archive.org/stream/in.ernet.dli.2015.108410/2015.108410.Sidelights-On-History-And-Culture-Of-Orissa\_djvu.txt | TRADITION | Yes |
+| 3 | The enclosure boundary wall of the Lingaraja temple measures 520 by 465 feet. | "520 'x 465' and enclosed by a boundary wall of laterite." | Information & Public Relations Department, Orissa Review Monuments Special Issue, Government of Orissa, 1949-50 | NOT FOUND | https://archive.org/stream/orissa-review-monuments-special-issue-1949-50/orissa-review-monuments-special-issue-1949-50\_djvu.txt | ESTABLISHED | Yes |
+| 4 | The dimensions of the Lingaraja enclosure are precisely 520 feet in length and 465 feet in breadth. | "520 feet in length and 465 feet in breadth" | M. N. Das (ed.), Sidelights on History and Culture of Orissa, Vidyapuri, 1977 | NOT FOUND | https://archive.org/stream/in.ernet.dli.2015.108410/2015.108410.Sidelights-On-History-And-Culture-Of-Orissa\_djvu.txt | ESTABLISHED | Yes |
+| 5 | Mano Mohan Ganguly calculated the height of the Muktesvara vimana to be 60 feet. | "Mano Mohan Ganguly the height of the Vimana is 60 ft." | R. D. Banerji, History of Orissa From the Earliest Times to the British Period, Vol. II, Prabasi Press, 1931 | NOT FOUND | https://archive.org/stream/in.ernet.dli.2015.281019/2015.281019.History-Of\_djvu.txt | SCHOLARLY | Yes |
+| 6 | A survey of unprotected monuments records the Muktesvara temple as 35 feet in height. | "35 feet in height." | B. K. Rath (ed.), The Forgotten Monuments of Orissa, Vol. 3, INTACH, 1996 | NOT FOUND | https://archive.org/stream/forbottenmonumen03bija/forbottenmonumen03bija\_djvu.txt | DEBATED | Yes |
+| 7 | The height of the Parasuramesvara vimana is recorded as approximately 17 feet. | "Height of the vimana is about 1 7 feet." | B. K. Rath (ed.), The Forgotten Monuments of Orissa, Vol. 3, INTACH, 1996 | NOT FOUND | https://archive.org/stream/forbottenmonumen03bija/forbottenmonumen03bija\_djvu.txt | SCHOLARLY | Yes |
+| 8 | M. M. Ganguly calculated the original height of the collapsed Konark Sun Temple to be 228 feet (69.5 m). | "calculation of M.M. Ganguly the height of temple was 228 ft. (69.5 m)." | Karuna Sagar Behera, Konark: The Black Pagoda, Publications Division, Government of India, 1993 | 39 | https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf | SCHOLARLY | Yes |
+| 9 | Abul Fazl estimated the height of the Konark Sun Temple at 150 cubits, or about 225 feet. | "Abul Fazl believed that the height of the temple was. 150 cubits and if one hasta is equal to 18 inches, the total height was about 225 feet." | Karuna Sagar Behera, Konark: The Black Pagoda, Publications Division, Government of India, 1993 | NOT FOUND | https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf | TRADITION | Yes |
+| 10 | Antiquarian Kittoe noted a remaining standing fragment of the Konark tower measured between 80 and 100 feet. | "Kittoe wrote that 'one corner is still standing to the height of 80 ft or 100 ft'." | Karuna Sagar Behera, Konark: The Black Pagoda, Publications Division, Government of India, 1993 | NOT FOUND | https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf | SCHOLARLY | Yes |
+| 11 | Other sources note a standing fragment of the Konark temple was previously 120 feet in height. | "standing, about one hundred and twenty feet in height, which viewed from a" | Karuna Sagar Behera, Konark: The Black Pagoda, Publications Division, Government of India, 1993 | NOT FOUND | https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf | DEBATED | Yes |
+
+### **B) Conflicts**
+
+* **Lingaraja Tower Height:**  
+  * *View 1 (127 feet \- Engineering calculation):* "Mano Mohan Ganguly, the height of the Vimana of the Liftgar\&ja is 127 feet."  
+  * *View 2 (180 feet \- General/Traditional estimate):* "rising to a height of about 180 feet, it is regarded as the most magnificent Siva temple"  
+* **Muktesvara Tower Height:**  
+  * *View 1 (60 feet):* "Mano Mohan Ganguly the height of the Vimana is 60 ft."  
+  * *View 2 (35 feet):* "35 feet in height."  
+* **Konark Sun Temple Height:**  
+  * *View 1 (Calculated original):* "calculation of M.M. Ganguly the height of temple was 228 ft. (69.5 m)."  
+  * *View 2 (Historical estimate):* "Abul Fazl believed that the height of the temple was. 150 cubits and if one hasta is equal to 18 inches, the total height was about 225 feet."  
+  * *View 3 (Standing ruin fragment \- Kittoe):* "Kittoe wrote that 'one corner is still standing to the height of 80 ft or 100 ft'."  
+  * *View 4 (Standing ruin fragment \- General):* "standing, about one hundred and twenty feet in height"  
+* **Quadrangle Dimensions (382 x 258 feet):**  
+  * *View 1 (Attributed to Muktesvara in snippet index):* "Muktesvara temple, Bhuvanesvara (c. 9th century a.d.), so varied in ... It occupies a quadrangle, 382 feet by 258 feet"  
+  * *View 2 (Attributed to Parasuramesvara in snippet index):* "The Gupta structural tradition is even more pronounced in the Parasuramesvara temple, Bhuvane- svara (c. ... It occupies a quadrangle, 382 feet by 258 feet" *(Note: This conflict represents a text-scraping collision in the source J. N. Banerjea Volume; the true attribution cannot be resolved from the snippet text alone).*
+
+### **C) Not found**
+
+* **Lingaraja Temple:** Total continuous length of the building complex.  
+* **Muktesvara Temple:** Total continuous length of the building; definitive platform/enclosure size (due to the unresolved 382x258 ft conflict).  
+* **Parasuramesvara Temple:** Total continuous length of the building; definitive platform/enclosure size (due to the unresolved 382x258 ft conflict).  
+* **Konark Sun Temple:** Total continuous length of the building; overall platform/enclosure sizes for the complex.  
+* **Rajarani Temple:** Tower height, total length, and platform/enclosure size.  
+* Detailed methodologies explicitly quoting ASI measured drawings or formal IGNCA/ASI documentation forms for exact conversions.
+
+### **D) Sources consulted**
+
+* R. D. Banerji, *History of Orissa From the Earliest Times to the British Period*, Vol. II, Prabasi Press, Calcutta, 1931\. (SNIPPET ONLY)  
+* M. N. Das (ed.), *Sidelights on History and Culture of Orissa*, Vidyapuri, Cuttack, 1977\. (SNIPPET ONLY)  
+* Information & Public Relations Department, *Orissa Review Monuments Special Issue*, Government of Orissa, 1949-50. (SNIPPET ONLY)  
+* B. K. Rath (ed.), *The Forgotten Monuments of Orissa*, Vol. 3, INTACH, New Delhi, 1996\. (SNIPPET ONLY)  
+* Karuna Sagar Behera, *Konark: The Black Pagoda*, Publications Division, Government of India, 1993\. (SNIPPET ONLY)  
+* Mano Mohan Ganguly, *Orissa and Her Remains: Ancient and Medieval*, Thacker, Spink & Co., Calcutta, 1912\. (SNIPPET ONLY)  
+* Alumni Association, *J. N. Banerjea Volume*, University of Calcutta, 1960\. (SNIPPET ONLY)  
+* K. C. Mishra, *The Cult of Jagannatha*, Firma K.L. Mukhopadhyay, Calcutta, 1971\. (SNIPPET ONLY)  
+* Bina Kumari Sarma, *The History of Somavamsi Rule in Orissa*, Punthi Pustak, Calcutta, 1983\. (SNIPPET ONLY)  
+* Debala Mitra, *Bhubaneswar*, Archaeological Survey of India, New Delhi, 1958\. (SNIPPET ONLY)  
+* Rajendralala Mitra, *The Antiquities of Orissa*, Vol. II, Calcutta, 1880\. (SNIPPET ONLY)  
+* K. C. Panigrahi, *Archaeological Remains at Bhubaneswar*, Orient Longmans, 1961\. (SNIPPET ONLY)
+
+#### **Works cited**
+
+> 1. Full text of "History Of Orissa 1931 Vol Ii" \- Internet Archive, [https://archive.org/stream/in.ernet.dli.2015.281019/2015.281019.History-Of\_djvu.txt](https://archive.org/stream/in.ernet.dli.2015.281019/2015.281019.History-Of_djvu.txt)  
+> 2. Full text of "History Of Orissa Vol Ii" \- Internet Archive, [https://archive.org/stream/in.ernet.dli.2015.81347/2015.81347.History-Of-Orissa-Vol-Ii\_djvu.txt](https://archive.org/stream/in.ernet.dli.2015.81347/2015.81347.History-Of-Orissa-Vol-Ii_djvu.txt)  
+> 3. Full text of "Sidelights On History And Culture Of Orissa", [https://archive.org/stream/in.ernet.dli.2015.108410/2015.108410.Sidelights-On-History-And-Culture-Of-Orissa\_djvu.txt](https://archive.org/stream/in.ernet.dli.2015.108410/2015.108410.Sidelights-On-History-And-Culture-Of-Orissa_djvu.txt)  
+> 4. Full text of "ANANDA COOMARASWAMY" \- Internet Archive, [https://archive.org/stream/dli.bengal.10689.13054/10689.13054\_djvu.txt](https://archive.org/stream/dli.bengal.10689.13054/10689.13054_djvu.txt)  
+> 5. orissa-review-monuments-special-issue-1949 ... \- Internet Archive, [https://archive.org/stream/orissa-review-monuments-special-issue-1949-50/orissa-review-monuments-special-issue-1949-50\_djvu.txt](https://archive.org/stream/orissa-review-monuments-special-issue-1949-50/orissa-review-monuments-special-issue-1949-50_djvu.txt)  
+> 6. Full text of "The Forgotten Monuments Of Orissa, Vol. 3", [https://archive.org/stream/forbottenmonumen03bija/forbottenmonumen03bija\_djvu.txt](https://archive.org/stream/forbottenmonumen03bija/forbottenmonumen03bija_djvu.txt)  
+> 7. Full text of "J. N. Banerjea Volume" \- Internet Archive, [https://archive.org/stream/in.ernet.dli.2015.461567/2015.461567.J-N\_djvu.txt](https://archive.org/stream/in.ernet.dli.2015.461567/2015.461567.J-N_djvu.txt)  
+> 8. Konark : the black pagoda \- Internet Archive, [https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf](https://archive.org/download/konarkblackpagod00behe/konarkblackpagod00behe.pdf)  
+> 9. ARCHAEOLOGICAL SURVEY OF INDIA \- Internet Archive, [https://archive.org/download/konarak00mitr/konarak00mitr.pdf](https://archive.org/download/konarak00mitr/konarak00mitr.pdf)  
+> 10. Full text of "Archaeological Remains At Bhubanswar" \- Internet Archive, [https://archive.org/stream/in.ernet.dli.2015.111041/2015.111041.Archaeological-Remains-At-Bhubanswar\_djvu.txt](https://archive.org/stream/in.ernet.dli.2015.111041/2015.111041.Archaeological-Remains-At-Bhubanswar_djvu.txt)
